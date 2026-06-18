@@ -1,0 +1,1153 @@
+left_idx,right_idx,replicate_id,judgment,winner,short_rationale,option_1_scores_json,option_2_scores_json,option_1_average,option_2_average,parse_ok,judge_model,judge_label
+1,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 excels in providing age-appropriate visual support, a concrete analogy, and a hands-on activity, making it far more practical and suitable for 8-year-olds than Option 2, which is abstract and lacks developmentally appropriate scaffolding."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 8.9,
+  ""option_2_average"": 5.5
+}",option_1,"Option 1 excels in providing age-appropriate visual support, a concrete analogy, and a hands-on activity, making it far more practical and suitable for 8-year-olds than Option 2, which is abstract and lacks developmentally appropriate scaffolding.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",8.9,5.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a comprehensive, age-appropriate lesson with visual aids, hands-on activities, and clear scaffolding, while Option 2 is overly abstract and lacks concrete support for young learners."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 8.6,
+  ""option_2_average"": 4.9
+}",option_1,"Option 1 provides a comprehensive, age-appropriate lesson with visual aids, hands-on activities, and clear scaffolding, while Option 2 is overly abstract and lacks concrete support for young learners.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",8.6,4.9,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,3,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 is superior because it provides detailed, age-appropriate visual support, a concrete hands-on activity, and addresses common misconceptions explicitly, making it far more practical and effective for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 is superior because it provides detailed, age-appropriate visual support, a concrete hands-on activity, and addresses common misconceptions explicitly, making it far more practical and effective for 8-year-olds.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",6.8,10.0,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,4,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides superior age-appropriate scaffolding with a concrete pizza analogy, visual and kinesthetic activities, and addresses common misconceptions more thoroughly for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 7.3,
+  ""option_2_average"": 9.2
+}",option_2,"Option 2 provides superior age-appropriate scaffolding with a concrete pizza analogy, visual and kinesthetic activities, and addresses common misconceptions more thoroughly for 8-year-olds.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 9}",7.3,9.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,6,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a comprehensive, classroom-ready lesson with detailed visual supports, explicit misconceptions addressed, and practical activities, making it far more effective for 8-year-olds than Option 1's brief outline."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 9.9
+}",option_2,"Option 2 provides a comprehensive, classroom-ready lesson with detailed visual supports, explicit misconceptions addressed, and practical activities, making it far more effective for 8-year-olds than Option 1's brief outline.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 5, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",5.5,9.9,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+7,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a comprehensive, age-appropriate lesson with strong visual support, hands-on activities, and detailed attention to common misconceptions, making it far more practical and effective for third graders than the brief, abstract Option 2."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 9.1,
+  ""option_2_average"": 4.8
+}",option_1,"Option 1 provides a comprehensive, age-appropriate lesson with strong visual support, hands-on activities, and detailed attention to common misconceptions, making it far more practical and effective for third graders than the brief, abstract Option 2.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",9.1,4.8,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,8,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 excels in age-appropriate language, strong visual support, and practical hands-on activities, making it far more suitable for 8-year-olds. It provides clearer explanations, addresses misconceptions effectively, and offers a more engaging and comprehensive lesson structure."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 9.2
+}",option_2,"Option 2 excels in age-appropriate language, strong visual support, and practical hands-on activities, making it far more suitable for 8-year-olds. It provides clearer explanations, addresses misconceptions effectively, and offers a more engaging and comprehensive lesson structure.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 9}",6.8,9.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,9,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 excels in age-appropriate language, visual support, and practical activities like the 'Paper Pizza Puzzles,' directly addressing the core request for a concrete, engaging lesson for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 9.5
+}",option_2,"Option 2 excels in age-appropriate language, visual support, and practical activities like the 'Paper Pizza Puzzles,' directly addressing the core request for a concrete, engaging lesson for 8-year-olds.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 9, ""task_dimension_3"": 10, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 9}",6.8,9.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides more comprehensive and age-appropriate materials, detailed misconceptions with fixes, a structured interactive activity with differentiation, and stronger checks for understanding, making it more practical and effective for Grade 3 students."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.4,
+  ""option_2_average"": 6.5
+}",option_1,"Option 1 provides more comprehensive and age-appropriate materials, detailed misconceptions with fixes, a structured interactive activity with differentiation, and stronger checks for understanding, making it more practical and effective for Grade 3 students.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",8.4,6.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+3,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more structured, classroom-ready lesson with a clear, timed breakdown, a hands-on activity, and specific checks for understanding, making it more practical and age-appropriate for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.7,
+  ""option_2_average"": 6.7
+}",option_1,"Option 1 provides a more structured, classroom-ready lesson with a clear, timed breakdown, a hands-on activity, and specific checks for understanding, making it more practical and age-appropriate for 8-year-olds.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",8.7,6.7,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 excels in age-appropriate language, clear analogy, and practical interactive activity, while Option 2 includes abstract notation without visual support and is less organized for young learners."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.2,
+  ""option_2_average"": 6.6
+}",option_1,"Option 1 excels in age-appropriate language, clear analogy, and practical interactive activity, while Option 2 includes abstract notation without visual support and is less organized for young learners.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",8.2,6.6,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+6,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a comprehensive, classroom-ready lesson with detailed activities, checks for understanding, differentiation, and direct misconception addressing, making it far more practical and specific for Grade 3 teachers."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 9.4,
+  ""option_2_average"": 6.0
+}",option_1,"Option 1 provides a comprehensive, classroom-ready lesson with detailed activities, checks for understanding, differentiation, and direct misconception addressing, making it far more practical and specific for Grade 3 teachers.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 10, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 7, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",9.4,6.0,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+1,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a clearer, more concise lesson with a stronger visual pizza analogy, simpler worked examples, and a more focused interactive activity, making it more practical and age-appropriate for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.5,
+  ""option_2_average"": 7.5
+}",option_1,"Option 1 provides a clearer, more concise lesson with a stronger visual pizza analogy, simpler worked examples, and a more focused interactive activity, making it more practical and age-appropriate for 8-year-olds.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 8, ""task_dimension_6"": 8}",8.5,7.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+1,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more classroom-ready with a clearer, more structured explanation, simpler analogy, and a more practical interactive activity using paper pizzas. Option 2's chocolate bar analogy is less concrete, its visuals are more abstract, and its activity requires more complex materials."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 8.6,
+  ""option_2_average"": 7.7
+}",option_1,"Option 1 is more classroom-ready with a clearer, more structured explanation, simpler analogy, and a more practical interactive activity using paper pizzas. Option 2's chocolate bar analogy is less concrete, its visuals are more abstract, and its activity requires more complex materials.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",8.6,7.7,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+9,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 excels in age-appropriate language, concrete analogies, and interactive activities, making it more practical and engaging for third graders. Option 2 is less visually supported and uses more abstract notation."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 8.4,
+  ""option_2_average"": 6.5
+}",option_1,"Option 1 excels in age-appropriate language, concrete analogies, and interactive activities, making it more practical and engaging for third graders. Option 2 is less visually supported and uses more abstract notation.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",8.4,6.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+3,2,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more focused, age-appropriate lesson with clearer visual support, a simpler analogy, and a more practical interactive activity for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.1,
+  ""option_2_average"": 6.7
+}",option_1,"Option 1 provides a more focused, age-appropriate lesson with clearer visual support, a simpler analogy, and a more practical interactive activity for 8-year-olds.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",8.1,6.7,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,2,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more age-appropriate with simpler language, a clear pizza analogy, and a focused interactive activity, making it more practical and accessible for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.2,
+  ""option_2_average"": 7.1
+}",option_1,"Option 1 is more age-appropriate with simpler language, a clear pizza analogy, and a focused interactive activity, making it more practical and accessible for 8-year-olds.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",8.2,7.1,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more classroom-ready with a focused 20-30 minute segment, age-appropriate language, and clear visual support. Option 2 is overly complex (45 minutes), uses abstract notation, and includes advanced concepts inappropriate for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 8.5,
+  ""option_2_average"": 5.2
+}",option_1,"Option 1 is more classroom-ready with a focused 20-30 minute segment, age-appropriate language, and clear visual support. Option 2 is overly complex (45 minutes), uses abstract notation, and includes advanced concepts inappropriate for 8-year-olds.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",8.5,5.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more classroom-ready with a clearer learning objective, age-appropriate pizza analogy, hands-on manipulatives, and practical differentiation strategies. Option 2 is less focused, uses abstract LEGO analogies, and includes overly complex examples like 8/2 which may confuse 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 8.4,
+  ""option_2_average"": 6.2
+}",option_1,"Option 1 is more classroom-ready with a clearer learning objective, age-appropriate pizza analogy, hands-on manipulatives, and practical differentiation strategies. Option 2 is less focused, uses abstract LEGO analogies, and includes overly complex examples like 8/2 which may confuse 8-year-olds.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",8.4,6.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more classroom-ready, providing a clearer, more structured, and age-appropriate lesson with explicit step-by-step instructions, a focused learning objective, and robust support for common misconceptions."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 8.9,
+  ""option_2_average"": 6.9
+}",option_1,"Option 1 is more classroom-ready, providing a clearer, more structured, and age-appropriate lesson with explicit step-by-step instructions, a focused learning objective, and robust support for common misconceptions.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 6}",8.9,6.9,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is superior because it provides a more comprehensive, structured, and pedagogically sound lesson plan with clear differentiation, detailed misconceptions, and robust checks for understanding, all tailored for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 8.7,
+  ""option_2_average"": 6.2
+}",option_1,"Option 1 is superior because it provides a more comprehensive, structured, and pedagogically sound lesson plan with clear differentiation, detailed misconceptions, and robust checks for understanding, all tailored for 8-year-olds.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",8.7,6.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a clearer, more age-appropriate explanation with a relatable pizza analogy, includes a well-structured interactive activity, and addresses common misconceptions more effectively for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.0,
+  ""option_2_average"": 6.8
+}",option_1,"Option 1 provides a clearer, more age-appropriate explanation with a relatable pizza analogy, includes a well-structured interactive activity, and addresses common misconceptions more effectively for 8-year-olds.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",8.0,6.8,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+6,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more comprehensive, classroom-ready lesson with detailed visual supports, explicit misconception addressing, and robust differentiation strategies, making it more practical and effective for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 9.3,
+  ""option_2_average"": 6.5
+}",option_1,"Option 1 provides a more comprehensive, classroom-ready lesson with detailed visual supports, explicit misconception addressing, and robust differentiation strategies, making it more practical and effective for 8-year-olds.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 10, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",9.3,6.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+3,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more classroom-ready with a clearer, more focused structure, simpler language, and a more practical interactive activity using readily available materials, making it more suitable for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.3,
+  ""option_2_average"": 7.1
+}",option_1,"Option 1 is more classroom-ready with a clearer, more focused structure, simpler language, and a more practical interactive activity using readily available materials, making it more suitable for 8-year-olds.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",8.3,7.1,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+8,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more engaging, age-appropriate, and practical, with superior visuals, analogies, and checks for understanding."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.8,
+  ""option_2_average"": 7.2
+}",option_1,"Option 1 is more engaging, age-appropriate, and practical, with superior visuals, analogies, and checks for understanding.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",8.8,7.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+9,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 excels in age-appropriate language, engaging analogies, and practical activities, while Option 2 is more procedural and less visually supportive for young learners."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 8.8,
+  ""option_2_average"": 6.8
+}",option_1,"Option 1 excels in age-appropriate language, engaging analogies, and practical activities, while Option 2 is more procedural and less visually supportive for young learners.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",8.8,6.8,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more classroom-ready with a simpler, more focused structure ideal for 8-year-olds. It uses age-appropriate language, avoids abstract notation, and provides clear visual support and interactive activities. Option 2, while comprehensive, is overly complex, includes advanced concepts like simplifying fractions, and uses abstract notation and terminology that may overwhelm young learners."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 8.3,
+  ""option_2_average"": 6.2
+}",option_1,"Option 1 is more classroom-ready with a simpler, more focused structure ideal for 8-year-olds. It uses age-appropriate language, avoids abstract notation, and provides clear visual support and interactive activities. Option 2, while comprehensive, is overly complex, includes advanced concepts like simplifying fractions, and uses abstract notation and terminology that may overwhelm young learners.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",8.3,6.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,7,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a more comprehensive, structured, and practical lesson with superior visual support, detailed teacher guidance, and stronger checks for understanding, making it more classroom-ready for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 8.7
+}",option_2,"Option 2 provides a more comprehensive, structured, and practical lesson with superior visual support, detailed teacher guidance, and stronger checks for understanding, making it more classroom-ready for 8-year-olds.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 9}",6.5,8.7,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+8,4,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 excels in all rubric dimensions, particularly in providing clear visual support, age-appropriate language, interactive activities, and addressing misconceptions, making it more classroom-ready for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.8,
+  ""option_2_average"": 6.2
+}",option_1,"Option 1 excels in all rubric dimensions, particularly in providing clear visual support, age-appropriate language, interactive activities, and addressing misconceptions, making it more classroom-ready for 8-year-olds.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",8.8,6.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more structured, step-by-step approach with clearer explanations, better-addressed common misconceptions, and a more practical interactive activity, making it superior for classroom implementation."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.3,
+  ""option_2_average"": 6.8
+}",option_1,"Option 1 provides a more structured, step-by-step approach with clearer explanations, better-addressed common misconceptions, and a more practical interactive activity, making it superior for classroom implementation.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",8.3,6.8,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+7,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more classroom-ready with a clearer, more focused learning objective, simpler language, and a more practical hands-on activity using basic materials. Option 2, while comprehensive, is overly complex and text-heavy for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.6,
+  ""option_2_average"": 7.1
+}",option_1,"Option 1 is more classroom-ready with a clearer, more focused learning objective, simpler language, and a more practical hands-on activity using basic materials. Option 2, while comprehensive, is overly complex and text-heavy for 8-year-olds.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",8.6,7.1,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+6,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides superior classroom practicality with detailed materials, timing, differentiation strategies, and explicit misconception addressing, while Option 2 is more concise but lacks the depth and structure needed for immediate classroom implementation."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 8.8,
+  ""option_2_average"": 6.9
+}",option_1,"Option 1 provides superior classroom practicality with detailed materials, timing, differentiation strategies, and explicit misconception addressing, while Option 2 is more concise but lacks the depth and structure needed for immediate classroom implementation.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",8.8,6.9,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+6,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is chosen because it provides a more comprehensive, classroom-ready, and practical lesson plan. It excels in addressing common misconceptions, includes detailed checks for understanding, and offers robust differentiation strategies, making it immediately useful for a teacher."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_1_average"": 9.6,
+  ""option_2_average"": 7.4
+}",option_1,"Option 1 is chosen because it provides a more comprehensive, classroom-ready, and practical lesson plan. It excels in addressing common misconceptions, includes detailed checks for understanding, and offers robust differentiation strategies, making it immediately useful for a teacher.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 9, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 9, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",9.6,7.4,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+8,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 excels in age-appropriate language, clear visual support, and a highly interactive activity, making it more practical and engaging for 8-year-olds. Option 2, while comprehensive, is overly complex, uses more abstract language, and has a less focused activity."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.8,
+  ""option_2_average"": 7.3
+}",option_1,"Option 1 excels in age-appropriate language, clear visual support, and a highly interactive activity, making it more practical and engaging for 8-year-olds. Option 2, while comprehensive, is overly complex, uses more abstract language, and has a less focused activity.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",8.8,7.3,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+7,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more comprehensive, structured, and practical lesson plan with superior visual support, detailed misconceptions, and robust checks for understanding, making it far more classroom-ready for 8-year-olds."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 9.7,
+  ""option_2_average"": 6.8
+}",option_1,"Option 1 provides a more comprehensive, structured, and practical lesson plan with superior visual support, detailed misconceptions, and robust checks for understanding, making it far more classroom-ready for 8-year-olds.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",9.7,6.8,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+9,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 excels in age-appropriate language, concrete analogies (pizza), and practical activities (paper pizza puzzles), directly addressing common misconceptions. Option 2 is less visually scaffolded and uses slightly more abstract language."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 9.2,
+  ""option_2_average"": 7.1
+}",option_1,"Option 1 excels in age-appropriate language, concrete analogies (pizza), and practical activities (paper pizza puzzles), directly addressing common misconceptions. Option 2 is less visually scaffolded and uses slightly more abstract language.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 10, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",9.2,7.1,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1

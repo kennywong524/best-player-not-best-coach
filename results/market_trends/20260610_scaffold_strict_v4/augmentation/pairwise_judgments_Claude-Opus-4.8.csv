@@ -1,0 +1,895 @@
+left_idx,right_idx,replicate_id,judgment,winner,short_rationale,option_1_scores_json,option_2_scores_json,option_1_average,option_2_average,parse_ok,judge_model,judge_label
+1,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options are nearly identical in content and quality, with the same three bullish and bearish trends and similar generic outlooks; Option 1 edges ahead because it includes an explicit 'Interactions of Factors' section that directly addresses the prompt's requirement to discuss how supply, demand, weather, storage, LNG, and infrastructure interact. Neither option provides 2026-specific data or specificity, so scores are moderate across the board."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 6.0
+}",option_1,"Both options are nearly identical in content and quality, with the same three bullish and bearish trends and similar generic outlooks; Option 1 edges ahead because it includes an explicit 'Interactions of Factors' section that directly addresses the prompt's requirement to discuss how supply, demand, weather, storage, LNG, and infrastructure interact. Neither option provides 2026-specific data or specificity, so scores are moderate across the board.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.5,6.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,0,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are generic and lack 2026-specific data, but Option 2 better fulfills the explicit task structure by including an integrated overall outlook tied to the listed factors and frames trends slightly more concretely (coal retirements, specific infrastructure types). Option 1 separates its 'interactions' section but offers only three vague bullet interactions rather than weaving supply/demand/storage/LNG dynamics through the trends as requested."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.0,
+  ""option_2_average"": 6.5
+}",option_2,"Both options are generic and lack 2026-specific data, but Option 2 better fulfills the explicit task structure by including an integrated overall outlook tied to the listed factors and frames trends slightly more concretely (coal retirements, specific infrastructure types). Option 1 separates its 'interactions' section but offers only three vague bullet interactions rather than weaving supply/demand/storage/LNG dynamics through the trends as requested.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",6.0,6.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 clearly separates exactly three bullish and three bearish trends as instructed, while Option 2 buries trends in prose, miscounts (offering arguably four positive points), and frames renewables/efficiency as 'positive' for prices when they are actually bearish demand factors. Option 1 better satisfies the explicit structural and analytical requirements."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.2,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 clearly separates exactly three bullish and three bearish trends as instructed, while Option 2 buries trends in prose, miscounts (offering arguably four positive points), and frames renewables/efficiency as 'positive' for prices when they are actually bearish demand factors. Option 1 better satisfies the explicit structural and analytical requirements.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 6}",7.2,5.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,4,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options satisfy the structural requirements of exactly three bullish and three bearish trends with a summary, but Option 2 offers more specificity (industrial demand, Asian LNG markets, milder winters, carbon pricing) and more concretely articulates how factors interact, edging out Option 1's more generic phrasing."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 7.2
+}",option_2,"Both options satisfy the structural requirements of exactly three bullish and three bearish trends with a summary, but Option 2 offers more specificity (industrial demand, Asian LNG markets, milder winters, carbon pricing) and more concretely articulates how factors interact, edging out Option 1's more generic phrasing.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 7}",6.8,7.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+5,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options share nearly identical content and the same weak specificity (no concrete 2026 figures, prices, or storage data), but Option 1 explicitly includes an 'Interactions' section that directly addresses the prompt's requirement to discuss how supply, demand, weather, storage, LNG, infrastructure, and policy interact, satisfying a key task dimension that Option 2 only folds vaguely into its outlook."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 6.0
+}",option_1,"Both options share nearly identical content and the same weak specificity (no concrete 2026 figures, prices, or storage data), but Option 1 explicitly includes an 'Interactions' section that directly addresses the prompt's requirement to discuss how supply, demand, weather, storage, LNG, infrastructure, and policy interact, satisfying a key task dimension that Option 2 only folds vaguely into its outlook.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 7}",6.5,6.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,6,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are generic and lack 2026-specific data, but Option 2 better addresses the explicit requirement to discuss the interplay of factors with a dedicated section and concrete examples, while keeping clearer bullish/bearish labeling matching the prompt's terminology."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.9,
+  ""option_2_average"": 6.6
+}",option_2,"Both options are generic and lack 2026-specific data, but Option 2 better addresses the explicit requirement to discuss the interplay of factors with a dedicated section and concrete examples, while keeping clearer bullish/bearish labeling matching the prompt's terminology.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",5.9,6.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options satisfy the structural requirements of exactly three bullish and three bearish trends with a conclusion, but Option 1 offers more coherent and accurate causal reasoning, while Option 2 contains a logical flaw by listing 'Favorable Weather Conditions' as bullish when mild weather typically reduces heating/cooling demand and pressures prices downward. Option 1's factor interactions are clearer and more credible for a client briefing."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.9,
+  ""option_2_average"": 5.5
+}",option_1,"Both options satisfy the structural requirements of exactly three bullish and three bearish trends with a conclusion, but Option 1 offers more coherent and accurate causal reasoning, while Option 2 contains a logical flaw by listing 'Favorable Weather Conditions' as bullish when mild weather typically reduces heating/cooling demand and pressures prices downward. Option 1's factor interactions are clearer and more credible for a client briefing.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 7}",6.9,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options share the same core weaknesses (generic trends, no specific 2026 data or price figures), but Option 2 is better organized with clearer labeling, more explicit supply/demand and storage interactions, and a slightly more direct fulfillment of the 'exactly three' structure. Neither option provides specific, current market intelligence, but Option 2's readability and structural fidelity give it a marginal edge."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 6.3
+}",option_2,"Both options share the same core weaknesses (generic trends, no specific 2026 data or price figures), but Option 2 is better organized with clearer labeling, more explicit supply/demand and storage interactions, and a slightly more direct fulfillment of the 'exactly three' structure. Neither option provides specific, current market intelligence, but Option 2's readability and structural fidelity give it a marginal edge.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",5.5,6.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 follows the prompt structure more precisely by clearly labeling exactly three bullish and three bearish trends, explicitly addressing factor interactions, and providing a concise investor-focused conclusion; Option 1 buries its trends in prose and misclassifies some (e.g., listing renewable growth and demand reduction as 'positive' for prices when they are bearish for gas prices)."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 5.4,
+  ""option_2_average"": 7.5
+}",option_2,"Option 2 follows the prompt structure more precisely by clearly labeling exactly three bullish and three bearish trends, explicitly addressing factor interactions, and providing a concise investor-focused conclusion; Option 1 buries its trends in prose and misclassifies some (e.g., listing renewable growth and demand reduction as 'positive' for prices when they are bearish for gas prices).","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 8}",5.4,7.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are nearly identical in content (same three bullish and three bearish trends) and both lack specificity, but Option 2 better fulfills the task by explicitly addressing the factor interactions in a dedicated section and using clearer formatting that separates trends, interactions, and outlook. Option 1's interaction discussion is more cursory and buried in the conclusion."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 6.2
+}",option_2,"Both options are nearly identical in content (same three bullish and three bearish trends) and both lack specificity, but Option 2 better fulfills the task by explicitly addressing the factor interactions in a dedicated section and using clearer formatting that separates trends, interactions, and outlook. Option 1's interaction discussion is more cursory and buried in the conclusion.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",5.5,6.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+1,5,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options satisfy the structural requirements (exactly three bullish and three bearish trends, factor interactions, and a concluding outlook), but Option 1 covers more of the requested interaction factors (supply/demand, weather/storage, LNG/infrastructure) and offers more explicit, actionable investor guidance. Option 2 is more concise but omits storage interactions and provides thinner reasoning per trend."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.1,
+  ""option_2_average"": 6.3
+}",option_1,"Both options satisfy the structural requirements (exactly three bullish and three bearish trends, factor interactions, and a concluding outlook), but Option 1 covers more of the requested interaction factors (supply/demand, weather/storage, LNG/infrastructure) and offers more explicit, actionable investor guidance. Option 2 is more concise but omits storage interactions and provides thinner reasoning per trend.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",7.1,6.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+6,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options are generic and lack 2026-specific data, but Option 1 more directly satisfies the prompt's explicit requirement to explain how factors interact (offering concrete examples like LNG offsetting storage) and delivers a cleaner three-bullish/three-bearish structure with a tighter conclusion. Option 2 drifts into generic investment advice and its interaction section is shallower."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 5.6
+}",option_1,"Both options are generic and lack 2026-specific data, but Option 1 more directly satisfies the prompt's explicit requirement to explain how factors interact (offering concrete examples like LNG offsetting storage) and delivers a cleaner three-bullish/three-bearish structure with a tighter conclusion. Option 2 drifts into generic investment advice and its interaction section is shallower.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.5,5.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides more logically coherent and accurate trends (e.g., correctly framing weather variability and renewables as bearish), while Option 1 contains a logical flaw by listing 'favorable/mild weather' as bullish when mild weather typically depresses demand and prices. Both are generic, but Option 2's factor analysis is more internally consistent."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 6.5
+}",option_2,"Option 2 provides more logically coherent and accurate trends (e.g., correctly framing weather variability and renewables as bearish), while Option 1 contains a logical flaw by listing 'favorable/mild weather' as bullish when mild weather typically depresses demand and prices. Both are generic, but Option 2's factor analysis is more internally consistent.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",5.5,6.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,2,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 more precisely satisfies the prompt by explicitly labeling exactly three bullish and three bearish trends, includes a dedicated interactions section addressing the requested factors, and presents a clean structure suited to a client briefing; Option 1 is competent but reads as generic, blurs the count, and offers less specificity."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.1,
+  ""option_2_average"": 7.5
+}",option_2,"Option 2 more precisely satisfies the prompt by explicitly labeling exactly three bullish and three bearish trends, includes a dedicated interactions section addressing the requested factors, and presents a clean structure suited to a client briefing; Option 1 is competent but reads as generic, blurs the count, and offers less specificity.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",6.1,7.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,2,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options provide exactly three bullish and three bearish trends with reasonable factor interactions and a concluding outlook, but Option 1 is more specific (industrial demand, Asia LNG markets, pipeline/storage infrastructure) and frames trends with sharper relevance to 2026, while Option 2 leans on a dated 'post-pandemic recovery' premise and includes a logically muddled 'sustainability as bullish' point that weakens accuracy."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.5,
+  ""option_2_average"": 6.3
+}",option_1,"Both options provide exactly three bullish and three bearish trends with reasonable factor interactions and a concluding outlook, but Option 1 is more specific (industrial demand, Asia LNG markets, pipeline/storage infrastructure) and frames trends with sharper relevance to 2026, while Option 2 leans on a dated 'post-pandemic recovery' premise and includes a logically muddled 'sustainability as bullish' point that weakens accuracy.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 7}",7.5,6.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are generic and lack 2026-specific data, but Option 2 offers slightly more specific and accurate framing (coal phase-out, Asia LNG demand, concrete infrastructure benefits) and avoids the dated 'post-pandemic recovery' reasoning in Option 1, making it marginally more relevant and useful for a client briefing."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.2,
+  ""option_2_average"": 6.6
+}",option_2,"Both options are generic and lack 2026-specific data, but Option 2 offers slightly more specific and accurate framing (coal phase-out, Asia LNG demand, concrete infrastructure benefits) and avoids the dated 'post-pandemic recovery' reasoning in Option 1, making it marginally more relevant and useful for a client briefing.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",6.2,6.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,6,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are generic and lack 2026-specific data, but Option 2 is better organized with clearer headers, more explicit treatment of all required factors (notably storage), and a more concrete demonstration of factor interplay. Neither provides specific figures, but Option 2 adheres more cleanly to the requested structure."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.9,
+  ""option_2_average"": 6.9
+}",option_2,"Both options are generic and lack 2026-specific data, but Option 2 is better organized with clearer headers, more explicit treatment of all required factors (notably storage), and a more concrete demonstration of factor interplay. Neither provides specific figures, but Option 2 adheres more cleanly to the requested structure.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6}",5.9,6.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options are generic and lack 2026-specific data, but Option 1 provides clearer factor interactions and a more coherent, plausible outlook; Option 2 contains a logical flaw by listing 'favorable/mild weather' as a bullish (price-raising) trend when mild weather typically suppresses demand and prices."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.6,
+  ""option_2_average"": 5.6
+}",option_1,"Both options are generic and lack 2026-specific data, but Option 1 provides clearer factor interactions and a more coherent, plausible outlook; Option 2 contains a logical flaw by listing 'favorable/mild weather' as a bullish (price-raising) trend when mild weather typically suppresses demand and prices.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.6,5.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 explicitly delivers exactly three clearly-labeled bullish and three bearish trends as requested, with a structured format and an accurate categorization of factors, whereas Option 2 fails the core instruction by listing demand-reducing/price-lowering factors under 'positive' trends (conflating environmental positives with bullish price trends) and never separates them into exactly three distinct items each."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.4,
+  ""option_2_average"": 5.1
+}",option_1,"Option 1 explicitly delivers exactly three clearly-labeled bullish and three bearish trends as requested, with a structured format and an accurate categorization of factors, whereas Option 2 fails the core instruction by listing demand-reducing/price-lowering factors under 'positive' trends (conflating environmental positives with bullish price trends) and never separates them into exactly three distinct items each.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",7.4,5.1,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 cleanly delivers exactly three bullish and three bearish trends, explicitly addresses factor interactions, and ends with a concise outlook, matching the prompt structure far better. Option 1 misclassifies trends (e.g., renewables growth and efficiency are framed as 'positive/bullish' for gas prices when they are actually bearish demand drags) and never clearly separates three-and-three, hurting accuracy."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.1,
+  ""option_2_average"": 7.6
+}",option_2,"Option 2 cleanly delivers exactly three bullish and three bearish trends, explicitly addresses factor interactions, and ends with a concise outlook, matching the prompt structure far better. Option 1 misclassifies trends (e.g., renewables growth and efficiency are framed as 'positive/bullish' for gas prices when they are actually bearish demand drags) and never clearly separates three-and-three, hurting accuracy.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",5.1,7.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+6,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 follows the prompt structure precisely with exactly three clearly labeled bullish and three bearish trends, plus a dedicated interplay section and a concise outlook, whereas Option 2 mislabels demand-reducing factors (renewables growth, efficiency, supply boosts) as bullish/positive for prices and buries trends in prose without the required count clarity."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.3,
+  ""option_2_average"": 4.7
+}",option_1,"Option 1 follows the prompt structure precisely with exactly three clearly labeled bullish and three bearish trends, plus a dedicated interplay section and a concise outlook, whereas Option 2 mislabels demand-reducing factors (renewables growth, efficiency, supply boosts) as bullish/positive for prices and buries trends in prose without the required count clarity.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 6}",7.3,4.7,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 explicitly separates exactly three bullish and three bearish trends with clear labels and a dedicated factor-synthesis section, matching the prompt's structural requirements far better; Option 2 buries trends in prose, mislabels a price-decreasing renewables trend as 'positive,' and is internally inconsistent about whether trends are bullish or bearish."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.9,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 explicitly separates exactly three bullish and three bearish trends with clear labels and a dedicated factor-synthesis section, matching the prompt's structural requirements far better; Option 2 buries trends in prose, mislabels a price-decreasing renewables trend as 'positive,' and is internally inconsistent about whether trends are bullish or bearish.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 6}",6.9,5.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,5,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options follow the required structure of exactly three bullish and three bearish trends with an interaction discussion and conclusion, but Option 1 integrates the interaction analysis more substantively and avoids the internal contradiction in Option 2 (which lists demand growth as positive yet also lists renewable competition as a negative while citing coal phase-out as boosting gas). Option 1's conclusion is slightly more actionable, giving it a narrow edge, though both lack concrete figures and forecasts."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.9
+}",option_1,"Both options follow the required structure of exactly three bullish and three bearish trends with an interaction discussion and conclusion, but Option 1 integrates the interaction analysis more substantively and avoids the internal contradiction in Option 2 (which lists demand growth as positive yet also lists renewable competition as a negative while citing coal phase-out as boosting gas). Option 1's conclusion is slightly more actionable, giving it a narrow edge, though both lack concrete figures and forecasts.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.8,5.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options satisfy the structural requirements (three bullish, three bearish trends, factor interplay, and a brief outlook), but Option 1 provides a more coherent synthesis and a clearer investor-focused conclusion, while Option 2 contains a questionable bullish claim (regulatory support for natural gas) that is less defensible for 2026 and a weaker, more generic closing."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.9,
+  ""option_2_average"": 6.1
+}",option_1,"Both options satisfy the structural requirements (three bullish, three bearish trends, factor interplay, and a brief outlook), but Option 1 provides a more coherent synthesis and a clearer investor-focused conclusion, while Option 2 contains a questionable bullish claim (regulatory support for natural gas) that is less defensible for 2026 and a weaker, more generic closing.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",6.9,6.1,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options provide exactly three bullish and three bearish trends, but Option 1 offers more coherent, accurate, and non-contradictory reasoning, while Option 2 contains internal contradictions (mild weather listed as bullish, yet milder winters typically reduce heating demand) and uses vaguer, more circular trend descriptions."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.9,
+  ""option_2_average"": 5.5
+}",option_1,"Both options provide exactly three bullish and three bearish trends, but Option 1 offers more coherent, accurate, and non-contradictory reasoning, while Option 2 contains internal contradictions (mild weather listed as bullish, yet milder winters typically reduce heating demand) and uses vaguer, more circular trend descriptions.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.9,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+6,5,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options satisfy the structural requirements (exactly three bullish and three bearish trends, an interplay section, and a short outlook), but Option 1 more explicitly demonstrates how factors offset one another in the interplay section and maps trends more cleanly to the requested factors. Both share the same weakness of low specificity (no figures, terminals, or policy names), but Option 1 edges ahead on completeness and analytical interaction."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.6,
+  ""option_2_average"": 5.8
+}",option_1,"Both options satisfy the structural requirements (exactly three bullish and three bearish trends, an interplay section, and a short outlook), but Option 1 more explicitly demonstrates how factors offset one another in the interplay section and maps trends more cleanly to the requested factors. Both share the same weakness of low specificity (no figures, terminals, or policy names), but Option 1 edges ahead on completeness and analytical interaction.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.6,5.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are generic and lack specific 2026 data, but Option 2 contains more economically coherent claims (e.g., LNG growth to Asia, coal-to-gas switching, renewables competition) whereas Option 1 has a logical flaw: it labels increased LNG exports and infrastructure as bullish yet also lists storage/supply as bearish in vague terms, and incorrectly frames mild weather as supply-side rather than demand-reducing. Option 2's trends are cleaner and more defensible, edging out Option 1 on accuracy despite weaker formatting."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 5.8
+}",option_2,"Both options are generic and lack specific 2026 data, but Option 2 contains more economically coherent claims (e.g., LNG growth to Asia, coal-to-gas switching, renewables competition) whereas Option 1 has a logical flaw: it labels increased LNG exports and infrastructure as bullish yet also lists storage/supply as bearish in vague terms, and incorrectly frames mild weather as supply-side rather than demand-reducing. Option 2's trends are cleaner and more defensible, edging out Option 1 on accuracy despite weaker formatting.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",5.5,5.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+6,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more internally consistent and analytically coherent, correctly framing weather and storage as bearish risks and providing concrete examples of factor interplay; Option 2 contains logical flaws (e.g., labeling mild weather as bullish when it typically reduces demand, and treating supply fluctuations vaguely) that undermine its accuracy."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.9,
+  ""option_2_average"": 5.2
+}",option_1,"Option 1 is more internally consistent and analytically coherent, correctly framing weather and storage as bearish risks and providing concrete examples of factor interplay; Option 2 contains logical flaws (e.g., labeling mild weather as bullish when it typically reduces demand, and treating supply fluctuations vaguely) that undermine its accuracy.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 4, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",6.9,5.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8

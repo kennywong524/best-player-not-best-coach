@@ -1,0 +1,577 @@
+left_idx,right_idx,replicate_id,judgment,winner,short_rationale,option_1_scores_json,option_2_scores_json,option_1_average,option_2_average,parse_ok,judge_model,judge_label
+0,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 better fulfills the task by providing a clear, concise, and budget-conscious meal plan that is easy to follow and tailored to the user's dietary needs and preferences. It offers practical prep notes, a well-organized grocery list, and straightforward day-by-day meals, while option 2 is more verbose and less focused, with some redundancies and less clarity. Option 1 is more useful and accessible for the intended audience."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 better fulfills the task by providing a clear, concise, and budget-conscious meal plan that is easy to follow and tailored to the user's dietary needs and preferences. It offers practical prep notes, a well-organized grocery list, and straightforward day-by-day meals, while option 2 is more verbose and less focused, with some redundancies and less clarity. Option 1 is more useful and accessible for the intended audience.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+0,6,1,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 more closely follows the instructions with clear meal plans, explicit allergy accommodations, concise prep notes, and a practical, budget-conscious grocery list. It better addresses the user's needs for simplicity, super-taster sensitivity, and dietary restrictions, while remaining organized and easy to use."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 more closely follows the instructions with clear meal plans, explicit allergy accommodations, concise prep notes, and a practical, budget-conscious grocery list. It better addresses the user's needs for simplicity, super-taster sensitivity, and dietary restrictions, while remaining organized and easy to use.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+6,0,2,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides more detailed, structured, and tailored meal planning, with explicit attention to allergies, Australian context, and super-taster needs. It includes comprehensive prep notes, a thorough grocery list, and batch-cooking strategies, making it more practical and user-friendly than Option 2."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides more detailed, structured, and tailored meal planning, with explicit attention to allergies, Australian context, and super-taster needs. It includes comprehensive prep notes, a thorough grocery list, and batch-cooking strategies, making it more practical and user-friendly than Option 2.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+7,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides more detailed meal descriptions, clearer prep notes, and a more thorough grocery list, closely following the user's dietary restrictions and preferences. It is better organized and more practical for everyday use. Option 2 is less specific, omits some requested details, and is less tailored to the user's needs."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides more detailed meal descriptions, clearer prep notes, and a more thorough grocery list, closely following the user's dietary restrictions and preferences. It is better organized and more practical for everyday use. Option 2 is less specific, omits some requested details, and is less tailored to the user's needs.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+0,7,1,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more detailed, accurate, and tailored meal plan that better addresses the user's dietary restrictions, flavor preferences, and budget. It is more specific in its ingredient substitutions and preparation notes, making it more practical and useful for the intended audience."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a more detailed, accurate, and tailored meal plan that better addresses the user's dietary restrictions, flavor preferences, and budget. It is more specific in its ingredient substitutions and preparation notes, making it more practical and useful for the intended audience.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+0,7,2,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more thorough, specific, and clearly organized meal plan that better addresses the user's dietary restrictions, flavor preferences, and need for mild, adjustable seasoning. Its grocery list and prep notes are more actionable and tailored, making it more practical and useful overall."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a more thorough, specific, and clearly organized meal plan that better addresses the user's dietary restrictions, flavor preferences, and need for mild, adjustable seasoning. Its grocery list and prep notes are more actionable and tailored, making it more practical and useful overall.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+0,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more thorough, better tailored to the specific allergies and intolerances, and provides clearer, more structured meal planning and prep notes. It also addresses super-taster needs and budget considerations more explicitly, making it more practical and useful."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 is more thorough, better tailored to the specific allergies and intolerances, and provides clearer, more structured meal planning and prep notes. It also addresses super-taster needs and budget considerations more explicitly, making it more practical and useful.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+9,0,1,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more detailed, clearly structured, and specific meal plan that thoroughly addresses the user's allergies, intolerances, flavor preferences, and super-taster needs. It includes explicit prep notes, snack options, and a well-organized grocery list, making it more practical and user-friendly. Option 2 is less detailed, less tailored, and omits some requested elements."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a more detailed, clearly structured, and specific meal plan that thoroughly addresses the user's allergies, intolerances, flavor preferences, and super-taster needs. It includes explicit prep notes, snack options, and a well-organized grocery list, making it more practical and user-friendly. Option 2 is less detailed, less tailored, and omits some requested elements.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+0,9,2,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more comprehensive, clearly tailored to the user's allergies and sensitivities, and offers better organization and actionable prep notes. It provides a wider variety of meals, more specific ingredient guidance, and a more detailed grocery list, making it more practical and user-friendly."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 is more comprehensive, clearly tailored to the user's allergies and sensitivities, and offers better organization and actionable prep notes. It provides a wider variety of meals, more specific ingredient guidance, and a more detailed grocery list, making it more practical and user-friendly.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+7,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more detailed, tailored, and accessible meal plan that better addresses the dietary restrictions, flavor preferences, and budget constraints. It excels in clarity, specificity, and practical guidance, making it more useful and user-friendly for the intended audience."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a more detailed, tailored, and accessible meal plan that better addresses the dietary restrictions, flavor preferences, and budget constraints. It excels in clarity, specificity, and practical guidance, making it more useful and user-friendly for the intended audience.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+7,6,1,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 scores higher across key dimensions, offering clearer meal structure, better allergy accommodation, and more practical prep notes. Its organization and specificity make it more immediately useful for the user's needs, while Option 2 is less tailored and less detailed in some areas."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 scores higher across key dimensions, offering clearer meal structure, better allergy accommodation, and more practical prep notes. Its organization and specificity make it more immediately useful for the user's needs, while Option 2 is less tailored and less detailed in some areas.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+6,7,2,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more detailed, structured, and tailored meal plan with explicit attention to allergies, preferences, and practical prep notes. It is more comprehensive, specific, and better organized, making it more useful and accurate for the user's needs. Option 2, while simpler, lacks the same depth, specificity, and clarity."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a more detailed, structured, and tailored meal plan with explicit attention to allergies, preferences, and practical prep notes. It is more comprehensive, specific, and better organized, making it more useful and accurate for the user's needs. Option 2, while simpler, lacks the same depth, specificity, and clarity.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+6,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a much more detailed, organized, and comprehensive meal plan, with careful attention to allergies, preferences, and Australian context. It includes clear batch cooking notes, a thorough grocery list, and prep tips, making it more practical and useful. Option 2 is simpler but lacks depth, specificity, and misses some requested structure."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a much more detailed, organized, and comprehensive meal plan, with careful attention to allergies, preferences, and Australian context. It includes clear batch cooking notes, a thorough grocery list, and prep tips, making it more practical and useful. Option 2 is simpler but lacks depth, specificity, and misses some requested structure.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+9,6,1,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a clearer, more concise, and directly actionable meal plan with simple, budget-friendly recipes tailored to the user's dietary restrictions and flavor preferences. It is more organized, specific, and practical for immediate use, while Option 2 is overly detailed, less focused, and less user-friendly."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a clearer, more concise, and directly actionable meal plan with simple, budget-friendly recipes tailored to the user's dietary restrictions and flavor preferences. It is more organized, specific, and practical for immediate use, while Option 2 is overly detailed, less focused, and less user-friendly.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+9,6,2,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a clearer, more concise, and practical meal plan that better accommodates the user's dietary restrictions and preferences, with explicit instructions for batch cooking, allergy checks, and super-taster sensitivity. Its grocery list and prep notes are more directly actionable, making it more useful and easier to follow."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a clearer, more concise, and practical meal plan that better accommodates the user's dietary restrictions and preferences, with explicit instructions for batch cooking, allergy checks, and super-taster sensitivity. Its grocery list and prep notes are more directly actionable, making it more useful and easier to follow.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+7,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more comprehensive, detailed, and clearly organized meal plan that better addresses the user's dietary needs, preferences, and constraints. It offers more variety, clearer prep instructions, and a more thorough grocery list, making it more practical and useful. Option 2 is less detailed, with less variety and less attention to the user's specific requirements."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a more comprehensive, detailed, and clearly organized meal plan that better addresses the user's dietary needs, preferences, and constraints. It offers more variety, clearer prep instructions, and a more thorough grocery list, making it more practical and useful. Option 2 is less detailed, with less variety and less attention to the user's specific requirements.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+9,7,1,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 better addresses the user's specific dietary restrictions (onion, gluten, lactose, shellfish), super-taster needs, and flavor preferences with clear, simple recipes and explicit allergy precautions. It is more organized, practical, and closely follows the user's instructions, while Option 2 contains some less clear adaptations and less consistent avoidance of allergens."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 better addresses the user's specific dietary restrictions (onion, gluten, lactose, shellfish), super-taster needs, and flavor preferences with clear, simple recipes and explicit allergy precautions. It is more organized, practical, and closely follows the user's instructions, while Option 2 contains some less clear adaptations and less consistent avoidance of allergens.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+9,7,2,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 offers a more detailed, allergy-conscious, and clearly structured meal plan that better aligns with the user's dietary restrictions and flavor preferences. It provides more specific prep tips, consistent use of leftovers, and clearer grocery guidance, making it more practical and tailored than Option 2."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 offers a more detailed, allergy-conscious, and clearly structured meal plan that better aligns with the user's dietary restrictions and flavor preferences. It provides more specific prep tips, consistent use of leftovers, and clearer grocery guidance, making it more practical and tailored than Option 2.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1

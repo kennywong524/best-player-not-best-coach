@@ -1,0 +1,897 @@
+left_idx,right_idx,replicate_id,judgment,winner,short_rationale,option_1_scores_json,option_2_scores_json,option_1_average,option_2_average,parse_ok,judge_model,judge_label
+1,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 performs the required recalculations, identifies the critical qualifying-relative gross-income failure implication, provides concrete federal/CA estimates, and lists forms to correct, despite a notable dependency error. Option 2 only summarizes discrepancies without recalculating figures or analyzing the key dependency contradiction, making it far less complete and useful."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 3,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 3,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.5,
+  ""option_2_average"": 4.4
+}",option_1,"Option 1 performs the required recalculations, identifies the critical qualifying-relative gross-income failure implication, provides concrete federal/CA estimates, and lists forms to correct, despite a notable dependency error. Option 2 only summarizes discrepancies without recalculating figures or analyzing the key dependency contradiction, making it far less complete and useful.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 3, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 3, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 3, ""task_dimension_6"": 5}",7.5,4.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 performs the full identify-explain-recalculate-correct workflow with specific figures, form references, and a flagged HOH analysis, despite using outdated 2024-style standard deduction/bracket numbers and a critical error on the HOH dependency test (an $18,000-earning 22-year-old fails the gross income test for qualifying relative and the qualifying child rules don't enable HOH for a non-qualifying-child). Option 2 only lists generic discrepancies without recalculation, specific figures, or rule explanations, falling well short of the prompt's demand for recomputation and a calculation framework."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 3,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 3,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.4,
+  ""option_2_average"": 4.4
+}",option_1,"Option 1 performs the full identify-explain-recalculate-correct workflow with specific figures, form references, and a flagged HOH analysis, despite using outdated 2024-style standard deduction/bracket numbers and a critical error on the HOH dependency test (an $18,000-earning 22-year-old fails the gross income test for qualifying relative and the qualifying child rules don't enable HOH for a non-qualifying-child). Option 2 only lists generic discrepancies without recalculation, specific figures, or rule explanations, falling well short of the prompt's demand for recomputation and a calculation framework.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 5, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 3, ""general_instruction_following"": 4, ""general_organization_readability"": 6, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 3, ""task_dimension_3"": 4, ""task_dimension_4"": 4, ""task_dimension_5"": 3, ""task_dimension_6"": 5}",7.4,4.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,3,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 is substantially more accurate and complete: it correctly identifies that a 22-year-old does not qualify for the Child Tax Credit (only the Credit for Other Dependents), explains HOH eligibility, performs actual SE tax and itemized deduction calculations, and addresses the SALT cap—all key errors Option 1 misses entirely. Option 1 even repeats the client's CTC error by only saying to 'verify the support test.'"",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 5.2,
+  ""option_2_average"": 8.5
+}",option_2,"Option 2 is substantially more accurate and complete: it correctly identifies that a 22-year-old does not qualify for the Child Tax Credit (only the Credit for Other Dependents), explains HOH eligibility, performs actual SE tax and itemized deduction calculations, and addresses the SALT cap—all key errors Option 1 misses entirely. Option 1 even repeats the client's CTC error by only saying to 'verify the support test.'","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 5, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}",5.2,8.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,4,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 actually performs the requested work: it identifies discrepancies, applies specific 2025 federal/CA rules, recalculates key figures with stated assumptions, names exact forms/lines, and lists missing data with a calculation framework. Option 1 only restates the task as a to-do list without recalculations, despite having enough data to compute SE tax, itemize vs. standard, and reclassify the dependent credit. Note that some of Option 2's specific dollar figures (brackets, standard deduction, exemption amounts) are estimates that need verification, but it transparently flags assumptions and missing items."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 3,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 4.6,
+  ""option_2_average"": 8.0
+}",option_2,"Option 2 actually performs the requested work: it identifies discrepancies, applies specific 2025 federal/CA rules, recalculates key figures with stated assumptions, names exact forms/lines, and lists missing data with a calculation framework. Option 1 only restates the task as a to-do list without recalculations, despite having enough data to compute SE tax, itemize vs. standard, and reclassify the dependent credit. Note that some of Option 2's specific dollar figures (brackets, standard deduction, exemption amounts) are estimates that need verification, but it transparently flags assumptions and missing items.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 3, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 3, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 9, ""task_dimension_5"": 8, ""task_dimension_6"": 8}",4.6,8.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+7,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 fully executes the request: it identifies all discrepancies, explains the federal/CA rules (HoH, CTC vs ODC, SE tax, federal-standard-vs-CA-itemized interplay), recalculates key figures with stated assumptions, flags missing info, and lists specific forms to correct. Option 2 correctly spots the issues but provides no recalculations, no rule explanations, and notably misstates the SALT itemization (it would itemize property tax plus state withholding federally despite the cap context and ignores the federal standard deduction comparison). Option 1's depth and numeric framework dominate."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 8.5,
+  ""option_2_average"": 4.9
+}",option_1,"Option 1 fully executes the request: it identifies all discrepancies, explains the federal/CA rules (HoH, CTC vs ODC, SE tax, federal-standard-vs-CA-itemized interplay), recalculates key figures with stated assumptions, flags missing info, and lists specific forms to correct. Option 2 correctly spots the issues but provides no recalculations, no rule explanations, and notably misstates the SALT itemization (it would itemize property tax plus state withholding federally despite the cap context and ignores the federal standard deduction comparison). Option 1's depth and numeric framework dominate.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 9, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 3, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 6}",8.5,4.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,8,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 actually performs the requested analysis: it identifies the CTC error and substitutes the Credit for Other Dependents, analyzes HOH qualification, recalculates federal and CA figures, applies the SALT cap, and flags missing data. Option 1 only lists generic next steps without recalculating anything or catching the CTC/HOH/$500-credit issues, despite the request to identify discrepancies and recalculate key figures."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 3,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 4.5,
+  ""option_2_average"": 8.4
+}",option_2,"Option 2 actually performs the requested analysis: it identifies the CTC error and substitutes the Credit for Other Dependents, analyzes HOH qualification, recalculates federal and CA figures, applies the SALT cap, and flags missing data. Option 1 only lists generic next steps without recalculating anything or catching the CTC/HOH/$500-credit issues, despite the request to identify discrepancies and recalculate key figures.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 3, ""task_dimension_3"": 4, ""task_dimension_4"": 4, ""task_dimension_5"": 3, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}",4.5,8.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,9,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 is substantially more accurate and complete: it catches the critical Child Tax Credit error (a 22-year-old cannot qualify), explains the $500 Credit for Other Dependents, applies the SALT cap, performs actual recalculations of SE tax and AGI, and clearly states missing info with assumptions. Option 1 misses the CTC error entirely and offers only generic recommendations without computation."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 3,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 5.0,
+  ""option_2_average"": 8.6
+}",option_2,"Option 2 is substantially more accurate and complete: it catches the critical Child Tax Credit error (a 22-year-old cannot qualify), explains the $500 Credit for Other Dependents, applies the SALT cap, performs actual recalculations of SE tax and AGI, and clearly states missing info with assumptions. Option 1 misses the CTC error entirely and offers only generic recommendations without computation.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 3, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 8}",5.0,8.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options correctly identify the major discrepancies (underreported 1099-NEC, missing Schedule C/SE, wrong CTC, HOH analysis, itemizing), but Option 1 is more internally consistent and accurate on the critical SALT computation, while Option 2 contains a serious arithmetic error (treating SALT as $10,000 cap on $7,700 of actual tax, inflating itemized to $19,800). Option 1's Schedule CA handling of the half-SE-tax add-back is also a more sophisticated and correct California-specific point."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.6,
+  ""option_2_average"": 6.5
+}",option_1,"Both options correctly identify the major discrepancies (underreported 1099-NEC, missing Schedule C/SE, wrong CTC, HOH analysis, itemizing), but Option 1 is more internally consistent and accurate on the critical SALT computation, while Option 2 contains a serious arithmetic error (treating SALT as $10,000 cap on $7,700 of actual tax, inflating itemized to $19,800). Option 1's Schedule CA handling of the half-SE-tax add-back is also a more sophisticated and correct California-specific point.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",7.6,6.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options correctly identify the major issues (1099-NEC underreporting, missing Schedule C/SE, wrong CTC, itemize-vs-standard, HoH, CA AGI correction), but Option 2 catches two critical points Option 1 misses: the SALT cap ($10,000) actually limits the federal itemized deduction (Option 1 wrongly uses the uncapped $7,700+$9,800=$17,500), and California does NOT conform to the SALT cap so CA deductions differ. Option 2 also flags the dependency support-test tension (student's $18,000 earnings) more rigorously and notes missing federal withholding, providing a fuller calculation framework."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 6.7,
+  ""option_2_average"": 8.1
+}",option_2,"Both options correctly identify the major issues (1099-NEC underreporting, missing Schedule C/SE, wrong CTC, itemize-vs-standard, HoH, CA AGI correction), but Option 2 catches two critical points Option 1 misses: the SALT cap ($10,000) actually limits the federal itemized deduction (Option 1 wrongly uses the uncapped $7,700+$9,800=$17,500), and California does NOT conform to the SALT cap so CA deductions differ. Option 2 also flags the dependency support-test tension (student's $18,000 earnings) more rigorously and notes missing federal withholding, providing a fuller calculation framework.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 8}",6.7,8.1,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options correctly identify the core discrepancies (underreported 1099-NEC, missing Schedule C/SE, wrong deduction, ineligible CTC, HOH question), but Option 1 contains material accuracy errors: it invents a $14,000 single standard deduction and ~$15,950 HOH bracket figures, applies HOH brackets that don't match its own stated taxable income, and fabricates precise CA figures and credits while presenting them as exact. Option 2 is more honest about uncertainty (flags brackets/standard deduction as estimates), correctly applies the qualifying-child support analysis, and avoids overstating precision, making it more reliable despite weaker formatting."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.7,
+  ""option_2_average"": 7.3
+}",option_2,"Both options correctly identify the core discrepancies (underreported 1099-NEC, missing Schedule C/SE, wrong deduction, ineligible CTC, HOH question), but Option 1 contains material accuracy errors: it invents a $14,000 single standard deduction and ~$15,950 HOH bracket figures, applies HOH brackets that don't match its own stated taxable income, and fabricates precise CA figures and credits while presenting them as exact. Option 2 is more honest about uncertainty (flags brackets/standard deduction as estimates), correctly applies the qualifying-child support analysis, and avoids overstating precision, making it more reliable despite weaker formatting.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 8, ""task_dimension_4"": 5, ""task_dimension_5"": 8, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",6.7,7.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+1,7,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 gets the critical SALT/itemization analysis right (correctly noting CA disallows the state income tax deduction and that itemizing beats the HoH standard deduction federally), correctly assigns the Credit for Other Dependents, and routes the corrections to the proper schedules (Schedule 1, 2, 3). Option 1 makes a major error treating mortgage interest as separate from the $10,000 SALT cap (claiming $19,800 itemized), incorrectly includes CA income tax in CA itemized deductions, and never identifies the $500 ODC, undermining its accuracy despite greater length."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 5.9,
+  ""option_2_average"": 7.9
+}",option_2,"Option 2 gets the critical SALT/itemization analysis right (correctly noting CA disallows the state income tax deduction and that itemizing beats the HoH standard deduction federally), correctly assigns the Credit for Other Dependents, and routes the corrections to the proper schedules (Schedule 1, 2, 3). Option 1 makes a major error treating mortgage interest as separate from the $10,000 SALT cap (claiming $19,800 itemized), incorrectly includes CA income tax in CA itemized deductions, and never identifies the $500 ODC, undermining its accuracy despite greater length.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",5.9,7.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+1,8,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options correctly identify the core discrepancies, but Option 2 is materially more accurate on the substantive tax rules: it correctly applies the SALT cap (recognizing the $7,700 in state taxes falls under the $10,000 cap, so no cap reduction applies), correctly identifies the Credit for Other Dependents ($500) for the 22-year-old, and correctly resolves the standard-vs-itemized comparison under HOH. Option 1 makes a serious SALT error (claiming a $10,000 SALT deduction when only $7,700 is available, then computing itemized as $19,800), fails to mention the Credit for Other Dependents, and incorrectly treats the student as failing the qualifying-relative gross income test as if that ended the analysis."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 6.2,
+  ""option_2_average"": 7.9
+}",option_2,"Both options correctly identify the core discrepancies, but Option 2 is materially more accurate on the substantive tax rules: it correctly applies the SALT cap (recognizing the $7,700 in state taxes falls under the $10,000 cap, so no cap reduction applies), correctly identifies the Credit for Other Dependents ($500) for the 22-year-old, and correctly resolves the standard-vs-itemized comparison under HOH. Option 1 makes a serious SALT error (claiming a $10,000 SALT deduction when only $7,700 is available, then computing itemized as $19,800), fails to mention the Credit for Other Dependents, and incorrectly treats the student as failing the qualifying-relative gross income test as if that ended the analysis.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",6.2,7.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 correctly handles the critical dependency analysis—it flags the $18,000 income against the qualifying-relative test but recognizes the student can still be a qualifying child for HOH/dependency. Option 2 makes a serious SALT error (incorrectly capping at $10,000 then adding mortgage to reach $19,800, double-counting), and presents tax estimates with false precision using mislabeled brackets, undermining accuracy."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.7,
+  ""option_2_average"": 6.3
+}",option_1,"Option 1 correctly handles the critical dependency analysis—it flags the $18,000 income against the qualifying-relative test but recognizes the student can still be a qualifying child for HOH/dependency. Option 2 makes a serious SALT error (incorrectly capping at $10,000 then adding mortgage to reach $19,800, double-counting), and presents tax estimates with false precision using mislabeled brackets, undermining accuracy.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 7}",7.7,6.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,2,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options correctly identify the core discrepancies (understated 1099 income, missing Schedule C/SE, wrong deduction, ineligible CTC, HOH analysis, wrong CA AGI), but Option 2 contains several material factual errors—2025 standard deduction amounts and tax brackets are wrong (it cites 2024 figures and even labels them uncertain), and it incorrectly treats CA income tax withholding as a federal credit reducing federal liability. Option 1 is more cautious, avoids fabricating a precise liability from shaky numbers, and stays within the calculation-framework approach the prompt requested."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.5,
+  ""option_2_average"": 6.2
+}",option_1,"Both options correctly identify the core discrepancies (understated 1099 income, missing Schedule C/SE, wrong deduction, ineligible CTC, HOH analysis, wrong CA AGI), but Option 2 contains several material factual errors—2025 standard deduction amounts and tax brackets are wrong (it cites 2024 figures and even labels them uncertain), and it incorrectly treats CA income tax withholding as a federal credit reducing federal liability. Option 1 is more cautious, avoids fabricating a precise liability from shaky numbers, and stays within the calculation-framework approach the prompt requested.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",7.5,6.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,2,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options share the core analysis, but Option 1 contains a critical SALT error (it claims $9,800 mortgage + $10,000 SALT = $19,800 itemized, double-counting and miscounting the SALT cap; actual SALT is only $7,700, so federal itemized is $17,500, less than the HOH standard deduction). Option 2 correctly computes SALT as $7,700, correctly identifies that the HOH standard deduction ($20,800/~$21,900) beats itemizing, and reaches a more defensible federal tax framework. Option 1 also mislabels the 2025 single standard deduction as $14,000 and contradicts itself by itemizing under HOH when the standard deduction is larger. Accuracy outweighs Option 1's superior formatting."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.7,
+  ""option_2_average"": 7.4
+}",option_2,"Both options share the core analysis, but Option 1 contains a critical SALT error (it claims $9,800 mortgage + $10,000 SALT = $19,800 itemized, double-counting and miscounting the SALT cap; actual SALT is only $7,700, so federal itemized is $17,500, less than the HOH standard deduction). Option 2 correctly computes SALT as $7,700, correctly identifies that the HOH standard deduction ($20,800/~$21,900) beats itemizing, and reaches a more defensible federal tax framework. Option 1 also mislabels the 2025 single standard deduction as $14,000 and contradicts itself by itemizing under HOH when the standard deduction is larger. Accuracy outweighs Option 1's superior formatting.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 8, ""general_organization_readability"": 9, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 4, ""task_dimension_3"": 7, ""task_dimension_4"": 5, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",6.7,7.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,7,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options correctly identify the major discrepancies (1099-NEC underreporting, missing Schedule C/SE, CTC vs ODC error, HOH eligibility, CA AGI error). However, Option 1 contains a critical conceptual error by treating CA withholding ($2,900) as a federal payment/credit, which is wrong; it also uses outdated 2024-style federal brackets/standard deductions ($13,850 Single, $20,800 HOH, $11,000/$44,725 bracket thresholds). Option 2 uses more accurate projected 2025 figures (~$15,000/$22,500 standard deductions), correctly identifies missing federal withholding, properly handles CA itemized deductions by excluding state income tax (which CA disallows), and routes corrections to the proper schedules (Schedule 1, 2, 3). Option 1's error of deducting CA income tax on the CA Schedule A and treating SALT incorrectly are meaningful flaws."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.2,
+  ""option_2_average"": 7.7
+}",option_2,"Both options correctly identify the major discrepancies (1099-NEC underreporting, missing Schedule C/SE, CTC vs ODC error, HOH eligibility, CA AGI error). However, Option 1 contains a critical conceptual error by treating CA withholding ($2,900) as a federal payment/credit, which is wrong; it also uses outdated 2024-style federal brackets/standard deductions ($13,850 Single, $20,800 HOH, $11,000/$44,725 bracket thresholds). Option 2 uses more accurate projected 2025 figures (~$15,000/$22,500 standard deductions), correctly identifies missing federal withholding, properly handles CA itemized deductions by excluding state income tax (which CA disallows), and routes corrections to the proper schedules (Schedule 1, 2, 3). Option 1's error of deducting CA income tax on the CA Schedule A and treating SALT incorrectly are meaningful flaws.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",6.2,7.7,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,8,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options share key conceptual errors (claiming HOH/qualifying-child status despite the dependent's $18,000 income exceeding the qualifying-relative gross income test, and both confuse 2025 figures), but Option 2 has more internally consistent California AGI ($72,700, correctly excluding the SE deduction from CA which doesn't conform) and correctly flags missing federal withholding, while Option 1 erroneously treats CA income tax withholding as a federal-return credit reducing federal balance due, a serious accuracy error."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.2,
+  ""option_2_average"": 6.8
+}",option_2,"Both options share key conceptual errors (claiming HOH/qualifying-child status despite the dependent's $18,000 income exceeding the qualifying-relative gross income test, and both confuse 2025 figures), but Option 2 has more internally consistent California AGI ($72,700, correctly excluding the SE deduction from CA which doesn't conform) and correctly flags missing federal withholding, while Option 1 erroneously treats CA income tax withholding as a federal-return credit reducing federal balance due, a serious accuracy error.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",6.2,6.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,9,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options correctly identify the major discrepancies (underreported 1099-NEC, missing Schedule C/SE, mortgage interest mislabeled as standard deduction, improper CTC for a 22-year-old, and incorrect CA AGI). However, Option 1 contains a critical HOH error: a 22-year-old earning $18,000 fails the gross income test for a qualifying relative, and as a qualifying child the support test is highly questionable, yet Option 1 asserts HOH is 'almost certainly more favorable' and computes liability on that basis. Option 2 is more cautious, explicitly conditions dependency/HOH on verifying the support test, flags missing federal withholding (needed for refund/balance), and avoids overstating conclusions. Option 1 also wrongly treats CA withholding as a credit on the federal return ('Less CA withholding credited on your federal return -$2,900') in its bottom-line calculation, an outright error."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.4,
+  ""option_2_average"": 7.5
+}",option_2,"Both options correctly identify the major discrepancies (underreported 1099-NEC, missing Schedule C/SE, mortgage interest mislabeled as standard deduction, improper CTC for a 22-year-old, and incorrect CA AGI). However, Option 1 contains a critical HOH error: a 22-year-old earning $18,000 fails the gross income test for a qualifying relative, and as a qualifying child the support test is highly questionable, yet Option 1 asserts HOH is 'almost certainly more favorable' and computes liability on that basis. Option 2 is more cautious, explicitly conditions dependency/HOH on verifying the support test, flags missing federal withholding (needed for refund/balance), and avoids overstating conclusions. Option 1 also wrongly treats CA withholding as a credit on the federal return ('Less CA withholding credited on your federal return -$2,900') in its bottom-line calculation, an outright error.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 8, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 7}",6.4,7.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,3,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 1 is more thorough and better organized, but it contains a critical accuracy error: it applies a $10,000 SALT cap when the actual SALT total ($4,800 property + $2,900 state income tax = $7,700) is under the cap, then inflates federal itemized deductions to $19,800 and propagates that error through all federal calculations. Option 2 correctly computes SALT as $7,700 and itemized total as $17,500. Since accuracy of recalculated key figures is central to this task, Option 2's correctness on the pivotal number outweighs Option 1's superior presentation and detail."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.3,
+  ""option_2_average"": 7.1
+}",option_2,"Option 1 is more thorough and better organized, but it contains a critical accuracy error: it applies a $10,000 SALT cap when the actual SALT total ($4,800 property + $2,900 state income tax = $7,700) is under the cap, then inflates federal itemized deductions to $19,800 and propagates that error through all federal calculations. Option 2 correctly computes SALT as $7,700 and itemized total as $17,500. Since accuracy of recalculated key figures is central to this task, Option 2's correctness on the pivotal number outweighs Option 1's superior presentation and detail.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 9, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",7.3,7.1,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,7,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options correctly identify the core discrepancies (freelance income, Schedule C/SE, CTC vs ODC, HoH eligibility, standard vs itemized). Option 2 is more accurate and useful because it catches the critical California-specific nuance—CA disallows state income tax in itemized deductions and allows CA itemizing even with the federal standard deduction—while providing concrete recalculation frameworks for both returns. Option 1 erroneously includes the $2,900 state withholding in the federal SALT total and never addresses CA's distinct deduction rules."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.6,
+  ""option_2_average"": 7.9
+}",option_2,"Both options correctly identify the core discrepancies (freelance income, Schedule C/SE, CTC vs ODC, HoH eligibility, standard vs itemized). Option 2 is more accurate and useful because it catches the critical California-specific nuance—CA disallows state income tax in itemized deductions and allows CA itemizing even with the federal standard deduction—while providing concrete recalculation frameworks for both returns. Option 1 erroneously includes the $2,900 state withholding in the federal SALT total and never addresses CA's distinct deduction rules.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 8}",6.6,7.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options correctly identify the major discrepancies (underreported freelance income, missing Schedule C/SE, improper deduction handling, invalid CTC, and HOH analysis). Option 1 is more accurate and decisive because it correctly recognizes that under HOH the standard deduction (~$18,400) exceeds itemized deductions (~$17,500), making the standard deduction the better choice; Option 2 erroneously concludes itemizing is always better while never reconciling that with the HOH standard deduction it cites, an internal inconsistency. Option 1 also provides cleaner recalculations and a clearer corrected-forms list."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.0,
+  ""option_2_average"": 6.7
+}",option_1,"Both options correctly identify the major discrepancies (underreported freelance income, missing Schedule C/SE, improper deduction handling, invalid CTC, and HOH analysis). Option 1 is more accurate and decisive because it correctly recognizes that under HOH the standard deduction (~$18,400) exceeds itemized deductions (~$17,500), making the standard deduction the better choice; Option 2 erroneously concludes itemizing is always better while never reconciling that with the HOH standard deduction it cites, an internal inconsistency. Option 1 also provides cleaner recalculations and a clearer corrected-forms list.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",8.0,6.7,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options correctly identify all major discrepancies (underreported 1099-NEC, missing Schedule C/SE, misclassified mortgage interest as standard deduction, improper CTC for a 22-year-old, HOH analysis, and incorrect CA AGI), but Option 1 is more thorough and actionable: it explicitly flags missing federal withholding (needed for refund/balance due), provides two filing-status tax scenarios, includes a clearer dependent support-test caveat, and offers a concrete next-steps checklist. Both share the same minor flaw of using illustrative 2024 figures, but Option 1 transparently flags this and the dependency/HOH conclusion is appropriately conditioned on missing support documentation."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 8.4,
+  ""option_2_average"": 7.3
+}",option_1,"Both options correctly identify all major discrepancies (underreported 1099-NEC, missing Schedule C/SE, misclassified mortgage interest as standard deduction, improper CTC for a 22-year-old, HOH analysis, and incorrect CA AGI), but Option 1 is more thorough and actionable: it explicitly flags missing federal withholding (needed for refund/balance due), provides two filing-status tax scenarios, includes a clearer dependent support-test caveat, and offers a concrete next-steps checklist. Both share the same minor flaw of using illustrative 2024 figures, but Option 1 transparently flags this and the dependency/HOH conclusion is appropriately conditioned on missing support documentation.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",8.4,7.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,7,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 makes a critical correct decision—comparing federal standard deduction ($22,500 HOH) vs. itemizing ($17,500) and correctly choosing the standard deduction federally while itemizing for CA. Option 1 makes a major error by claiming itemized deductions of $19,800 beat the standard deduction, but it incorrectly compared against the Single standard deduction ($14,000) instead of the HOH standard it correctly identified elsewhere (~$22,500), producing inconsistent and wrong federal tax figures."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 7.6
+}",option_2,"Option 2 makes a critical correct decision—comparing federal standard deduction ($22,500 HOH) vs. itemizing ($17,500) and correctly choosing the standard deduction federally while itemizing for CA. Option 1 makes a major error by claiming itemized deductions of $19,800 beat the standard deduction, but it incorrectly compared against the Single standard deduction ($14,000) instead of the HOH standard it correctly identified elsewhere (~$22,500), producing inconsistent and wrong federal tax figures.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 8, ""task_dimension_4"": 4, ""task_dimension_5"": 6, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",6.5,7.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,4,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options identify the same core discrepancies, but Option 1 correctly concludes that the HOH standard deduction (~$18,400) beats itemized deductions (~$17,500) and applies the SALT cap properly, whereas Option 2 makes a critical error claiming itemized deductions of $19,800 by treating the SALT cap as a target ($10,000) rather than a limit on the actual $7,700 paid, inflating the deduction and misstating both federal and CA figures."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.7,
+  ""option_2_average"": 6.6
+}",option_1,"Both options identify the same core discrepancies, but Option 1 correctly concludes that the HOH standard deduction (~$18,400) beats itemized deductions (~$17,500) and applies the SALT cap properly, whereas Option 2 makes a critical error claiming itemized deductions of $19,800 by treating the SALT cap as a target ($10,000) rather than a limit on the actual $7,700 paid, inflating the deduction and misstating both federal and CA figures.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 8, ""task_dimension_6"": 7}",7.7,6.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,9,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 is more accurate on critical facts: the SALT total is $7,700 (well under the $10,000 cap), so itemized deductions are $17,500, not the $19,800 Option 1 invents by misapplying the cap. Option 2 also responsibly flags that it uses illustrative figures and that 2025 amounts must be verified, while Option 1 asserts specific 2025 standard deductions and credit amounts ($14,000 single, $382 CA ODC, $259 exemption, exact brackets) with false precision and a SALT error that cascades through every downstream calculation."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 7.4
+}",option_2,"Option 2 is more accurate on critical facts: the SALT total is $7,700 (well under the $10,000 cap), so itemized deductions are $17,500, not the $19,800 Option 1 invents by misapplying the cap. Option 2 also responsibly flags that it uses illustrative figures and that 2025 amounts must be verified, while Option 1 asserts specific 2025 standard deductions and credit amounts ($14,000 single, $382 CA ODC, $259 exemption, exact brackets) with false precision and a SALT error that cascades through every downstream calculation.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 4, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",6.5,7.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,7,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 demonstrates superior tax accuracy on the most consequential issues: it uses realistic 2025 standard deductions (~$22,500 HoH vs Option 1's clearly wrong ~$18,400), correctly handles the half-SE-tax deduction adjustment to AGI, and critically catches that California does not allow a state income tax deduction and permits CA itemizing even when taking the federal standard deduction. Option 1 misstates the 2025 standard deduction figures, omits the 1/2 SE tax adjustment, and incorrectly includes state income tax withholding in the federal SALT/CA itemized analysis."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 7.7
+}",option_2,"Option 2 demonstrates superior tax accuracy on the most consequential issues: it uses realistic 2025 standard deductions (~$22,500 HoH vs Option 1's clearly wrong ~$18,400), correctly handles the half-SE-tax deduction adjustment to AGI, and critically catches that California does not allow a state income tax deduction and permits CA itemizing even when taking the federal standard deduction. Option 1 misstates the 2025 standard deduction figures, omits the 1/2 SE tax adjustment, and incorrectly includes state income tax withholding in the federal SALT/CA itemized analysis.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 8}",6.5,7.7,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+7,9,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options correctly identify all major discrepancies (underreported 1099, missing Schedule C/SE, CTC vs ODC error, HoH analysis, misplaced mortgage interest, wrong CA AGI). Option 2 is more accurate and intellectually honest: it transparently flags that it uses illustrative figures and refrains from inventing precise 2025 tax-table outputs, whereas Option 1 states specific tax amounts (~$5,300 federal, ~$1,400 CA) that are not reliably derivable and risk being misleadingly precise. Option 2 also correctly handles the federal-vs-CA itemization nuance and the dependent support-test uncertainty in more depth."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 7.4,
+  ""option_2_average"": 8.2
+}",option_2,"Both options correctly identify all major discrepancies (underreported 1099, missing Schedule C/SE, CTC vs ODC error, HoH analysis, misplaced mortgage interest, wrong CA AGI). Option 2 is more accurate and intellectually honest: it transparently flags that it uses illustrative figures and refrains from inventing precise 2025 tax-table outputs, whereas Option 1 states specific tax amounts (~$5,300 federal, ~$1,400 CA) that are not reliably derivable and risk being misleadingly precise. Option 2 also correctly handles the federal-vs-CA itemization nuance and the dependent support-test uncertainty in more depth.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 9, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}",7.4,8.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,8,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options correctly identify all discrepancies (income, Schedule C/SE, deduction mislabeling, CTC error, HOH analysis, CA AGI). Option 2 reaches the correct decisive conclusion: with HOH the standard deduction (~$18,400) exceeds itemized ($17,500), so the standard deduction is preferable—a critical interaction Option 1 acknowledges but never resolves, instead leaving conflicting recommendations to itemize. Option 2 is also more concise, decisive, and organized while still flagging missing info."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 7.1,
+  ""option_2_average"": 7.9
+}",option_2,"Both options correctly identify all discrepancies (income, Schedule C/SE, deduction mislabeling, CTC error, HOH analysis, CA AGI). Option 2 reaches the correct decisive conclusion: with HOH the standard deduction (~$18,400) exceeds itemized ($17,500), so the standard deduction is preferable—a critical interaction Option 1 acknowledges but never resolves, instead leaving conflicting recommendations to itemize. Option 2 is also more concise, decisive, and organized while still flagging missing info.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 6, ""task_dimension_5"": 8, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",7.1,7.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8

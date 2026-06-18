@@ -1,0 +1,7 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+1.  **Requirements Check:** First, verify the task's core constraints. Confirm the need for exactly three bullish and three bearish trends for the specified year. Identify the required discussion elements (e.g., supply, demand, policy) and the concluding summary format. Ensure the output is a client briefing, which dictates a professional and concise tone, avoiding overly technical jargon.
+
+2.  **Plan & Structure:** Outline the report's structure. A logical flow would be an introduction, followed by two distinct sections for bullish and bearish trends, each containing three points. For each trend, plan to briefly explain the factor and its specific interaction with other elements like supply or policy. Finally, outline the conclusion to synthesize the analysis into a net outlook, adhering to the 2-3 sentence limit for the investor summary.
+
+3.  **Draft -> Self-Review -> Finalize:** Compose the briefing according to the structure. For each trend, ensure a clear link to its potential price impact. After drafting, review meticulously against all task constraints: count of trends, inclusion of required factors, and conclusion length. Check for clarity, consistency, and a neutral, advisory tone. Refine the language to ensure it is polished and client-appropriate before finalizing.

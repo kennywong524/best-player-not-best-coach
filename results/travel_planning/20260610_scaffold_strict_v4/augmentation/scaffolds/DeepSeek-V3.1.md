@@ -1,0 +1,7 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+1.  **Requirements Check:** First, parse the task for all explicit instructions and constraints. Identify the core deliverable (a 5-day itinerary), key parameters (budget, origin city, travel dates), and mandatory components (assumptions, clarifying questions, budget-labeled estimates). Flag any implicit needs, such as the requirement for realistic pricing and logical daily pacing.
+
+2.  **Plan & Structure:** Next, conceptualize the necessary research areas without performing them. This includes identifying cost variables (flights, accommodation, transit, activities, meals) and structuring a framework for the response. Decide on the order of operations: posing clarifying questions first, then stating assumptions, followed by a budget breakdown, and finally the day-by-day plan. Determine how to visually separate estimates from fixed costs.
+
+3.  **Draft -> Self-Review -> Finalize:** Compose the response according to the planned structure. After drafting, conduct a compliance review against the initial task requirements. Verify that all mandated sections are present, estimates are clearly labeled, the total cost remains within the specified budget, and no task-solving guidance from this prompt is included. Ensure the language is consistently advisory and budget-conscious before finalizing.

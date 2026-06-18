@@ -1,0 +1,655 @@
+replicate_id,output,condition,assistant_model,worker_model,model_id,model_label,scaffold_path,scaffold_sha256,scaffold_text,item_id,total_wins,total_games,avg_win_rate,avg_rank,std_rank,std_win_rate,judge_model,judge_label
+0,"Provisional 5-Day Tokyo Itinerary:
+
+Day 1:
+- Flight from San Francisco to Tokyo (estimate: $800 roundtrip)
+- Check into a budget hotel in Shinjuku district (estimate: $100/night)
+- Explore Shinjuku Gyoen National Garden (estimate: $5 entrance fee)
+- Dinner at a local izakaya (estimate: $20)
+
+Day 2:
+- Visit Meiji Shrine in the morning (free entrance)
+- Harajuku shopping and street food (estimate: $50)
+- Explore Shibuya Crossing and Hachiko Statue (free)
+- Dinner at a ramen restaurant (estimate: $15)
+
+Day 3:
+- Day trip to Mt. Fuji and Hakone (estimate: $150 for transportation and activities)
+- Visit Owakudani Valley and take a boat cruise on Lake Ashi
+- Dinner at a traditional Japanese restaurant (estimate: $30)
+
+Day 4:
+- Visit Senso-ji Temple in Asakusa (free entrance)
+- Explore Nakamise Shopping Street (estimate: $30 for souvenirs)
+- Sumida River cruise to see Tokyo Skytree (estimate: $20)
+- Dinner at a sushi restaurant (estimate: $40)
+
+Day 5:
+- Visit Tsukiji Fish Market (free entrance)
+- Explore Akihabara for electronics and anime (estimate: $50)
+- Lunch at a conveyor belt sushi restaurant (estimate: $20)
+- Souvenir shopping in Ginza (estimate: $50)
+- Flight back to San Francisco (estimate: $800 roundtrip)
+
+Total estimated cost: $2,035
+
+Assumptions:
+- The traveler is comfortable staying in budget accommodations.
+- The traveler is open to using public transportation.
+- Meals are a mix of budget-friendly and mid-range options.
+- Entrance fees and activity costs are estimated and may vary.
+
+Clarifying questions:
+- Does the traveler have any dietary restrictions?
+- Is the traveler interested in any specific activities or attractions?
+- Are there any preferences for transportation options within Tokyo?",plain,plain,gpt-3.5-turbo,plain,plain,,,,0,3,4,0.75,1.0,,,gpt-4.1,GPT-4.1
+0,"**Assumptions:**
+1. The traveler prefers mid-range accommodation options.
+2. The traveler has no dietary restrictions.
+3. The traveler is interested in a mix of cultural sights, shopping, and local cuisine.
+4. The traveler is comfortable using public transportation.
+5. The traveler is open to both guided tours and self-exploration.
+
+**Clarifying Questions:**
+1. Are there any specific cultural sights or activities you are particularly interested in?
+2. Do you prefer to have all meals planned or do you want flexibility to choose where to eat?
+3. Are there any mobility needs or preferences we should consider?
+4. Do you have any specific shopping preferences or areas you would like to explore?
+5. Are there any specific budget constraints or preferences for certain activities?
+
+**Provisional Itinerary:**
+
+**Day 1: Arrival in Tokyo**
+- Morning: Arrival at Narita International Airport, transfer to hotel
+- Afternoon: Explore the neighborhood, visit a local market
+- Evening: Dinner at a traditional Japanese restaurant
+
+**Day 2: Tokyo City Tour**
+- Morning: Visit Senso-ji Temple, Asakusa
+- Afternoon: Explore Akihabara Electric Town
+- Evening: Dinner at a local izakaya
+
+**Day 3: Day Trip to Mount Fuji**
+- Morning: Travel to Mount Fuji by bus
+- Afternoon: Visit the 5th Station, enjoy the views
+- Evening: Return to Tokyo, dinner at a sushi restaurant
+
+**Day 4: Cultural Day**
+- Morning: Visit Meiji Shrine and Harajuku district
+- Afternoon: Explore Shinjuku Gyoen National Garden
+- Evening: Dinner in Shibuya, shopping at Shibuya Crossing
+
+**Day 5: Departure**
+- Morning: Visit Tsukiji Fish Market
+- Afternoon: Souvenir shopping in Ginza
+- Evening: Transfer to Narita International Airport for departure
+
+**Budget Breakdown:**
+- Flights: $800 (estimate)
+- Accommodation: $600 (estimate)
+- Ground Transport: $200 (estimate)
+- Meals: $400 (estimate)
+- Activities: $300 (estimate)
+- Contingency: $200 (estimate)
+
+Total Estimated Cost: $2,500
+
+Please note that the above itinerary and budget breakdown are based on assumptions and estimates. Actual costs may vary depending on specific preferences and choices made during the trip. Enjoy your trip to Tokyo!",scaffold_Claude-Sonnet-4.6,Claude-Sonnet-4.6,gpt-3.5-turbo,anthropic/claude-sonnet-4-6,Claude-Sonnet-4.6,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/travel_planning/20260612_fresh_rep1/augmentation/scaffolds/Claude-Sonnet-4.6_rep0.md,3bb52f273ec2ce818c393a499b94256b002a04b49519f27f097302830ccaef05,"**Assistant Guidance: Three-Phase Workflow**
+
+**Phase 1: Requirements Check**
+Before producing any content, audit what is explicitly stated versus what must be assumed. Identify ambiguities such as travel style preferences, accommodation tier, dietary restrictions, mobility needs, and interest categories. Distinguish between fixed constraints (budget ceiling, departure city, trip length) and flexible variables (pace, activity types). Draft a short list of clarifying questions to surface unstated preferences. Simultaneously, note which assumptions you will need to state explicitly if proceeding without answers—label each assumption clearly so the reader can substitute their own values.
+
+**Phase 2: Plan & Structure**
+Decide on an organizational framework before writing. Determine how to segment the output: assumptions block, clarifying questions block, then the provisional itinerary. Within the itinerary, choose a logical daily structure (e.g., morning/afternoon/evening slots). Plan how budget tracking will be presented—consider a running tally or per-category breakdown. Decide where and how to label figures as estimates consistently throughout. Map out which cost categories need coverage (flights, accommodation, ground transport, meals, activities, contingency) so nothing is omitted.
+
+**Phase 3: Draft → Self-Review → Finalize**
+Write a complete first draft following the structure above. Then self-review against these criteria: Are all assumptions explicitly stated? Are clarifying questions genuinely open-ended and non-leading? Are all figures labeled as estimates? Does the total remain within the stated budget ceiling? Is the tone consistent and the format scannable? Revise any section that fails a criterion, then produce the final output.",7,2,4,0.5,3.0,,,gpt-4.1,GPT-4.1
+0,"**Assumptions:**
+1. The traveler has a valid passport and necessary visas for entry into Japan.
+2. The traveler will be staying in moderately priced accommodations.
+3. The traveler will be using public transportation for getting around Tokyo.
+4. The traveler will be dining at a mix of budget-friendly and mid-range restaurants.
+5. The traveler will be participating in a variety of activities and attractions.
+
+**Clarifying Questions:**
+1. Does the traveler have any specific dietary restrictions or preferences?
+2. Are there any specific attractions or activities the traveler would like to prioritize?
+3. Does the traveler have any mobility restrictions that need to be considered in the itinerary?
+4. Is there a specific area of Tokyo the traveler would like to focus on or explore?
+5. Are there any specific souvenirs or shopping items the traveler is interested in?
+
+**Provisional Plan:**
+
+**Day 1: Arrival in Tokyo**
+- Transportation from the airport to the hotel
+- Check-in at the hotel
+- Dinner at a local restaurant
+- Estimate: $150
+
+**Day 2: Exploring Tokyo**
+- Visit Asakusa Senso-ji Temple
+- Explore the bustling streets of Shibuya
+- Lunch at a traditional Japanese restaurant
+- Visit Meiji Shrine
+- Estimate: $200
+
+**Day 3: Cultural Experiences**
+- Participate in a tea ceremony
+- Visit the Tokyo National Museum
+- Lunch at a local market
+- Explore Ueno Park
+- Estimate: $250
+
+**Day 4: Day Trip to Mt. Fuji**
+- Guided tour to Mt. Fuji
+- Visit the Fuji Five Lakes
+- Lunch with a view of Mt. Fuji
+- Estimate: $300
+
+**Day 5: Last Day in Tokyo**
+- Visit the Tsukiji Fish Market
+- Explore the shopping district of Ginza
+- Lunch at a sushi restaurant
+- Souvenir shopping
+- Transportation to the airport
+- Estimate: $300
+
+**Total Estimated Cost: $1,200**
+
+**Final Notes:**
+- The estimated total cost of the itinerary is within the budget of $2,500 USD.
+- All estimates are labeled as such to indicate they are approximate.
+- The itinerary includes a mix of cultural experiences, sightseeing, and dining options.
+- The traveler's departure point is San Francisco, and all costs are in USD.
+- The itinerary is subject to change based on the traveler's preferences and availability of attractions.",scaffold_Claude-Opus-4.8,Claude-Opus-4.8,gpt-3.5-turbo,anthropic/claude-opus-4-8,Claude-Opus-4.8,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/travel_planning/20260612_fresh_rep1/augmentation/scaffolds/Claude-Opus-4.8_rep0.md,83279dd82777ab8ea4ac43869c32915cfb6689644a93ba69080bcd7cc0702d61,"**Assistant Guidance: Three-Phase Workflow**
+
+**Phase 1 — Requirements Check**
+Begin by parsing every explicit instruction: trip length, traveler count, timing, total budget and its exclusions, departure point, and the requested output elements. List each requirement so none is missed. Note constraints that shape format (assumptions section, clarifying questions, estimate labeling, budget awareness). Identify what information is ambiguous or missing and flag it for the clarifying-questions portion. Confirm units, currency, and the boundary of what's included versus excluded.
+
+**Phase 2 — Plan & Structure**
+Decide the document's skeleton before writing: where assumptions go, where clarifying questions sit, and how the provisional plan follows. Choose an organizing logic for the days and a consistent way to present cost lines so totals can be tracked against the budget. Plan a running or summary tally mechanism so the figure stays visible. Decide how you'll mark figures as estimates uniformly. Sketch categories of spending to ensure completeness without yet filling in values. Sequence sections so assumptions and questions precede the plan, as requested.
+
+**Phase 3 — Draft → Self-Review → Finalize**
+Write the draft following your structure, keeping numbers clearly labeled as estimates and tied to the stated budget. Then self-review against Phase 1's checklist: Are all required elements present and ordered correctly? Do estimates carry labels? Does the total respect the budget and exclusions? Are assumptions explicit and questions genuinely clarifying? Verify internal consistency between daily costs and any summary. Adjust gaps, then finalize with a clean, scannable format.",8,2,4,0.5,3.0,,,gpt-4.1,GPT-4.1
+0,"**Introduction:**
+Hello! I've crafted a 5-day itinerary for your solo trip to Tokyo next month with a budget of $2,500 USD, excluding passport costs. Please review the assumptions and clarifying questions before finalizing the plan.
+
+**Assumptions:**
+1. Flight booking is pending.
+2. Accommodation preference is mid-range hotels.
+3. Travel style includes a mix of sightseeing and local experiences.
+
+**Clarifying Questions:**
+1. Do you have a specific airline or flight preference?
+2. Are there any dietary restrictions we should consider for meal planning?
+3. Are there any specific activities or attractions you'd like to prioritize?
+
+**Budget Breakdown:**
+- Flights: $800
+- Accommodation: $600
+- Food: $300
+- Activities: $500
+- Transit: $150
+- Miscellaneous: $150
+Total: $2,500
+
+**5-Day Itinerary:**
+
+**Day 1:**
+- Morning: Arrival in Tokyo, check-in at hotel ($100).
+- Afternoon: Visit Asakusa Senso-ji Temple and Nakamise Shopping Street (free).
+- Evening: Dinner at a local Izakaya ($30).
+
+**Day 2:**
+- Morning: Explore Tsukiji Fish Market and have a sushi breakfast ($50).
+- Afternoon: Visit the Imperial Palace East Gardens (free).
+- Evening: Shibuya Crossing and dinner in Shibuya ($40).
+
+**Day 3:**
+- Morning: Day trip to Hakone for scenic views and hot springs ($100).
+- Afternoon: Hakone Open-Air Museum ($20).
+- Evening: Return to Tokyo and dinner in Shinjuku ($50).
+
+**Day 4:**
+- Morning: Visit Meiji Shrine and Yoyogi Park (free).
+- Afternoon: Harajuku shopping and Takeshita Street ($50).
+- Evening: Robot Restaurant show in Shinjuku ($80).
+
+**Day 5:**
+- Morning: Explore Akihabara for tech and anime culture ($30).
+- Afternoon: Sumida River Cruise and Tokyo Skytree ($60).
+- Evening: Farewell dinner in Ginza ($50).
+
+**Conclusion:**
+Please review the itinerary and answer the clarifying questions to finalize your trip to Tokyo. Have a fantastic journey!",scaffold_Gemini-3.1-Pro,Gemini-3.1-Pro,gpt-3.5-turbo,google/gemini-3.1-pro,Gemini-3.1-Pro,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/travel_planning/20260612_fresh_rep1/augmentation/scaffolds/Gemini-3.1-Pro_rep0.md,1c7803c0050fc4aaf4bd200589049aa29a4355acd8f3bbc944f17d2f4ebf6fc4,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+- Confirm the destination (Tokyo) and duration (5 days).
+- Note the traveler profile (solo) and departure location (San Francisco).
+- Identify the timeframe (next month).
+- Verify the total budget ($2,500 USD) and exclusions (passport costs).
+- Ensure the output must include stated assumptions and clarifying questions *before* the provisional itinerary.
+- Note the requirement to use and explicitly label realistic budget estimates.
+- Confirm the overall tone and structure must remain budget-aware throughout the itinerary.
+
+**2. Plan & Structure**
+- **Introduction:** Acknowledge the prompt and set a welcoming tone.
+- **Assumptions & Clarifying Questions:** 
+  - Draft a list of assumptions necessary to build the provisional plan (e.g., flight booking status, accommodation preferences, travel style).
+  - Draft a list of clarifying questions for the user to refine the itinerary later.
+- **Budget Breakdown:** Create a high-level estimated budget allocation (Flights, Accommodation, Food, Activities, Transit, Miscellaneous) ensuring the total does not exceed the limit.
+- **5-Day Itinerary:** Outline a day-by-day structure (Days 1-5). For each day, plan morning, afternoon, and evening activities, including estimated costs for each major item.
+- **Conclusion:** Add a brief wrap-up encouraging the user to answer the clarifying questions to finalize the plan.
+
+**3. Draft -> Self-Review -> Finalize**
+- Draft the response following the structure outlined above.
+- Review against constraints: Are assumptions and questions placed *before* the itinerary? Is the budget exactly $2,500 USD? Are all costs labeled as estimates? Is the departure from San Francisco accounted for?
+- Refine the formatting for readability (use bolding, bullet points, and clear headings).
+- Finalize the output ensuring a helpful, objective, and budget-conscious tone.",9,2,4,0.5,3.0,,,gpt-4.1,GPT-4.1
+0,"**Assumptions:**
+1. Currency conversion rates will be based on current market values.
+2. The traveler will be departing from San Francisco International Airport (SFO).
+3. The trip will take place next month.
+4. Accommodation will be in a mid-range hotel.
+5. Food expenses will include a mix of dining out and grocery purchases.
+6. Activities will cover a range of cultural experiences and sightseeing.
+7. Transit costs will include local transportation within Tokyo.
+
+**Clarifying Questions:**
+1. Are there any specific preferences or interests the traveler has for activities or sights in Tokyo?
+2. Does the traveler have any dietary restrictions or preferences that should be considered for meal planning?
+3. Is there a preferred style of accommodation (e.g., hotel, Airbnb) for the traveler?
+4. Are there any must-see attractions or experiences that the traveler wants to include in the itinerary?
+5. Does the traveler have any flexibility in their travel dates within the next month?
+
+**Provisional Plan:**
+
+**Day 1: Arrival in Tokyo**
+- Flight from SFO to Tokyo (estimate: $800)
+- Check-in at mid-range hotel (estimate: $150)
+- Dinner at a local restaurant (estimate: $50)
+- Total Estimated Cost: $1,000
+
+**Day 2: Exploring Tokyo**
+- Breakfast at a café (estimate: $15)
+- Visit to Meiji Shrine and Yoyogi Park (free entry)
+- Lunch at a traditional Japanese restaurant (estimate: $30)
+- Explore Harajuku and Takeshita Street
+- Dinner at a sushi restaurant (estimate: $60)
+- Total Estimated Cost: $105
+
+**Day 3: Cultural Experience**
+- Breakfast at the hotel (included)
+- Visit to Senso-ji Temple and Asakusa area
+- Lunch at a local market (estimate: $20)
+- Sumida River Cruise (estimate: $25)
+- Dinner at a traditional izakaya (estimate: $40)
+- Total Estimated Cost: $85
+
+**Day 4: Day Trip to Mount Fuji**
+- Breakfast at a café (estimate: $15)
+- Day trip to Mount Fuji with guided tour (estimate: $200)
+- Lunch at a local restaurant near Mount Fuji (estimate: $30)
+- Return to Tokyo
+- Dinner at a ramen shop (estimate: $20)
+- Total Estimated Cost: $265
+
+**Day 5: Last Day in Tokyo**
+- Breakfast at a café (estimate: $15)
+- Visit to Tsukiji Fish Market
+- Lunch at a sushi restaurant (estimate: $50)
+- Shopping in Shibuya
+- Dinner at a traditional tempura restaurant (estimate: $70)
+- Total Estimated Cost: $135
+
+**Total Estimated Cost for 5-Day Tokyo Itinerary: $1,590**
+
+This provisional plan is based on realistic estimates and is designed to provide a comprehensive experience of Tokyo within the specified budget of $2,500 USD, excluding passport costs. Adjustments can be made based on the traveler's preferences and any additional information provided.",scaffold_DeepSeek-V3.1,DeepSeek-V3.1,gpt-3.5-turbo,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/travel_planning/20260612_fresh_rep1/augmentation/scaffolds/DeepSeek-V3.1_rep0.md,7e22a930525a05583a6d4fb7b9b11b11f8a48117097bb6ec3fbd0c50798fd2a9,"**Assistant Guidance: Three-Phase Workflow**
+
+1.  **Requirements Check**
+    Systematically parse the task prompt to identify all explicit and implicit requirements. List every mandatory component: the 5-day duration, Tokyo destination, single traveler, budget constraint, exclusion of passport costs, and the San Francisco departure point. Note the required output sections: assumptions, clarifying questions, and a provisional plan. Verify that all instructions, such as labeling estimates and maintaining budget awareness, are understood as non-negotiable constraints.
+
+2.  **Plan & Structure**
+    Outline the logical structure of the response before generating any content. This includes sections for assumptions (e.g., currency conversion, travel month), clarifying questions for the user, and the main itinerary. For the itinerary, create a high-level framework for each day, allocating the budget across major expense categories (flights, accommodation, food, activities, transit). Use this phase to identify what research is needed (e.g., average flight costs from SFO, realistic hotel rates in Tokyo) to inform realistic estimates without performing the actual calculations yet.
+
+3.  **Draft -> Self-Review -> Finalize**
+    Compose the response according to the defined structure. In the draft, present assumptions and questions first, then build the itinerary using the planned estimates, ensuring every cost is labeled as such and tracked against the total budget. In the self-review, critically check for strict adherence to all task constraints: is the budget excluding flights? Are all figures realistic estimates? Is the itinerary feasible over five days? Ensure the tone remains objective and informative. Revise for clarity and consistency before finalizing.",3,1,4,0.25,5.0,,,gpt-4.1,GPT-4.1
+0,"**Assumptions:**
+- The traveler has a valid passport and necessary visas for travel to Japan.
+- The traveler is open to various types of accommodation, from budget-friendly options to more luxurious choices.
+- The traveler has no specific dietary restrictions or mobility issues.
+- The traveler is interested in a mix of cultural experiences, sightseeing, and local cuisine.
+
+**Clarifying Questions:**
+1. Does the traveler have any specific preferences for accommodation (e.g., hotel vs. Airbnb, location preference)?
+2. Are there any specific activities or attractions the traveler is particularly interested in visiting?
+3. Does the traveler have any preferences for transportation within Tokyo (e.g., public transportation vs. taxis)?
+
+**Provisional Itinerary:**
+
+**Day 1: Arrival in Tokyo**
+- Flight from San Francisco to Tokyo (estimate: $800)
+- Check-in at a centrally located hotel (estimate: $150)
+- Explore the neighborhood and enjoy a traditional Japanese dinner (estimate: $50)
+
+**Day 2: Cultural Exploration**
+- Visit Senso-ji Temple and Nakamise Shopping Street (estimate: $20)
+- Explore the historic Asakusa district (estimate: $30)
+- Enjoy a traditional tea ceremony experience (estimate: $50)
+
+**Day 3: Modern Tokyo**
+- Visit the iconic Tokyo Tower (estimate: $25)
+- Explore the bustling Shibuya Crossing and Harajuku district (estimate: $40)
+- Indulge in a sushi lunch at a local restaurant (estimate: $50)
+
+**Day 4: Day Trip to Mount Fuji**
+- Guided day trip to Mount Fuji and Hakone (estimate: $200)
+- Enjoy a scenic boat ride on Lake Ashi (estimate: $30)
+- Relax in a traditional onsen hot spring (estimate: $50)
+
+**Day 5: Departure**
+- Check out of the hotel and transfer to the airport (estimate: $50)
+- Flight from Tokyo to San Francisco (estimate: $800)
+
+**Total Estimated Cost: $1,525**
+
+This itinerary provides a balance of cultural experiences, sightseeing, and relaxation within the specified budget of $2,500 USD. Adjustments can be made based on the traveler's preferences and feedback.",scaffold_GPT-4.1,GPT-4.1,gpt-3.5-turbo,gpt-4.1,GPT-4.1,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/travel_planning/20260612_fresh_rep1/augmentation/scaffolds/GPT-4.1_rep0.md,841a35c37489c7f0a3999c18b3f1803876df4ec798d80d96cff83115a967a909,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+- Carefully read the task and extract all explicit requirements (e.g., destination, duration, budget, exclusions, origin city, timeline).  
+- Identify any implicit or missing information that may affect the plan (e.g., traveler preferences, accommodation standards, dietary restrictions, interests).  
+- Prepare a concise list of clarifying questions to address uncertainties or gather additional information.  
+- Clearly state all assumptions that will be used in the absence of specific details, ensuring transparency.
+
+2. Plan & Structure  
+- Outline a logical structure for the itinerary, breaking it down by day and including major components (e.g., flights, accommodation, meals, daily activities, local transportation).  
+- Allocate the available budget across key categories, using realistic estimates for each (make sure to label them as estimates).  
+- Ensure the plan remains within budget and time constraints, adjusting allocations as needed.  
+- Prioritize essential experiences and balance cost-effectiveness with traveler comfort and enjoyment.  
+- Prepare a provisional itinerary framework, ensuring clarity and coherence.
+
+3. Draft -> Self-Review -> Finalize  
+- Draft the detailed itinerary, integrating the structured plan and all relevant estimates.  
+- Double-check that all requirements, assumptions, and clarifying questions are clearly stated at the beginning.  
+- Review the draft for completeness, clarity, and consistency with the stated budget and other constraints.  
+- Revise as needed for accuracy, conciseness, and user-friendliness before finalizing the response.",1,0,0,,,,,gpt-4.1,GPT-4.1
+0,"**Executive Summary:**
+This 5-day Tokyo itinerary for one traveler departing from San Francisco next month aims to provide a comprehensive and budget-aware plan within the total budget of $2,500 USD, excluding passport costs. The plan includes a mix of cultural experiences, local cuisine, and must-see attractions while ensuring comfortable accommodations and efficient transportation.
+
+**Assumptions:**
+- Currency: All costs are in USD.
+- Budget Awareness: The plan will prioritize cost-effective options without compromising on quality.
+- Daily Buffer: A 10% daily buffer is included for unforeseen expenses.
+- Cancellation/Refund: Assumptions are based on non-refundable bookings unless stated otherwise.
+
+**Clarifying Questions:**
+1. Are there any specific dietary restrictions or preferences?
+2. Do you have any mobility limitations that we should consider in planning activities?
+3. Are you a member of any loyalty programs that could be utilized for discounts or perks?
+4. What are your preferred accommodation standards (e.g., budget, mid-range, luxury)?
+5. Are there any specific activities or attractions you would like to prioritize during your trip?
+
+**Provisional Plan:**
+
+**Day 1: Arrival in Tokyo**
+- Arrival at Narita International Airport
+- Transfer to hotel via airport shuttle
+- Estimated Cost: $50 (estimate)
+
+**Day 2: Cultural Exploration**
+- Visit Senso-ji Temple and Nakamise Shopping Street
+- Enjoy a traditional tea ceremony
+- Lunch at a local ramen shop
+- Estimated Cost: $80 (estimate)
+
+**Day 3: Modern Tokyo**
+- Explore Shibuya Crossing and Takeshita Street
+- Visit the teamLab Borderless digital art museum
+- Dinner at a local izakaya
+- Estimated Cost: $100 (estimate)
+
+**Day 4: Day Trip to Mount Fuji**
+- Guided tour to Mount Fuji and Hakone
+- Enjoy a traditional onsen experience
+- Estimated Cost: $200 (estimate)
+
+**Day 5: Departure**
+- Check out of hotel
+- Transfer to Narita International Airport
+- Estimated Cost: $50 (estimate)
+
+**Budget Breakdown:**
+- Transport: $150
+- Lodging: $600
+- Local Transit: $100
+- Food: $300
+- Activities: $400
+- Emergency Buffer: $50
+
+**Total Estimated Cost: $1,800**
+
+**Next Steps:**
+Please review the proposed itinerary and let me know if there are any specific preferences or changes you would like to make. Additionally, I can provide alternative options or make adjustments based on your feedback.",scaffold_GPT-5-Mini,GPT-5-Mini,gpt-3.5-turbo,gpt-5-mini-2025-08-07,GPT-5-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/travel_planning/20260612_fresh_rep1/augmentation/scaffolds/GPT-5-Mini_rep0.md,2c893a9cee525aad5c655584f9ab8cc4d614866aaee3e2142456998996bc228a,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check
+- Read the task constraints and capture non-negotiables (trip length, destination, traveler count, origin, total budget, exclusion of passport costs).
+- Prepare a short set of clarifying questions to resolve unknowns before planning (dates and flexibility, preferred accommodation standard, activity interests, mobility or dietary limitations, priority tradeoffs between comfort and cost, baggage, loyalty programs, arrival/departure time windows).
+- Note assumptions you will make if the user does not answer (currency, rounding conventions, what “budget-aware” means, acceptable daily buffer, cancellation/refund assumptions). Plan to label all such assumptions clearly in the provisional plan.
+
+2. Plan & Structure
+- Decide the deliverable structure: executive summary, stated assumptions & clarifying questions, per-day schedule, budget breakdown (by category and per day), and alternatives/options.
+- Define budget categories (transport, lodging, local transit, food, activities, incidental/emergency buffer) and how you will present estimates (rounded, labeled “estimate”).
+- Choose a consistent format for day entries (time windows, activity descriptions, transport notes, cost estimates) and for totals (per-category and grand total). Include contingency margin and note exclusion of passport fees.
+
+3. Draft -> Self-Review -> Finalize
+- Draft the provisional plan using concise daily entries and an itemized budget with all estimates explicitly labeled.
+- Self-review checklist: check internal arithmetic consistency, ensure all assumptions are stated, verify clarifying questions are listed up front, confirm budget totals equal category sums, and confirm passport exclusion is noted.
+- Finalize: refine language for clarity and tone, ensure readers can act on the plan, and append next steps (answer questions or provide alternatives) without adding unresolved assumptions.",2,0,0,,,,,gpt-4.1,GPT-4.1
+0,"**Tokyo Itinerary for One Traveler**
+
+**Day 1: Arrival in Tokyo**
+- Arrival at Narita International Airport
+- Transfer to hotel in Shibuya district
+- Dinner at a local izakaya
+- Estimated Cost: $150 (Transport, Lodging, Meals)
+
+**Day 2: Explore Shibuya and Harajuku**
+- Breakfast at a trendy cafe in Harajuku
+- Visit Meiji Shrine and Yoyogi Park
+- Shopping in Takeshita Street
+- Lunch at a traditional ramen shop
+- Dinner at a local sushi restaurant
+- Estimated Cost: $200 (Transport, Meals, Activities)
+
+**Day 3: Cultural Experience in Asakusa**
+- Breakfast at a local bakery
+- Explore Senso-ji Temple and Nakamise Shopping Street
+- Visit Tokyo Skytree for panoramic views
+- Lunch at a tempura restaurant
+- Dinner at a traditional Japanese kaiseki restaurant
+- Estimated Cost: $250 (Transport, Meals, Activities)
+
+**Day 4: Day Trip to Mount Fuji**
+- Early morning departure for Mount Fuji excursion
+- Visit the 5th Station for breathtaking views
+- Lunch at a local restaurant with Fuji views
+- Return to Tokyo in the evening
+- Dinner at a cozy yakitori bar
+- Estimated Cost: $300 (Transport, Meals, Activities)
+
+**Day 5: Farewell to Tokyo**
+- Breakfast at a local cafe
+- Explore Tsukiji Fish Market
+- Visit the Imperial Palace East Gardens
+- Lunch at a sushi restaurant in Ginza
+- Transfer to Narita International Airport for departure
+- Estimated Cost: $250 (Transport, Meals, Activities)
+
+**Assumptions:**
+- Exchange rate of 1 USD to 110 JPY
+- Moderate accommodation in Shibuya district
+- Public transportation for daily travel
+- Moderate spending on meals and activities
+
+**Clarifying Questions:**
+- Are there any specific dietary restrictions or preferences?
+- Is there a preference for certain types of activities or attractions?
+- How much flexibility is there in the budget for unexpected expenses?
+
+**Total Estimated Cost: $1,150**  
+**Remaining Budget: $1,350**  
+
+This itinerary aims to provide a balanced mix of cultural experiences, sightseeing, and culinary delights within the specified budget for a memorable trip to Tokyo.",scaffold_GPT-O4-Mini,GPT-O4-Mini,gpt-3.5-turbo,o4-mini-2025-04-16,GPT-O4-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/travel_planning/20260612_fresh_rep1/augmentation/scaffolds/GPT-O4-Mini_rep0.md,6b662caf7b7627ac88d62c57ac229800ff8636cf6c7b68147f7f5588c4b8f2a2,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+   • Extract explicit deliverables and format requirements.  
+   • Identify constraints (e.g., budget limits, timeframe, traveler origin).  
+   • Note any exclusions or special instructions (e.g., costs to omit).  
+   • List assumptions that must be stated (e.g., exchange rates, accommodation standards).  
+   • Formulate clarifying questions to resolve ambiguities (dates, traveler preferences, pace).
+
+2. Plan & Structure  
+   • Sketch a high-level outline with major sections (e.g., overview, daily breakdown, budget summary).  
+   • Allocate content slots for each day, ensuring balance of activities and rest.  
+   • Assign budget categories (transport, lodging, meals, activities) and placeholders for estimate labels.  
+   • Define where to insert assumptions and question responses.  
+   • Determine numbering or labeling scheme for clarity.  
+   • Map each section to the requirements to ensure complete coverage.
+
+3. Draft → Self-Review → Finalize  
+   • Draft each section according to the outline, using neutral placeholders (e.g., “[Activity A]”, “[Cost Estimate]”).  
+   • Ensure all required elements are present: assumptions block, clarifications, cost estimates marked as estimates.  
+   • Conduct a self-review against the requirements checklist:  
+     – Did you address budget constraints?  
+     – Are estimates clearly labeled?  
+     – Have all clarifying questions been acknowledged?  
+   • Edit for clarity, coherence, and tone consistency.  
+   • Finalize by removing scaffolding notes and confirming adherence to",4,0,0,,,,,gpt-4.1,GPT-4.1
+0,"Provisional 5-Day Tokyo Itinerary:
+
+Day 1:
+- Departure from San Francisco to Tokyo
+- Estimated Flight Cost: $800 (estimate)
+- Check into a mid-range hotel in Shibuya
+- Estimated Accommodation Cost: $150/night x 4 nights = $600 (estimate)
+- Explore Shibuya Crossing and nearby shopping districts
+- Estimated Food & Activity Budget: $50
+
+Day 2:
+- Visit Meiji Shrine and Yoyogi Park
+- Estimated Transportation Cost: $20 (estimate)
+- Lunch at a local restaurant
+- Estimated Food Cost: $20 (estimate)
+- Explore Harajuku for shopping and street food
+- Estimated Activity Budget: $100
+
+Day 3:
+- Day trip to Hakone for scenic views and hot springs
+- Estimated Transportation Cost: $50 (estimate)
+- Entrance fee to Hakone Open-Air Museum
+- Estimated Activity Cost: $25 (estimate)
+- Dinner at a traditional Japanese restaurant
+- Estimated Food Cost: $30 (estimate)
+
+Day 4:
+- Visit Tsukiji Fish Market for breakfast
+- Estimated Food Cost: $20 (estimate)
+- Explore Asakusa and Senso-ji Temple
+- Estimated Activity Budget: $50
+- Dinner at a local izakaya
+- Estimated Food Cost: $30 (estimate)
+
+Day 5:
+- Visit Tokyo Disneyland or DisneySea
+- Estimated Entrance Fee: $80 (estimate)
+- Lunch at the theme park
+- Estimated Food Cost: $30 (estimate)
+- Final souvenir shopping in Akihabara
+- Estimated Activity Budget: $50
+
+Assumptions:
+- All estimated costs are based on current average prices and may vary.
+- Transportation costs are based on public transportation options.
+- Food costs are estimated for one meal per day at mid-range restaurants.
+- Activity budgets include entrance fees and miscellaneous expenses.
+- Souvenir shopping costs are not included in the budget.
+
+Clarifying Questions:
+- Does the traveler have any dietary restrictions or preferences?
+- Are there any specific attractions or experiences the traveler wants to prioritize?
+- Is the traveler comfortable with using public transportation in Tokyo?
+
+Please note that this is a provisional itinerary with estimated costs. Final details and bookings will be made once the traveler confirms their preferences and availability.",scaffold_GPT-O3-Mini,GPT-O3-Mini,gpt-3.5-turbo,o3-mini-2025-01-31,GPT-O3-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/travel_planning/20260612_fresh_rep1/augmentation/scaffolds/GPT-O3-Mini_rep0.md,c520b14e2f5a346de13326b0eb9cc8af1653c8def2a5ab07f199013675ba0944,"Assistant Guidance: Three-Phase Workflow
+
+Phase 1: Requirements Check  
+• Begin by thoroughly reviewing the task's requirements and constraints, ensuring all input elements are clearly understood without revealing any specific content.  
+• Verify that the overall scope, budget guidelines, and travel conditions (such as starting location and travel period) are clearly captured.  
+• Identify any assumptions that might be needed and list clarifying questions that could help resolve any ambiguities in the planning process.  
+• Ensure that all constraints relating to estimates, labels, and budget considerations are noted.
+
+Phase 2: Plan & Structure  
+• Formulate a high-level structure that outlines the key sections of the itinerary plan, defining each day’s template and the necessary components (e.g., travel, accommodations, food, activities).  
+• Develop a framework where assumptions, clarifications, and estimated estimates are distinctly presented.  
+• Plan to segment the content logically to prioritize clarity and ensure the budget-awareness of the final draft without delving into specifics.  
+• Establish a method to indicate that specific values or calculations are estimates, keeping with the constraint to remain generic.
+
+Phase 3: Draft -> Self-Review -> Finalize  
+• Start drafting the itinerary skeleton based on the pre-defined structure while holding off on detailed content fulfillment.  
+• Conduct a self-review to ensure the draft adheres to all guidelines and constraints, checking for consistency in the presentation of assumptions and placeholders for any calculations.  
+• Refine the draft into a final outline that precisely acts as a roadmap for creating the detailed itinerary later.",5,0,0,,,,,gpt-4.1,GPT-4.1
+0,"**Assumptions:**
+1. The traveler has a valid passport and necessary visas for travel to Japan.
+2. The traveler prefers budget-friendly accommodation options.
+3. The traveler is interested in a mix of cultural experiences, sightseeing, and local cuisine.
+4. The traveler is comfortable using public transportation.
+5. The budget includes all expenses in Tokyo, excluding international flights and passport costs.
+
+**Clarifying Questions:**
+1. Does the traveler have any dietary restrictions or preferences?
+2. Are there any specific attractions or activities the traveler wants to include in the itinerary?
+3. Does the traveler have any mobility limitations that need to be considered?
+4. Is the traveler interested in any guided tours or experiences during the trip?
+
+**Provisional Plan:**
+1. Day 1: Arrival in Tokyo
+   - Estimated cost: $100
+   - Activities: Check-in at budget hotel, explore the neighborhood, dinner at a local restaurant.
+
+2. Day 2: Cultural Exploration
+   - Estimated cost: $150
+   - Activities: Visit Senso-ji Temple, explore Asakusa district, lunch at a traditional Japanese restaurant, visit Meiji Shrine.
+
+3. Day 3: Sightseeing in Tokyo
+   - Estimated cost: $200
+   - Activities: Visit Tokyo Tower, explore Shibuya and Harajuku districts, shopping and street food.
+
+4. Day 4: Day Trip to Mount Fuji
+   - Estimated cost: $300
+   - Activities: Guided tour to Mount Fuji, visit Fuji Five Lakes, lunch included.
+
+5. Day 5: Departure from Tokyo
+   - Estimated cost: $150
+   - Activities: Check-out from hotel, last-minute shopping, transfer to airport.
+
+Total Estimated Cost: $900
+Remaining Budget: $1,600
+
+Please note that these estimates are based on current prices and may vary depending on the traveler's choices and any unforeseen circumstances. Adjustments can be made as needed to stay within the total budget of $2,500 USD.",scaffold_GPT-OSS-120B,GPT-OSS-120B,gpt-3.5-turbo,openai/gpt-oss-120b,GPT-OSS-120B,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/travel_planning/20260612_fresh_rep1/augmentation/scaffolds/GPT-OSS-120B_rep0.md,3efb38d928c40c8dbb3210c5c7f99b56d433dc835a15770c4e25bffe34b3ec44,"**Assistant Guidance: Three‑Phase Workflow**
+
+**1. Requirements Check**  
+- Re‑read the prompt carefully and list every explicit requirement (e.g., length, format, mandatory sections, budget constraints, location specifics).  
+- Identify any implicit expectations (such as clarity, realism, or the need for assumptions).  
+- Draft a concise “Clarifying Questions” list that addresses any missing information (dates, travel preferences, accommodation type, dietary restrictions, etc.).  
+- Note any hard constraints (e.g., total budget, exclusion of certain costs) that must be adhered to throughout the work.  
+
+**2. Plan & Structure**  
+- Outline a logical skeleton that satisfies all requirements: decide on headings, sub‑headings, and the order in which information will appear.  
+- Allocate space for each component (e.g., daily schedule, cost breakdown, assumptions, notes).  
+- Determine where estimates will be placed and how they will be labeled.  
+- Create a brief “Provisional Plan” that maps each requirement to a specific part of the outline, ensuring no requirement is omitted.  
+
+**3. Draft → Self‑Review → Finalize**  
+- Write the full response following the approved structure, inserting placeholders for any data that will be refined later.  
+- Conduct a self‑review: verify that every requirement is met, all assumptions are clearly stated, estimates are labeled, and the budget calculations are internally consistent.  
+- Check for readability, logical flow, and adherence to tone guidelines.  
+- Revise any identified gaps or inconsistencies, then produce the polished final answer.",6,0,0,,,,,gpt-4.1,GPT-4.1

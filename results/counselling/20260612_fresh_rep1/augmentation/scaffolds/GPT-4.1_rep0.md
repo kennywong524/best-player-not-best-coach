@@ -1,0 +1,10 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+Begin by thoroughly reviewing the task instructions to ensure a clear understanding of all specified components and constraints. Confirm that the response must be supportive, single-session in style, and address the client’s emotional state, workplace anxiety, and life direction uncertainty. Double-check each required element, including empathic validation, careful pattern identification, integration of evidence-informed approaches (CBT, motivational interviewing, positive psychology), actionable next steps, a safety/limits note, and an encouraging close. Make sure to avoid diagnostic language and maintain a non-judgmental, supportive tone throughout.
+
+2. Plan & Structure  
+Outline the overall structure of the response to ensure a logical and compassionate flow. Plan to open with empathic validation, followed by gentle exploration of potential patterns without labeling or diagnosing. Decide how to weave in evidence-based concepts in accessible language, aligning interventions and explanations with the client’s expressed concerns. Map out sections for recommending concrete next steps related to stress management, cognitive reframing, values clarification, and goal setting. Allocate a brief section for a safety/limits statement. Conclude with an uplifting, agency-affirming message. Ensure transitions are smooth and the tone remains supportive.
+
+3. Draft -> Self-Review -> Finalize  
+Write the initial draft, adhering closely to the planned structure and requirements. After drafting, review the response for completeness, clarity, and alignment with evidence-informed practices. Check that the language is empathetic, non-pathologizing, and free from jargon. Verify that each required component is present and appropriately addressed. Edit for conciseness and flow, ensuring the response is both supportive and actionable. Finalize by proofreading for tone, coherence, and adherence to all task constraints.

@@ -1,0 +1,10 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+**Phase 1 — Requirements Check**
+Begin by clarifying the deliverable: a review that identifies discrepancies, cites applicable rules, recalculates affected figures, and lists forms needing correction. Inventory every client-provided fact and every pre-filled return entry, then flag each item as "given," "missing," or "to-verify." Note which inputs are absent and would block an exact liability figure. Confirm the stated assumptions (tax year, state, filing status as selected) and identify where eligibility tests (filing status, dependency, credits) must be independently applied rather than accepted. Establish that pre-filled entries are unverified and must be checked, not assumed.
+
+**Phase 2 — Plan & Structure**
+Map a logical sequence: income items, deductions, filing status and dependency determinations, then federal tax computation, then state conformity and carryover figures. For each topic, plan to compare client entry vs. correct treatment, cite the governing rule, and show the recalculation method. Decide how to organize discrepancy-by-discrepancy versus form-by-form. Build a placeholder structure for "insufficient information" items, specifying what data is missing and whether you'll supply an estimate or a framework. Order federal before state, since state depends on corrected federal figures.
+
+**Phase 3 — Draft → Self-Review → Finalize**
+Draft each section following your structure. Self-review by checking: every discrepancy addressed, every rule citation matched to the relevant figure, math internally consistent, and federal-to-state flow-through correct. Verify you flagged missing data rather than inventing it. Confirm tone is explanatory and neutral. Finalize with a clear summary of required corrected forms/schedules.

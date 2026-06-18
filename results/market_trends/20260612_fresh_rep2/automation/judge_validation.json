@@ -1,0 +1,51 @@
+{
+  "judges": {
+    "GPT-4.1": {
+      "judge_model": "gpt-4.1",
+      "batch_ok": true,
+      "row_pass_rate": 1.0,
+      "n_rows": 6,
+      "n_passing": 6,
+      "suspicious_all_ones_rate": 0.0,
+      "exclude_reason": "",
+      "failed_rows": []
+    },
+    "Claude-Opus-4.8": {
+      "judge_model": "anthropic/claude-opus-4-8",
+      "batch_ok": true,
+      "row_pass_rate": 1.0,
+      "n_rows": 28,
+      "n_passing": 28,
+      "suspicious_all_ones_rate": 0.0,
+      "exclude_reason": "",
+      "failed_rows": []
+    },
+    "Gemini-3.1-Pro": {
+      "judge_model": "google/gemini-3.1-pro",
+      "batch_ok": true,
+      "row_pass_rate": 1.0,
+      "n_rows": 36,
+      "n_passing": 36,
+      "suspicious_all_ones_rate": 0.0,
+      "exclude_reason": "",
+      "failed_rows": []
+    },
+    "DeepSeek-V3.1": {
+      "judge_model": "deepseek-ai/DeepSeek-V3.1",
+      "batch_ok": true,
+      "row_pass_rate": 1.0,
+      "n_rows": 36,
+      "n_passing": 36,
+      "suspicious_all_ones_rate": 0.0,
+      "exclude_reason": "",
+      "failed_rows": []
+    }
+  },
+  "excluded_from_aggregate": [],
+  "aggregate_judges": [
+    "Claude-Opus-4.8",
+    "DeepSeek-V3.1",
+    "GPT-4.1",
+    "Gemini-3.1-Pro"
+  ]
+}

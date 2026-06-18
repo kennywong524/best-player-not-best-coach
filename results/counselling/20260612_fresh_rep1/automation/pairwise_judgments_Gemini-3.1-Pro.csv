@@ -1,0 +1,1452 @@
+left_idx,right_idx,replicate_id,judgment,winner,short_rationale,option_1_scores_json,option_2_scores_json,option_1_average,option_2_average,parse_ok,judge_model,judge_label
+1,0,0,"<think>
+**Evaluating Response Options**
+
+My analysis of the provided options is complete. Option 1 demonstrably excels across all evaluation criteria, offering a more empathetic, evidence-informed, and actionable supportive response than Option 2. I will now proceed to finalize the scoring and output.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 excels in providing a warm, counseling-appropriate tone while seamlessly integrating the requested psychological frameworks in plain language. It offers highly concrete, actionable steps, whereas Option 2 is overly brief, relies heavily on clinical jargon, and lacks specific, practical examples for the next steps."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 10.0,
+  ""option_2_average"": 6.36
+}",option_1,"Option 1 excels in providing a warm, counseling-appropriate tone while seamlessly integrating the requested psychological frameworks in plain language. It offers highly concrete, actionable steps, whereas Option 2 is overly brief, relies heavily on clinical jargon, and lacks specific, practical examples for the next steps.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 9, ""task_dimension_6"": 8}",10.0,6.36,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+2,0,0,"<think>
+**Evaluating Response Options**
+
+I'm currently evaluating two distinct response options against a defined set of task and general criteria, focusing on their alignment with a supportive counseling style. My analysis indicates Option 1 significantly outperforms Option 2 across all dimensions, particularly in empathetic validation, actionable advice, and the integration of evidence-informed principles in a user-friendly manner.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is vastly superior. It adopts a genuine counseling tone, translates clinical concepts into accessible plain language, and provides highly specific, actionable steps. Option 2 merely lists the requested elements in a dry, generic manner without providing practical utility or a supportive tone."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 9.9,
+  ""option_2_average"": 5.6
+}",option_1,"Option 1 is vastly superior. It adopts a genuine counseling tone, translates clinical concepts into accessible plain language, and provides highly specific, actionable steps. Option 2 merely lists the requested elements in a dry, generic manner without providing practical utility or a supportive tone.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 9, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 4, ""task_dimension_4"": 4, ""task_dimension_5"": 8, ""task_dimension_6"": 7}",9.9,5.6,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,3,0,"<think>
+**Comparing Support Options**
+
+I'm currently evaluating two distinct responses against your detailed prompt. Option two significantly outshines option one, demonstrating a superior understanding of empathic validation, pattern identification, evidence-based framing, and concrete next steps. I've assigned scores and will finalize the JSON output shortly.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 thoroughly and expertly addresses every constraint of the prompt. It provides highly specific, actionable next steps and seamlessly integrates the requested psychological frameworks in plain language, whereas Option 1 is vague and merely lists the frameworks without applying them."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 5.6,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 thoroughly and expertly addresses every constraint of the prompt. It provides highly specific, actionable next steps and seamlessly integrates the requested psychological frameworks in plain language, whereas Option 1 is vague and merely lists the frameworks without applying them.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 4, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",5.6,10.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,4,0,"<think>
+**Evaluating Response Options**
+
+I'm finalizing my assessment of the two response options against the prompt's requirements. Option 2 demonstrably integrates the therapeutic frameworks more fluidly and offers more concrete, actionable next steps. I'm confident in assigning it a higher overall score for its practical application and tone.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a much more natural and therapeutic integration of the required elements. It translates the evidence-based frameworks into plain language and actionable advice, whereas Option 1 simply lists the therapies and their textbook definitions."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 7.18,
+  ""option_2_average"": 9.18
+}",option_2,"Option 2 provides a much more natural and therapeutic integration of the required elements. It translates the evidence-based frameworks into plain language and actionable advice, whereas Option 1 simply lists the therapies and their textbook definitions.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 9}",7.18,9.18,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+5,0,0,"<think>
+**Evaluating Response Options**
+
+I'm currently assessing two distinct approaches against a precisely defined set of requirements for supportive counseling. One option meticulously addresses each of the six specified elements with robust detail and clear examples, while the other falls short, offering only superficial coverage. My focus is on identifying which approach most effectively aligns with the desired supportive, evidence-informed, and actionable outcome.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 comprehensively addresses all prompt requirements with excellent detail, concrete exercises, and a highly empathetic tone. Option 2 is overly brief and fails to provide concrete next steps or fully explore the requested psychological frameworks."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 10.0,
+  ""option_2_average"": 6.45
+}",option_1,"Option 1 comprehensively addresses all prompt requirements with excellent detail, concrete exercises, and a highly empathetic tone. Option 2 is overly brief and fails to provide concrete next steps or fully explore the requested psychological frameworks.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 4, ""task_dimension_5"": 8, ""task_dimension_6"": 8}",10.0,6.45,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,6,0,"<think>
+**Assessing counseling response options**
+
+I've been thoroughly evaluating two provided response options against your specific prompt. Option 2 stands out significantly, demonstrating exceptional depth, structure, and adherence to all outlined requirements, particularly in its empathetic validation, cautious pattern identification, and evidence-informed framing. Option 1, while covering the points, lacks the detail and impact of Option 2.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a deeply empathetic, highly detailed, and beautifully structured response that fulfills every requirement of the prompt perfectly. Option 1 is far too brief and merely lists the required elements without providing meaningful depth or practical utility."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 5.9,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 provides a deeply empathetic, highly detailed, and beautifully structured response that fulfills every requirement of the prompt perfectly. Option 1 is far too brief and merely lists the required elements without providing meaningful depth or practical utility.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",5.9,10.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+7,0,0,"<think>
+**Selecting Optimal Response**
+
+My current focus is on thoroughly evaluating the provided options against the detailed prompt requirements. Option 1 clearly excels, demonstrably meeting each of the six crucial elements with exceptional empathy and actionable guidance. Option 2, conversely, falls short in specificity and therapeutic tone. I am proceeding with the output, prioritizing Option 1.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 perfectly captures the supportive counseling tone while meticulously addressing every constraint of the prompt. It provides specific, actionable advice in plain language, whereas Option 2 is overly brief, generic, and lacks the depth required for a counseling-style response."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 10.0,
+  ""option_2_average"": 5.8
+}",option_1,"Option 1 perfectly captures the supportive counseling tone while meticulously addressing every constraint of the prompt. It provides specific, actionable advice in plain language, whereas Option 2 is overly brief, generic, and lacks the depth required for a counseling-style response.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 8, ""task_dimension_6"": 7}",10.0,5.8,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,9,0,"<think>
+**Choosing the Best Approach**
+
+I've evaluated the two options against the prompt's detailed criteria. Option 2 demonstrably excels, offering comprehensive, actionable content across all requested areas with exceptional clarity and structure. I am now proceeding with formulating the JSON response based on this strong preference.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 thoroughly addresses all prompt requirements with excellent structure, depth, and actionable advice. Option 1 is too brief and lacks the concrete specificity requested for the next steps and evidence-informed framing."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 6.09,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 thoroughly addresses all prompt requirements with excellent structure, depth, and actionable advice. Option 1 is too brief and lacks the concrete specificity requested for the next steps and evidence-informed framing.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",6.09,10.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+2,1,0,"<think>
+**Refining Therapeutic Approaches**
+
+I'm evaluating two distinct therapeutic response options. Option 1 offers a more conversational, counseling-like tone with integrated CBT and positive psychology framing. Option 2 also meets the criteria but feels slightly less organic in its delivery and pattern identification. I'm leaning towards Option 1 for its nuanced approach and engaging concrete steps.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a slightly more natural, conversational counseling tone. It integrates the psychological concepts (CBT, positive psychology) and the identification of patterns very smoothly without sounding clinical, making it highly effective for a supportive response."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_1_average"": 9.7,
+  ""option_2_average"": 9.0
+}",option_1,"Option 1 provides a slightly more natural, conversational counseling tone. It integrates the psychological concepts (CBT, positive psychology) and the identification of patterns very smoothly without sounding clinical, making it highly effective for a supportive response.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 9, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 9}",9.7,9.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+3,1,0,"<think>
+**Refining Therapeutic Framework**
+
+I'm focusing on how best to integrate specific therapeutic frameworks like CBT, MI, and positive psychology into the client response. My current thoughts lean towards explicitly naming these approaches for clarity, as this seems to better align with the user's detailed requirements for evidence-informed framing. I'm weighing the directness of Option 1 against the slightly less explicit, but still conceptually sound, approach of Option 2.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 follows all instructions perfectly, explicitly including the requested psychological terminology and frameworks while maintaining a supportive, plain-language tone. Its concrete steps are highly actionable and well-structured."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_1_average"": 9.9,
+  ""option_2_average"": 8.8
+}",option_1,"Option 1 follows all instructions perfectly, explicitly including the requested psychological terminology and frameworks while maintaining a supportive, plain-language tone. Its concrete steps are highly actionable and well-structured.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 10, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",9.9,8.8,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+4,1,0,"<think>
+**Evaluating Response Options**
+
+I'm refining my assessment of the two response options against the prompt's requirements. My recent focus has been on the natural flow and tone. Option 2 is proving superior in its plain-language integration of evidence-informed frameworks and its clear, actionable next steps presented in a bulleted format, feeling more authentically supportive.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 integrates the psychological frameworks much more naturally into plain language, whereas Option 1 awkwardly lists the therapeutic modalities by name. Option 2 also uses a highly readable bulleted format for the concrete next steps, making it more practical and accessible for an overwhelmed client."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 8.36,
+  ""option_2_average"": 9.9
+}",option_2,"Option 2 integrates the psychological frameworks much more naturally into plain language, whereas Option 1 awkwardly lists the therapeutic modalities by name. Option 2 also uses a highly readable bulleted format for the concrete next steps, making it more practical and accessible for an overwhelmed client.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 10, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",8.36,9.9,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+1,5,0,"<think>
+**Evaluating Response Options**
+
+I'm focusing on how well each option addresses the prompt's requirements. Option 2 stands out for its structured approach, explicitly naming and detailing the requested patterns and theoretical frameworks. Its concrete next steps are also more robust, offering practical, actionable guidance. I believe it's the stronger choice.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 follows all instructions meticulously, explicitly addressing every requested pattern and psychological framework while maintaining a supportive, easy-to-read structure. Its concrete steps are highly actionable and perfectly aligned with the prompt's requirements."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 7.9,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 follows all instructions meticulously, explicitly addressing every requested pattern and psychological framework while maintaining a supportive, easy-to-read structure. Its concrete steps are highly actionable and perfectly aligned with the prompt's requirements.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",7.9,10.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+6,1,0,"<think>
+**Evaluating Response Options**
+
+My analysis reveals Option 1 significantly outperforms Option 2. It meticulously addresses all specified criteria with exceptional detail and an empathetic tone, offering practical, evidence-informed guidance and clear next steps. Option 2, while touching on requirements, lacks the depth and specific framing.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 explicitly and thoroughly addresses every requirement with excellent depth, structure, and tone. Option 2 is much too brief and glosses over the specific evidence-informed frameworks (like MI and Positive Psychology) and the depth of the concrete steps requested."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 10.0,
+  ""option_2_average"": 7.09
+}",option_1,"Option 1 explicitly and thoroughly addresses every requirement with excellent depth, structure, and tone. Option 2 is much too brief and glosses over the specific evidence-informed frameworks (like MI and Positive Psychology) and the depth of the concrete steps requested.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 5, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 8}",10.0,7.09,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+1,7,0,"<think>
+**Evaluating Response Options**
+
+I've been weighing the nuances between two response structures. Option 2 stands out for its clarity and directness, particularly in how it names evidence-informed approaches, though Option 1 also does a good job integrating concepts. Option 2's formatting also enhances readability.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a highly structured, empathetic, and readable response. It explicitly integrates the requested psychological frameworks while maintaining a warm, professional counseling tone, making the actionable steps easy to digest."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 8.7,
+  ""option_2_average"": 9.6
+}",option_2,"Option 2 provides a highly structured, empathetic, and readable response. It explicitly integrates the requested psychological frameworks while maintaining a warm, professional counseling tone, making the actionable steps easy to digest.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 8, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",8.7,9.6,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+9,1,0,"<think>
+**Evaluating Response Options**
+
+I've been analyzing two potential response approaches for the user's situation. Option 1 appears to align more closely with all specified task and general dimensions, offering a more thorough and actionable framework by explicitly naming frameworks and providing detailed steps. Option 2, while decent, is less precise and lacks some of the requested specifics.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 follows all instructions meticulously, explicitly including the requested patterns, evidence-based frameworks, and highly detailed, actionable next steps. Option 2 is warmer in tone but far less specific and omits explicit mention of the requested psychological frameworks."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_1_average"": 9.6,
+  ""option_2_average"": 7.5
+}",option_1,"Option 1 follows all instructions meticulously, explicitly including the requested patterns, evidence-based frameworks, and highly detailed, actionable next steps. Option 2 is warmer in tone but far less specific and omits explicit mention of the requested psychological frameworks.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 7, ""task_dimension_3"": 5, ""task_dimension_4"": 7, ""task_dimension_5"": 9, ""task_dimension_6"": 9}",9.6,7.5,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+3,2,0,"<think>
+**Refining Response Strategy**
+
+I'm focusing on strictly adhering to prompt constraints. Option 1 best fits by explicitly naming all requested elements like CBT and burnout. I'm prioritizing this structured approach over conversational flow for accuracy.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 explicitly includes all requested elements, including the specific therapeutic frameworks (CBT, MI, positive psychology) and the exact patterns mentioned in the prompt. Option 2 is written in a slightly more natural tone but misses explicitly naming Motivational Interviewing and Positive Psychology in its framing."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 9.6,
+  ""option_2_average"": 9.0
+}",option_1,"Option 1 explicitly includes all requested elements, including the specific therapeutic frameworks (CBT, MI, positive psychology) and the exact patterns mentioned in the prompt. Option 2 is written in a slightly more natural tone but misses explicitly naming Motivational Interviewing and Positive Psychology in its framing.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 9, ""task_dimension_3"": 6, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",9.6,9.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+4,2,0,"<think>
+**Selecting Best Approach**
+
+I'm leaning towards Option 2 for its superior organization and more natural, supportive tone. Its practical steps feel more readily actionable, and the framing aligns better with a counseling style than Option 1's more direct checklist approach.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a much more natural, conversational counseling tone compared to Option 1, which reads slightly like a checklist of the prompt's requirements. Option 2 also uses clear formatting for the concrete steps, making them highly practical and easy for a overwhelmed client to digest."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 8.27,
+  ""option_2_average"": 9.81
+}",option_2,"Option 2 provides a much more natural, conversational counseling tone compared to Option 1, which reads slightly like a checklist of the prompt's requirements. Option 2 also uses clear formatting for the concrete steps, making them highly practical and easy for a overwhelmed client to digest.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 10, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 9, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",8.27,9.81,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+2,5,0,"<think>
+**Selecting Best Response**
+
+I'm focusing on selecting the most comprehensive and explicit response, as Option 2 clearly addresses all required elements including specific patterns and psychological frameworks by name, making it a better fit for the prompt's detailed instructions.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 explicitly addresses all prompt requirements, including all specific patterns and psychological frameworks requested, whereas Option 1 omits some of the specific terms. Option 2 also uses excellent formatting to make the counseling concepts accessible and actionable."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_1_average"": 8.09,
+  ""option_2_average"": 9.81
+}",option_2,"Option 2 explicitly addresses all prompt requirements, including all specific patterns and psychological frameworks requested, whereas Option 1 omits some of the specific terms. Option 2 also uses excellent formatting to make the counseling concepts accessible and actionable.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",8.09,9.81,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+2,6,0,"<think>
+**Evaluating Counseling Options**
+
+I've been weighing two distinct approaches for generating a supportive counseling-style response. Option 2 stands out for its comprehensive integration of requested elements, explicitly naming theoretical frameworks like CBT and MI. While Option 1 is good, Option 2's structure and detailed approach feel more robust and directly aligned with the prompt's requirements, especially regarding evidence-informed framing.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 explicitly and comprehensively addresses every constraint, including clearly explaining CBT, MI, and Positive Psychology in plain language, while maintaining a deeply empathetic and well-organized counseling tone."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 8.5,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 explicitly and comprehensively addresses every constraint, including clearly explaining CBT, MI, and Positive Psychology in plain language, while maintaining a deeply empathetic and well-organized counseling tone.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",8.5,10.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+2,7,0,"<think>
+**Scoring Two Options**
+
+I've evaluated both provided options against your detailed criteria. Option 2 demonstrates superior structure and more explicit alignment with the requested frameworks and patterns, earning it a higher score across all dimensions.
+
+**Considering Evaluated Options**
+
+My analysis focused on how well each option met the specified criteria. Option 2 was clearly more structured and directly addressed the evidence-informed frameworks and pattern identifications, leading to its higher rating.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 explicitly addresses all the prompt's constraints, including the specific psychological frameworks (CBT, MI, Positive Psychology) and the suggested patterns (burnout, perfectionism, values mismatch), while maintaining excellent readability and a highly appropriate supportive tone."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 8.7,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 explicitly addresses all the prompt's constraints, including the specific psychological frameworks (CBT, MI, Positive Psychology) and the suggested patterns (burnout, perfectionism, values mismatch), while maintaining excellent readability and a highly appropriate supportive tone.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",8.7,10.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+2,9,0,"<think>
+**Evaluating Response Options**
+
+I'm currently evaluating two distinct response options designed to offer supportive counseling. My focus is on how effectively each option integrates empathic validation, identifies potential underlying patterns without labeling, and frames evidence-based approaches in plain language, all while providing concrete next steps and a necessary disclaimer. I'm leaning towards Option 1 for its more natural, conversational flow that aligns better with a ""counseling-style"" tone, although Option 2 is more explicit in naming specific frameworks.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 successfully adopts a warm, supportive counseling-style tone while seamlessly integrating the requested psychological frameworks in plain language. Option 2 reads more like a clinical handout or psychoeducational checklist rather than a conversational counseling response."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 9.6,
+  ""option_2_average"": 8.1
+}",option_1,"Option 1 successfully adopts a warm, supportive counseling-style tone while seamlessly integrating the requested psychological frameworks in plain language. Option 2 reads more like a clinical handout or psychoeducational checklist rather than a conversational counseling response.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 7, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 8}",9.6,8.1,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+4,3,0,"<think>
+**Evaluating Counseling Options**
+
+My focus has been on discerning the superior approach for a single-session supportive response. I've meticulously reviewed two options against criteria like empathic validation, pattern identification without diagnosis, evidence-informed framing, and concrete next steps. Option 2 excels by explicitly covering all requested patterns, including low self-efficacy, and offering more actionable, well-organized steps.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 follows all instructions perfectly, explicitly including all requested patterns and providing highly actionable, well-organized concrete steps. Option 1 misses 'low self-efficacy' and its concrete steps are less structured and specific."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 8.27,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 follows all instructions perfectly, explicitly including all requested patterns and providing highly actionable, well-organized concrete steps. Option 1 misses 'low self-efficacy' and its concrete steps are less structured and specific.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 7, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",8.27,10.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+3,5,0,"<think>
+**Selecting Best Approach**
+
+I'm currently evaluating two response options for the user's request, focusing on which best balances empathy, structured advice, and clarity. Option 2 stands out for its superior organization and warmer, more professional tone, particularly due to its use of tables for patterns and thought reframing, making it more digestible and practically useful.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a highly readable and engaging format by utilizing tables for pattern identification and thought reframing. Its tone is exceptionally warm and validating, perfectly matching the supportive counseling style requested."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 9.09,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 provides a highly readable and engaging format by utilizing tables for pattern identification and thought reframing. Its tone is exceptionally warm and validating, perfectly matching the supportive counseling style requested.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",9.09,10.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+6,3,0,"<think>
+**Evaluating Response Options**
+
+I'm currently assessing two distinct response options against the established criteria. Option 1 excels, fulfilling all six required elements with exceptional empathy and detailed, accessible explanations. Option 2 is functional but lacks the depth and conversational quality needed for genuine support. My focus is on refining the integration of evidence-informed strategies and concrete, actionable steps for the client.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a deeply empathetic, well-structured, and highly detailed response that perfectly captures the tone of a supportive counseling session. It integrates the psychological frameworks naturally and offers excellent, actionable advice."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 10.0,
+  ""option_2_average"": 7.9
+}",option_1,"Option 1 provides a deeply empathetic, well-structured, and highly detailed response that perfectly captures the tone of a supportive counseling session. It integrates the psychological frameworks naturally and offers excellent, actionable advice.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}",10.0,7.9,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+3,7,0,"<think>
+**Refining Therapeutic Approaches**
+
+I'm leaning towards Option 2 for its warmer, more natural counseling tone. It integrates evidence-informed framing and concrete steps smoothly, feeling more like an actual session than a structured lesson plan. The empathic validation is strong, and while Option 1's SMART goals are good, Option 2's approach feels more appropriate for someone feeling overwhelmed.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 delivers a much more natural, warm, and authentic counseling-style tone. It integrates the theoretical frameworks seamlessly into plain language rather than sounding like a textbook, making it highly effective and accessible for an overwhelmed client."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 8.18,
+  ""option_2_average"": 9.54
+}",option_2,"Option 2 delivers a much more natural, warm, and authentic counseling-style tone. It integrates the theoretical frameworks seamlessly into plain language rather than sounding like a textbook, making it highly effective and accessible for an overwhelmed client.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 7, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 9, ""task_dimension_3"": 10, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 10}",8.18,9.54,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+9,3,0,"<think>
+**Evaluating Response Options**
+
+I've been weighing the two provided response options against the user's specific instructions. Option 2 has emerged as the stronger contender due to its superior conversational flow and warm, counseling-style tone, which aligns better with the user's request for a supportive, single-session response. It integrates the required elements—validation, pattern exploration, evidence-informed framing, and actionable steps—more naturally than the more structured, list-like approach of Option 1.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 delivers the required elements in a much warmer, cohesive, and natural counseling-style tone. Option 1, while thorough, reads more like a clinical handout or worksheet rather than a supportive conversational response."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 8.18,
+  ""option_2_average"": 9.36
+}",option_2,"Option 2 delivers the required elements in a much warmer, cohesive, and natural counseling-style tone. Option 1, while thorough, reads more like a clinical handout or worksheet rather than a supportive conversational response.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 10}",8.18,9.36,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+4,5,0,"<think>
+**Selecting the Best Approach**
+
+I'm leaning towards the structured, more practical Option 2. It feels more like a helpful resource for the user, with clearer, actionable steps and better organization. The explicit definitions and concrete exercises in Option 2 are particularly strong compared to the more narrative, text-heavy Option 1.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a highly structured, readable, and actionable response. Its use of tables and specific exercises makes the concrete next steps much more practical and useful for a client compared to the narrative format of Option 1."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_1_average"": 7.18,
+  ""option_2_average"": 9.36
+}",option_2,"Option 2 provides a highly structured, readable, and actionable response. Its use of tables and specific exercises makes the concrete next steps much more practical and useful for a client compared to the narrative format of Option 1.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 9, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 10, ""task_dimension_5"": 9, ""task_dimension_6"": 9}",7.18,9.36,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+4,6,0,"<think>
+**Refining Response Evaluation**
+
+My analysis confirms Option 2 is superior across all criteria, offering greater depth and practical application within the requested supportive counseling style. Its structure and content align perfectly with the prompt's requirements.
+
+```json
+{
+  ""header"": ""**Finalizing Response Evaluation**"",
+  ""summary"": ""My review confirms Option 2 significantly outperforms Option 1. It comprehensively addresses all criteria with superior depth, empathy, and actionable guidance, aligning perfectly with the supportive counseling style requested.""
+}
+```
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a deeply empathic, highly structured, and comprehensive response that perfectly addresses all prompt requirements. It goes above and beyond in explaining the psychological frameworks in plain language and offering highly actionable, concrete steps."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 7.8,
+  ""option_2_average"": 10.0
+}",option_2,,{},{},,,False,google/gemini-3.1-pro,Gemini-3.1-Pro
+4,7,0,"<think>
+**Evaluating Response Options**
+
+I'm currently assessing two distinct response formats against the prompt's criteria. My analysis reveals Option 2 significantly outperforms Option 1, particularly in its empathic tone, structured delivery, and actionable insights, aligning more closely with a skilled counselor's approach.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 excels in adopting an authentic, empathetic counseling tone while seamlessly integrating the requested psychological frameworks. Its use of formatting (bullet points, bold text) makes the concrete steps much more readable and actionable for a client feeling overwhelmed."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 7.9,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 excels in adopting an authentic, empathetic counseling tone while seamlessly integrating the requested psychological frameworks. Its use of formatting (bullet points, bold text) makes the concrete steps much more readable and actionable for a client feeling overwhelmed.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",7.9,10.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+4,9,0,"<think>
+**Evaluating Response Options**
+
+I'm currently analyzing two potential response frameworks, prioritizing Option 2 for its thoroughness. It comprehensively addresses all stipulated requirements, from empathic validation to concrete, evidence-informed next steps, aligning perfectly with the desired supportive counseling style without overstepping into diagnosis. Option 1, while adequate, lacked the detail and specificity required, particularly in its action-oriented suggestions.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 follows all instructions perfectly, providing highly concrete, actionable steps and explicitly covering every required pattern and psychological framework. Option 1 is well-written but too brief and lacks the depth and specificity requested for the concrete next steps."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 9
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 7.5,
+  ""option_2_average"": 10.0
+}",option_2,"Option 2 follows all instructions perfectly, providing highly concrete, actionable steps and explicitly covering every required pattern and psychological framework. Option 1 is well-written but too brief and lacks the depth and specificity requested for the concrete next steps.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 9, ""task_dimension_1"": 9, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",7.5,10.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+6,5,0,"<think>
+**Evaluating Counseling Options**
+
+I'm weighing two distinct approaches for crafting that supportive counseling response. Option 1 truly shines with its empathetic tone and seamless integration of all six required elements, feeling remarkably authentic to a therapeutic interaction. Option 2, while functional, leans more towards a structured report than a genuine conversation. The nuances of validation, pattern identification, and evidence-based framing are handled with greater finesse in Option 1.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 excels in adopting a genuinely therapeutic, supportive counseling tone. It integrates the required psychological frameworks and patterns naturally and empathetically, whereas Option 2 feels slightly more clinical and worksheet-like due to its heavy use of tables."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 10.0,
+  ""option_2_average"": 8.6
+}",option_1,"Option 1 excels in adopting a genuinely therapeutic, supportive counseling tone. It integrates the required psychological frameworks and patterns naturally and empathetically, whereas Option 2 feels slightly more clinical and worksheet-like due to its heavy use of tables.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 9}",10.0,8.6,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+5,7,0,"<think>
+**Choosing the best approach**
+
+I've been weighing how best to present the supportive counseling response. After considering both options against the specified criteria, I'm leaning strongly towards the more conversational style. Option 2 truly embodies the requested tone, integrating all the necessary elements seamlessly. While Option 1 is well-organized, its tabular format detracts from the natural flow of a counseling session.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 excels at maintaining a warm, authentic counseling-style tone throughout the response, whereas Option 1 feels slightly too clinical and worksheet-heavy with its use of tables. Both options follow all instructions perfectly, but Option 2's delivery is much better suited for an emotionally drained client."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 9,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 9.09,
+  ""option_2_average"": 9.72
+}",option_2,"Option 2 excels at maintaining a warm, authentic counseling-style tone throughout the response, whereas Option 1 feels slightly too clinical and worksheet-heavy with its use of tables. Both options follow all instructions perfectly, but Option 2's delivery is much better suited for an emotionally drained client.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 9, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",9.09,9.72,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+9,5,0,"<think>
+**Comparing response options**
+
+I'm leaning towards Option 2. It achieves all the required elements with a warmer, more natural flow than Option 1, and its markdown table formatting enhances readability for the identified patterns and reframing techniques. This feels like a more supportive and cohesive counseling response.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a warmer, more natural counseling tone while still fulfilling all the prompt's requirements. The use of tables makes the information highly readable and practical for a client feeling overwhelmed."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_1_average"": 8.6,
+  ""option_2_average"": 9.8
+}",option_2,"Option 2 provides a warmer, more natural counseling tone while still fulfilling all the prompt's requirements. The use of tables makes the information highly readable and practical for a client feeling overwhelmed.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 9, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 9, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}",8.6,9.8,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+7,6,0,"<think>
+**Refining Evaluation Approach**
+
+I'm focusing on the comparative strengths of each option. My current thought is that Option 1's conciseness and natural tone better suit a direct client interaction, while Option 2's thoroughness, though valuable, might be overwhelming. I'm leaning towards prioritizing Option 1 for its immediate applicability and readability.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a highly empathetic, natural, and perfectly paced counseling-style response. It hits all the required constraints seamlessly without overwhelming the emotionally drained client, whereas Option 2 is overly long and formatted more like a blog post or workbook, which might be too heavy for the intended audience."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 10.0,
+  ""option_2_average"": 9.0
+}",option_1,"Option 1 provides a highly empathetic, natural, and perfectly paced counseling-style response. It hits all the required constraints seamlessly without overwhelming the emotionally drained client, whereas Option 2 is overly long and formatted more like a blog post or workbook, which might be too heavy for the intended audience.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 10, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 9}",10.0,9.0,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+6,9,0,"<think>
+**Evaluating Response Options**
+
+I'm focused on assessing two potential response approaches for a client experiencing emotional strain and uncertainty. Option 1 feels more naturally empathetic and conversational, aligning better with a supportive counseling style, while Option 2 is more structured but less human in its delivery. I'm favoring Option 1 for its warmer tone.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 adopts a much warmer, more authentic counseling tone that genuinely feels supportive and empathic. It seamlessly integrates the required psychological frameworks and concrete steps into a cohesive, readable response, whereas Option 2 feels mechanical and overly reliant on bullet points."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 10,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 10,
+    ""general_accuracy_specificity"": 10,
+    ""general_practical_usefulness"": 10,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 10.0,
+  ""option_2_average"": 8.2
+}",option_1,"Option 1 adopts a much warmer, more authentic counseling tone that genuinely feels supportive and empathic. It seamlessly integrates the required psychological frameworks and concrete steps into a cohesive, readable response, whereas Option 2 feels mechanical and overly reliant on bullet points.","{""general_accuracy_specificity"": 10, ""general_instruction_following"": 10, ""general_organization_readability"": 10, ""general_practical_usefulness"": 10, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 10, ""task_dimension_3"": 10, ""task_dimension_4"": 10, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 9, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 9, ""task_dimension_6"": 8}",10.0,8.2,True,google/gemini-3.1-pro,Gemini-3.1-Pro
+7,9,0,"<think>
+**Refining Response Strategy**
+
+I'm focusing on blending a naturally empathetic tone with the required elements. I've realized Option 1's conversational flow better captures the supportive counseling style, even if it doesn't explicitly list every potential pattern. My aim is to weave these concepts in organically.
+
+ 
+</think>
+
+{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 adopts a much warmer, more authentic counseling-style tone that fits the persona perfectly, whereas Option 2 reads like a clinical listicle. Option 1 integrates the required therapeutic frameworks and steps naturally into a cohesive, supportive narrative."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 10,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 10,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 10,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 10,
+    ""general_tone_audience_fit"": 10
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 10,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 10,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 9.54,
+  ""option_2_average"": 8.45
+}",option_1,"Option 1 adopts a much warmer, more authentic counseling-style tone that fits the persona perfectly, whereas Option 2 reads like a clinical listicle. Option 1 integrates the required therapeutic frameworks and steps naturally into a cohesive, supportive narrative.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 10, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 10, ""task_dimension_1"": 10, ""task_dimension_2"": 9, ""task_dimension_3"": 10, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 10}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 8, ""task_dimension_2"": 10, ""task_dimension_3"": 9, ""task_dimension_4"": 9, ""task_dimension_5"": 10, ""task_dimension_6"": 8}",9.54,8.45,True,google/gemini-3.1-pro,Gemini-3.1-Pro

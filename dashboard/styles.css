@@ -185,6 +185,31 @@ select {
   line-height: 1.6;
 }
 .abstract-card p:last-child { margin-bottom: 0; }
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+.resource-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color .15s, box-shadow .15s;
+}
+.resource-link:hover {
+  border-color: rgba(47,111,203,.55);
+  box-shadow: var(--shadow);
+}
+.resource-link svg { flex: 0 0 auto; }
 .authors a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .authors a:hover { color: var(--ink); }
 .guide-grid {

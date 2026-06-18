@@ -1,0 +1,897 @@
+left_idx,right_idx,replicate_id,judgment,winner,short_rationale,option_1_scores_json,option_2_scores_json,option_1_average,option_2_average,parse_ok,judge_model,judge_label
+1,0,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 better satisfies the rubric by addressing more required elements: it includes simulation modeling in the analytical framework, offers more distinct and substantive recommendations (dynamic routing plus cross-docking), and specifies a richer set of KPIs including inventory turnover. Both options fall short of the 300-400 word target, but Option 2 is more complete and specific across the four task requirements."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.8,
+  ""option_2_average"": 6.6
+}",option_2,"Option 2 better satisfies the rubric by addressing more required elements: it includes simulation modeling in the analytical framework, offers more distinct and substantive recommendations (dynamic routing plus cross-docking), and specifies a richer set of KPIs including inventory turnover. Both options fall short of the 300-400 word target, but Option 2 is more complete and specific across the four task requirements.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",5.8,6.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,0,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides more specific detail across all four required deliverables (e.g., concrete validation via real-time tracking, named optimization factors, two distinct strategies with cross-docking, and richer KPIs like inventory turnover plus dashboards). Both miss the 300-400 word target, but Option 2 better fulfills the substantive requirements."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.8,
+  ""option_2_average"": 6.9
+}",option_2,"Option 2 provides more specific detail across all four required deliverables (e.g., concrete validation via real-time tracking, named optimization factors, two distinct strategies with cross-docking, and richer KPIs like inventory turnover plus dashboards). Both miss the 300-400 word target, but Option 2 better fulfills the substantive requirements.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",5.8,6.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options are thin on word count and lack the depth expected (neither hits 300-400 words or provides concrete quantitative methods), but Option 1 offers slightly more specific recommendations (cross-docking, dynamic routing) with more developed trade-offs and a fuller KPI set. Option 2 is more padded with intro/conclusion filler and offers vaguer, shorter substance."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.7,
+  ""option_2_average"": 4.9
+}",option_1,"Both options are thin on word count and lack the depth expected (neither hits 300-400 words or provides concrete quantitative methods), but Option 1 offers slightly more specific recommendations (cross-docking, dynamic routing) with more developed trade-offs and a fuller KPI set. Option 2 is more padded with intro/conclusion filler and offers vaguer, shorter substance.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",5.7,4.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,4,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options are broadly similar and neither meets the 300-400 word requirement, but Option 1 offers more specific solutions (cross-docking with explicit inventory rationale) and more honest, varied trade-offs/risks including employee resistance and model maintenance, whereas Option 2 makes an unsupported claim that savings will outweigh costs and provides thinner risk analysis."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.2,
+  ""option_2_average"": 5.4
+}",option_1,"Both options are broadly similar and neither meets the 300-400 word requirement, but Option 1 offers more specific solutions (cross-docking with explicit inventory rationale) and more honest, varied trade-offs/risks including employee resistance and model maintenance, whereas Option 2 makes an unsupported claim that savings will outweigh costs and provides thinner risk analysis.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.2,5.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+5,0,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 more fully addresses every requested element: it specifies a broader and more relevant data set (including warehouse utilization), explicitly names optimization plus simulation methods, offers distinct solutions (dynamic routing and cross-docking) with operationally realistic trade-offs/risks including employee resistance, and proposes dashboards alongside reports. Option 1 is cleaner formatting but thinner on the optimization framework and KPI breadth."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 7.0
+}",option_2,"Option 2 more fully addresses every requested element: it specifies a broader and more relevant data set (including warehouse utilization), explicitly names optimization plus simulation methods, offers distinct solutions (dynamic routing and cross-docking) with operationally realistic trade-offs/risks including employee resistance, and proposes dashboards alongside reports. Option 1 is cleaner formatting but thinner on the optimization framework and KPI breadth.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",6.5,7.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options are thin on specifics and neither meets the 300-400 word requirement, but Option 1 provides more substantive solutions (dynamic routing, cross-docking) with clearer trade-offs and a richer KPI/communication section. Option 2 is more concise and well-formatted but explicitly underdelivers at 269 words and offers shallower analysis."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.3,
+  ""option_2_average"": 5.4
+}",option_1,"Both options are thin on specifics and neither meets the 300-400 word requirement, but Option 1 provides more substantive solutions (dynamic routing, cross-docking) with clearer trade-offs and a richer KPI/communication section. Option 2 is more concise and well-formatted but explicitly underdelivers at 269 words and offers shallower analysis.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",6.3,5.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options are thin on quantitative specifics and fall short of the 300-400 word target, but Option 1 provides more developed content across all required sections (explicit data validation, simulation modeling, two concrete solutions with named trade-offs and risks, and a fuller KPI/communication plan including dashboards). Option 2 is more compressed and omits an explicit risks-vs-trade-offs distinction and dashboard-based communication."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 5.3
+}",option_1,"Both options are thin on quantitative specifics and fall short of the 300-400 word target, but Option 1 provides more developed content across all required sections (explicit data validation, simulation modeling, two concrete solutions with named trade-offs and risks, and a fuller KPI/communication plan including dashboards). Option 2 is more compressed and omits an explicit risks-vs-trade-offs distinction and dashboard-based communication.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",6.5,5.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin relative to the 300-400 word brief and lack specificity, but Option 2 offers more concrete tactics (predictive demand forecasting, customer feedback validation) and clearer paired trade-offs, giving it a slight edge in usefulness and audience fit."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.1,
+  ""option_2_average"": 5.8
+}",option_2,"Both options are thin relative to the 300-400 word brief and lack specificity, but Option 2 offers more concrete tactics (predictive demand forecasting, customer feedback validation) and clearer paired trade-offs, giving it a slight edge in usefulness and audience fit.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",5.1,5.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin on specifics and well below the 300-400 word requirement, but Option 2 maps its headings directly to the four required sections and provides more substantive, dimension-specific trade-offs and risks tied to each recommendation. Option 1 adds filler (intro/conclusion) without deepening the technical content the prompt demands."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 4.8,
+  ""option_2_average"": 5.6
+}",option_2,"Both options are thin on specifics and well below the 300-400 word requirement, but Option 2 maps its headings directly to the four required sections and provides more substantive, dimension-specific trade-offs and risks tied to each recommendation. Option 1 adds filler (intro/conclusion) without deepening the technical content the prompt demands.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",4.8,5.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin and fail the 300-400 word requirement, but Option 2 better addresses trade-offs and risks for each specific recommendation and uses clearer Markdown headings/bolding as requested. Option 1 has marginally more KPIs but treats trade-offs/risks generically."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 4.7,
+  ""option_2_average"": 5.1
+}",option_2,"Both options are thin and fail the 300-400 word requirement, but Option 2 better addresses trade-offs and risks for each specific recommendation and uses clearer Markdown headings/bolding as requested. Option 1 has marginally more KPIs but treats trade-offs/risks generically.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",4.7,5.1,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+1,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin on the 300-400 word requirement and lack quantitative specificity, but Option 2 better satisfies the explicit rubric requirements by pairing each recommendation with its own trade-offs and risks (point 3) and naming a concrete analytical method (simulation), giving it an edge in framework clarity and recommendation structure."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.7,
+  ""option_2_average"": 6.4
+}",option_2,"Both options are thin on the 300-400 word requirement and lack quantitative specificity, but Option 2 better satisfies the explicit rubric requirements by pairing each recommendation with its own trade-offs and risks (point 3) and naming a concrete analytical method (simulation), giving it an edge in framework clarity and recommendation structure.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",5.7,6.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+1,8,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin and below the 300-400 word target, but Option 2 provides more concrete, contextually relevant solutions (consolidated deliveries, regional warehousing) with explicit trade-offs, plus a simulation approach and clearer structure. Option 1 is slightly more generic and offers less domain-specific analytical depth."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 6.3
+}",option_2,"Both options are thin and below the 300-400 word target, but Option 2 provides more concrete, contextually relevant solutions (consolidated deliveries, regional warehousing) with explicit trade-offs, plus a simulation approach and clearer structure. Option 1 is slightly more generic and offers less domain-specific analytical depth.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",5.5,6.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin and far below the 300-400 word requirement, but Option 2 provides slightly more specific data sources (customer feedback), more concrete recommendations (predictive demand forecasting), and clearer cause-effect framing in its trade-offs. Neither defines a true optimization framework or specifies communication methods well."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 4.5,
+  ""option_2_average"": 5.3
+}",option_2,"Both options are thin and far below the 300-400 word requirement, but Option 2 provides slightly more specific data sources (customer feedback), more concrete recommendations (predictive demand forecasting), and clearer cause-effect framing in its trade-offs. Neither defines a true optimization framework or specifies communication methods well.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 4}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",4.5,5.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,2,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin and well below the 300-400 word requirement, but Option 2 better matches the report's structure (numbered sections mirroring the four asks), names a concrete analytical method (simulation), and offers a clearer trade-off tied to shipment consolidation. Option 1 adds unnecessary intro/conclusion fluff while remaining equally vague on specifics."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 4.8,
+  ""option_2_average"": 5.5
+}",option_2,"Both options are thin and well below the 300-400 word requirement, but Option 2 better matches the report's structure (numbered sections mirroring the four asks), names a concrete analytical method (simulation), and offers a clearer trade-off tied to shipment consolidation. Option 1 adds unnecessary intro/conclusion fluff while remaining equally vague on specifics.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",4.8,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,2,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin and well below the 300-400 word requirement, but Option 2 better satisfies the rubric's task requirements: it explicitly names a validation methodology (consistency checks, plausibility tests), articulates a genuine trade-off (cost savings vs. delivery delays), and uses clearer Markdown headings/formatting as the prompt requested. Option 1 frames its trade-off as a one-sided benefit rather than a true trade-off."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.3,
+  ""option_2_average"": 5.8
+}",option_2,"Both options are thin and well below the 300-400 word requirement, but Option 2 better satisfies the rubric's task requirements: it explicitly names a validation methodology (consistency checks, plausibility tests), articulates a genuine trade-off (cost savings vs. delivery delays), and uses clearer Markdown headings/formatting as the prompt requested. Option 1 frames its trade-off as a one-sided benefit rather than a true trade-off.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",5.3,5.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin on the 300-400 word requirement and lack quantitative specificity, but Option 2 better satisfies the rubric by explicitly attaching distinct trade-offs and risks to each recommendation and offering two clearly differentiated solutions (routing plus centralized inventory), giving executives more actionable, structured detail."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.8,
+  ""option_2_average"": 6.5
+}",option_2,"Both options are thin on the 300-400 word requirement and lack quantitative specificity, but Option 2 better satisfies the rubric by explicitly attaching distinct trade-offs and risks to each recommendation and offering two clearly differentiated solutions (routing plus centralized inventory), giving executives more actionable, structured detail.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",5.8,6.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,8,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin and fall below the 300-400 word requirement, but Option 2 better addresses the rubric: it names a concrete optimization model approach, offers two distinct solutions (consolidated deliveries vs. regional warehousing) with explicit benefit/risk trade-offs, and specifies a communication cadence. Option 1's two solutions are reasonable but its trade-off analysis is more generic and it lacks structural completeness."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 6.2
+}",option_2,"Both options are thin and fall below the 300-400 word requirement, but Option 2 better addresses the rubric: it names a concrete optimization model approach, offers two distinct solutions (consolidated deliveries vs. regional warehousing) with explicit benefit/risk trade-offs, and specifies a communication cadence. Option 1's two solutions are reasonable but its trade-off analysis is more generic and it lacks structural completeness.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",5.5,6.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,9,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are skeletal and far below the 300-400 word requirement, but Option 2 names a concrete analytical method (network optimization models), addresses inventory/order fulfillment which ties directly to the firm's inventory mandate, and frames trade-offs slightly more specifically. Neither fully satisfies the rubric, but Option 2 edges ahead on specificity and scope coverage."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 4.8,
+  ""option_2_average"": 5.5
+}",option_2,"Both options are skeletal and far below the 300-400 word requirement, but Option 2 names a concrete analytical method (network optimization models), addresses inventory/order fulfillment which ties directly to the firm's inventory mandate, and frames trade-offs slightly more specifically. Neither fully satisfies the rubric, but Option 2 edges ahead on specificity and scope coverage.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",4.8,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,3,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are generic and underdeveloped, failing to meet the 300-400 word requirement and lacking specific OR methodology (e.g., named optimization models like MILP, VRP). Option 2 edges ahead due to clearer trade-off framing (cost vs. service levels), explicit stakeholder-resistance risk, and a slightly more structured executive-report format with introduction and conclusion sections."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 4.6,
+  ""option_2_average"": 4.9
+}",option_2,"Both options are generic and underdeveloped, failing to meet the 300-400 word requirement and lacking specific OR methodology (e.g., named optimization models like MILP, VRP). Option 2 edges ahead due to clearer trade-off framing (cost vs. service levels), explicit stakeholder-resistance risk, and a slightly more structured executive-report format with introduction and conclusion sections.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 4}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",4.6,4.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin on quantitative depth, but Option 2 better satisfies the rubric by explicitly attaching trade-offs and risks to each individual recommendation (a core task requirement) and naming a concrete analytical method (simulation model). Option 1 lumps trade-offs/risks generically and adds filler intro/conclusion that wastes the limited word budget."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 6.4
+}",option_2,"Both options are thin on quantitative depth, but Option 2 better satisfies the rubric by explicitly attaching trade-offs and risks to each individual recommendation (a core task requirement) and naming a concrete analytical method (simulation model). Option 1 lumps trade-offs/risks generically and adds filler intro/conclusion that wastes the limited word budget.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",5.5,6.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,3,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both responses fall short of the 300-400 word requirement and lack deep specificity, but Option 2 provides more concrete, actionable recommendations (dynamic routing software, predictive analytics) and explicitly addresses trade-offs and risks as a distinct element, better satisfying the prompt's analytical and practical-solution dimensions."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.2,
+  ""option_2_average"": 5.8
+}",option_2,"Both responses fall short of the 300-400 word requirement and lack deep specificity, but Option 2 provides more concrete, actionable recommendations (dynamic routing software, predictive analytics) and explicitly addresses trade-offs and risks as a distinct element, better satisfying the prompt's analytical and practical-solution dimensions.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",5.2,5.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,3,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin and fail to meet the 300-400 word requirement or provide specific OR methods, but Option 2 is marginally stronger on structure, audience framing, and explicit trade-offs/risks tied to the requested deliverable sections."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 4.8,
+  ""option_2_average"": 5.5
+}",option_2,"Both options are thin and fail to meet the 300-400 word requirement or provide specific OR methods, but Option 2 is marginally stronger on structure, audience framing, and explicit trade-offs/risks tied to the requested deliverable sections.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",4.8,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin on specificity and word count, but Option 2 better satisfies the rubric by attaching distinct trade-offs and risks to each individual solution and using two genuinely different solutions, with clearer formatting. Option 1 bundles trade-offs/risks generically and is slightly less aligned with the per-solution requirement."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.0,
+  ""option_2_average"": 5.6
+}",option_2,"Both options are thin on specificity and word count, but Option 2 better satisfies the rubric by attaching distinct trade-offs and risks to each individual solution and using two genuinely different solutions, with clearer formatting. Option 1 bundles trade-offs/risks generically and is slightly less aligned with the per-solution requirement.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",5.0,5.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,4,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin and under the 300-400 word minimum, but Option 2 offers more specific, actionable solutions (dynamic routing software, predictive demand analytics) and clearer data validation via cross-referencing and audits, while Option 1's solutions and trade-offs are slightly more generic despite better visual structure."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.4,
+  ""option_2_average"": 6.0
+}",option_2,"Both options are thin and under the 300-400 word minimum, but Option 2 offers more specific, actionable solutions (dynamic routing software, predictive demand analytics) and clearer data validation via cross-referencing and audits, while Option 1's solutions and trade-offs are slightly more generic despite better visual structure.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",5.4,6.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options are thin on specifics relative to the 300-400 word brief, but Option 1 more fully addresses every required element: it explicitly names two solutions with stated trade-offs and risks, lists a broader and more relevant KPI set (including warehouse utilization), and specifies a communication approach. Option 2 covers similar ground but is more sparse, omits validation depth, and provides a weaker KPI/communication treatment."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.1,
+  ""option_2_average"": 5.5
+}",option_1,"Both options are thin on specifics relative to the 300-400 word brief, but Option 1 more fully addresses every required element: it explicitly names two solutions with stated trade-offs and risks, lists a broader and more relevant KPI set (including warehouse utilization), and specifies a communication approach. Option 2 covers similar ground but is more sparse, omits validation depth, and provides a weaker KPI/communication treatment.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",6.1,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin on detail given the 300-400 word target (both fall short), but Option 2 better addresses the rubric by explicitly stating trade-offs AND risks for each solution as required, naming concrete tools (dynamic routing software, centralized inventory system), and tying validation to specific cross-references. Option 1's solutions show trade-offs but its data/validation and analytical sections are vaguer."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.6,
+  ""option_2_average"": 6.2
+}",option_2,"Both options are thin on detail given the 300-400 word target (both fall short), but Option 2 better addresses the rubric by explicitly stating trade-offs AND risks for each solution as required, naming concrete tools (dynamic routing software, centralized inventory system), and tying validation to specific cross-references. Option 1's solutions show trade-offs but its data/validation and analytical sections are vaguer.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 4, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",5.6,6.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin relative to the 300-400 word requirement, but Option 2 better satisfies the rubric by explicitly pairing trade-offs AND risks with each recommendation (as the prompt requires), and by adding validation via customer feedback and driver logs. Option 1 separates trade-offs/risks generically and is slightly less specific."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.8,
+  ""option_2_average"": 6.5
+}",option_2,"Both options are thin relative to the 300-400 word requirement, but Option 2 better satisfies the rubric by explicitly pairing trade-offs AND risks with each recommendation (as the prompt requires), and by adding validation via customer feedback and driver logs. Option 1 separates trade-offs/risks generically and is slightly less specific.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",5.8,6.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,8,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options are thin and fall well short of the 300-400 word requirement, but Option 2 provides more concrete and differentiated recommendations (consolidated deliveries, regional warehousing) with clearer paired trade-offs, plus a simulation approach and explicit communication cadence, making it slightly more useful and complete."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.0,
+  ""option_2_average"": 6.0
+}",option_2,"Both options are thin and fall well short of the 300-400 word requirement, but Option 2 provides more concrete and differentiated recommendations (consolidated deliveries, regional warehousing) with clearer paired trade-offs, plus a simulation approach and explicit communication cadence, making it slightly more useful and complete.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",5.0,6.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8

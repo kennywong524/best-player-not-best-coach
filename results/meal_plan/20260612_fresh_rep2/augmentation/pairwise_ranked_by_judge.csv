@@ -1,0 +1,3793 @@
+replicate_id,output,condition,assistant_model,worker_model,model_id,model_label,scaffold_path,scaffold_sha256,scaffold_text,item_id,total_wins,total_games,avg_win_rate,avg_rank,std_rank,std_win_rate,judge_model,judge_label
+0,"**7-Day Meal Plan for a 31-Year-Old Australian Adult**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and potatoes
+- Lunch: Thai chicken lettuce wraps
+- Dinner: Indian spiced lentil soup
+- Snacks: Mixed nuts, sliced apples with almond butter
+
+**Day 2:**
+- Breakfast: Smoothie with banana, almond milk, and protein powder
+- Lunch: Mexican chicken and black bean salad
+- Dinner: Beef stir-fry with broccoli and rice noodles
+- Snacks: Carrot sticks with hummus, rice cakes
+
+**Day 3:**
+- Breakfast: Greek yogurt with berries and granola (gluten-free)
+- Lunch: Thai coconut curry with chicken and vegetables
+- Dinner: Baked salmon with quinoa and roasted vegetables
+- Snacks: Rice crackers with avocado, trail mix
+
+**Day 4:**
+- Breakfast: Oatmeal with almond milk and sliced bananas
+- Lunch: Mexican quinoa and black bean bowl
+- Dinner: Indian spiced cauliflower and chickpea curry
+- Snacks: Greek yogurt with honey, sliced cucumbers with guacamole
+
+**Day 5:**
+- Breakfast: Avocado toast on gluten-free bread
+- Lunch: Thai beef salad with mango and peanuts
+- Dinner: Tandoori chicken with roasted sweet potatoes
+- Snacks: Rice cakes with peanut butter, mixed fruit
+
+**Day 6:**
+- Breakfast: Chia seed pudding with coconut milk and berries
+- Lunch: Mexican sweet potato and black bean tacos
+- Dinner: Thai green curry with tofu and vegetables
+- Snacks: Popcorn, sliced bell peppers with hummus
+
+**Day 7:**
+- Breakfast: Breakfast burrito with scrambled eggs, potatoes, and salsa
+- Lunch: Indian spiced chickpea salad
+- Dinner: Beef and vegetable stir-fry with quinoa
+- Snacks: Greek yogurt with almonds, apple slices with cinnamon
+
+**Consolidated Grocery List:**
+- Proteins: Chicken, beef, salmon, tofu, eggs
+- Vegetables: Spinach, broccoli, cauliflower, sweet potatoes, bell peppers
+- Fruits: Berries, bananas, apples, mango
+- Legumes: Lentils, black beans, chickpeas
+- Grains: Quinoa, rice noodles, rice cakes, gluten-free bread
+- Dairy Alternatives: Almond milk, coconut milk, Greek yogurt (lactose-free)
+- Pantry Items: Almond butter, hummus, guacamole, salsa, curry paste
+- Spices: Thai curry paste, tandoori spice blend, cumin, coriander
+
+**Prep Notes:**
+- Batch cook grains and proteins for easy assembly during the week.
+- Store chopped vegetables in airtight containers for quick meal prep.
+- Use mild seasonings and offer additional spices for super-taster sensitivity adjustments.
+
+This 7-day meal plan caters to your dietary restrictions and flavor preferences while ensuring a varied and balanced diet. Enjoy your meals!",scaffold_GPT-OSS-120B,GPT-OSS-120B,gpt-3.5-turbo,openai/gpt-oss-120b,GPT-OSS-120B,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-OSS-120B_rep0.md,2cde3cccf7f3b045c26f11e22f72afdb83ad6798bbd63a7d84a7624a01ff5544,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**  
+- Read the brief thoroughly; list every constraint (dietary restrictions, flavor preferences, nutritional balance, portion size, budget, preparation time).  
+- Verify that all mandatory elements are identified (daily meals, snack options, grocery list, prep notes).  
+- Flag any ambiguous points and note questions for clarification before proceeding.  
+- Cross‑reference the constraints to ensure no prohibited ingredients or cooking methods will appear later.
+
+**2. Plan & Structure**  
+- Sketch a high‑level outline: seven days, each with breakfast, lunch, dinner, and two snack slots.  
+- Decide on a consistent format for each day (e.g., heading, meal description, portion guidance).  
+- Group similar dishes to reuse ingredients efficiently, supporting the “cheap” requirement.  
+- Draft a separate section for the consolidated grocery list, organized by category (proteins, vegetables, pantry items, spices).  
+- Add a brief “prep notes” block that outlines batch cooking, storage tips, and any quick‑assembly steps.  
+- Ensure the outline leaves placeholders for adjustable seasoning notes to accommodate sensitivity.
+
+**3. Draft → Self‑Review → Finalize**  
+- Populate the outline with concise, original meal ideas, respecting all constraints.  
+- After the first draft, perform a self‑review checklist: ingredient compliance, flavor variety, budget adherence, clarity of instructions, and readability.  
+- Revise any sections that miss a requirement or could cause confusion; tighten language for brevity.  
+- Conduct a final proofread for consistency (formatting, spelling, measurement units) and confirm the grocery list matches the meals.  
+- Deliver the polished document in the agreed structure, ready for user consumption.",5,7,7,1.0,1.0,,,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,"**7-Day Meal Plan for 31-Year-Old Australian Adult**
+
+*Day 1:*
+
+- Breakfast: Scrambled eggs with avocado and tomato
+- Lunch: Chicken and vegetable stir-fry with rice
+- Dinner: Beef tacos with lettuce wraps and salsa
+- Snack: Greek yogurt with berries
+- Grocery List: Eggs, avocado, tomato, chicken, vegetables, rice, beef, lettuce, salsa, Greek yogurt, berries
+- Prep Notes: Pre-cut vegetables for stir-fry, marinate beef for tacos in advance
+
+*Day 2:*
+
+- Breakfast: Oatmeal with almond butter and banana
+- Lunch: Turkey and quinoa salad with vinaigrette
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Hummus with carrot sticks
+- Grocery List: Oats, almond butter, banana, turkey, quinoa, salad greens, vinaigrette, chicken, cauliflower, curry paste, hummus, carrots
+- Prep Notes: Cook quinoa in advance, prep salad ingredients for easy assembly
+
+*Day 3:*
+
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Beef and vegetable stir-fry with noodles
+- Dinner: Fish tacos with coleslaw
+- Snack: Apple slices with peanut butter
+- Grocery List: Spinach, banana, almond milk, beef, vegetables, noodles, fish, coleslaw mix, tortillas, apple, peanut butter
+- Prep Notes: Pre-cut vegetables for stir-fry, marinate fish for tacos in advance
+
+*Day 4:*
+
+- Breakfast: Chia pudding with berries
+- Lunch: Lentil soup with crusty bread
+- Dinner: Pork stir-fry with broccoli and rice
+- Snack: Rice cakes with almond butter
+- Grocery List: Chia seeds, berries, lentils, bread, pork, broccoli, rice, rice cakes, almond butter
+- Prep Notes: Soak chia seeds overnight for pudding, prep ingredients for stir-fry
+
+*Day 5:*
+
+- Breakfast: Greek yogurt with granola and honey
+- Lunch: Chicken and vegetable curry with rice
+- Dinner: Beef burrito bowls with guacamole
+- Snack: Celery sticks with hummus
+- Grocery List: Greek yogurt, granola, honey, chicken, vegetables, curry paste, rice, beef, beans, guacamole, celery, hummus
+- Prep Notes: Pre-cook rice, marinate chicken for curry, prep ingredients for burrito bowls
+
+*Day 6:*
+
+- Breakfast: Pancakes with maple syrup and fruit
+- Lunch: Turkey and avocado wrap with side salad
+- Dinner: Thai basil chicken with jasmine rice
+- Snack: Mixed nuts
+- Grocery List: Pancake mix, maple syrup, fruit, turkey, avocado, wraps, salad greens, Thai basil, chicken, jasmine rice, mixed nuts
+- Prep Notes: Mix pancake batter in advance, marinate chicken for Thai basil dish
+
+*Day 7:*
+
+- Breakfast: Smoothie bowl with coconut flakes and chia seeds
+- Lunch: Beef and broccoli stir-fry with quinoa
+- Dinner: Lentil curry with naan bread
+- Snack: Rice crackers with cheese
+- Grocery List: Coconut flakes, chia seeds, beef, broccoli, quinoa, lentils, curry paste, naan bread, rice crackers, cheese
+- Prep Notes: Pre-cut vegetables for stir-fry, cook quinoa in advance, prep ingredients for lentil curry
+
+Adjust seasoning to taste and feel free to substitute ingredients as needed. Enjoy your delicious and allergy-friendly meal plan!",scaffold_GPT-5-Mini,GPT-5-Mini,gpt-3.5-turbo,gpt-5-mini-2025-08-07,GPT-5-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-5-Mini_rep0.md,9b0e5b4fd2fc33f9d700def705e22d29452c235970afb9f54afe25f738592642,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check
+- Parse the brief into explicit constraints (dietary exclusions, intolerances, flavor preferences, sensory sensitivity, budget, simplicity, 7-day scope, meals per day, grocery list, prep notes).
+- List hard exclusions and intolerances to enforce as non-negotiable.
+- Identify user preferences to prioritize in menu development.
+- Define measurable targets: daily meals/snacks count, approximate budget ceiling, shopping frequency, prep time limits, and storage/reheating constraints.
+- Note safety checks: cross-contact risk, label-reading rules, and substitutions policy for allergens and intolerances.
+- Decide acceptable seasoning strategy: mild baseline with adjustable options and portion controls.
+
+2. Plan & Structure
+- Create a skeleton layout: day-by-day slots for breakfast/lunch/dinner/snack and a consolidated grocery list and prep notes section.
+- Determine variety strategy (rotate proteins, starches, flavors) and balance (macro variety, simple snacks).
+- Establish format conventions: how to present each meal (name, brief description, serving size, prep time, make-ahead notes, seasoning options).
+- Define grocery list structure: grouped by store section, quantities/units, staples vs perishables, items for batch prep.
+- Set prep-note templates: batch steps, storage, reheating, safety, and customizable seasoning guidance.
+
+3. Draft -> Self-Review -> Finalize
+- Draft: Populate the skeleton with placeholders for each meal, snacks, grocery items, and prep steps without final quantities yet.
+- Self-review: Verify every item against exclusions and sensitivities, check for repetition, budget feasibility, prep time, and clarity of seasoning adjustments.
+- Finalize: Convert placeholders into the final formatted deliverables (7-day plan, consolidated grocery list with quantities, succinct prep timeline and notes), and include a brief user-facing instruction on adjusting seasoning and substitutions.",2,4,7,0.5714285714285714,2.5,,,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,"7-Day Meal Plan for Client with Dietary Restrictions
+
+Day 1:
+Breakfast: Scrambled eggs with spinach and tomatoes
+Lunch: Grilled chicken salad with avocado and lime dressing
+Dinner: Thai green curry with chicken and vegetables
+Snack: Sliced apples with almond butter
+Grocery List: Eggs, spinach, tomatoes, chicken, avocado, limes, coconut milk, green curry paste, vegetables, apples, almond butter
+
+Day 2:
+Breakfast: Greek yogurt with berries and honey
+Lunch: Turkey lettuce wraps with cucumber and mint
+Dinner: Indian chicken tikka masala with cauliflower rice
+Snack: Carrot sticks with hummus
+Grocery List: Greek yogurt, berries, honey, turkey, lettuce, cucumber, mint, chicken, tikka masala sauce, cauliflower, carrots, hummus
+
+Day 3:
+Breakfast: Oatmeal with bananas and cinnamon
+Lunch: Beef stir-fry with broccoli and bell peppers
+Dinner: Mexican beef tacos with lettuce wraps
+Snack: Rice cakes with peanut butter
+Grocery List: Oats, bananas, cinnamon, beef, broccoli, bell peppers, taco seasoning, lettuce, rice cakes, peanut butter
+
+Day 4:
+Breakfast: Smoothie with spinach, banana, and almond milk
+Lunch: Quinoa salad with grilled vegetables and lemon vinaigrette
+Dinner: Thai basil chicken stir-fry with zucchini noodles
+Snack: Mixed nuts
+Grocery List: Spinach, banana, almond milk, quinoa, vegetables, lemon, basil, chicken, zucchini, nuts
+
+Day 5:
+Breakfast: Chia seed pudding with coconut milk and mango
+Lunch: Salmon salad with mixed greens and balsamic vinaigrette
+Dinner: Indian lentil dal with brown rice
+Snack: Rice crackers with guacamole
+Grocery List: Chia seeds, coconut milk, mango, salmon, mixed greens, balsamic vinaigrette, lentils, brown rice, rice crackers, avocado
+
+Day 6:
+Breakfast: Cottage cheese with peaches and almonds
+Lunch: Turkey and vegetable stir-fry with soy sauce
+Dinner: Mexican chicken fajitas with bell peppers and onions
+Snack: Popcorn
+Grocery List: Cottage cheese, peaches, almonds, turkey, vegetables, soy sauce, chicken, fajita seasoning, bell peppers, onions, popcorn
+
+Day 7:
+Breakfast: Avocado toast with cherry tomatoes and basil
+Lunch: Tofu and vegetable curry with coconut milk
+Dinner: Thai shrimp pad thai with bean sprouts
+Snack: Sliced cucumbers with tzatziki sauce
+Grocery List: Avocado, bread, cherry tomatoes, basil, tofu, vegetables, curry paste, coconut milk, shrimp, rice noodles, bean sprouts, cucumbers, Greek yogurt
+
+Preparation Notes:
+- Prepare meals in advance for easy access throughout the week.
+- Adjust seasoning to taste to accommodate super-taster sensitivity.
+- Use alternative ingredients to replace any allergens or intolerances.
+
+This meal plan has been carefully crafted to meet your dietary restrictions and flavor preferences. Enjoy your delicious and nutritious meals throughout the week!",scaffold_GPT-O3-Mini,GPT-O3-Mini,gpt-3.5-turbo,o3-mini-2025-01-31,GPT-O3-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-O3-Mini_rep0.md,9cb6b2b5e57c23818d9983599af5c8bac78d5d6fb50a6a81f4de63f492acbb86,"Assistant Guidance: Three-Phase Workflow
+
+Phase 1: Requirements Check
+• Begin by reviewing the task requirements to ensure full understanding of the conditions, dietary restrictions, and flavor inclinations.  
+• Identify all explicit constraints (e.g., allergens, food intolerances, flavor preferences) without incorporating final content specifics.  
+• Note any structural elements required (daily schedule components, grocery list, preparation notes) and confirm all essential elements are acknowledged.  
+• Check for any implicit guidelines and conditions that might impact the overall approach.
+
+Phase 2: Plan & Structure
+• Organize the components into a clear and logical structure: layout day-by-day meal segmentation for breakfast, lunch, dinner, and snacks, along with additional segments for the grocery list and preparation notes.  
+• Establish a framework for including provisions on taste sensitivity adjustments while aligning with the flavor themes.  
+• Outline sections for the weekly plan, ensuring each section can accommodate potential modifications once further details are reviewed.  
+• Prepare a flexible strategy to manage the complex intersection of dietary restrictions and meal variety without diving into solution specifics.
+
+Phase 3: Draft -> Self-Review -> Finalize
+• Create an initial draft outline using the established structure, emphasizing process clarity and adherence to the constraints.  
+• Conduct a thorough self-review of the draft to verify that all hard constraints and task expectations are met at a process level.  
+• Adjust the outline based on review feedback, ensuring completeness before finalizing the workflow plan for implementation.",4,4,7,0.5714285714285714,2.5,,,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,"Day 1:
+Breakfast: Scrambled eggs with spinach and tomatoes
+Lunch: Grilled chicken salad with avocado and balsamic vinaigrette
+Dinner: Beef stir-fry with broccoli and bell peppers served over jasmine rice
+Snack: Carrot sticks with hummus
+
+Day 2:
+Breakfast: Greek yogurt with honey and mixed berries
+Lunch: Turkey and avocado wrap with lettuce and tomato
+Dinner: Baked salmon with lemon herb seasoning and roasted sweet potatoes
+Snack: Rice cakes with almond butter
+
+Day 3:
+Breakfast: Smoothie with banana, almond milk, and protein powder
+Lunch: Chicken and vegetable curry with coconut milk over quinoa
+Dinner: Beef tacos with corn tortillas, lettuce, and salsa
+Snack: Mixed nuts and dried fruit
+
+Day 4:
+Breakfast: Oatmeal with almond milk, cinnamon, and sliced bananas
+Lunch: Shrimp and vegetable stir-fry with teriyaki sauce over brown rice
+Dinner: Chicken tikka masala with cauliflower rice
+Snack: Rice crackers with guacamole
+
+Day 5:
+Breakfast: Chia pudding with coconut milk and mango
+Lunch: Thai beef salad with cucumber, mint, and lime dressing
+Dinner: Turkey chili with black beans and corn
+Snack: Apple slices with almond butter
+
+Day 6:
+Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+Lunch: Grilled chicken Caesar salad with dairy-free dressing
+Dinner: Lentil curry with spinach and basmati rice
+Snack: Veggie sticks with tahini dip
+
+Day 7:
+Breakfast: Smoothie bowl with mixed berries, almond milk, and granola
+Lunch: Turkey and avocado lettuce wraps with mustard
+Dinner: Beef and vegetable kebabs with lemon herb marinade and roasted potatoes
+Snack: Popcorn with nutritional yeast
+
+Grocery list:
+- Eggs
+- Chicken
+- Beef
+- Turkey
+- Salmon
+- Shrimp
+- Ground turkey
+- Greek yogurt
+- Almond milk
+- Coconut milk
+- Almond butter
+- Hummus
+- Quinoa
+- Brown rice
+- Cauliflower rice
+- Black beans
+- Lentils
+- Spinach
+- Kale
+- Bell peppers
+- Broccoli
+- Sweet potatoes
+- Avocado
+- Mango
+- Berries
+- Banana
+- Tomatoes
+- Cucumber
+- Carrots
+- Lettuce
+- Mint
+- Basil
+- Cilantro
+- Limes
+- Lemons
+- Onions
+- Garlic
+- Ginger
+- Turmeric
+- Cumin
+- Paprika
+- Cinnamon
+- Nutritional yeast
+- Rice cakes
+- Rice crackers
+- Corn tortillas
+- Popcorn
+- Granola
+- Mixed nuts
+- Dried fruit
+- Chia seeds
+- Tahini
+- Mustard
+- Salsa
+- Teriyaki sauce
+- Balsamic vinaigrette
+- Dairy-free Caesar dressing
+- Lemon herb seasoning
+- Mild curry powder
+- Mexican seasoning blend
+
+Prep notes:
+- Pre-cut vegetables for stir-fries and salads to save time during the week
+- Cook a batch of quinoa, brown rice, and lentils in advance for quick meal assembly
+- Marinate meats for kebabs and stir-fries ahead of time for maximum flavor",plain,plain,gpt-3.5-turbo,plain,plain,,,,0,3,7,0.42857142857142855,5.5,,,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Chicken salad with avocado and lime dressing
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Oatmeal with berries and almond milk
+- Lunch: Turkey and lettuce wraps with hummus
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Carrot sticks with guacamole
+
+**Day 3:**
+- Breakfast: Greek yogurt with honey and granola
+- Lunch: Quinoa salad with grilled chicken and mango salsa
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Rice cakes with peanut butter
+
+**Day 4:**
+- Breakfast: Chia seed pudding with mixed berries
+- Lunch: Taco salad with ground turkey, lettuce, and salsa
+- Dinner: Vegetable stir-fry with tofu
+- Snack: Mixed nuts and dried fruit
+
+**Day 5:**
+- Breakfast: Smoothie with banana, spinach, and almond milk
+- Lunch: Thai chicken coconut soup
+- Dinner: Beef tacos with corn tortillas and avocado
+- Snack: Rice crackers with hummus
+
+**Day 6:**
+- Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+- Lunch: Lentil salad with grilled chicken
+- Dinner: Indian spiced chicken with basmati rice
+- Snack: Celery sticks with almond butter
+
+**Day 7:**
+- Breakfast: Pancakes made with gluten-free flour and topped with berries
+- Lunch: Greek salad with grilled shrimp
+- Dinner: Vegetable curry with chickpeas
+- Snack: Popcorn with a sprinkle of mild seasoning
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Salmon
+- Turkey
+- Tofu
+- Greek yogurt
+- Almond milk
+- Quinoa
+- Sweet potatoes
+- Mango
+- Cauliflower rice
+- Rice cakes
+- Peanut butter
+- Chia seeds
+- Mixed nuts
+- Dried fruit
+- Spinach
+- Lettuce
+- Tomatoes
+- Avocado
+- Bell peppers
+- Broccoli
+- Carrots
+- Guacamole
+- Hummus
+- Banana
+- Black beans
+- Salsa
+- Lentils
+- Shrimp
+- Chickpeas
+- Gluten-free flour
+- Berries
+- Coconut milk
+- Curry paste
+- Basmati rice
+- Corn tortillas
+- Rice crackers
+- Celery
+- Popcorn
+
+**Prep Notes:**
+- Pre-cook a batch of quinoa and rice for easy meal assembly.
+- Wash and chop vegetables in advance for quicker cooking.
+- Keep a variety of nuts and fruits on hand for convenient snacking options.
+- Use mild seasonings like herbs, lemon juice, and garlic powder to enhance flavors without overwhelming the palate.",scaffold_GPT-4.1,GPT-4.1,gpt-3.5-turbo,gpt-4.1,GPT-4.1,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-4.1_rep0.md,8731999827ed5a7a7105179ea9e298ff43e3107fbadb44cc7716e2cff58e69ab,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+   - Carefully review all dietary restrictions, allergies, and intolerances mentioned.  
+   - Note the specific food preferences, flavor profiles, and cuisines to emphasize.  
+   - Identify all foods and ingredients to avoid, including both allergens and those causing intolerance.  
+   - Confirm the need for mild seasoning and the avoidance of very salty or very sweet options due to super-taster sensitivity.  
+   - Ensure understanding of required meal components: breakfast, lunch, dinner, snacks, grocery list, and preparation notes for each day.
+
+2. Plan & Structure  
+   - Outline a 7-day framework with dedicated sections for each day and meal (breakfast, lunch, dinner, snacks).  
+   - Brainstorm meal ideas that align with the restrictions and preferences, ensuring variety and simplicity.  
+   - Allocate cuisines and flavors (Mexican, Thai, Indian, etc.) thoughtfully across the week for balance.  
+   - Prepare a master grocery list, grouping items logically (produce, proteins, pantry, etc.), and draft concise prep notes for each meal.  
+   - Double-check all planned meals to confirm exclusion of restricted ingredients and compliance with seasoning guidelines.
+
+3. Draft -> Self-Review -> Finalize  
+   - Compose the full meal plan with clear meal and snack entries for each day, along with the grocery list and prep notes.  
+   - Review the draft to ensure all requirements are met, checking for ingredient compliance, flavor moderation, and overall simplicity.  
+   - Revise as needed for clarity, completeness, and user-friendliness.  
+   - Finalize the document, confirming that all sections are present and organized for easy use.",1,3,7,0.42857142857142855,5.5,,,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Chicken and vegetable stir-fry with rice noodles
+- Dinner: Beef tacos with lettuce wraps
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Greek yogurt with berries and honey (use lactose-free yogurt)
+- Lunch: Thai basil chicken with jasmine rice
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Carrot sticks with hummus
+
+**Day 3:**
+- Breakfast: Oatmeal with bananas and cinnamon (use gluten-free oats)
+- Lunch: Indian chickpea curry with quinoa
+- Dinner: Beef and vegetable stir-fry with brown rice
+- Snack: Rice cakes with avocado slices
+
+**Day 4:**
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Mexican chicken salad with black beans
+- Dinner: Turkey meatballs with zucchini noodles
+- Snack: Mixed nuts
+
+**Day 5:**
+- Breakfast: Cottage cheese with pineapple chunks
+- Lunch: Pad Thai with tofu and rice noodles
+- Dinner: Baked chicken with mashed potatoes
+- Snack: Rice crackers with guacamole
+
+**Day 6:**
+- Breakfast: Chia pudding with mango and coconut flakes
+- Lunch: Lentil curry with quinoa
+- Dinner: Pork chops with roasted vegetables
+- Snack: Celery sticks with peanut butter
+
+**Day 7:**
+- Breakfast: Avocado toast on gluten-free bread
+- Lunch: Thai coconut curry with shrimp and vegetables
+- Dinner: Beef kebabs with grilled corn
+- Snack: Popcorn
+
+**Grocery List:**
+- Produce: Spinach, tomatoes, bell peppers, onions, garlic, apples, berries, bananas, sweet potatoes, carrots, avocados, pineapple, mango, celery, corn
+- Meat: Chicken, beef, salmon, turkey, tofu, shrimp, pork
+- Pantry: Rice noodles, rice, lettuce, almond butter, honey, quinoa, brown rice, hummus, rice cakes, mixed nuts, chia seeds, coconut flakes, gluten-free bread, lentils, peanut butter, popcorn kernels
+
+**Prep Notes:**
+- Batch cook rice, quinoa, and sweet potatoes for easy meal assembly.
+- Use mild seasonings like garlic, herbs, and mild curry powder to accommodate super-taster sensitivity.
+- Make extra portions of stir-fries and curries to save time during the week.
+
+---
+
+Please let me know if you need any adjustments or have any specific preferences.",scaffold_Gemini-3.1-Pro,Gemini-3.1-Pro,gpt-3.5-turbo,google/gemini-3.1-pro,Gemini-3.1-Pro,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Gemini-3.1-Pro_rep0.md,3d8a15bd1ba21560399894195d0ac62e1a20e2d7aa6f385632b900d22ea7ab8d,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+- Target Audience: 31-year-old Australian adult.
+- Dietary Restrictions (Strict): No shellfish, no gluten, no lactose, no onion.
+- Preferences: Meat, potatoes, Mexican, Thai, Indian flavors.
+- Aversions: Very salty, very sweet, strong/overwhelming flavors (super-taster sensitivity requires mild, adjustable seasoning).
+- Budget/Complexity: Cheap and simple.
+- Output Requirements: 7-day meal plan (breakfast, lunch, dinner, simple snacks daily), a grocery list, and brief prep notes.
+
+**2. Plan & Structure**
+- **Meal Plan Grid:** Outline 7 days. Assign simple, budget-friendly meals for breakfast, lunch, dinner, and snacks. Ensure every meal strictly adheres to the allergy and intolerance constraints while incorporating the requested flavor profiles (Mexican, Thai, Indian) in a mild, super-taster-friendly way.
+- **Grocery List:** Categorize ingredients (e.g., Produce, Meat, Pantry) to match the meal plan. Verify all items are accessible in Australia, cheap, and compliant with all dietary restrictions (e.g., gluten-free grains, lactose-free alternatives, onion-free aromatics).
+- **Prep Notes:** Draft a brief section on how to batch-cook or prepare ingredients efficiently to keep the plan simple. Address how to handle seasoning adjustments.
+
+**3. Draft -> Self-Review -> Finalize**
+- **Draft:** Write out the 7-day plan, the categorized grocery list, and the prep notes based on the structure. Focus on clarity and simplicity.
+- **Self-Review:** Scrutinize every single ingredient against the strict constraints: Is there any hidden gluten, lactose, shellfish, or onion? Are the meals cheap and easy? Are the flavors represented but kept mild? Are all 7 days fully populated with three meals and snacks?
+- **Finalize:** Polish the formatting for readability, ensuring clear headings and bullet points, before generating the final output.",8,3,7,0.42857142857142855,5.5,,,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,"**7-Day Meal Plan for a 31-Year-Old Australian Adult**
+
+**Day 1: Mexican Flavors**
+- Breakfast: Scrambled eggs with avocado and tomatoes
+- Lunch: Chicken fajita bowl with rice and beans
+- Dinner: Beef tacos with lettuce wraps
+- Snack: Sliced apples with peanut butter
+
+**Day 2: Thai Flavors**
+- Breakfast: Coconut milk chia pudding with mango
+- Lunch: Thai basil chicken stir-fry with jasmine rice
+- Dinner: Green curry with chicken and vegetables
+- Snack: Rice cakes with hummus
+
+**Day 3: Indian Flavors**
+- Breakfast: Masala omelette with spinach
+- Lunch: Chickpea curry with cauliflower rice
+- Dinner: Tandoori chicken with roasted sweet potatoes
+- Snack: Mixed nuts
+
+**Day 4: Meat and Potatoes**
+- Breakfast: Sweet potato hash with sausage
+- Lunch: Beef and potato stew
+- Dinner: Baked chicken with mashed potatoes
+- Snack: Carrot sticks with guacamole
+
+**Day 5: Mexican Flavors**
+- Breakfast: Breakfast burrito with scrambled eggs and salsa
+- Lunch: Beef and black bean quesadillas
+- Dinner: Chicken enchiladas with green salad
+- Snack: Greek yogurt with honey
+
+**Day 6: Thai Flavors**
+- Breakfast: Pineapple smoothie with coconut milk
+- Lunch: Pad Thai with tofu and vegetables
+- Dinner: Red curry with shrimp and zucchini noodles
+- Snack: Rice crackers with cheese
+
+**Day 7: Indian Flavors**
+- Breakfast: Spiced oatmeal with almond milk
+- Lunch: Lentil dal with naan bread (gluten-free)
+- Dinner: Butter chicken with basmati rice
+- Snack: Apple slices with almond butter
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Shrimp
+- Tofu
+- Sweet potatoes
+- Potatoes
+- Cauliflower
+- Zucchini
+- Bell peppers
+- Spinach
+- Avocado
+- Tomatoes
+- Mango
+- Apples
+- Pineapple
+- Carrots
+- Nuts
+- Rice
+- Beans
+- Black beans
+- Chickpeas
+- Lentils
+- Coconut milk
+- Almond milk
+- Hummus
+- Guacamole
+- Salsa
+- Green salad
+- Cheese (lactose-free)
+- Rice cakes
+- Rice crackers
+- Naan bread (gluten-free)
+- Spices and seasonings
+
+**Preparation Notes:**
+- Prep vegetables in advance for easier cooking throughout the week
+- Cook grains and proteins in bulk for quick meal assembly
+- Adjust seasonings to taste, keeping them mild for sensitive taste buds
+- Use lactose-free dairy alternatives where needed
+- Substitute gluten-free options for any bread or grain products",scaffold_DeepSeek-V3.1,DeepSeek-V3.1,gpt-3.5-turbo,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/DeepSeek-V3.1_rep0.md,6c2520d99dddf88d253c96c92e4f6b4424868d2cee1b13a0541b1695971eea4b,"**Assistant Guidance: Three-Phase Workflow**
+
+1.  **Requirements Check**
+    Systematically parse all user constraints and preferences. Categorize them into non-negotiable health restrictions (allergies, intolerances), strong preferences (cuisine types, dislikes), and logistical parameters (budget, simplicity, 7-day scope). Verify that every meal component and grocery item will be cross-checked against the allergen and intolerance list. Confirm the plan includes all requested elements: three daily meals, snacks, a consolidated grocery list, and basic prep instructions.
+
+2.  **Plan & Structure**
+    Develop a high-level framework for the week. Allocate cuisine types (Mexican, Thai, Indian) to specific days to ensure variety while adhering to constraints. For each day, conceptualize simple, overlapping meals to minimize waste and effort (e.g., dinner leftovers for next-day lunch). Structure the final output by first outlining the seven-day meal and snack schedule, followed by a categorized grocery list derived from the planned recipes, and concluding with brief, actionable preparation notes.
+
+3.  **Draft -> Self-Review -> Finalize**
+    Compose a first draft following the established structure. Immediately conduct a compliance review, scrutinizing every ingredient for allergens and intolerances. Assess the plan for flavor balance, cost, and simplicity. Refine the draft by substituting any non-compliant items, simplifying complex steps, and ensuring seasonings are mild and adjustable. Finalize the text, ensuring clarity and that all user requirements are explicitly met before delivery.",9,3,7,0.42857142857142855,5.5,,,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Grilled chicken salad with avocado and a light vinaigrette
+- Dinner: Baked salmon with quinoa and roasted vegetables
+- Snack: Greek yogurt with honey and berries
+
+**Day 2:**
+- Breakfast: Oatmeal with almond milk, bananas, and cinnamon
+- Lunch: Turkey lettuce wraps with hummus and cucumber
+- Dinner: Beef stir-fry with broccoli and brown rice
+- Snack: Rice cakes with almond butter
+
+**Day 3:**
+- Breakfast: Smoothie with mixed berries, spinach, and almond milk
+- Lunch: Chickpea salad with cherry tomatoes and feta cheese
+- Dinner: Grilled shrimp with zucchini noodles and pesto
+- Snack: Mixed nuts and dried fruit
+
+**Day 4:**
+- Breakfast: Greek yogurt parfait with granola and strawberries
+- Lunch: Quinoa and black bean salad with corn and cilantro
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Apple slices with peanut butter
+
+**Day 5:**
+- Breakfast: Chia seed pudding with coconut milk and mango
+- Lunch: Tofu stir-fry with bell peppers and snap peas
+- Dinner: Lentil soup with carrots and celery
+- Snack: Carrot sticks with hummus
+
+**Day 6:**
+- Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+- Lunch: Thai peanut chicken salad with cabbage and peanuts
+- Dinner: Vegetable curry with basmati rice
+- Snack: Popcorn with nutritional yeast
+
+**Day 7:**
+- Breakfast: Pancakes made with almond flour and topped with blueberries
+- Lunch: Mexican quinoa bowl with avocado and lime
+- Dinner: Grilled steak with sweet potato fries and green beans
+- Snack: Rice crackers with guacamole
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Salmon
+- Turkey
+- Beef
+- Shrimp
+- Tofu
+- Lentils
+- Black beans
+- Chickpeas
+- Quinoa
+- Brown rice
+- Cauliflower rice
+- Zucchini
+- Bell peppers
+- Spinach
+- Kale
+- Avocado
+- Tomatoes
+- Cucumber
+- Carrots
+- Celery
+- Berries
+- Mango
+- Apples
+- Bananas
+- Strawberries
+- Blueberries
+- Almond milk
+- Greek yogurt (lactose-free)
+- Hummus
+- Almond butter
+- Peanut butter
+- Coconut milk
+- Nutritional yeast
+- Almond flour
+- Rice cakes
+- Rice crackers
+- Popcorn
+- Mixed nuts
+- Dried fruit
+- Granola
+- Salsa
+- Pesto
+- Lime
+- Cilantro
+- Basil
+- Cumin
+- Turmeric
+- Paprika
+- Garlic powder
+- Olive oil
+- Vinegar
+- Honey
+
+**Prep Notes:**
+- Pre-cut vegetables for easy meal prep
+- Cook grains and proteins in bulk for quick assembly
+- Use mild seasonings like garlic powder, paprika, and herbs
+- Adjust seasoning to taste for super-taster sensitivity",scaffold_GPT-O4-Mini,GPT-O4-Mini,gpt-3.5-turbo,o4-mini-2025-04-16,GPT-O4-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-O4-Mini_rep0.md,fcc480c28de48aade048c8d6335301a7008eb1a9907cce7dcf9124fa1c848634,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+   - Carefully read the brief to extract all stated constraints (dietary restrictions, flavor preferences, budget limits, format requirements).  
+   - List any ambiguities or missing details that could affect solution quality (e.g., target calorie range, equipment availability).  
+   - Confirm understanding of the audience and tone (simple, cost-effective, mild seasoning).  
+   - Ensure you know what deliverables are expected (daily meals, snacks, grocery list, prep notes).
+
+2. Plan & Structure  
+   - Sketch an overall outline: sections for each day’s breakfast, lunch, dinner, snacks; a consolidated grocery list; brief prep instructions.  
+   - Decide on a logical layout (table, bullet points, day-by-day narrative) that supports easy readability and quick reference.  
+   - Allocate distinct slots for recipe names, ingredients, prep time, and serving notes.  
+   - Incorporate a mechanism for adjustable seasoning in each entry (e.g., “season to taste”) without specifying exact measurements.  
+   - Map out word or character limits for each section to maintain brevity and clarity.
+
+3. Draft -> Self-Review -> Finalize  
+   - Draft all sections according to the structure, using placeholder labels rather than full recipes.  
+   - Conduct a self-review checklist: verify all constraints are respected, check consistency in formatting, confirm clarity and simplicity.  
+   - Revise to eliminate any accidental inclusion of prohibited items or overly complex language.  
+   - Finalize by polishing headings, ensuring uniform style, and preparing the document for delivery.",3,1,7,0.14285714285714285,8.0,,,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and cherry tomatoes
+- Lunch: Grilled chicken with roasted sweet potatoes and green beans
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Oatmeal with berries and almond milk
+- Lunch: Turkey and avocado wrap with a side salad
+- Dinner: Baked salmon with quinoa and asparagus
+- Snack: Carrot sticks with hummus
+
+**Day 3:**
+- Breakfast: Greek yogurt with mixed nuts and honey
+- Lunch: Shrimp-free shrimp tacos with coleslaw
+- Dinner: Chicken curry with basmati rice
+- Snack: Rice cakes with peanut butter
+
+**Day 4:**
+- Breakfast: Smoothie with banana, spinach, and almond milk
+- Lunch: Turkey and vegetable stir-fry with brown rice
+- Dinner: Beef chili with cornbread
+- Snack: Mixed berries with Greek yogurt
+
+**Day 5:**
+- Breakfast: Chia seed pudding with mango and coconut flakes
+- Lunch: Chicken and vegetable kebabs with quinoa salad
+- Dinner: Thai red curry with tofu and jasmine rice
+- Snack: Rice crackers with guacamole
+
+**Day 6:**
+- Breakfast: Avocado toast with cherry tomatoes
+- Lunch: Turkey lettuce wraps with a side of sweet potato fries
+- Dinner: Lentil dal with naan bread
+- Snack: Trail mix with dried fruit and nuts
+
+**Day 7:**
+- Breakfast: Pancakes with maple syrup and fresh berries
+- Lunch: Beef and vegetable stir-fry with noodles
+- Dinner: Chicken fajitas with peppers and onions (without onions)
+- Snack: Veggie sticks with tzatziki
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Turkey
+- Salmon
+- Tofu
+- Greek yogurt
+- Almond milk
+- Quinoa
+- Brown rice
+- Basmati rice
+- Spinach
+- Broccoli
+- Bell peppers
+- Asparagus
+- Carrots
+- Berries
+- Nuts
+- Honey
+- Shrimp-free shrimp
+- Coleslaw mix
+- Hummus
+- Rice cakes
+- Peanut butter
+- Smoothie ingredients
+- Cornbread mix
+- Chia seeds
+- Mango
+- Coconut flakes
+- Tofu
+- Jasmine rice
+- Rice crackers
+- Guacamole
+- Avocado
+- Lettuce
+- Sweet potatoes
+- Lentils
+- Naan bread
+- Pancake mix
+- Maple syrup
+- Fresh berries
+- Noodles
+- Peppers
+- Onions (optional)
+- Tzatziki
+- Veggie sticks
+
+**Prep Notes:**
+- Pre-cut vegetables for stir-fries to save time during cooking.
+- Cook a batch of quinoa and rice at the beginning of the week for easy meal prep.
+- Marinate chicken and beef in advance for added flavor.
+- Portion out snacks into individual servings for quick grab-and-go options.
+
+This meal plan takes into account your allergies and intolerances while incorporating your preferences for meat, potatoes, and various flavorful cuisines. Adjust seasoning levels to suit your super-taster sensitivity and enjoy a week of delicious and nutritious meals!",scaffold_Claude-Sonnet-4.6,Claude-Sonnet-4.6,gpt-3.5-turbo,anthropic/claude-sonnet-4-6,Claude-Sonnet-4.6,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Claude-Sonnet-4.6_rep0.md,d416f109287beaefa796c5f0d482defa65da96454a7390c206db3c2016582b97,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+
+Before generating any content, catalogue all constraints systematically:
+- Identify every dietary restriction (allergens, intolerances) and create a clear exclusion list.
+- Identify every preference (cuisine styles, protein types, specific ingredients) and create an inclusion list.
+- Note sensory considerations (super-taster sensitivity, seasoning approach) and how they interact with cuisine preferences.
+- Confirm the output components required: number of days, meal types per day, supplementary sections (grocery list, prep notes).
+- Flag any potential conflicts between constraints and preferences that will need careful navigation throughout.
+
+**2. Plan & Structure**
+
+Establish the organizational framework before writing:
+- Decide on a day-by-day layout and consistent formatting for each day's meals.
+- Map cuisine themes or flavor profiles across the seven days to ensure variety without repetition.
+- Sketch which meal slots will carry which cuisine influences, ensuring all preferred styles appear.
+- Outline the grocery list structure (e.g., grouped by category) and determine the scope of prep notes.
+- Verify the skeleton against the exclusion list before proceeding.
+
+**3. Draft → Self-Review → Finalize**
+
+- Write the full meal plan following the established structure.
+- Self-review pass one: check every ingredient against the exclusion list line by line.
+- Self-review pass two: assess budget-friendliness, simplicity, and sensory suitability of seasoning levels.
+- Self-review pass three: confirm all required output sections are present and consistent.
+- Make corrections, then produce the final clean version.",6,0,0,,,,,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,"**7-Day Meal Plan for Australian Adult with Dietary Restrictions**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with avocado and tomato
+- Lunch: Chicken and vegetable stir-fry with rice noodles
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Greek yogurt with berries
+- Grocery List: Eggs, avocado, tomato, chicken, vegetables, rice noodles, salmon, sweet potatoes, Greek yogurt, berries
+- Prep Notes: Pre-cook rice noodles for easy lunch assembly
+
+**Day 2:**
+- Breakfast: Oatmeal with almond milk and banana
+- Lunch: Beef tacos with lettuce wraps
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Rice cakes with almond butter
+- Grocery List: Oats, almond milk, banana, beef, lettuce, chicken, cauliflower, curry paste, rice cakes, almond butter
+- Prep Notes: Prepare cauliflower rice in advance for quick dinner prep
+
+**Day 3:**
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Turkey and vegetable soup
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Mixed nuts
+- Grocery List: Spinach, banana, almond milk, turkey, vegetables, beef, broccoli, bell peppers, mixed nuts
+- Prep Notes: Pre-cut vegetables for easy lunch and dinner preparation
+
+**Day 4:**
+- Breakfast: Greek yogurt with granola and honey
+- Lunch: Chicken lettuce wraps
+- Dinner: Lentil curry with basmati rice
+- Snack: Carrot sticks with hummus
+- Grocery List: Greek yogurt, granola, honey, chicken, lettuce, lentils, curry paste, basmati rice, carrots, hummus
+- Prep Notes: Cook lentils in advance for quick dinner assembly
+
+**Day 5:**
+- Breakfast: Chia seed pudding with mixed berries
+- Lunch: Turkey and avocado salad
+- Dinner: Pork stir-fry with zucchini noodles
+- Snack: Apple slices with almond butter
+- Grocery List: Chia seeds, mixed berries, turkey, avocado, pork, zucchini, almond butter, apples
+- Prep Notes: Spiralize zucchini for easy dinner preparation
+
+**Day 6:**
+- Breakfast: Smoothie bowl with mango and coconut
+- Lunch: Beef and vegetable stir-fry with quinoa
+- Dinner: Chicken tikka masala with cauliflower rice
+- Snack: Rice cakes with avocado
+- Grocery List: Mango, coconut, beef, vegetables, quinoa, chicken, tikka masala sauce, cauliflower, rice cakes, avocado
+- Prep Notes: Pre-cook quinoa for quick lunch assembly
+
+**Day 7:**
+- Breakfast: Toast with almond butter and sliced banana
+- Lunch: Turkey and vegetable stir-fry with brown rice
+- Dinner: Beef curry with sweet potato
+- Snack: Mixed nuts and dried fruit
+- Grocery List: Bread, almond butter, banana, turkey, vegetables, brown rice, beef, curry paste, sweet potatoes, mixed nuts, dried fruit
+- Prep Notes: Pre-cook brown rice for easy lunch preparation
+
+**Note:** Adjust seasoning to taste preference and avoid very salty or very sweet foods. Enjoy a variety of flavors while respecting dietary restrictions.",scaffold_Claude-Opus-4.8,Claude-Opus-4.8,gpt-3.5-turbo,anthropic/claude-opus-4-8,Claude-Opus-4.8,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Claude-Opus-4.8_rep0.md,68bf1c66b13c37cfb15da3bb8ad43b699ceed4c2b03a0933351a7b7a4f799483,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+Begin by extracting every explicit constraint from the task and sorting them into categories: hard exclusions (allergens and intolerances), flavor preferences, sensory limits, budget/simplicity goals, and required deliverable components. Build a checklist you can revisit. Flag any constraints that may conflict or need substitution logic (e.g., ingredients commonly hidden in processed foods). Note the regional context and which meal slots and supporting sections must appear. Confirm coverage scope before generating any content.
+
+**2. Plan & Structure**
+Decide the overall layout: a per-day grid covering each required meal and snack slot, followed by the consolidated supporting sections. Plan how you'll ensure variety across the week while keeping ingredients overlapping enough to stay cheap and reduce waste. Establish a reusable filtering rule that screens each item against your exclusion checklist, and a strategy for keeping seasoning adjustable. Sketch the order in which you'll fill sections so the grocery list flows logically from chosen meals. Set a consistency standard for formatting and prep-note brevity.
+
+**3. Draft → Self-Review → Finalize**
+Draft each day against your structure, then pause to self-review systematically. Cross-check every ingredient against each hard exclusion individually—don't assume. Verify all meal/snack slots are filled, the grocery list matches what the plan actually uses, and prep notes stay simple. Confirm flavor preferences appear and sensory limits are respected. Check budget realism and internal consistency. Correct gaps or contradictions, tighten wording, then finalize once all checklist items pass.",7,0,0,,,,,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,"7-Day Meal Plan for Client with Dietary Restrictions
+
+Day 1:
+Breakfast: Scrambled eggs with spinach and tomatoes
+Lunch: Grilled chicken salad with avocado and lime dressing
+Dinner: Thai green curry with chicken and vegetables
+Snack: Sliced apples with almond butter
+Grocery List: Eggs, spinach, tomatoes, chicken, avocado, limes, coconut milk, green curry paste, vegetables, apples, almond butter
+
+Day 2:
+Breakfast: Greek yogurt with berries and honey
+Lunch: Turkey lettuce wraps with cucumber and mint
+Dinner: Indian chicken tikka masala with cauliflower rice
+Snack: Carrot sticks with hummus
+Grocery List: Greek yogurt, berries, honey, turkey, lettuce, cucumber, mint, chicken, tikka masala sauce, cauliflower, carrots, hummus
+
+Day 3:
+Breakfast: Oatmeal with bananas and cinnamon
+Lunch: Beef stir-fry with broccoli and bell peppers
+Dinner: Mexican beef tacos with lettuce wraps
+Snack: Rice cakes with peanut butter
+Grocery List: Oats, bananas, cinnamon, beef, broccoli, bell peppers, taco seasoning, lettuce, rice cakes, peanut butter
+
+Day 4:
+Breakfast: Smoothie with spinach, banana, and almond milk
+Lunch: Quinoa salad with grilled vegetables and lemon vinaigrette
+Dinner: Thai basil chicken stir-fry with zucchini noodles
+Snack: Mixed nuts
+Grocery List: Spinach, banana, almond milk, quinoa, vegetables, lemon, basil, chicken, zucchini, nuts
+
+Day 5:
+Breakfast: Chia seed pudding with coconut milk and mango
+Lunch: Salmon salad with mixed greens and balsamic vinaigrette
+Dinner: Indian lentil dal with brown rice
+Snack: Rice crackers with guacamole
+Grocery List: Chia seeds, coconut milk, mango, salmon, mixed greens, balsamic vinaigrette, lentils, brown rice, rice crackers, avocado
+
+Day 6:
+Breakfast: Cottage cheese with peaches and almonds
+Lunch: Turkey and vegetable stir-fry with soy sauce
+Dinner: Mexican chicken fajitas with bell peppers and onions
+Snack: Popcorn
+Grocery List: Cottage cheese, peaches, almonds, turkey, vegetables, soy sauce, chicken, fajita seasoning, bell peppers, onions, popcorn
+
+Day 7:
+Breakfast: Avocado toast with cherry tomatoes and basil
+Lunch: Tofu and vegetable curry with coconut milk
+Dinner: Thai shrimp pad thai with bean sprouts
+Snack: Sliced cucumbers with tzatziki sauce
+Grocery List: Avocado, bread, cherry tomatoes, basil, tofu, vegetables, curry paste, coconut milk, shrimp, rice noodles, bean sprouts, cucumbers, Greek yogurt
+
+Preparation Notes:
+- Prepare meals in advance for easy access throughout the week.
+- Adjust seasoning to taste to accommodate super-taster sensitivity.
+- Use alternative ingredients to replace any allergens or intolerances.
+
+This meal plan has been carefully crafted to meet your dietary restrictions and flavor preferences. Enjoy your delicious and nutritious meals throughout the week!",scaffold_GPT-O3-Mini,GPT-O3-Mini,gpt-3.5-turbo,o3-mini-2025-01-31,GPT-O3-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-O3-Mini_rep0.md,9cb6b2b5e57c23818d9983599af5c8bac78d5d6fb50a6a81f4de63f492acbb86,"Assistant Guidance: Three-Phase Workflow
+
+Phase 1: Requirements Check
+• Begin by reviewing the task requirements to ensure full understanding of the conditions, dietary restrictions, and flavor inclinations.  
+• Identify all explicit constraints (e.g., allergens, food intolerances, flavor preferences) without incorporating final content specifics.  
+• Note any structural elements required (daily schedule components, grocery list, preparation notes) and confirm all essential elements are acknowledged.  
+• Check for any implicit guidelines and conditions that might impact the overall approach.
+
+Phase 2: Plan & Structure
+• Organize the components into a clear and logical structure: layout day-by-day meal segmentation for breakfast, lunch, dinner, and snacks, along with additional segments for the grocery list and preparation notes.  
+• Establish a framework for including provisions on taste sensitivity adjustments while aligning with the flavor themes.  
+• Outline sections for the weekly plan, ensuring each section can accommodate potential modifications once further details are reviewed.  
+• Prepare a flexible strategy to manage the complex intersection of dietary restrictions and meal variety without diving into solution specifics.
+
+Phase 3: Draft -> Self-Review -> Finalize
+• Create an initial draft outline using the established structure, emphasizing process clarity and adherence to the constraints.  
+• Conduct a thorough self-review of the draft to verify that all hard constraints and task expectations are met at a process level.  
+• Adjust the outline based on review feedback, ensuring completeness before finalizing the workflow plan for implementation.",4,6,8,0.75,1.0,,,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,"**7-Day Meal Plan for 31-Year-Old Australian Adult**
+
+*Day 1:*
+
+- Breakfast: Scrambled eggs with avocado and tomato
+- Lunch: Chicken and vegetable stir-fry with rice
+- Dinner: Beef tacos with lettuce wraps and salsa
+- Snack: Greek yogurt with berries
+- Grocery List: Eggs, avocado, tomato, chicken, vegetables, rice, beef, lettuce, salsa, Greek yogurt, berries
+- Prep Notes: Pre-cut vegetables for stir-fry, marinate beef for tacos in advance
+
+*Day 2:*
+
+- Breakfast: Oatmeal with almond butter and banana
+- Lunch: Turkey and quinoa salad with vinaigrette
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Hummus with carrot sticks
+- Grocery List: Oats, almond butter, banana, turkey, quinoa, salad greens, vinaigrette, chicken, cauliflower, curry paste, hummus, carrots
+- Prep Notes: Cook quinoa in advance, prep salad ingredients for easy assembly
+
+*Day 3:*
+
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Beef and vegetable stir-fry with noodles
+- Dinner: Fish tacos with coleslaw
+- Snack: Apple slices with peanut butter
+- Grocery List: Spinach, banana, almond milk, beef, vegetables, noodles, fish, coleslaw mix, tortillas, apple, peanut butter
+- Prep Notes: Pre-cut vegetables for stir-fry, marinate fish for tacos in advance
+
+*Day 4:*
+
+- Breakfast: Chia pudding with berries
+- Lunch: Lentil soup with crusty bread
+- Dinner: Pork stir-fry with broccoli and rice
+- Snack: Rice cakes with almond butter
+- Grocery List: Chia seeds, berries, lentils, bread, pork, broccoli, rice, rice cakes, almond butter
+- Prep Notes: Soak chia seeds overnight for pudding, prep ingredients for stir-fry
+
+*Day 5:*
+
+- Breakfast: Greek yogurt with granola and honey
+- Lunch: Chicken and vegetable curry with rice
+- Dinner: Beef burrito bowls with guacamole
+- Snack: Celery sticks with hummus
+- Grocery List: Greek yogurt, granola, honey, chicken, vegetables, curry paste, rice, beef, beans, guacamole, celery, hummus
+- Prep Notes: Pre-cook rice, marinate chicken for curry, prep ingredients for burrito bowls
+
+*Day 6:*
+
+- Breakfast: Pancakes with maple syrup and fruit
+- Lunch: Turkey and avocado wrap with side salad
+- Dinner: Thai basil chicken with jasmine rice
+- Snack: Mixed nuts
+- Grocery List: Pancake mix, maple syrup, fruit, turkey, avocado, wraps, salad greens, Thai basil, chicken, jasmine rice, mixed nuts
+- Prep Notes: Mix pancake batter in advance, marinate chicken for Thai basil dish
+
+*Day 7:*
+
+- Breakfast: Smoothie bowl with coconut flakes and chia seeds
+- Lunch: Beef and broccoli stir-fry with quinoa
+- Dinner: Lentil curry with naan bread
+- Snack: Rice crackers with cheese
+- Grocery List: Coconut flakes, chia seeds, beef, broccoli, quinoa, lentils, curry paste, naan bread, rice crackers, cheese
+- Prep Notes: Pre-cut vegetables for stir-fry, cook quinoa in advance, prep ingredients for lentil curry
+
+Adjust seasoning to taste and feel free to substitute ingredients as needed. Enjoy your delicious and allergy-friendly meal plan!",scaffold_GPT-5-Mini,GPT-5-Mini,gpt-3.5-turbo,gpt-5-mini-2025-08-07,GPT-5-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-5-Mini_rep0.md,9b0e5b4fd2fc33f9d700def705e22d29452c235970afb9f54afe25f738592642,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check
+- Parse the brief into explicit constraints (dietary exclusions, intolerances, flavor preferences, sensory sensitivity, budget, simplicity, 7-day scope, meals per day, grocery list, prep notes).
+- List hard exclusions and intolerances to enforce as non-negotiable.
+- Identify user preferences to prioritize in menu development.
+- Define measurable targets: daily meals/snacks count, approximate budget ceiling, shopping frequency, prep time limits, and storage/reheating constraints.
+- Note safety checks: cross-contact risk, label-reading rules, and substitutions policy for allergens and intolerances.
+- Decide acceptable seasoning strategy: mild baseline with adjustable options and portion controls.
+
+2. Plan & Structure
+- Create a skeleton layout: day-by-day slots for breakfast/lunch/dinner/snack and a consolidated grocery list and prep notes section.
+- Determine variety strategy (rotate proteins, starches, flavors) and balance (macro variety, simple snacks).
+- Establish format conventions: how to present each meal (name, brief description, serving size, prep time, make-ahead notes, seasoning options).
+- Define grocery list structure: grouped by store section, quantities/units, staples vs perishables, items for batch prep.
+- Set prep-note templates: batch steps, storage, reheating, safety, and customizable seasoning guidance.
+
+3. Draft -> Self-Review -> Finalize
+- Draft: Populate the skeleton with placeholders for each meal, snacks, grocery items, and prep steps without final quantities yet.
+- Self-review: Verify every item against exclusions and sensitivities, check for repetition, budget feasibility, prep time, and clarity of seasoning adjustments.
+- Finalize: Convert placeholders into the final formatted deliverables (7-day plan, consolidated grocery list with quantities, succinct prep timeline and notes), and include a brief user-facing instruction on adjusting seasoning and substitutions.",2,5,8,0.625,2.5,,,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,"**7-Day Meal Plan for a 31-Year-Old Australian Adult**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and potatoes
+- Lunch: Thai chicken lettuce wraps
+- Dinner: Indian spiced lentil soup
+- Snacks: Mixed nuts, sliced apples with almond butter
+
+**Day 2:**
+- Breakfast: Smoothie with banana, almond milk, and protein powder
+- Lunch: Mexican chicken and black bean salad
+- Dinner: Beef stir-fry with broccoli and rice noodles
+- Snacks: Carrot sticks with hummus, rice cakes
+
+**Day 3:**
+- Breakfast: Greek yogurt with berries and granola (gluten-free)
+- Lunch: Thai coconut curry with chicken and vegetables
+- Dinner: Baked salmon with quinoa and roasted vegetables
+- Snacks: Rice crackers with avocado, trail mix
+
+**Day 4:**
+- Breakfast: Oatmeal with almond milk and sliced bananas
+- Lunch: Mexican quinoa and black bean bowl
+- Dinner: Indian spiced cauliflower and chickpea curry
+- Snacks: Greek yogurt with honey, sliced cucumbers with guacamole
+
+**Day 5:**
+- Breakfast: Avocado toast on gluten-free bread
+- Lunch: Thai beef salad with mango and peanuts
+- Dinner: Tandoori chicken with roasted sweet potatoes
+- Snacks: Rice cakes with peanut butter, mixed fruit
+
+**Day 6:**
+- Breakfast: Chia seed pudding with coconut milk and berries
+- Lunch: Mexican sweet potato and black bean tacos
+- Dinner: Thai green curry with tofu and vegetables
+- Snacks: Popcorn, sliced bell peppers with hummus
+
+**Day 7:**
+- Breakfast: Breakfast burrito with scrambled eggs, potatoes, and salsa
+- Lunch: Indian spiced chickpea salad
+- Dinner: Beef and vegetable stir-fry with quinoa
+- Snacks: Greek yogurt with almonds, apple slices with cinnamon
+
+**Consolidated Grocery List:**
+- Proteins: Chicken, beef, salmon, tofu, eggs
+- Vegetables: Spinach, broccoli, cauliflower, sweet potatoes, bell peppers
+- Fruits: Berries, bananas, apples, mango
+- Legumes: Lentils, black beans, chickpeas
+- Grains: Quinoa, rice noodles, rice cakes, gluten-free bread
+- Dairy Alternatives: Almond milk, coconut milk, Greek yogurt (lactose-free)
+- Pantry Items: Almond butter, hummus, guacamole, salsa, curry paste
+- Spices: Thai curry paste, tandoori spice blend, cumin, coriander
+
+**Prep Notes:**
+- Batch cook grains and proteins for easy assembly during the week.
+- Store chopped vegetables in airtight containers for quick meal prep.
+- Use mild seasonings and offer additional spices for super-taster sensitivity adjustments.
+
+This 7-day meal plan caters to your dietary restrictions and flavor preferences while ensuring a varied and balanced diet. Enjoy your meals!",scaffold_GPT-OSS-120B,GPT-OSS-120B,gpt-3.5-turbo,openai/gpt-oss-120b,GPT-OSS-120B,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-OSS-120B_rep0.md,2cde3cccf7f3b045c26f11e22f72afdb83ad6798bbd63a7d84a7624a01ff5544,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**  
+- Read the brief thoroughly; list every constraint (dietary restrictions, flavor preferences, nutritional balance, portion size, budget, preparation time).  
+- Verify that all mandatory elements are identified (daily meals, snack options, grocery list, prep notes).  
+- Flag any ambiguous points and note questions for clarification before proceeding.  
+- Cross‑reference the constraints to ensure no prohibited ingredients or cooking methods will appear later.
+
+**2. Plan & Structure**  
+- Sketch a high‑level outline: seven days, each with breakfast, lunch, dinner, and two snack slots.  
+- Decide on a consistent format for each day (e.g., heading, meal description, portion guidance).  
+- Group similar dishes to reuse ingredients efficiently, supporting the “cheap” requirement.  
+- Draft a separate section for the consolidated grocery list, organized by category (proteins, vegetables, pantry items, spices).  
+- Add a brief “prep notes” block that outlines batch cooking, storage tips, and any quick‑assembly steps.  
+- Ensure the outline leaves placeholders for adjustable seasoning notes to accommodate sensitivity.
+
+**3. Draft → Self‑Review → Finalize**  
+- Populate the outline with concise, original meal ideas, respecting all constraints.  
+- After the first draft, perform a self‑review checklist: ingredient compliance, flavor variety, budget adherence, clarity of instructions, and readability.  
+- Revise any sections that miss a requirement or could cause confusion; tighten language for brevity.  
+- Conduct a final proofread for consistency (formatting, spelling, measurement units) and confirm the grocery list matches the meals.  
+- Deliver the polished document in the agreed structure, ready for user consumption.",5,5,8,0.625,2.5,,,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,"Day 1:
+Breakfast: Scrambled eggs with spinach and tomatoes
+Lunch: Grilled chicken salad with avocado and balsamic vinaigrette
+Dinner: Beef stir-fry with broccoli and bell peppers served over jasmine rice
+Snack: Carrot sticks with hummus
+
+Day 2:
+Breakfast: Greek yogurt with honey and mixed berries
+Lunch: Turkey and avocado wrap with lettuce and tomato
+Dinner: Baked salmon with lemon herb seasoning and roasted sweet potatoes
+Snack: Rice cakes with almond butter
+
+Day 3:
+Breakfast: Smoothie with banana, almond milk, and protein powder
+Lunch: Chicken and vegetable curry with coconut milk over quinoa
+Dinner: Beef tacos with corn tortillas, lettuce, and salsa
+Snack: Mixed nuts and dried fruit
+
+Day 4:
+Breakfast: Oatmeal with almond milk, cinnamon, and sliced bananas
+Lunch: Shrimp and vegetable stir-fry with teriyaki sauce over brown rice
+Dinner: Chicken tikka masala with cauliflower rice
+Snack: Rice crackers with guacamole
+
+Day 5:
+Breakfast: Chia pudding with coconut milk and mango
+Lunch: Thai beef salad with cucumber, mint, and lime dressing
+Dinner: Turkey chili with black beans and corn
+Snack: Apple slices with almond butter
+
+Day 6:
+Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+Lunch: Grilled chicken Caesar salad with dairy-free dressing
+Dinner: Lentil curry with spinach and basmati rice
+Snack: Veggie sticks with tahini dip
+
+Day 7:
+Breakfast: Smoothie bowl with mixed berries, almond milk, and granola
+Lunch: Turkey and avocado lettuce wraps with mustard
+Dinner: Beef and vegetable kebabs with lemon herb marinade and roasted potatoes
+Snack: Popcorn with nutritional yeast
+
+Grocery list:
+- Eggs
+- Chicken
+- Beef
+- Turkey
+- Salmon
+- Shrimp
+- Ground turkey
+- Greek yogurt
+- Almond milk
+- Coconut milk
+- Almond butter
+- Hummus
+- Quinoa
+- Brown rice
+- Cauliflower rice
+- Black beans
+- Lentils
+- Spinach
+- Kale
+- Bell peppers
+- Broccoli
+- Sweet potatoes
+- Avocado
+- Mango
+- Berries
+- Banana
+- Tomatoes
+- Cucumber
+- Carrots
+- Lettuce
+- Mint
+- Basil
+- Cilantro
+- Limes
+- Lemons
+- Onions
+- Garlic
+- Ginger
+- Turmeric
+- Cumin
+- Paprika
+- Cinnamon
+- Nutritional yeast
+- Rice cakes
+- Rice crackers
+- Corn tortillas
+- Popcorn
+- Granola
+- Mixed nuts
+- Dried fruit
+- Chia seeds
+- Tahini
+- Mustard
+- Salsa
+- Teriyaki sauce
+- Balsamic vinaigrette
+- Dairy-free Caesar dressing
+- Lemon herb seasoning
+- Mild curry powder
+- Mexican seasoning blend
+
+Prep notes:
+- Pre-cut vegetables for stir-fries and salads to save time during the week
+- Cook a batch of quinoa, brown rice, and lentils in advance for quick meal assembly
+- Marinate meats for kebabs and stir-fries ahead of time for maximum flavor",plain,plain,gpt-3.5-turbo,plain,plain,,,,0,4,8,0.5,5.0,,,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Chicken salad with avocado and lime dressing
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Oatmeal with berries and almond milk
+- Lunch: Turkey and lettuce wraps with hummus
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Carrot sticks with guacamole
+
+**Day 3:**
+- Breakfast: Greek yogurt with honey and granola
+- Lunch: Quinoa salad with grilled chicken and mango salsa
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Rice cakes with peanut butter
+
+**Day 4:**
+- Breakfast: Chia seed pudding with mixed berries
+- Lunch: Taco salad with ground turkey, lettuce, and salsa
+- Dinner: Vegetable stir-fry with tofu
+- Snack: Mixed nuts and dried fruit
+
+**Day 5:**
+- Breakfast: Smoothie with banana, spinach, and almond milk
+- Lunch: Thai chicken coconut soup
+- Dinner: Beef tacos with corn tortillas and avocado
+- Snack: Rice crackers with hummus
+
+**Day 6:**
+- Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+- Lunch: Lentil salad with grilled chicken
+- Dinner: Indian spiced chicken with basmati rice
+- Snack: Celery sticks with almond butter
+
+**Day 7:**
+- Breakfast: Pancakes made with gluten-free flour and topped with berries
+- Lunch: Greek salad with grilled shrimp
+- Dinner: Vegetable curry with chickpeas
+- Snack: Popcorn with a sprinkle of mild seasoning
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Salmon
+- Turkey
+- Tofu
+- Greek yogurt
+- Almond milk
+- Quinoa
+- Sweet potatoes
+- Mango
+- Cauliflower rice
+- Rice cakes
+- Peanut butter
+- Chia seeds
+- Mixed nuts
+- Dried fruit
+- Spinach
+- Lettuce
+- Tomatoes
+- Avocado
+- Bell peppers
+- Broccoli
+- Carrots
+- Guacamole
+- Hummus
+- Banana
+- Black beans
+- Salsa
+- Lentils
+- Shrimp
+- Chickpeas
+- Gluten-free flour
+- Berries
+- Coconut milk
+- Curry paste
+- Basmati rice
+- Corn tortillas
+- Rice crackers
+- Celery
+- Popcorn
+
+**Prep Notes:**
+- Pre-cook a batch of quinoa and rice for easy meal assembly.
+- Wash and chop vegetables in advance for quicker cooking.
+- Keep a variety of nuts and fruits on hand for convenient snacking options.
+- Use mild seasonings like herbs, lemon juice, and garlic powder to enhance flavors without overwhelming the palate.",scaffold_GPT-4.1,GPT-4.1,gpt-3.5-turbo,gpt-4.1,GPT-4.1,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-4.1_rep0.md,8731999827ed5a7a7105179ea9e298ff43e3107fbadb44cc7716e2cff58e69ab,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+   - Carefully review all dietary restrictions, allergies, and intolerances mentioned.  
+   - Note the specific food preferences, flavor profiles, and cuisines to emphasize.  
+   - Identify all foods and ingredients to avoid, including both allergens and those causing intolerance.  
+   - Confirm the need for mild seasoning and the avoidance of very salty or very sweet options due to super-taster sensitivity.  
+   - Ensure understanding of required meal components: breakfast, lunch, dinner, snacks, grocery list, and preparation notes for each day.
+
+2. Plan & Structure  
+   - Outline a 7-day framework with dedicated sections for each day and meal (breakfast, lunch, dinner, snacks).  
+   - Brainstorm meal ideas that align with the restrictions and preferences, ensuring variety and simplicity.  
+   - Allocate cuisines and flavors (Mexican, Thai, Indian, etc.) thoughtfully across the week for balance.  
+   - Prepare a master grocery list, grouping items logically (produce, proteins, pantry, etc.), and draft concise prep notes for each meal.  
+   - Double-check all planned meals to confirm exclusion of restricted ingredients and compliance with seasoning guidelines.
+
+3. Draft -> Self-Review -> Finalize  
+   - Compose the full meal plan with clear meal and snack entries for each day, along with the grocery list and prep notes.  
+   - Review the draft to ensure all requirements are met, checking for ingredient compliance, flavor moderation, and overall simplicity.  
+   - Revise as needed for clarity, completeness, and user-friendliness.  
+   - Finalize the document, confirming that all sections are present and organized for easy use.",1,4,8,0.5,5.0,,,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Grilled chicken salad with avocado and a light vinaigrette
+- Dinner: Baked salmon with quinoa and roasted vegetables
+- Snack: Greek yogurt with honey and berries
+
+**Day 2:**
+- Breakfast: Oatmeal with almond milk, bananas, and cinnamon
+- Lunch: Turkey lettuce wraps with hummus and cucumber
+- Dinner: Beef stir-fry with broccoli and brown rice
+- Snack: Rice cakes with almond butter
+
+**Day 3:**
+- Breakfast: Smoothie with mixed berries, spinach, and almond milk
+- Lunch: Chickpea salad with cherry tomatoes and feta cheese
+- Dinner: Grilled shrimp with zucchini noodles and pesto
+- Snack: Mixed nuts and dried fruit
+
+**Day 4:**
+- Breakfast: Greek yogurt parfait with granola and strawberries
+- Lunch: Quinoa and black bean salad with corn and cilantro
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Apple slices with peanut butter
+
+**Day 5:**
+- Breakfast: Chia seed pudding with coconut milk and mango
+- Lunch: Tofu stir-fry with bell peppers and snap peas
+- Dinner: Lentil soup with carrots and celery
+- Snack: Carrot sticks with hummus
+
+**Day 6:**
+- Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+- Lunch: Thai peanut chicken salad with cabbage and peanuts
+- Dinner: Vegetable curry with basmati rice
+- Snack: Popcorn with nutritional yeast
+
+**Day 7:**
+- Breakfast: Pancakes made with almond flour and topped with blueberries
+- Lunch: Mexican quinoa bowl with avocado and lime
+- Dinner: Grilled steak with sweet potato fries and green beans
+- Snack: Rice crackers with guacamole
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Salmon
+- Turkey
+- Beef
+- Shrimp
+- Tofu
+- Lentils
+- Black beans
+- Chickpeas
+- Quinoa
+- Brown rice
+- Cauliflower rice
+- Zucchini
+- Bell peppers
+- Spinach
+- Kale
+- Avocado
+- Tomatoes
+- Cucumber
+- Carrots
+- Celery
+- Berries
+- Mango
+- Apples
+- Bananas
+- Strawberries
+- Blueberries
+- Almond milk
+- Greek yogurt (lactose-free)
+- Hummus
+- Almond butter
+- Peanut butter
+- Coconut milk
+- Nutritional yeast
+- Almond flour
+- Rice cakes
+- Rice crackers
+- Popcorn
+- Mixed nuts
+- Dried fruit
+- Granola
+- Salsa
+- Pesto
+- Lime
+- Cilantro
+- Basil
+- Cumin
+- Turmeric
+- Paprika
+- Garlic powder
+- Olive oil
+- Vinegar
+- Honey
+
+**Prep Notes:**
+- Pre-cut vegetables for easy meal prep
+- Cook grains and proteins in bulk for quick assembly
+- Use mild seasonings like garlic powder, paprika, and herbs
+- Adjust seasoning to taste for super-taster sensitivity",scaffold_GPT-O4-Mini,GPT-O4-Mini,gpt-3.5-turbo,o4-mini-2025-04-16,GPT-O4-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-O4-Mini_rep0.md,fcc480c28de48aade048c8d6335301a7008eb1a9907cce7dcf9124fa1c848634,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+   - Carefully read the brief to extract all stated constraints (dietary restrictions, flavor preferences, budget limits, format requirements).  
+   - List any ambiguities or missing details that could affect solution quality (e.g., target calorie range, equipment availability).  
+   - Confirm understanding of the audience and tone (simple, cost-effective, mild seasoning).  
+   - Ensure you know what deliverables are expected (daily meals, snacks, grocery list, prep notes).
+
+2. Plan & Structure  
+   - Sketch an overall outline: sections for each day’s breakfast, lunch, dinner, snacks; a consolidated grocery list; brief prep instructions.  
+   - Decide on a logical layout (table, bullet points, day-by-day narrative) that supports easy readability and quick reference.  
+   - Allocate distinct slots for recipe names, ingredients, prep time, and serving notes.  
+   - Incorporate a mechanism for adjustable seasoning in each entry (e.g., “season to taste”) without specifying exact measurements.  
+   - Map out word or character limits for each section to maintain brevity and clarity.
+
+3. Draft -> Self-Review -> Finalize  
+   - Draft all sections according to the structure, using placeholder labels rather than full recipes.  
+   - Conduct a self-review checklist: verify all constraints are respected, check consistency in formatting, confirm clarity and simplicity.  
+   - Revise to eliminate any accidental inclusion of prohibited items or overly complex language.  
+   - Finalize by polishing headings, ensuring uniform style, and preparing the document for delivery.",3,4,8,0.5,5.0,,,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and cherry tomatoes
+- Lunch: Grilled chicken with roasted sweet potatoes and green beans
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Oatmeal with berries and almond milk
+- Lunch: Turkey and avocado wrap with a side salad
+- Dinner: Baked salmon with quinoa and asparagus
+- Snack: Carrot sticks with hummus
+
+**Day 3:**
+- Breakfast: Greek yogurt with mixed nuts and honey
+- Lunch: Shrimp-free shrimp tacos with coleslaw
+- Dinner: Chicken curry with basmati rice
+- Snack: Rice cakes with peanut butter
+
+**Day 4:**
+- Breakfast: Smoothie with banana, spinach, and almond milk
+- Lunch: Turkey and vegetable stir-fry with brown rice
+- Dinner: Beef chili with cornbread
+- Snack: Mixed berries with Greek yogurt
+
+**Day 5:**
+- Breakfast: Chia seed pudding with mango and coconut flakes
+- Lunch: Chicken and vegetable kebabs with quinoa salad
+- Dinner: Thai red curry with tofu and jasmine rice
+- Snack: Rice crackers with guacamole
+
+**Day 6:**
+- Breakfast: Avocado toast with cherry tomatoes
+- Lunch: Turkey lettuce wraps with a side of sweet potato fries
+- Dinner: Lentil dal with naan bread
+- Snack: Trail mix with dried fruit and nuts
+
+**Day 7:**
+- Breakfast: Pancakes with maple syrup and fresh berries
+- Lunch: Beef and vegetable stir-fry with noodles
+- Dinner: Chicken fajitas with peppers and onions (without onions)
+- Snack: Veggie sticks with tzatziki
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Turkey
+- Salmon
+- Tofu
+- Greek yogurt
+- Almond milk
+- Quinoa
+- Brown rice
+- Basmati rice
+- Spinach
+- Broccoli
+- Bell peppers
+- Asparagus
+- Carrots
+- Berries
+- Nuts
+- Honey
+- Shrimp-free shrimp
+- Coleslaw mix
+- Hummus
+- Rice cakes
+- Peanut butter
+- Smoothie ingredients
+- Cornbread mix
+- Chia seeds
+- Mango
+- Coconut flakes
+- Tofu
+- Jasmine rice
+- Rice crackers
+- Guacamole
+- Avocado
+- Lettuce
+- Sweet potatoes
+- Lentils
+- Naan bread
+- Pancake mix
+- Maple syrup
+- Fresh berries
+- Noodles
+- Peppers
+- Onions (optional)
+- Tzatziki
+- Veggie sticks
+
+**Prep Notes:**
+- Pre-cut vegetables for stir-fries to save time during cooking.
+- Cook a batch of quinoa and rice at the beginning of the week for easy meal prep.
+- Marinate chicken and beef in advance for added flavor.
+- Portion out snacks into individual servings for quick grab-and-go options.
+
+This meal plan takes into account your allergies and intolerances while incorporating your preferences for meat, potatoes, and various flavorful cuisines. Adjust seasoning levels to suit your super-taster sensitivity and enjoy a week of delicious and nutritious meals!",scaffold_Claude-Sonnet-4.6,Claude-Sonnet-4.6,gpt-3.5-turbo,anthropic/claude-sonnet-4-6,Claude-Sonnet-4.6,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Claude-Sonnet-4.6_rep0.md,d416f109287beaefa796c5f0d482defa65da96454a7390c206db3c2016582b97,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+
+Before generating any content, catalogue all constraints systematically:
+- Identify every dietary restriction (allergens, intolerances) and create a clear exclusion list.
+- Identify every preference (cuisine styles, protein types, specific ingredients) and create an inclusion list.
+- Note sensory considerations (super-taster sensitivity, seasoning approach) and how they interact with cuisine preferences.
+- Confirm the output components required: number of days, meal types per day, supplementary sections (grocery list, prep notes).
+- Flag any potential conflicts between constraints and preferences that will need careful navigation throughout.
+
+**2. Plan & Structure**
+
+Establish the organizational framework before writing:
+- Decide on a day-by-day layout and consistent formatting for each day's meals.
+- Map cuisine themes or flavor profiles across the seven days to ensure variety without repetition.
+- Sketch which meal slots will carry which cuisine influences, ensuring all preferred styles appear.
+- Outline the grocery list structure (e.g., grouped by category) and determine the scope of prep notes.
+- Verify the skeleton against the exclusion list before proceeding.
+
+**3. Draft → Self-Review → Finalize**
+
+- Write the full meal plan following the established structure.
+- Self-review pass one: check every ingredient against the exclusion list line by line.
+- Self-review pass two: assess budget-friendliness, simplicity, and sensory suitability of seasoning levels.
+- Self-review pass three: confirm all required output sections are present and consistent.
+- Make corrections, then produce the final clean version.",6,3,8,0.375,7.5,,,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Chicken and vegetable stir-fry with rice noodles
+- Dinner: Beef tacos with lettuce wraps
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Greek yogurt with berries and honey (use lactose-free yogurt)
+- Lunch: Thai basil chicken with jasmine rice
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Carrot sticks with hummus
+
+**Day 3:**
+- Breakfast: Oatmeal with bananas and cinnamon (use gluten-free oats)
+- Lunch: Indian chickpea curry with quinoa
+- Dinner: Beef and vegetable stir-fry with brown rice
+- Snack: Rice cakes with avocado slices
+
+**Day 4:**
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Mexican chicken salad with black beans
+- Dinner: Turkey meatballs with zucchini noodles
+- Snack: Mixed nuts
+
+**Day 5:**
+- Breakfast: Cottage cheese with pineapple chunks
+- Lunch: Pad Thai with tofu and rice noodles
+- Dinner: Baked chicken with mashed potatoes
+- Snack: Rice crackers with guacamole
+
+**Day 6:**
+- Breakfast: Chia pudding with mango and coconut flakes
+- Lunch: Lentil curry with quinoa
+- Dinner: Pork chops with roasted vegetables
+- Snack: Celery sticks with peanut butter
+
+**Day 7:**
+- Breakfast: Avocado toast on gluten-free bread
+- Lunch: Thai coconut curry with shrimp and vegetables
+- Dinner: Beef kebabs with grilled corn
+- Snack: Popcorn
+
+**Grocery List:**
+- Produce: Spinach, tomatoes, bell peppers, onions, garlic, apples, berries, bananas, sweet potatoes, carrots, avocados, pineapple, mango, celery, corn
+- Meat: Chicken, beef, salmon, turkey, tofu, shrimp, pork
+- Pantry: Rice noodles, rice, lettuce, almond butter, honey, quinoa, brown rice, hummus, rice cakes, mixed nuts, chia seeds, coconut flakes, gluten-free bread, lentils, peanut butter, popcorn kernels
+
+**Prep Notes:**
+- Batch cook rice, quinoa, and sweet potatoes for easy meal assembly.
+- Use mild seasonings like garlic, herbs, and mild curry powder to accommodate super-taster sensitivity.
+- Make extra portions of stir-fries and curries to save time during the week.
+
+---
+
+Please let me know if you need any adjustments or have any specific preferences.",scaffold_Gemini-3.1-Pro,Gemini-3.1-Pro,gpt-3.5-turbo,google/gemini-3.1-pro,Gemini-3.1-Pro,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Gemini-3.1-Pro_rep0.md,3d8a15bd1ba21560399894195d0ac62e1a20e2d7aa6f385632b900d22ea7ab8d,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+- Target Audience: 31-year-old Australian adult.
+- Dietary Restrictions (Strict): No shellfish, no gluten, no lactose, no onion.
+- Preferences: Meat, potatoes, Mexican, Thai, Indian flavors.
+- Aversions: Very salty, very sweet, strong/overwhelming flavors (super-taster sensitivity requires mild, adjustable seasoning).
+- Budget/Complexity: Cheap and simple.
+- Output Requirements: 7-day meal plan (breakfast, lunch, dinner, simple snacks daily), a grocery list, and brief prep notes.
+
+**2. Plan & Structure**
+- **Meal Plan Grid:** Outline 7 days. Assign simple, budget-friendly meals for breakfast, lunch, dinner, and snacks. Ensure every meal strictly adheres to the allergy and intolerance constraints while incorporating the requested flavor profiles (Mexican, Thai, Indian) in a mild, super-taster-friendly way.
+- **Grocery List:** Categorize ingredients (e.g., Produce, Meat, Pantry) to match the meal plan. Verify all items are accessible in Australia, cheap, and compliant with all dietary restrictions (e.g., gluten-free grains, lactose-free alternatives, onion-free aromatics).
+- **Prep Notes:** Draft a brief section on how to batch-cook or prepare ingredients efficiently to keep the plan simple. Address how to handle seasoning adjustments.
+
+**3. Draft -> Self-Review -> Finalize**
+- **Draft:** Write out the 7-day plan, the categorized grocery list, and the prep notes based on the structure. Focus on clarity and simplicity.
+- **Self-Review:** Scrutinize every single ingredient against the strict constraints: Is there any hidden gluten, lactose, shellfish, or onion? Are the meals cheap and easy? Are the flavors represented but kept mild? Are all 7 days fully populated with three meals and snacks?
+- **Finalize:** Polish the formatting for readability, ensuring clear headings and bullet points, before generating the final output.",8,3,8,0.375,7.5,,,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,"**7-Day Meal Plan for Australian Adult with Dietary Restrictions**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with avocado and tomato
+- Lunch: Chicken and vegetable stir-fry with rice noodles
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Greek yogurt with berries
+- Grocery List: Eggs, avocado, tomato, chicken, vegetables, rice noodles, salmon, sweet potatoes, Greek yogurt, berries
+- Prep Notes: Pre-cook rice noodles for easy lunch assembly
+
+**Day 2:**
+- Breakfast: Oatmeal with almond milk and banana
+- Lunch: Beef tacos with lettuce wraps
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Rice cakes with almond butter
+- Grocery List: Oats, almond milk, banana, beef, lettuce, chicken, cauliflower, curry paste, rice cakes, almond butter
+- Prep Notes: Prepare cauliflower rice in advance for quick dinner prep
+
+**Day 3:**
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Turkey and vegetable soup
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Mixed nuts
+- Grocery List: Spinach, banana, almond milk, turkey, vegetables, beef, broccoli, bell peppers, mixed nuts
+- Prep Notes: Pre-cut vegetables for easy lunch and dinner preparation
+
+**Day 4:**
+- Breakfast: Greek yogurt with granola and honey
+- Lunch: Chicken lettuce wraps
+- Dinner: Lentil curry with basmati rice
+- Snack: Carrot sticks with hummus
+- Grocery List: Greek yogurt, granola, honey, chicken, lettuce, lentils, curry paste, basmati rice, carrots, hummus
+- Prep Notes: Cook lentils in advance for quick dinner assembly
+
+**Day 5:**
+- Breakfast: Chia seed pudding with mixed berries
+- Lunch: Turkey and avocado salad
+- Dinner: Pork stir-fry with zucchini noodles
+- Snack: Apple slices with almond butter
+- Grocery List: Chia seeds, mixed berries, turkey, avocado, pork, zucchini, almond butter, apples
+- Prep Notes: Spiralize zucchini for easy dinner preparation
+
+**Day 6:**
+- Breakfast: Smoothie bowl with mango and coconut
+- Lunch: Beef and vegetable stir-fry with quinoa
+- Dinner: Chicken tikka masala with cauliflower rice
+- Snack: Rice cakes with avocado
+- Grocery List: Mango, coconut, beef, vegetables, quinoa, chicken, tikka masala sauce, cauliflower, rice cakes, avocado
+- Prep Notes: Pre-cook quinoa for quick lunch assembly
+
+**Day 7:**
+- Breakfast: Toast with almond butter and sliced banana
+- Lunch: Turkey and vegetable stir-fry with brown rice
+- Dinner: Beef curry with sweet potato
+- Snack: Mixed nuts and dried fruit
+- Grocery List: Bread, almond butter, banana, turkey, vegetables, brown rice, beef, curry paste, sweet potatoes, mixed nuts, dried fruit
+- Prep Notes: Pre-cook brown rice for easy lunch preparation
+
+**Note:** Adjust seasoning to taste preference and avoid very salty or very sweet foods. Enjoy a variety of flavors while respecting dietary restrictions.",scaffold_Claude-Opus-4.8,Claude-Opus-4.8,gpt-3.5-turbo,anthropic/claude-opus-4-8,Claude-Opus-4.8,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Claude-Opus-4.8_rep0.md,68bf1c66b13c37cfb15da3bb8ad43b699ceed4c2b03a0933351a7b7a4f799483,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+Begin by extracting every explicit constraint from the task and sorting them into categories: hard exclusions (allergens and intolerances), flavor preferences, sensory limits, budget/simplicity goals, and required deliverable components. Build a checklist you can revisit. Flag any constraints that may conflict or need substitution logic (e.g., ingredients commonly hidden in processed foods). Note the regional context and which meal slots and supporting sections must appear. Confirm coverage scope before generating any content.
+
+**2. Plan & Structure**
+Decide the overall layout: a per-day grid covering each required meal and snack slot, followed by the consolidated supporting sections. Plan how you'll ensure variety across the week while keeping ingredients overlapping enough to stay cheap and reduce waste. Establish a reusable filtering rule that screens each item against your exclusion checklist, and a strategy for keeping seasoning adjustable. Sketch the order in which you'll fill sections so the grocery list flows logically from chosen meals. Set a consistency standard for formatting and prep-note brevity.
+
+**3. Draft → Self-Review → Finalize**
+Draft each day against your structure, then pause to self-review systematically. Cross-check every ingredient against each hard exclusion individually—don't assume. Verify all meal/snack slots are filled, the grocery list matches what the plan actually uses, and prep notes stay simple. Confirm flavor preferences appear and sensory limits are respected. Check budget realism and internal consistency. Correct gaps or contradictions, tighten wording, then finalize once all checklist items pass.",7,2,8,0.25,9.0,,,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,"**7-Day Meal Plan for a 31-Year-Old Australian Adult**
+
+**Day 1: Mexican Flavors**
+- Breakfast: Scrambled eggs with avocado and tomatoes
+- Lunch: Chicken fajita bowl with rice and beans
+- Dinner: Beef tacos with lettuce wraps
+- Snack: Sliced apples with peanut butter
+
+**Day 2: Thai Flavors**
+- Breakfast: Coconut milk chia pudding with mango
+- Lunch: Thai basil chicken stir-fry with jasmine rice
+- Dinner: Green curry with chicken and vegetables
+- Snack: Rice cakes with hummus
+
+**Day 3: Indian Flavors**
+- Breakfast: Masala omelette with spinach
+- Lunch: Chickpea curry with cauliflower rice
+- Dinner: Tandoori chicken with roasted sweet potatoes
+- Snack: Mixed nuts
+
+**Day 4: Meat and Potatoes**
+- Breakfast: Sweet potato hash with sausage
+- Lunch: Beef and potato stew
+- Dinner: Baked chicken with mashed potatoes
+- Snack: Carrot sticks with guacamole
+
+**Day 5: Mexican Flavors**
+- Breakfast: Breakfast burrito with scrambled eggs and salsa
+- Lunch: Beef and black bean quesadillas
+- Dinner: Chicken enchiladas with green salad
+- Snack: Greek yogurt with honey
+
+**Day 6: Thai Flavors**
+- Breakfast: Pineapple smoothie with coconut milk
+- Lunch: Pad Thai with tofu and vegetables
+- Dinner: Red curry with shrimp and zucchini noodles
+- Snack: Rice crackers with cheese
+
+**Day 7: Indian Flavors**
+- Breakfast: Spiced oatmeal with almond milk
+- Lunch: Lentil dal with naan bread (gluten-free)
+- Dinner: Butter chicken with basmati rice
+- Snack: Apple slices with almond butter
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Shrimp
+- Tofu
+- Sweet potatoes
+- Potatoes
+- Cauliflower
+- Zucchini
+- Bell peppers
+- Spinach
+- Avocado
+- Tomatoes
+- Mango
+- Apples
+- Pineapple
+- Carrots
+- Nuts
+- Rice
+- Beans
+- Black beans
+- Chickpeas
+- Lentils
+- Coconut milk
+- Almond milk
+- Hummus
+- Guacamole
+- Salsa
+- Green salad
+- Cheese (lactose-free)
+- Rice cakes
+- Rice crackers
+- Naan bread (gluten-free)
+- Spices and seasonings
+
+**Preparation Notes:**
+- Prep vegetables in advance for easier cooking throughout the week
+- Cook grains and proteins in bulk for quick meal assembly
+- Adjust seasonings to taste, keeping them mild for sensitive taste buds
+- Use lactose-free dairy alternatives where needed
+- Substitute gluten-free options for any bread or grain products",scaffold_DeepSeek-V3.1,DeepSeek-V3.1,gpt-3.5-turbo,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/DeepSeek-V3.1_rep0.md,6c2520d99dddf88d253c96c92e4f6b4424868d2cee1b13a0541b1695971eea4b,"**Assistant Guidance: Three-Phase Workflow**
+
+1.  **Requirements Check**
+    Systematically parse all user constraints and preferences. Categorize them into non-negotiable health restrictions (allergies, intolerances), strong preferences (cuisine types, dislikes), and logistical parameters (budget, simplicity, 7-day scope). Verify that every meal component and grocery item will be cross-checked against the allergen and intolerance list. Confirm the plan includes all requested elements: three daily meals, snacks, a consolidated grocery list, and basic prep instructions.
+
+2.  **Plan & Structure**
+    Develop a high-level framework for the week. Allocate cuisine types (Mexican, Thai, Indian) to specific days to ensure variety while adhering to constraints. For each day, conceptualize simple, overlapping meals to minimize waste and effort (e.g., dinner leftovers for next-day lunch). Structure the final output by first outlining the seven-day meal and snack schedule, followed by a categorized grocery list derived from the planned recipes, and concluding with brief, actionable preparation notes.
+
+3.  **Draft -> Self-Review -> Finalize**
+    Compose a first draft following the established structure. Immediately conduct a compliance review, scrutinizing every ingredient for allergens and intolerances. Assess the plan for flavor balance, cost, and simplicity. Refine the draft by substituting any non-compliant items, simplifying complex steps, and ensuring seasonings are mild and adjustable. Finalize the text, ensuring clarity and that all user requirements are explicitly met before delivery.",9,0,0,,,,,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,"Day 1:
+Breakfast: Scrambled eggs with spinach and tomatoes
+Lunch: Grilled chicken salad with avocado and balsamic vinaigrette
+Dinner: Beef stir-fry with broccoli and bell peppers served over jasmine rice
+Snack: Carrot sticks with hummus
+
+Day 2:
+Breakfast: Greek yogurt with honey and mixed berries
+Lunch: Turkey and avocado wrap with lettuce and tomato
+Dinner: Baked salmon with lemon herb seasoning and roasted sweet potatoes
+Snack: Rice cakes with almond butter
+
+Day 3:
+Breakfast: Smoothie with banana, almond milk, and protein powder
+Lunch: Chicken and vegetable curry with coconut milk over quinoa
+Dinner: Beef tacos with corn tortillas, lettuce, and salsa
+Snack: Mixed nuts and dried fruit
+
+Day 4:
+Breakfast: Oatmeal with almond milk, cinnamon, and sliced bananas
+Lunch: Shrimp and vegetable stir-fry with teriyaki sauce over brown rice
+Dinner: Chicken tikka masala with cauliflower rice
+Snack: Rice crackers with guacamole
+
+Day 5:
+Breakfast: Chia pudding with coconut milk and mango
+Lunch: Thai beef salad with cucumber, mint, and lime dressing
+Dinner: Turkey chili with black beans and corn
+Snack: Apple slices with almond butter
+
+Day 6:
+Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+Lunch: Grilled chicken Caesar salad with dairy-free dressing
+Dinner: Lentil curry with spinach and basmati rice
+Snack: Veggie sticks with tahini dip
+
+Day 7:
+Breakfast: Smoothie bowl with mixed berries, almond milk, and granola
+Lunch: Turkey and avocado lettuce wraps with mustard
+Dinner: Beef and vegetable kebabs with lemon herb marinade and roasted potatoes
+Snack: Popcorn with nutritional yeast
+
+Grocery list:
+- Eggs
+- Chicken
+- Beef
+- Turkey
+- Salmon
+- Shrimp
+- Ground turkey
+- Greek yogurt
+- Almond milk
+- Coconut milk
+- Almond butter
+- Hummus
+- Quinoa
+- Brown rice
+- Cauliflower rice
+- Black beans
+- Lentils
+- Spinach
+- Kale
+- Bell peppers
+- Broccoli
+- Sweet potatoes
+- Avocado
+- Mango
+- Berries
+- Banana
+- Tomatoes
+- Cucumber
+- Carrots
+- Lettuce
+- Mint
+- Basil
+- Cilantro
+- Limes
+- Lemons
+- Onions
+- Garlic
+- Ginger
+- Turmeric
+- Cumin
+- Paprika
+- Cinnamon
+- Nutritional yeast
+- Rice cakes
+- Rice crackers
+- Corn tortillas
+- Popcorn
+- Granola
+- Mixed nuts
+- Dried fruit
+- Chia seeds
+- Tahini
+- Mustard
+- Salsa
+- Teriyaki sauce
+- Balsamic vinaigrette
+- Dairy-free Caesar dressing
+- Lemon herb seasoning
+- Mild curry powder
+- Mexican seasoning blend
+
+Prep notes:
+- Pre-cut vegetables for stir-fries and salads to save time during the week
+- Cook a batch of quinoa, brown rice, and lentils in advance for quick meal assembly
+- Marinate meats for kebabs and stir-fries ahead of time for maximum flavor",plain,plain,gpt-3.5-turbo,plain,plain,,,,0,3,4,0.75,1.5,,,gpt-4.1,GPT-4.1
+0,"**7-Day Meal Plan for Australian Adult with Dietary Restrictions**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with avocado and tomato
+- Lunch: Chicken and vegetable stir-fry with rice noodles
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Greek yogurt with berries
+- Grocery List: Eggs, avocado, tomato, chicken, vegetables, rice noodles, salmon, sweet potatoes, Greek yogurt, berries
+- Prep Notes: Pre-cook rice noodles for easy lunch assembly
+
+**Day 2:**
+- Breakfast: Oatmeal with almond milk and banana
+- Lunch: Beef tacos with lettuce wraps
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Rice cakes with almond butter
+- Grocery List: Oats, almond milk, banana, beef, lettuce, chicken, cauliflower, curry paste, rice cakes, almond butter
+- Prep Notes: Prepare cauliflower rice in advance for quick dinner prep
+
+**Day 3:**
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Turkey and vegetable soup
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Mixed nuts
+- Grocery List: Spinach, banana, almond milk, turkey, vegetables, beef, broccoli, bell peppers, mixed nuts
+- Prep Notes: Pre-cut vegetables for easy lunch and dinner preparation
+
+**Day 4:**
+- Breakfast: Greek yogurt with granola and honey
+- Lunch: Chicken lettuce wraps
+- Dinner: Lentil curry with basmati rice
+- Snack: Carrot sticks with hummus
+- Grocery List: Greek yogurt, granola, honey, chicken, lettuce, lentils, curry paste, basmati rice, carrots, hummus
+- Prep Notes: Cook lentils in advance for quick dinner assembly
+
+**Day 5:**
+- Breakfast: Chia seed pudding with mixed berries
+- Lunch: Turkey and avocado salad
+- Dinner: Pork stir-fry with zucchini noodles
+- Snack: Apple slices with almond butter
+- Grocery List: Chia seeds, mixed berries, turkey, avocado, pork, zucchini, almond butter, apples
+- Prep Notes: Spiralize zucchini for easy dinner preparation
+
+**Day 6:**
+- Breakfast: Smoothie bowl with mango and coconut
+- Lunch: Beef and vegetable stir-fry with quinoa
+- Dinner: Chicken tikka masala with cauliflower rice
+- Snack: Rice cakes with avocado
+- Grocery List: Mango, coconut, beef, vegetables, quinoa, chicken, tikka masala sauce, cauliflower, rice cakes, avocado
+- Prep Notes: Pre-cook quinoa for quick lunch assembly
+
+**Day 7:**
+- Breakfast: Toast with almond butter and sliced banana
+- Lunch: Turkey and vegetable stir-fry with brown rice
+- Dinner: Beef curry with sweet potato
+- Snack: Mixed nuts and dried fruit
+- Grocery List: Bread, almond butter, banana, turkey, vegetables, brown rice, beef, curry paste, sweet potatoes, mixed nuts, dried fruit
+- Prep Notes: Pre-cook brown rice for easy lunch preparation
+
+**Note:** Adjust seasoning to taste preference and avoid very salty or very sweet foods. Enjoy a variety of flavors while respecting dietary restrictions.",scaffold_Claude-Opus-4.8,Claude-Opus-4.8,gpt-3.5-turbo,anthropic/claude-opus-4-8,Claude-Opus-4.8,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Claude-Opus-4.8_rep0.md,68bf1c66b13c37cfb15da3bb8ad43b699ceed4c2b03a0933351a7b7a4f799483,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+Begin by extracting every explicit constraint from the task and sorting them into categories: hard exclusions (allergens and intolerances), flavor preferences, sensory limits, budget/simplicity goals, and required deliverable components. Build a checklist you can revisit. Flag any constraints that may conflict or need substitution logic (e.g., ingredients commonly hidden in processed foods). Note the regional context and which meal slots and supporting sections must appear. Confirm coverage scope before generating any content.
+
+**2. Plan & Structure**
+Decide the overall layout: a per-day grid covering each required meal and snack slot, followed by the consolidated supporting sections. Plan how you'll ensure variety across the week while keeping ingredients overlapping enough to stay cheap and reduce waste. Establish a reusable filtering rule that screens each item against your exclusion checklist, and a strategy for keeping seasoning adjustable. Sketch the order in which you'll fill sections so the grocery list flows logically from chosen meals. Set a consistency standard for formatting and prep-note brevity.
+
+**3. Draft → Self-Review → Finalize**
+Draft each day against your structure, then pause to self-review systematically. Cross-check every ingredient against each hard exclusion individually—don't assume. Verify all meal/snack slots are filled, the grocery list matches what the plan actually uses, and prep notes stay simple. Confirm flavor preferences appear and sensory limits are respected. Check budget realism and internal consistency. Correct gaps or contradictions, tighten wording, then finalize once all checklist items pass.",7,3,4,0.75,1.5,,,gpt-4.1,GPT-4.1
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and cherry tomatoes
+- Lunch: Grilled chicken with roasted sweet potatoes and green beans
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Oatmeal with berries and almond milk
+- Lunch: Turkey and avocado wrap with a side salad
+- Dinner: Baked salmon with quinoa and asparagus
+- Snack: Carrot sticks with hummus
+
+**Day 3:**
+- Breakfast: Greek yogurt with mixed nuts and honey
+- Lunch: Shrimp-free shrimp tacos with coleslaw
+- Dinner: Chicken curry with basmati rice
+- Snack: Rice cakes with peanut butter
+
+**Day 4:**
+- Breakfast: Smoothie with banana, spinach, and almond milk
+- Lunch: Turkey and vegetable stir-fry with brown rice
+- Dinner: Beef chili with cornbread
+- Snack: Mixed berries with Greek yogurt
+
+**Day 5:**
+- Breakfast: Chia seed pudding with mango and coconut flakes
+- Lunch: Chicken and vegetable kebabs with quinoa salad
+- Dinner: Thai red curry with tofu and jasmine rice
+- Snack: Rice crackers with guacamole
+
+**Day 6:**
+- Breakfast: Avocado toast with cherry tomatoes
+- Lunch: Turkey lettuce wraps with a side of sweet potato fries
+- Dinner: Lentil dal with naan bread
+- Snack: Trail mix with dried fruit and nuts
+
+**Day 7:**
+- Breakfast: Pancakes with maple syrup and fresh berries
+- Lunch: Beef and vegetable stir-fry with noodles
+- Dinner: Chicken fajitas with peppers and onions (without onions)
+- Snack: Veggie sticks with tzatziki
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Turkey
+- Salmon
+- Tofu
+- Greek yogurt
+- Almond milk
+- Quinoa
+- Brown rice
+- Basmati rice
+- Spinach
+- Broccoli
+- Bell peppers
+- Asparagus
+- Carrots
+- Berries
+- Nuts
+- Honey
+- Shrimp-free shrimp
+- Coleslaw mix
+- Hummus
+- Rice cakes
+- Peanut butter
+- Smoothie ingredients
+- Cornbread mix
+- Chia seeds
+- Mango
+- Coconut flakes
+- Tofu
+- Jasmine rice
+- Rice crackers
+- Guacamole
+- Avocado
+- Lettuce
+- Sweet potatoes
+- Lentils
+- Naan bread
+- Pancake mix
+- Maple syrup
+- Fresh berries
+- Noodles
+- Peppers
+- Onions (optional)
+- Tzatziki
+- Veggie sticks
+
+**Prep Notes:**
+- Pre-cut vegetables for stir-fries to save time during cooking.
+- Cook a batch of quinoa and rice at the beginning of the week for easy meal prep.
+- Marinate chicken and beef in advance for added flavor.
+- Portion out snacks into individual servings for quick grab-and-go options.
+
+This meal plan takes into account your allergies and intolerances while incorporating your preferences for meat, potatoes, and various flavorful cuisines. Adjust seasoning levels to suit your super-taster sensitivity and enjoy a week of delicious and nutritious meals!",scaffold_Claude-Sonnet-4.6,Claude-Sonnet-4.6,gpt-3.5-turbo,anthropic/claude-sonnet-4-6,Claude-Sonnet-4.6,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Claude-Sonnet-4.6_rep0.md,d416f109287beaefa796c5f0d482defa65da96454a7390c206db3c2016582b97,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+
+Before generating any content, catalogue all constraints systematically:
+- Identify every dietary restriction (allergens, intolerances) and create a clear exclusion list.
+- Identify every preference (cuisine styles, protein types, specific ingredients) and create an inclusion list.
+- Note sensory considerations (super-taster sensitivity, seasoning approach) and how they interact with cuisine preferences.
+- Confirm the output components required: number of days, meal types per day, supplementary sections (grocery list, prep notes).
+- Flag any potential conflicts between constraints and preferences that will need careful navigation throughout.
+
+**2. Plan & Structure**
+
+Establish the organizational framework before writing:
+- Decide on a day-by-day layout and consistent formatting for each day's meals.
+- Map cuisine themes or flavor profiles across the seven days to ensure variety without repetition.
+- Sketch which meal slots will carry which cuisine influences, ensuring all preferred styles appear.
+- Outline the grocery list structure (e.g., grouped by category) and determine the scope of prep notes.
+- Verify the skeleton against the exclusion list before proceeding.
+
+**3. Draft → Self-Review → Finalize**
+
+- Write the full meal plan following the established structure.
+- Self-review pass one: check every ingredient against the exclusion list line by line.
+- Self-review pass two: assess budget-friendliness, simplicity, and sensory suitability of seasoning levels.
+- Self-review pass three: confirm all required output sections are present and consistent.
+- Make corrections, then produce the final clean version.",6,2,4,0.5,3.0,,,gpt-4.1,GPT-4.1
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Chicken and vegetable stir-fry with rice noodles
+- Dinner: Beef tacos with lettuce wraps
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Greek yogurt with berries and honey (use lactose-free yogurt)
+- Lunch: Thai basil chicken with jasmine rice
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Carrot sticks with hummus
+
+**Day 3:**
+- Breakfast: Oatmeal with bananas and cinnamon (use gluten-free oats)
+- Lunch: Indian chickpea curry with quinoa
+- Dinner: Beef and vegetable stir-fry with brown rice
+- Snack: Rice cakes with avocado slices
+
+**Day 4:**
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Mexican chicken salad with black beans
+- Dinner: Turkey meatballs with zucchini noodles
+- Snack: Mixed nuts
+
+**Day 5:**
+- Breakfast: Cottage cheese with pineapple chunks
+- Lunch: Pad Thai with tofu and rice noodles
+- Dinner: Baked chicken with mashed potatoes
+- Snack: Rice crackers with guacamole
+
+**Day 6:**
+- Breakfast: Chia pudding with mango and coconut flakes
+- Lunch: Lentil curry with quinoa
+- Dinner: Pork chops with roasted vegetables
+- Snack: Celery sticks with peanut butter
+
+**Day 7:**
+- Breakfast: Avocado toast on gluten-free bread
+- Lunch: Thai coconut curry with shrimp and vegetables
+- Dinner: Beef kebabs with grilled corn
+- Snack: Popcorn
+
+**Grocery List:**
+- Produce: Spinach, tomatoes, bell peppers, onions, garlic, apples, berries, bananas, sweet potatoes, carrots, avocados, pineapple, mango, celery, corn
+- Meat: Chicken, beef, salmon, turkey, tofu, shrimp, pork
+- Pantry: Rice noodles, rice, lettuce, almond butter, honey, quinoa, brown rice, hummus, rice cakes, mixed nuts, chia seeds, coconut flakes, gluten-free bread, lentils, peanut butter, popcorn kernels
+
+**Prep Notes:**
+- Batch cook rice, quinoa, and sweet potatoes for easy meal assembly.
+- Use mild seasonings like garlic, herbs, and mild curry powder to accommodate super-taster sensitivity.
+- Make extra portions of stir-fries and curries to save time during the week.
+
+---
+
+Please let me know if you need any adjustments or have any specific preferences.",scaffold_Gemini-3.1-Pro,Gemini-3.1-Pro,gpt-3.5-turbo,google/gemini-3.1-pro,Gemini-3.1-Pro,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Gemini-3.1-Pro_rep0.md,3d8a15bd1ba21560399894195d0ac62e1a20e2d7aa6f385632b900d22ea7ab8d,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+- Target Audience: 31-year-old Australian adult.
+- Dietary Restrictions (Strict): No shellfish, no gluten, no lactose, no onion.
+- Preferences: Meat, potatoes, Mexican, Thai, Indian flavors.
+- Aversions: Very salty, very sweet, strong/overwhelming flavors (super-taster sensitivity requires mild, adjustable seasoning).
+- Budget/Complexity: Cheap and simple.
+- Output Requirements: 7-day meal plan (breakfast, lunch, dinner, simple snacks daily), a grocery list, and brief prep notes.
+
+**2. Plan & Structure**
+- **Meal Plan Grid:** Outline 7 days. Assign simple, budget-friendly meals for breakfast, lunch, dinner, and snacks. Ensure every meal strictly adheres to the allergy and intolerance constraints while incorporating the requested flavor profiles (Mexican, Thai, Indian) in a mild, super-taster-friendly way.
+- **Grocery List:** Categorize ingredients (e.g., Produce, Meat, Pantry) to match the meal plan. Verify all items are accessible in Australia, cheap, and compliant with all dietary restrictions (e.g., gluten-free grains, lactose-free alternatives, onion-free aromatics).
+- **Prep Notes:** Draft a brief section on how to batch-cook or prepare ingredients efficiently to keep the plan simple. Address how to handle seasoning adjustments.
+
+**3. Draft -> Self-Review -> Finalize**
+- **Draft:** Write out the 7-day plan, the categorized grocery list, and the prep notes based on the structure. Focus on clarity and simplicity.
+- **Self-Review:** Scrutinize every single ingredient against the strict constraints: Is there any hidden gluten, lactose, shellfish, or onion? Are the meals cheap and easy? Are the flavors represented but kept mild? Are all 7 days fully populated with three meals and snacks?
+- **Finalize:** Polish the formatting for readability, ensuring clear headings and bullet points, before generating the final output.",8,1,4,0.25,4.5,,,gpt-4.1,GPT-4.1
+0,"**7-Day Meal Plan for a 31-Year-Old Australian Adult**
+
+**Day 1: Mexican Flavors**
+- Breakfast: Scrambled eggs with avocado and tomatoes
+- Lunch: Chicken fajita bowl with rice and beans
+- Dinner: Beef tacos with lettuce wraps
+- Snack: Sliced apples with peanut butter
+
+**Day 2: Thai Flavors**
+- Breakfast: Coconut milk chia pudding with mango
+- Lunch: Thai basil chicken stir-fry with jasmine rice
+- Dinner: Green curry with chicken and vegetables
+- Snack: Rice cakes with hummus
+
+**Day 3: Indian Flavors**
+- Breakfast: Masala omelette with spinach
+- Lunch: Chickpea curry with cauliflower rice
+- Dinner: Tandoori chicken with roasted sweet potatoes
+- Snack: Mixed nuts
+
+**Day 4: Meat and Potatoes**
+- Breakfast: Sweet potato hash with sausage
+- Lunch: Beef and potato stew
+- Dinner: Baked chicken with mashed potatoes
+- Snack: Carrot sticks with guacamole
+
+**Day 5: Mexican Flavors**
+- Breakfast: Breakfast burrito with scrambled eggs and salsa
+- Lunch: Beef and black bean quesadillas
+- Dinner: Chicken enchiladas with green salad
+- Snack: Greek yogurt with honey
+
+**Day 6: Thai Flavors**
+- Breakfast: Pineapple smoothie with coconut milk
+- Lunch: Pad Thai with tofu and vegetables
+- Dinner: Red curry with shrimp and zucchini noodles
+- Snack: Rice crackers with cheese
+
+**Day 7: Indian Flavors**
+- Breakfast: Spiced oatmeal with almond milk
+- Lunch: Lentil dal with naan bread (gluten-free)
+- Dinner: Butter chicken with basmati rice
+- Snack: Apple slices with almond butter
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Shrimp
+- Tofu
+- Sweet potatoes
+- Potatoes
+- Cauliflower
+- Zucchini
+- Bell peppers
+- Spinach
+- Avocado
+- Tomatoes
+- Mango
+- Apples
+- Pineapple
+- Carrots
+- Nuts
+- Rice
+- Beans
+- Black beans
+- Chickpeas
+- Lentils
+- Coconut milk
+- Almond milk
+- Hummus
+- Guacamole
+- Salsa
+- Green salad
+- Cheese (lactose-free)
+- Rice cakes
+- Rice crackers
+- Naan bread (gluten-free)
+- Spices and seasonings
+
+**Preparation Notes:**
+- Prep vegetables in advance for easier cooking throughout the week
+- Cook grains and proteins in bulk for quick meal assembly
+- Adjust seasonings to taste, keeping them mild for sensitive taste buds
+- Use lactose-free dairy alternatives where needed
+- Substitute gluten-free options for any bread or grain products",scaffold_DeepSeek-V3.1,DeepSeek-V3.1,gpt-3.5-turbo,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/DeepSeek-V3.1_rep0.md,6c2520d99dddf88d253c96c92e4f6b4424868d2cee1b13a0541b1695971eea4b,"**Assistant Guidance: Three-Phase Workflow**
+
+1.  **Requirements Check**
+    Systematically parse all user constraints and preferences. Categorize them into non-negotiable health restrictions (allergies, intolerances), strong preferences (cuisine types, dislikes), and logistical parameters (budget, simplicity, 7-day scope). Verify that every meal component and grocery item will be cross-checked against the allergen and intolerance list. Confirm the plan includes all requested elements: three daily meals, snacks, a consolidated grocery list, and basic prep instructions.
+
+2.  **Plan & Structure**
+    Develop a high-level framework for the week. Allocate cuisine types (Mexican, Thai, Indian) to specific days to ensure variety while adhering to constraints. For each day, conceptualize simple, overlapping meals to minimize waste and effort (e.g., dinner leftovers for next-day lunch). Structure the final output by first outlining the seven-day meal and snack schedule, followed by a categorized grocery list derived from the planned recipes, and concluding with brief, actionable preparation notes.
+
+3.  **Draft -> Self-Review -> Finalize**
+    Compose a first draft following the established structure. Immediately conduct a compliance review, scrutinizing every ingredient for allergens and intolerances. Assess the plan for flavor balance, cost, and simplicity. Refine the draft by substituting any non-compliant items, simplifying complex steps, and ensuring seasonings are mild and adjustable. Finalize the text, ensuring clarity and that all user requirements are explicitly met before delivery.",9,1,4,0.25,4.5,,,gpt-4.1,GPT-4.1
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Chicken salad with avocado and lime dressing
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Oatmeal with berries and almond milk
+- Lunch: Turkey and lettuce wraps with hummus
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Carrot sticks with guacamole
+
+**Day 3:**
+- Breakfast: Greek yogurt with honey and granola
+- Lunch: Quinoa salad with grilled chicken and mango salsa
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Rice cakes with peanut butter
+
+**Day 4:**
+- Breakfast: Chia seed pudding with mixed berries
+- Lunch: Taco salad with ground turkey, lettuce, and salsa
+- Dinner: Vegetable stir-fry with tofu
+- Snack: Mixed nuts and dried fruit
+
+**Day 5:**
+- Breakfast: Smoothie with banana, spinach, and almond milk
+- Lunch: Thai chicken coconut soup
+- Dinner: Beef tacos with corn tortillas and avocado
+- Snack: Rice crackers with hummus
+
+**Day 6:**
+- Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+- Lunch: Lentil salad with grilled chicken
+- Dinner: Indian spiced chicken with basmati rice
+- Snack: Celery sticks with almond butter
+
+**Day 7:**
+- Breakfast: Pancakes made with gluten-free flour and topped with berries
+- Lunch: Greek salad with grilled shrimp
+- Dinner: Vegetable curry with chickpeas
+- Snack: Popcorn with a sprinkle of mild seasoning
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Salmon
+- Turkey
+- Tofu
+- Greek yogurt
+- Almond milk
+- Quinoa
+- Sweet potatoes
+- Mango
+- Cauliflower rice
+- Rice cakes
+- Peanut butter
+- Chia seeds
+- Mixed nuts
+- Dried fruit
+- Spinach
+- Lettuce
+- Tomatoes
+- Avocado
+- Bell peppers
+- Broccoli
+- Carrots
+- Guacamole
+- Hummus
+- Banana
+- Black beans
+- Salsa
+- Lentils
+- Shrimp
+- Chickpeas
+- Gluten-free flour
+- Berries
+- Coconut milk
+- Curry paste
+- Basmati rice
+- Corn tortillas
+- Rice crackers
+- Celery
+- Popcorn
+
+**Prep Notes:**
+- Pre-cook a batch of quinoa and rice for easy meal assembly.
+- Wash and chop vegetables in advance for quicker cooking.
+- Keep a variety of nuts and fruits on hand for convenient snacking options.
+- Use mild seasonings like herbs, lemon juice, and garlic powder to enhance flavors without overwhelming the palate.",scaffold_GPT-4.1,GPT-4.1,gpt-3.5-turbo,gpt-4.1,GPT-4.1,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-4.1_rep0.md,8731999827ed5a7a7105179ea9e298ff43e3107fbadb44cc7716e2cff58e69ab,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+   - Carefully review all dietary restrictions, allergies, and intolerances mentioned.  
+   - Note the specific food preferences, flavor profiles, and cuisines to emphasize.  
+   - Identify all foods and ingredients to avoid, including both allergens and those causing intolerance.  
+   - Confirm the need for mild seasoning and the avoidance of very salty or very sweet options due to super-taster sensitivity.  
+   - Ensure understanding of required meal components: breakfast, lunch, dinner, snacks, grocery list, and preparation notes for each day.
+
+2. Plan & Structure  
+   - Outline a 7-day framework with dedicated sections for each day and meal (breakfast, lunch, dinner, snacks).  
+   - Brainstorm meal ideas that align with the restrictions and preferences, ensuring variety and simplicity.  
+   - Allocate cuisines and flavors (Mexican, Thai, Indian, etc.) thoughtfully across the week for balance.  
+   - Prepare a master grocery list, grouping items logically (produce, proteins, pantry, etc.), and draft concise prep notes for each meal.  
+   - Double-check all planned meals to confirm exclusion of restricted ingredients and compliance with seasoning guidelines.
+
+3. Draft -> Self-Review -> Finalize  
+   - Compose the full meal plan with clear meal and snack entries for each day, along with the grocery list and prep notes.  
+   - Review the draft to ensure all requirements are met, checking for ingredient compliance, flavor moderation, and overall simplicity.  
+   - Revise as needed for clarity, completeness, and user-friendliness.  
+   - Finalize the document, confirming that all sections are present and organized for easy use.",1,0,0,,,,,gpt-4.1,GPT-4.1
+0,"**7-Day Meal Plan for 31-Year-Old Australian Adult**
+
+*Day 1:*
+
+- Breakfast: Scrambled eggs with avocado and tomato
+- Lunch: Chicken and vegetable stir-fry with rice
+- Dinner: Beef tacos with lettuce wraps and salsa
+- Snack: Greek yogurt with berries
+- Grocery List: Eggs, avocado, tomato, chicken, vegetables, rice, beef, lettuce, salsa, Greek yogurt, berries
+- Prep Notes: Pre-cut vegetables for stir-fry, marinate beef for tacos in advance
+
+*Day 2:*
+
+- Breakfast: Oatmeal with almond butter and banana
+- Lunch: Turkey and quinoa salad with vinaigrette
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Hummus with carrot sticks
+- Grocery List: Oats, almond butter, banana, turkey, quinoa, salad greens, vinaigrette, chicken, cauliflower, curry paste, hummus, carrots
+- Prep Notes: Cook quinoa in advance, prep salad ingredients for easy assembly
+
+*Day 3:*
+
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Beef and vegetable stir-fry with noodles
+- Dinner: Fish tacos with coleslaw
+- Snack: Apple slices with peanut butter
+- Grocery List: Spinach, banana, almond milk, beef, vegetables, noodles, fish, coleslaw mix, tortillas, apple, peanut butter
+- Prep Notes: Pre-cut vegetables for stir-fry, marinate fish for tacos in advance
+
+*Day 4:*
+
+- Breakfast: Chia pudding with berries
+- Lunch: Lentil soup with crusty bread
+- Dinner: Pork stir-fry with broccoli and rice
+- Snack: Rice cakes with almond butter
+- Grocery List: Chia seeds, berries, lentils, bread, pork, broccoli, rice, rice cakes, almond butter
+- Prep Notes: Soak chia seeds overnight for pudding, prep ingredients for stir-fry
+
+*Day 5:*
+
+- Breakfast: Greek yogurt with granola and honey
+- Lunch: Chicken and vegetable curry with rice
+- Dinner: Beef burrito bowls with guacamole
+- Snack: Celery sticks with hummus
+- Grocery List: Greek yogurt, granola, honey, chicken, vegetables, curry paste, rice, beef, beans, guacamole, celery, hummus
+- Prep Notes: Pre-cook rice, marinate chicken for curry, prep ingredients for burrito bowls
+
+*Day 6:*
+
+- Breakfast: Pancakes with maple syrup and fruit
+- Lunch: Turkey and avocado wrap with side salad
+- Dinner: Thai basil chicken with jasmine rice
+- Snack: Mixed nuts
+- Grocery List: Pancake mix, maple syrup, fruit, turkey, avocado, wraps, salad greens, Thai basil, chicken, jasmine rice, mixed nuts
+- Prep Notes: Mix pancake batter in advance, marinate chicken for Thai basil dish
+
+*Day 7:*
+
+- Breakfast: Smoothie bowl with coconut flakes and chia seeds
+- Lunch: Beef and broccoli stir-fry with quinoa
+- Dinner: Lentil curry with naan bread
+- Snack: Rice crackers with cheese
+- Grocery List: Coconut flakes, chia seeds, beef, broccoli, quinoa, lentils, curry paste, naan bread, rice crackers, cheese
+- Prep Notes: Pre-cut vegetables for stir-fry, cook quinoa in advance, prep ingredients for lentil curry
+
+Adjust seasoning to taste and feel free to substitute ingredients as needed. Enjoy your delicious and allergy-friendly meal plan!",scaffold_GPT-5-Mini,GPT-5-Mini,gpt-3.5-turbo,gpt-5-mini-2025-08-07,GPT-5-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-5-Mini_rep0.md,9b0e5b4fd2fc33f9d700def705e22d29452c235970afb9f54afe25f738592642,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check
+- Parse the brief into explicit constraints (dietary exclusions, intolerances, flavor preferences, sensory sensitivity, budget, simplicity, 7-day scope, meals per day, grocery list, prep notes).
+- List hard exclusions and intolerances to enforce as non-negotiable.
+- Identify user preferences to prioritize in menu development.
+- Define measurable targets: daily meals/snacks count, approximate budget ceiling, shopping frequency, prep time limits, and storage/reheating constraints.
+- Note safety checks: cross-contact risk, label-reading rules, and substitutions policy for allergens and intolerances.
+- Decide acceptable seasoning strategy: mild baseline with adjustable options and portion controls.
+
+2. Plan & Structure
+- Create a skeleton layout: day-by-day slots for breakfast/lunch/dinner/snack and a consolidated grocery list and prep notes section.
+- Determine variety strategy (rotate proteins, starches, flavors) and balance (macro variety, simple snacks).
+- Establish format conventions: how to present each meal (name, brief description, serving size, prep time, make-ahead notes, seasoning options).
+- Define grocery list structure: grouped by store section, quantities/units, staples vs perishables, items for batch prep.
+- Set prep-note templates: batch steps, storage, reheating, safety, and customizable seasoning guidance.
+
+3. Draft -> Self-Review -> Finalize
+- Draft: Populate the skeleton with placeholders for each meal, snacks, grocery items, and prep steps without final quantities yet.
+- Self-review: Verify every item against exclusions and sensitivities, check for repetition, budget feasibility, prep time, and clarity of seasoning adjustments.
+- Finalize: Convert placeholders into the final formatted deliverables (7-day plan, consolidated grocery list with quantities, succinct prep timeline and notes), and include a brief user-facing instruction on adjusting seasoning and substitutions.",2,0,0,,,,,gpt-4.1,GPT-4.1
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Grilled chicken salad with avocado and a light vinaigrette
+- Dinner: Baked salmon with quinoa and roasted vegetables
+- Snack: Greek yogurt with honey and berries
+
+**Day 2:**
+- Breakfast: Oatmeal with almond milk, bananas, and cinnamon
+- Lunch: Turkey lettuce wraps with hummus and cucumber
+- Dinner: Beef stir-fry with broccoli and brown rice
+- Snack: Rice cakes with almond butter
+
+**Day 3:**
+- Breakfast: Smoothie with mixed berries, spinach, and almond milk
+- Lunch: Chickpea salad with cherry tomatoes and feta cheese
+- Dinner: Grilled shrimp with zucchini noodles and pesto
+- Snack: Mixed nuts and dried fruit
+
+**Day 4:**
+- Breakfast: Greek yogurt parfait with granola and strawberries
+- Lunch: Quinoa and black bean salad with corn and cilantro
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Apple slices with peanut butter
+
+**Day 5:**
+- Breakfast: Chia seed pudding with coconut milk and mango
+- Lunch: Tofu stir-fry with bell peppers and snap peas
+- Dinner: Lentil soup with carrots and celery
+- Snack: Carrot sticks with hummus
+
+**Day 6:**
+- Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+- Lunch: Thai peanut chicken salad with cabbage and peanuts
+- Dinner: Vegetable curry with basmati rice
+- Snack: Popcorn with nutritional yeast
+
+**Day 7:**
+- Breakfast: Pancakes made with almond flour and topped with blueberries
+- Lunch: Mexican quinoa bowl with avocado and lime
+- Dinner: Grilled steak with sweet potato fries and green beans
+- Snack: Rice crackers with guacamole
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Salmon
+- Turkey
+- Beef
+- Shrimp
+- Tofu
+- Lentils
+- Black beans
+- Chickpeas
+- Quinoa
+- Brown rice
+- Cauliflower rice
+- Zucchini
+- Bell peppers
+- Spinach
+- Kale
+- Avocado
+- Tomatoes
+- Cucumber
+- Carrots
+- Celery
+- Berries
+- Mango
+- Apples
+- Bananas
+- Strawberries
+- Blueberries
+- Almond milk
+- Greek yogurt (lactose-free)
+- Hummus
+- Almond butter
+- Peanut butter
+- Coconut milk
+- Nutritional yeast
+- Almond flour
+- Rice cakes
+- Rice crackers
+- Popcorn
+- Mixed nuts
+- Dried fruit
+- Granola
+- Salsa
+- Pesto
+- Lime
+- Cilantro
+- Basil
+- Cumin
+- Turmeric
+- Paprika
+- Garlic powder
+- Olive oil
+- Vinegar
+- Honey
+
+**Prep Notes:**
+- Pre-cut vegetables for easy meal prep
+- Cook grains and proteins in bulk for quick assembly
+- Use mild seasonings like garlic powder, paprika, and herbs
+- Adjust seasoning to taste for super-taster sensitivity",scaffold_GPT-O4-Mini,GPT-O4-Mini,gpt-3.5-turbo,o4-mini-2025-04-16,GPT-O4-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-O4-Mini_rep0.md,fcc480c28de48aade048c8d6335301a7008eb1a9907cce7dcf9124fa1c848634,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+   - Carefully read the brief to extract all stated constraints (dietary restrictions, flavor preferences, budget limits, format requirements).  
+   - List any ambiguities or missing details that could affect solution quality (e.g., target calorie range, equipment availability).  
+   - Confirm understanding of the audience and tone (simple, cost-effective, mild seasoning).  
+   - Ensure you know what deliverables are expected (daily meals, snacks, grocery list, prep notes).
+
+2. Plan & Structure  
+   - Sketch an overall outline: sections for each day’s breakfast, lunch, dinner, snacks; a consolidated grocery list; brief prep instructions.  
+   - Decide on a logical layout (table, bullet points, day-by-day narrative) that supports easy readability and quick reference.  
+   - Allocate distinct slots for recipe names, ingredients, prep time, and serving notes.  
+   - Incorporate a mechanism for adjustable seasoning in each entry (e.g., “season to taste”) without specifying exact measurements.  
+   - Map out word or character limits for each section to maintain brevity and clarity.
+
+3. Draft -> Self-Review -> Finalize  
+   - Draft all sections according to the structure, using placeholder labels rather than full recipes.  
+   - Conduct a self-review checklist: verify all constraints are respected, check consistency in formatting, confirm clarity and simplicity.  
+   - Revise to eliminate any accidental inclusion of prohibited items or overly complex language.  
+   - Finalize by polishing headings, ensuring uniform style, and preparing the document for delivery.",3,0,0,,,,,gpt-4.1,GPT-4.1
+0,"7-Day Meal Plan for Client with Dietary Restrictions
+
+Day 1:
+Breakfast: Scrambled eggs with spinach and tomatoes
+Lunch: Grilled chicken salad with avocado and lime dressing
+Dinner: Thai green curry with chicken and vegetables
+Snack: Sliced apples with almond butter
+Grocery List: Eggs, spinach, tomatoes, chicken, avocado, limes, coconut milk, green curry paste, vegetables, apples, almond butter
+
+Day 2:
+Breakfast: Greek yogurt with berries and honey
+Lunch: Turkey lettuce wraps with cucumber and mint
+Dinner: Indian chicken tikka masala with cauliflower rice
+Snack: Carrot sticks with hummus
+Grocery List: Greek yogurt, berries, honey, turkey, lettuce, cucumber, mint, chicken, tikka masala sauce, cauliflower, carrots, hummus
+
+Day 3:
+Breakfast: Oatmeal with bananas and cinnamon
+Lunch: Beef stir-fry with broccoli and bell peppers
+Dinner: Mexican beef tacos with lettuce wraps
+Snack: Rice cakes with peanut butter
+Grocery List: Oats, bananas, cinnamon, beef, broccoli, bell peppers, taco seasoning, lettuce, rice cakes, peanut butter
+
+Day 4:
+Breakfast: Smoothie with spinach, banana, and almond milk
+Lunch: Quinoa salad with grilled vegetables and lemon vinaigrette
+Dinner: Thai basil chicken stir-fry with zucchini noodles
+Snack: Mixed nuts
+Grocery List: Spinach, banana, almond milk, quinoa, vegetables, lemon, basil, chicken, zucchini, nuts
+
+Day 5:
+Breakfast: Chia seed pudding with coconut milk and mango
+Lunch: Salmon salad with mixed greens and balsamic vinaigrette
+Dinner: Indian lentil dal with brown rice
+Snack: Rice crackers with guacamole
+Grocery List: Chia seeds, coconut milk, mango, salmon, mixed greens, balsamic vinaigrette, lentils, brown rice, rice crackers, avocado
+
+Day 6:
+Breakfast: Cottage cheese with peaches and almonds
+Lunch: Turkey and vegetable stir-fry with soy sauce
+Dinner: Mexican chicken fajitas with bell peppers and onions
+Snack: Popcorn
+Grocery List: Cottage cheese, peaches, almonds, turkey, vegetables, soy sauce, chicken, fajita seasoning, bell peppers, onions, popcorn
+
+Day 7:
+Breakfast: Avocado toast with cherry tomatoes and basil
+Lunch: Tofu and vegetable curry with coconut milk
+Dinner: Thai shrimp pad thai with bean sprouts
+Snack: Sliced cucumbers with tzatziki sauce
+Grocery List: Avocado, bread, cherry tomatoes, basil, tofu, vegetables, curry paste, coconut milk, shrimp, rice noodles, bean sprouts, cucumbers, Greek yogurt
+
+Preparation Notes:
+- Prepare meals in advance for easy access throughout the week.
+- Adjust seasoning to taste to accommodate super-taster sensitivity.
+- Use alternative ingredients to replace any allergens or intolerances.
+
+This meal plan has been carefully crafted to meet your dietary restrictions and flavor preferences. Enjoy your delicious and nutritious meals throughout the week!",scaffold_GPT-O3-Mini,GPT-O3-Mini,gpt-3.5-turbo,o3-mini-2025-01-31,GPT-O3-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-O3-Mini_rep0.md,9cb6b2b5e57c23818d9983599af5c8bac78d5d6fb50a6a81f4de63f492acbb86,"Assistant Guidance: Three-Phase Workflow
+
+Phase 1: Requirements Check
+• Begin by reviewing the task requirements to ensure full understanding of the conditions, dietary restrictions, and flavor inclinations.  
+• Identify all explicit constraints (e.g., allergens, food intolerances, flavor preferences) without incorporating final content specifics.  
+• Note any structural elements required (daily schedule components, grocery list, preparation notes) and confirm all essential elements are acknowledged.  
+• Check for any implicit guidelines and conditions that might impact the overall approach.
+
+Phase 2: Plan & Structure
+• Organize the components into a clear and logical structure: layout day-by-day meal segmentation for breakfast, lunch, dinner, and snacks, along with additional segments for the grocery list and preparation notes.  
+• Establish a framework for including provisions on taste sensitivity adjustments while aligning with the flavor themes.  
+• Outline sections for the weekly plan, ensuring each section can accommodate potential modifications once further details are reviewed.  
+• Prepare a flexible strategy to manage the complex intersection of dietary restrictions and meal variety without diving into solution specifics.
+
+Phase 3: Draft -> Self-Review -> Finalize
+• Create an initial draft outline using the established structure, emphasizing process clarity and adherence to the constraints.  
+• Conduct a thorough self-review of the draft to verify that all hard constraints and task expectations are met at a process level.  
+• Adjust the outline based on review feedback, ensuring completeness before finalizing the workflow plan for implementation.",4,0,0,,,,,gpt-4.1,GPT-4.1
+0,"**7-Day Meal Plan for a 31-Year-Old Australian Adult**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and potatoes
+- Lunch: Thai chicken lettuce wraps
+- Dinner: Indian spiced lentil soup
+- Snacks: Mixed nuts, sliced apples with almond butter
+
+**Day 2:**
+- Breakfast: Smoothie with banana, almond milk, and protein powder
+- Lunch: Mexican chicken and black bean salad
+- Dinner: Beef stir-fry with broccoli and rice noodles
+- Snacks: Carrot sticks with hummus, rice cakes
+
+**Day 3:**
+- Breakfast: Greek yogurt with berries and granola (gluten-free)
+- Lunch: Thai coconut curry with chicken and vegetables
+- Dinner: Baked salmon with quinoa and roasted vegetables
+- Snacks: Rice crackers with avocado, trail mix
+
+**Day 4:**
+- Breakfast: Oatmeal with almond milk and sliced bananas
+- Lunch: Mexican quinoa and black bean bowl
+- Dinner: Indian spiced cauliflower and chickpea curry
+- Snacks: Greek yogurt with honey, sliced cucumbers with guacamole
+
+**Day 5:**
+- Breakfast: Avocado toast on gluten-free bread
+- Lunch: Thai beef salad with mango and peanuts
+- Dinner: Tandoori chicken with roasted sweet potatoes
+- Snacks: Rice cakes with peanut butter, mixed fruit
+
+**Day 6:**
+- Breakfast: Chia seed pudding with coconut milk and berries
+- Lunch: Mexican sweet potato and black bean tacos
+- Dinner: Thai green curry with tofu and vegetables
+- Snacks: Popcorn, sliced bell peppers with hummus
+
+**Day 7:**
+- Breakfast: Breakfast burrito with scrambled eggs, potatoes, and salsa
+- Lunch: Indian spiced chickpea salad
+- Dinner: Beef and vegetable stir-fry with quinoa
+- Snacks: Greek yogurt with almonds, apple slices with cinnamon
+
+**Consolidated Grocery List:**
+- Proteins: Chicken, beef, salmon, tofu, eggs
+- Vegetables: Spinach, broccoli, cauliflower, sweet potatoes, bell peppers
+- Fruits: Berries, bananas, apples, mango
+- Legumes: Lentils, black beans, chickpeas
+- Grains: Quinoa, rice noodles, rice cakes, gluten-free bread
+- Dairy Alternatives: Almond milk, coconut milk, Greek yogurt (lactose-free)
+- Pantry Items: Almond butter, hummus, guacamole, salsa, curry paste
+- Spices: Thai curry paste, tandoori spice blend, cumin, coriander
+
+**Prep Notes:**
+- Batch cook grains and proteins for easy assembly during the week.
+- Store chopped vegetables in airtight containers for quick meal prep.
+- Use mild seasonings and offer additional spices for super-taster sensitivity adjustments.
+
+This 7-day meal plan caters to your dietary restrictions and flavor preferences while ensuring a varied and balanced diet. Enjoy your meals!",scaffold_GPT-OSS-120B,GPT-OSS-120B,gpt-3.5-turbo,openai/gpt-oss-120b,GPT-OSS-120B,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-OSS-120B_rep0.md,2cde3cccf7f3b045c26f11e22f72afdb83ad6798bbd63a7d84a7624a01ff5544,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**  
+- Read the brief thoroughly; list every constraint (dietary restrictions, flavor preferences, nutritional balance, portion size, budget, preparation time).  
+- Verify that all mandatory elements are identified (daily meals, snack options, grocery list, prep notes).  
+- Flag any ambiguous points and note questions for clarification before proceeding.  
+- Cross‑reference the constraints to ensure no prohibited ingredients or cooking methods will appear later.
+
+**2. Plan & Structure**  
+- Sketch a high‑level outline: seven days, each with breakfast, lunch, dinner, and two snack slots.  
+- Decide on a consistent format for each day (e.g., heading, meal description, portion guidance).  
+- Group similar dishes to reuse ingredients efficiently, supporting the “cheap” requirement.  
+- Draft a separate section for the consolidated grocery list, organized by category (proteins, vegetables, pantry items, spices).  
+- Add a brief “prep notes” block that outlines batch cooking, storage tips, and any quick‑assembly steps.  
+- Ensure the outline leaves placeholders for adjustable seasoning notes to accommodate sensitivity.
+
+**3. Draft → Self‑Review → Finalize**  
+- Populate the outline with concise, original meal ideas, respecting all constraints.  
+- After the first draft, perform a self‑review checklist: ingredient compliance, flavor variety, budget adherence, clarity of instructions, and readability.  
+- Revise any sections that miss a requirement or could cause confusion; tighten language for brevity.  
+- Conduct a final proofread for consistency (formatting, spelling, measurement units) and confirm the grocery list matches the meals.  
+- Deliver the polished document in the agreed structure, ready for user consumption.",5,0,0,,,,,gpt-4.1,GPT-4.1
+0,"**7-Day Meal Plan for a 31-Year-Old Australian Adult**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and potatoes
+- Lunch: Thai chicken lettuce wraps
+- Dinner: Indian spiced lentil soup
+- Snacks: Mixed nuts, sliced apples with almond butter
+
+**Day 2:**
+- Breakfast: Smoothie with banana, almond milk, and protein powder
+- Lunch: Mexican chicken and black bean salad
+- Dinner: Beef stir-fry with broccoli and rice noodles
+- Snacks: Carrot sticks with hummus, rice cakes
+
+**Day 3:**
+- Breakfast: Greek yogurt with berries and granola (gluten-free)
+- Lunch: Thai coconut curry with chicken and vegetables
+- Dinner: Baked salmon with quinoa and roasted vegetables
+- Snacks: Rice crackers with avocado, trail mix
+
+**Day 4:**
+- Breakfast: Oatmeal with almond milk and sliced bananas
+- Lunch: Mexican quinoa and black bean bowl
+- Dinner: Indian spiced cauliflower and chickpea curry
+- Snacks: Greek yogurt with honey, sliced cucumbers with guacamole
+
+**Day 5:**
+- Breakfast: Avocado toast on gluten-free bread
+- Lunch: Thai beef salad with mango and peanuts
+- Dinner: Tandoori chicken with roasted sweet potatoes
+- Snacks: Rice cakes with peanut butter, mixed fruit
+
+**Day 6:**
+- Breakfast: Chia seed pudding with coconut milk and berries
+- Lunch: Mexican sweet potato and black bean tacos
+- Dinner: Thai green curry with tofu and vegetables
+- Snacks: Popcorn, sliced bell peppers with hummus
+
+**Day 7:**
+- Breakfast: Breakfast burrito with scrambled eggs, potatoes, and salsa
+- Lunch: Indian spiced chickpea salad
+- Dinner: Beef and vegetable stir-fry with quinoa
+- Snacks: Greek yogurt with almonds, apple slices with cinnamon
+
+**Consolidated Grocery List:**
+- Proteins: Chicken, beef, salmon, tofu, eggs
+- Vegetables: Spinach, broccoli, cauliflower, sweet potatoes, bell peppers
+- Fruits: Berries, bananas, apples, mango
+- Legumes: Lentils, black beans, chickpeas
+- Grains: Quinoa, rice noodles, rice cakes, gluten-free bread
+- Dairy Alternatives: Almond milk, coconut milk, Greek yogurt (lactose-free)
+- Pantry Items: Almond butter, hummus, guacamole, salsa, curry paste
+- Spices: Thai curry paste, tandoori spice blend, cumin, coriander
+
+**Prep Notes:**
+- Batch cook grains and proteins for easy assembly during the week.
+- Store chopped vegetables in airtight containers for quick meal prep.
+- Use mild seasonings and offer additional spices for super-taster sensitivity adjustments.
+
+This 7-day meal plan caters to your dietary restrictions and flavor preferences while ensuring a varied and balanced diet. Enjoy your meals!",scaffold_GPT-OSS-120B,GPT-OSS-120B,gpt-3.5-turbo,openai/gpt-oss-120b,GPT-OSS-120B,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-OSS-120B_rep0.md,2cde3cccf7f3b045c26f11e22f72afdb83ad6798bbd63a7d84a7624a01ff5544,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**  
+- Read the brief thoroughly; list every constraint (dietary restrictions, flavor preferences, nutritional balance, portion size, budget, preparation time).  
+- Verify that all mandatory elements are identified (daily meals, snack options, grocery list, prep notes).  
+- Flag any ambiguous points and note questions for clarification before proceeding.  
+- Cross‑reference the constraints to ensure no prohibited ingredients or cooking methods will appear later.
+
+**2. Plan & Structure**  
+- Sketch a high‑level outline: seven days, each with breakfast, lunch, dinner, and two snack slots.  
+- Decide on a consistent format for each day (e.g., heading, meal description, portion guidance).  
+- Group similar dishes to reuse ingredients efficiently, supporting the “cheap” requirement.  
+- Draft a separate section for the consolidated grocery list, organized by category (proteins, vegetables, pantry items, spices).  
+- Add a brief “prep notes” block that outlines batch cooking, storage tips, and any quick‑assembly steps.  
+- Ensure the outline leaves placeholders for adjustable seasoning notes to accommodate sensitivity.
+
+**3. Draft → Self‑Review → Finalize**  
+- Populate the outline with concise, original meal ideas, respecting all constraints.  
+- After the first draft, perform a self‑review checklist: ingredient compliance, flavor variety, budget adherence, clarity of instructions, and readability.  
+- Revise any sections that miss a requirement or could cause confusion; tighten language for brevity.  
+- Conduct a final proofread for consistency (formatting, spelling, measurement units) and confirm the grocery list matches the meals.  
+- Deliver the polished document in the agreed structure, ready for user consumption.",5,8,8,1.0,1.0,,,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,"**7-Day Meal Plan for Australian Adult with Dietary Restrictions**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with avocado and tomato
+- Lunch: Chicken and vegetable stir-fry with rice noodles
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Greek yogurt with berries
+- Grocery List: Eggs, avocado, tomato, chicken, vegetables, rice noodles, salmon, sweet potatoes, Greek yogurt, berries
+- Prep Notes: Pre-cook rice noodles for easy lunch assembly
+
+**Day 2:**
+- Breakfast: Oatmeal with almond milk and banana
+- Lunch: Beef tacos with lettuce wraps
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Rice cakes with almond butter
+- Grocery List: Oats, almond milk, banana, beef, lettuce, chicken, cauliflower, curry paste, rice cakes, almond butter
+- Prep Notes: Prepare cauliflower rice in advance for quick dinner prep
+
+**Day 3:**
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Turkey and vegetable soup
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Mixed nuts
+- Grocery List: Spinach, banana, almond milk, turkey, vegetables, beef, broccoli, bell peppers, mixed nuts
+- Prep Notes: Pre-cut vegetables for easy lunch and dinner preparation
+
+**Day 4:**
+- Breakfast: Greek yogurt with granola and honey
+- Lunch: Chicken lettuce wraps
+- Dinner: Lentil curry with basmati rice
+- Snack: Carrot sticks with hummus
+- Grocery List: Greek yogurt, granola, honey, chicken, lettuce, lentils, curry paste, basmati rice, carrots, hummus
+- Prep Notes: Cook lentils in advance for quick dinner assembly
+
+**Day 5:**
+- Breakfast: Chia seed pudding with mixed berries
+- Lunch: Turkey and avocado salad
+- Dinner: Pork stir-fry with zucchini noodles
+- Snack: Apple slices with almond butter
+- Grocery List: Chia seeds, mixed berries, turkey, avocado, pork, zucchini, almond butter, apples
+- Prep Notes: Spiralize zucchini for easy dinner preparation
+
+**Day 6:**
+- Breakfast: Smoothie bowl with mango and coconut
+- Lunch: Beef and vegetable stir-fry with quinoa
+- Dinner: Chicken tikka masala with cauliflower rice
+- Snack: Rice cakes with avocado
+- Grocery List: Mango, coconut, beef, vegetables, quinoa, chicken, tikka masala sauce, cauliflower, rice cakes, avocado
+- Prep Notes: Pre-cook quinoa for quick lunch assembly
+
+**Day 7:**
+- Breakfast: Toast with almond butter and sliced banana
+- Lunch: Turkey and vegetable stir-fry with brown rice
+- Dinner: Beef curry with sweet potato
+- Snack: Mixed nuts and dried fruit
+- Grocery List: Bread, almond butter, banana, turkey, vegetables, brown rice, beef, curry paste, sweet potatoes, mixed nuts, dried fruit
+- Prep Notes: Pre-cook brown rice for easy lunch preparation
+
+**Note:** Adjust seasoning to taste preference and avoid very salty or very sweet foods. Enjoy a variety of flavors while respecting dietary restrictions.",scaffold_Claude-Opus-4.8,Claude-Opus-4.8,gpt-3.5-turbo,anthropic/claude-opus-4-8,Claude-Opus-4.8,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Claude-Opus-4.8_rep0.md,68bf1c66b13c37cfb15da3bb8ad43b699ceed4c2b03a0933351a7b7a4f799483,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+Begin by extracting every explicit constraint from the task and sorting them into categories: hard exclusions (allergens and intolerances), flavor preferences, sensory limits, budget/simplicity goals, and required deliverable components. Build a checklist you can revisit. Flag any constraints that may conflict or need substitution logic (e.g., ingredients commonly hidden in processed foods). Note the regional context and which meal slots and supporting sections must appear. Confirm coverage scope before generating any content.
+
+**2. Plan & Structure**
+Decide the overall layout: a per-day grid covering each required meal and snack slot, followed by the consolidated supporting sections. Plan how you'll ensure variety across the week while keeping ingredients overlapping enough to stay cheap and reduce waste. Establish a reusable filtering rule that screens each item against your exclusion checklist, and a strategy for keeping seasoning adjustable. Sketch the order in which you'll fill sections so the grocery list flows logically from chosen meals. Set a consistency standard for formatting and prep-note brevity.
+
+**3. Draft → Self-Review → Finalize**
+Draft each day against your structure, then pause to self-review systematically. Cross-check every ingredient against each hard exclusion individually—don't assume. Verify all meal/snack slots are filled, the grocery list matches what the plan actually uses, and prep notes stay simple. Confirm flavor preferences appear and sensory limits are respected. Check budget realism and internal consistency. Correct gaps or contradictions, tighten wording, then finalize once all checklist items pass.",7,7,8,0.875,2.0,,,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,"**7-Day Meal Plan for a 31-Year-Old Australian Adult**
+
+**Day 1: Mexican Flavors**
+- Breakfast: Scrambled eggs with avocado and tomatoes
+- Lunch: Chicken fajita bowl with rice and beans
+- Dinner: Beef tacos with lettuce wraps
+- Snack: Sliced apples with peanut butter
+
+**Day 2: Thai Flavors**
+- Breakfast: Coconut milk chia pudding with mango
+- Lunch: Thai basil chicken stir-fry with jasmine rice
+- Dinner: Green curry with chicken and vegetables
+- Snack: Rice cakes with hummus
+
+**Day 3: Indian Flavors**
+- Breakfast: Masala omelette with spinach
+- Lunch: Chickpea curry with cauliflower rice
+- Dinner: Tandoori chicken with roasted sweet potatoes
+- Snack: Mixed nuts
+
+**Day 4: Meat and Potatoes**
+- Breakfast: Sweet potato hash with sausage
+- Lunch: Beef and potato stew
+- Dinner: Baked chicken with mashed potatoes
+- Snack: Carrot sticks with guacamole
+
+**Day 5: Mexican Flavors**
+- Breakfast: Breakfast burrito with scrambled eggs and salsa
+- Lunch: Beef and black bean quesadillas
+- Dinner: Chicken enchiladas with green salad
+- Snack: Greek yogurt with honey
+
+**Day 6: Thai Flavors**
+- Breakfast: Pineapple smoothie with coconut milk
+- Lunch: Pad Thai with tofu and vegetables
+- Dinner: Red curry with shrimp and zucchini noodles
+- Snack: Rice crackers with cheese
+
+**Day 7: Indian Flavors**
+- Breakfast: Spiced oatmeal with almond milk
+- Lunch: Lentil dal with naan bread (gluten-free)
+- Dinner: Butter chicken with basmati rice
+- Snack: Apple slices with almond butter
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Shrimp
+- Tofu
+- Sweet potatoes
+- Potatoes
+- Cauliflower
+- Zucchini
+- Bell peppers
+- Spinach
+- Avocado
+- Tomatoes
+- Mango
+- Apples
+- Pineapple
+- Carrots
+- Nuts
+- Rice
+- Beans
+- Black beans
+- Chickpeas
+- Lentils
+- Coconut milk
+- Almond milk
+- Hummus
+- Guacamole
+- Salsa
+- Green salad
+- Cheese (lactose-free)
+- Rice cakes
+- Rice crackers
+- Naan bread (gluten-free)
+- Spices and seasonings
+
+**Preparation Notes:**
+- Prep vegetables in advance for easier cooking throughout the week
+- Cook grains and proteins in bulk for quick meal assembly
+- Adjust seasonings to taste, keeping them mild for sensitive taste buds
+- Use lactose-free dairy alternatives where needed
+- Substitute gluten-free options for any bread or grain products",scaffold_DeepSeek-V3.1,DeepSeek-V3.1,gpt-3.5-turbo,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/DeepSeek-V3.1_rep0.md,6c2520d99dddf88d253c96c92e4f6b4424868d2cee1b13a0541b1695971eea4b,"**Assistant Guidance: Three-Phase Workflow**
+
+1.  **Requirements Check**
+    Systematically parse all user constraints and preferences. Categorize them into non-negotiable health restrictions (allergies, intolerances), strong preferences (cuisine types, dislikes), and logistical parameters (budget, simplicity, 7-day scope). Verify that every meal component and grocery item will be cross-checked against the allergen and intolerance list. Confirm the plan includes all requested elements: three daily meals, snacks, a consolidated grocery list, and basic prep instructions.
+
+2.  **Plan & Structure**
+    Develop a high-level framework for the week. Allocate cuisine types (Mexican, Thai, Indian) to specific days to ensure variety while adhering to constraints. For each day, conceptualize simple, overlapping meals to minimize waste and effort (e.g., dinner leftovers for next-day lunch). Structure the final output by first outlining the seven-day meal and snack schedule, followed by a categorized grocery list derived from the planned recipes, and concluding with brief, actionable preparation notes.
+
+3.  **Draft -> Self-Review -> Finalize**
+    Compose a first draft following the established structure. Immediately conduct a compliance review, scrutinizing every ingredient for allergens and intolerances. Assess the plan for flavor balance, cost, and simplicity. Refine the draft by substituting any non-compliant items, simplifying complex steps, and ensuring seasonings are mild and adjustable. Finalize the text, ensuring clarity and that all user requirements are explicitly met before delivery.",9,5,8,0.625,3.0,,,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Grilled chicken salad with avocado and a light vinaigrette
+- Dinner: Baked salmon with quinoa and roasted vegetables
+- Snack: Greek yogurt with honey and berries
+
+**Day 2:**
+- Breakfast: Oatmeal with almond milk, bananas, and cinnamon
+- Lunch: Turkey lettuce wraps with hummus and cucumber
+- Dinner: Beef stir-fry with broccoli and brown rice
+- Snack: Rice cakes with almond butter
+
+**Day 3:**
+- Breakfast: Smoothie with mixed berries, spinach, and almond milk
+- Lunch: Chickpea salad with cherry tomatoes and feta cheese
+- Dinner: Grilled shrimp with zucchini noodles and pesto
+- Snack: Mixed nuts and dried fruit
+
+**Day 4:**
+- Breakfast: Greek yogurt parfait with granola and strawberries
+- Lunch: Quinoa and black bean salad with corn and cilantro
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Apple slices with peanut butter
+
+**Day 5:**
+- Breakfast: Chia seed pudding with coconut milk and mango
+- Lunch: Tofu stir-fry with bell peppers and snap peas
+- Dinner: Lentil soup with carrots and celery
+- Snack: Carrot sticks with hummus
+
+**Day 6:**
+- Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+- Lunch: Thai peanut chicken salad with cabbage and peanuts
+- Dinner: Vegetable curry with basmati rice
+- Snack: Popcorn with nutritional yeast
+
+**Day 7:**
+- Breakfast: Pancakes made with almond flour and topped with blueberries
+- Lunch: Mexican quinoa bowl with avocado and lime
+- Dinner: Grilled steak with sweet potato fries and green beans
+- Snack: Rice crackers with guacamole
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Salmon
+- Turkey
+- Beef
+- Shrimp
+- Tofu
+- Lentils
+- Black beans
+- Chickpeas
+- Quinoa
+- Brown rice
+- Cauliflower rice
+- Zucchini
+- Bell peppers
+- Spinach
+- Kale
+- Avocado
+- Tomatoes
+- Cucumber
+- Carrots
+- Celery
+- Berries
+- Mango
+- Apples
+- Bananas
+- Strawberries
+- Blueberries
+- Almond milk
+- Greek yogurt (lactose-free)
+- Hummus
+- Almond butter
+- Peanut butter
+- Coconut milk
+- Nutritional yeast
+- Almond flour
+- Rice cakes
+- Rice crackers
+- Popcorn
+- Mixed nuts
+- Dried fruit
+- Granola
+- Salsa
+- Pesto
+- Lime
+- Cilantro
+- Basil
+- Cumin
+- Turmeric
+- Paprika
+- Garlic powder
+- Olive oil
+- Vinegar
+- Honey
+
+**Prep Notes:**
+- Pre-cut vegetables for easy meal prep
+- Cook grains and proteins in bulk for quick assembly
+- Use mild seasonings like garlic powder, paprika, and herbs
+- Adjust seasoning to taste for super-taster sensitivity",scaffold_GPT-O4-Mini,GPT-O4-Mini,gpt-3.5-turbo,o4-mini-2025-04-16,GPT-O4-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-O4-Mini_rep0.md,fcc480c28de48aade048c8d6335301a7008eb1a9907cce7dcf9124fa1c848634,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+   - Carefully read the brief to extract all stated constraints (dietary restrictions, flavor preferences, budget limits, format requirements).  
+   - List any ambiguities or missing details that could affect solution quality (e.g., target calorie range, equipment availability).  
+   - Confirm understanding of the audience and tone (simple, cost-effective, mild seasoning).  
+   - Ensure you know what deliverables are expected (daily meals, snacks, grocery list, prep notes).
+
+2. Plan & Structure  
+   - Sketch an overall outline: sections for each day’s breakfast, lunch, dinner, snacks; a consolidated grocery list; brief prep instructions.  
+   - Decide on a logical layout (table, bullet points, day-by-day narrative) that supports easy readability and quick reference.  
+   - Allocate distinct slots for recipe names, ingredients, prep time, and serving notes.  
+   - Incorporate a mechanism for adjustable seasoning in each entry (e.g., “season to taste”) without specifying exact measurements.  
+   - Map out word or character limits for each section to maintain brevity and clarity.
+
+3. Draft -> Self-Review -> Finalize  
+   - Draft all sections according to the structure, using placeholder labels rather than full recipes.  
+   - Conduct a self-review checklist: verify all constraints are respected, check consistency in formatting, confirm clarity and simplicity.  
+   - Revise to eliminate any accidental inclusion of prohibited items or overly complex language.  
+   - Finalize by polishing headings, ensuring uniform style, and preparing the document for delivery.",3,4,8,0.5,4.5,,,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and cherry tomatoes
+- Lunch: Grilled chicken with roasted sweet potatoes and green beans
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Oatmeal with berries and almond milk
+- Lunch: Turkey and avocado wrap with a side salad
+- Dinner: Baked salmon with quinoa and asparagus
+- Snack: Carrot sticks with hummus
+
+**Day 3:**
+- Breakfast: Greek yogurt with mixed nuts and honey
+- Lunch: Shrimp-free shrimp tacos with coleslaw
+- Dinner: Chicken curry with basmati rice
+- Snack: Rice cakes with peanut butter
+
+**Day 4:**
+- Breakfast: Smoothie with banana, spinach, and almond milk
+- Lunch: Turkey and vegetable stir-fry with brown rice
+- Dinner: Beef chili with cornbread
+- Snack: Mixed berries with Greek yogurt
+
+**Day 5:**
+- Breakfast: Chia seed pudding with mango and coconut flakes
+- Lunch: Chicken and vegetable kebabs with quinoa salad
+- Dinner: Thai red curry with tofu and jasmine rice
+- Snack: Rice crackers with guacamole
+
+**Day 6:**
+- Breakfast: Avocado toast with cherry tomatoes
+- Lunch: Turkey lettuce wraps with a side of sweet potato fries
+- Dinner: Lentil dal with naan bread
+- Snack: Trail mix with dried fruit and nuts
+
+**Day 7:**
+- Breakfast: Pancakes with maple syrup and fresh berries
+- Lunch: Beef and vegetable stir-fry with noodles
+- Dinner: Chicken fajitas with peppers and onions (without onions)
+- Snack: Veggie sticks with tzatziki
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Turkey
+- Salmon
+- Tofu
+- Greek yogurt
+- Almond milk
+- Quinoa
+- Brown rice
+- Basmati rice
+- Spinach
+- Broccoli
+- Bell peppers
+- Asparagus
+- Carrots
+- Berries
+- Nuts
+- Honey
+- Shrimp-free shrimp
+- Coleslaw mix
+- Hummus
+- Rice cakes
+- Peanut butter
+- Smoothie ingredients
+- Cornbread mix
+- Chia seeds
+- Mango
+- Coconut flakes
+- Tofu
+- Jasmine rice
+- Rice crackers
+- Guacamole
+- Avocado
+- Lettuce
+- Sweet potatoes
+- Lentils
+- Naan bread
+- Pancake mix
+- Maple syrup
+- Fresh berries
+- Noodles
+- Peppers
+- Onions (optional)
+- Tzatziki
+- Veggie sticks
+
+**Prep Notes:**
+- Pre-cut vegetables for stir-fries to save time during cooking.
+- Cook a batch of quinoa and rice at the beginning of the week for easy meal prep.
+- Marinate chicken and beef in advance for added flavor.
+- Portion out snacks into individual servings for quick grab-and-go options.
+
+This meal plan takes into account your allergies and intolerances while incorporating your preferences for meat, potatoes, and various flavorful cuisines. Adjust seasoning levels to suit your super-taster sensitivity and enjoy a week of delicious and nutritious meals!",scaffold_Claude-Sonnet-4.6,Claude-Sonnet-4.6,gpt-3.5-turbo,anthropic/claude-sonnet-4-6,Claude-Sonnet-4.6,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Claude-Sonnet-4.6_rep0.md,d416f109287beaefa796c5f0d482defa65da96454a7390c206db3c2016582b97,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+
+Before generating any content, catalogue all constraints systematically:
+- Identify every dietary restriction (allergens, intolerances) and create a clear exclusion list.
+- Identify every preference (cuisine styles, protein types, specific ingredients) and create an inclusion list.
+- Note sensory considerations (super-taster sensitivity, seasoning approach) and how they interact with cuisine preferences.
+- Confirm the output components required: number of days, meal types per day, supplementary sections (grocery list, prep notes).
+- Flag any potential conflicts between constraints and preferences that will need careful navigation throughout.
+
+**2. Plan & Structure**
+
+Establish the organizational framework before writing:
+- Decide on a day-by-day layout and consistent formatting for each day's meals.
+- Map cuisine themes or flavor profiles across the seven days to ensure variety without repetition.
+- Sketch which meal slots will carry which cuisine influences, ensuring all preferred styles appear.
+- Outline the grocery list structure (e.g., grouped by category) and determine the scope of prep notes.
+- Verify the skeleton against the exclusion list before proceeding.
+
+**3. Draft → Self-Review → Finalize**
+
+- Write the full meal plan following the established structure.
+- Self-review pass one: check every ingredient against the exclusion list line by line.
+- Self-review pass two: assess budget-friendliness, simplicity, and sensory suitability of seasoning levels.
+- Self-review pass three: confirm all required output sections are present and consistent.
+- Make corrections, then produce the final clean version.",6,4,8,0.5,4.5,,,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,"Day 1:
+Breakfast: Scrambled eggs with spinach and tomatoes
+Lunch: Grilled chicken salad with avocado and balsamic vinaigrette
+Dinner: Beef stir-fry with broccoli and bell peppers served over jasmine rice
+Snack: Carrot sticks with hummus
+
+Day 2:
+Breakfast: Greek yogurt with honey and mixed berries
+Lunch: Turkey and avocado wrap with lettuce and tomato
+Dinner: Baked salmon with lemon herb seasoning and roasted sweet potatoes
+Snack: Rice cakes with almond butter
+
+Day 3:
+Breakfast: Smoothie with banana, almond milk, and protein powder
+Lunch: Chicken and vegetable curry with coconut milk over quinoa
+Dinner: Beef tacos with corn tortillas, lettuce, and salsa
+Snack: Mixed nuts and dried fruit
+
+Day 4:
+Breakfast: Oatmeal with almond milk, cinnamon, and sliced bananas
+Lunch: Shrimp and vegetable stir-fry with teriyaki sauce over brown rice
+Dinner: Chicken tikka masala with cauliflower rice
+Snack: Rice crackers with guacamole
+
+Day 5:
+Breakfast: Chia pudding with coconut milk and mango
+Lunch: Thai beef salad with cucumber, mint, and lime dressing
+Dinner: Turkey chili with black beans and corn
+Snack: Apple slices with almond butter
+
+Day 6:
+Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+Lunch: Grilled chicken Caesar salad with dairy-free dressing
+Dinner: Lentil curry with spinach and basmati rice
+Snack: Veggie sticks with tahini dip
+
+Day 7:
+Breakfast: Smoothie bowl with mixed berries, almond milk, and granola
+Lunch: Turkey and avocado lettuce wraps with mustard
+Dinner: Beef and vegetable kebabs with lemon herb marinade and roasted potatoes
+Snack: Popcorn with nutritional yeast
+
+Grocery list:
+- Eggs
+- Chicken
+- Beef
+- Turkey
+- Salmon
+- Shrimp
+- Ground turkey
+- Greek yogurt
+- Almond milk
+- Coconut milk
+- Almond butter
+- Hummus
+- Quinoa
+- Brown rice
+- Cauliflower rice
+- Black beans
+- Lentils
+- Spinach
+- Kale
+- Bell peppers
+- Broccoli
+- Sweet potatoes
+- Avocado
+- Mango
+- Berries
+- Banana
+- Tomatoes
+- Cucumber
+- Carrots
+- Lettuce
+- Mint
+- Basil
+- Cilantro
+- Limes
+- Lemons
+- Onions
+- Garlic
+- Ginger
+- Turmeric
+- Cumin
+- Paprika
+- Cinnamon
+- Nutritional yeast
+- Rice cakes
+- Rice crackers
+- Corn tortillas
+- Popcorn
+- Granola
+- Mixed nuts
+- Dried fruit
+- Chia seeds
+- Tahini
+- Mustard
+- Salsa
+- Teriyaki sauce
+- Balsamic vinaigrette
+- Dairy-free Caesar dressing
+- Lemon herb seasoning
+- Mild curry powder
+- Mexican seasoning blend
+
+Prep notes:
+- Pre-cut vegetables for stir-fries and salads to save time during the week
+- Cook a batch of quinoa, brown rice, and lentils in advance for quick meal assembly
+- Marinate meats for kebabs and stir-fries ahead of time for maximum flavor",plain,plain,gpt-3.5-turbo,plain,plain,,,,0,3,8,0.375,6.5,,,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,"**7-Day Meal Plan for 31-Year-Old Australian Adult**
+
+*Day 1:*
+
+- Breakfast: Scrambled eggs with avocado and tomato
+- Lunch: Chicken and vegetable stir-fry with rice
+- Dinner: Beef tacos with lettuce wraps and salsa
+- Snack: Greek yogurt with berries
+- Grocery List: Eggs, avocado, tomato, chicken, vegetables, rice, beef, lettuce, salsa, Greek yogurt, berries
+- Prep Notes: Pre-cut vegetables for stir-fry, marinate beef for tacos in advance
+
+*Day 2:*
+
+- Breakfast: Oatmeal with almond butter and banana
+- Lunch: Turkey and quinoa salad with vinaigrette
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Hummus with carrot sticks
+- Grocery List: Oats, almond butter, banana, turkey, quinoa, salad greens, vinaigrette, chicken, cauliflower, curry paste, hummus, carrots
+- Prep Notes: Cook quinoa in advance, prep salad ingredients for easy assembly
+
+*Day 3:*
+
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Beef and vegetable stir-fry with noodles
+- Dinner: Fish tacos with coleslaw
+- Snack: Apple slices with peanut butter
+- Grocery List: Spinach, banana, almond milk, beef, vegetables, noodles, fish, coleslaw mix, tortillas, apple, peanut butter
+- Prep Notes: Pre-cut vegetables for stir-fry, marinate fish for tacos in advance
+
+*Day 4:*
+
+- Breakfast: Chia pudding with berries
+- Lunch: Lentil soup with crusty bread
+- Dinner: Pork stir-fry with broccoli and rice
+- Snack: Rice cakes with almond butter
+- Grocery List: Chia seeds, berries, lentils, bread, pork, broccoli, rice, rice cakes, almond butter
+- Prep Notes: Soak chia seeds overnight for pudding, prep ingredients for stir-fry
+
+*Day 5:*
+
+- Breakfast: Greek yogurt with granola and honey
+- Lunch: Chicken and vegetable curry with rice
+- Dinner: Beef burrito bowls with guacamole
+- Snack: Celery sticks with hummus
+- Grocery List: Greek yogurt, granola, honey, chicken, vegetables, curry paste, rice, beef, beans, guacamole, celery, hummus
+- Prep Notes: Pre-cook rice, marinate chicken for curry, prep ingredients for burrito bowls
+
+*Day 6:*
+
+- Breakfast: Pancakes with maple syrup and fruit
+- Lunch: Turkey and avocado wrap with side salad
+- Dinner: Thai basil chicken with jasmine rice
+- Snack: Mixed nuts
+- Grocery List: Pancake mix, maple syrup, fruit, turkey, avocado, wraps, salad greens, Thai basil, chicken, jasmine rice, mixed nuts
+- Prep Notes: Mix pancake batter in advance, marinate chicken for Thai basil dish
+
+*Day 7:*
+
+- Breakfast: Smoothie bowl with coconut flakes and chia seeds
+- Lunch: Beef and broccoli stir-fry with quinoa
+- Dinner: Lentil curry with naan bread
+- Snack: Rice crackers with cheese
+- Grocery List: Coconut flakes, chia seeds, beef, broccoli, quinoa, lentils, curry paste, naan bread, rice crackers, cheese
+- Prep Notes: Pre-cut vegetables for stir-fry, cook quinoa in advance, prep ingredients for lentil curry
+
+Adjust seasoning to taste and feel free to substitute ingredients as needed. Enjoy your delicious and allergy-friendly meal plan!",scaffold_GPT-5-Mini,GPT-5-Mini,gpt-3.5-turbo,gpt-5-mini-2025-08-07,GPT-5-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-5-Mini_rep0.md,9b0e5b4fd2fc33f9d700def705e22d29452c235970afb9f54afe25f738592642,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check
+- Parse the brief into explicit constraints (dietary exclusions, intolerances, flavor preferences, sensory sensitivity, budget, simplicity, 7-day scope, meals per day, grocery list, prep notes).
+- List hard exclusions and intolerances to enforce as non-negotiable.
+- Identify user preferences to prioritize in menu development.
+- Define measurable targets: daily meals/snacks count, approximate budget ceiling, shopping frequency, prep time limits, and storage/reheating constraints.
+- Note safety checks: cross-contact risk, label-reading rules, and substitutions policy for allergens and intolerances.
+- Decide acceptable seasoning strategy: mild baseline with adjustable options and portion controls.
+
+2. Plan & Structure
+- Create a skeleton layout: day-by-day slots for breakfast/lunch/dinner/snack and a consolidated grocery list and prep notes section.
+- Determine variety strategy (rotate proteins, starches, flavors) and balance (macro variety, simple snacks).
+- Establish format conventions: how to present each meal (name, brief description, serving size, prep time, make-ahead notes, seasoning options).
+- Define grocery list structure: grouped by store section, quantities/units, staples vs perishables, items for batch prep.
+- Set prep-note templates: batch steps, storage, reheating, safety, and customizable seasoning guidance.
+
+3. Draft -> Self-Review -> Finalize
+- Draft: Populate the skeleton with placeholders for each meal, snacks, grocery items, and prep steps without final quantities yet.
+- Self-review: Verify every item against exclusions and sensitivities, check for repetition, budget feasibility, prep time, and clarity of seasoning adjustments.
+- Finalize: Convert placeholders into the final formatted deliverables (7-day plan, consolidated grocery list with quantities, succinct prep timeline and notes), and include a brief user-facing instruction on adjusting seasoning and substitutions.",2,3,8,0.375,6.5,,,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Chicken salad with avocado and lime dressing
+- Dinner: Beef stir-fry with broccoli and bell peppers
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Oatmeal with berries and almond milk
+- Lunch: Turkey and lettuce wraps with hummus
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Carrot sticks with guacamole
+
+**Day 3:**
+- Breakfast: Greek yogurt with honey and granola
+- Lunch: Quinoa salad with grilled chicken and mango salsa
+- Dinner: Chicken curry with cauliflower rice
+- Snack: Rice cakes with peanut butter
+
+**Day 4:**
+- Breakfast: Chia seed pudding with mixed berries
+- Lunch: Taco salad with ground turkey, lettuce, and salsa
+- Dinner: Vegetable stir-fry with tofu
+- Snack: Mixed nuts and dried fruit
+
+**Day 5:**
+- Breakfast: Smoothie with banana, spinach, and almond milk
+- Lunch: Thai chicken coconut soup
+- Dinner: Beef tacos with corn tortillas and avocado
+- Snack: Rice crackers with hummus
+
+**Day 6:**
+- Breakfast: Breakfast burrito with scrambled eggs, black beans, and salsa
+- Lunch: Lentil salad with grilled chicken
+- Dinner: Indian spiced chicken with basmati rice
+- Snack: Celery sticks with almond butter
+
+**Day 7:**
+- Breakfast: Pancakes made with gluten-free flour and topped with berries
+- Lunch: Greek salad with grilled shrimp
+- Dinner: Vegetable curry with chickpeas
+- Snack: Popcorn with a sprinkle of mild seasoning
+
+**Grocery List:**
+- Eggs
+- Chicken
+- Beef
+- Salmon
+- Turkey
+- Tofu
+- Greek yogurt
+- Almond milk
+- Quinoa
+- Sweet potatoes
+- Mango
+- Cauliflower rice
+- Rice cakes
+- Peanut butter
+- Chia seeds
+- Mixed nuts
+- Dried fruit
+- Spinach
+- Lettuce
+- Tomatoes
+- Avocado
+- Bell peppers
+- Broccoli
+- Carrots
+- Guacamole
+- Hummus
+- Banana
+- Black beans
+- Salsa
+- Lentils
+- Shrimp
+- Chickpeas
+- Gluten-free flour
+- Berries
+- Coconut milk
+- Curry paste
+- Basmati rice
+- Corn tortillas
+- Rice crackers
+- Celery
+- Popcorn
+
+**Prep Notes:**
+- Pre-cook a batch of quinoa and rice for easy meal assembly.
+- Wash and chop vegetables in advance for quicker cooking.
+- Keep a variety of nuts and fruits on hand for convenient snacking options.
+- Use mild seasonings like herbs, lemon juice, and garlic powder to enhance flavors without overwhelming the palate.",scaffold_GPT-4.1,GPT-4.1,gpt-3.5-turbo,gpt-4.1,GPT-4.1,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-4.1_rep0.md,8731999827ed5a7a7105179ea9e298ff43e3107fbadb44cc7716e2cff58e69ab,"**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+   - Carefully review all dietary restrictions, allergies, and intolerances mentioned.  
+   - Note the specific food preferences, flavor profiles, and cuisines to emphasize.  
+   - Identify all foods and ingredients to avoid, including both allergens and those causing intolerance.  
+   - Confirm the need for mild seasoning and the avoidance of very salty or very sweet options due to super-taster sensitivity.  
+   - Ensure understanding of required meal components: breakfast, lunch, dinner, snacks, grocery list, and preparation notes for each day.
+
+2. Plan & Structure  
+   - Outline a 7-day framework with dedicated sections for each day and meal (breakfast, lunch, dinner, snacks).  
+   - Brainstorm meal ideas that align with the restrictions and preferences, ensuring variety and simplicity.  
+   - Allocate cuisines and flavors (Mexican, Thai, Indian, etc.) thoughtfully across the week for balance.  
+   - Prepare a master grocery list, grouping items logically (produce, proteins, pantry, etc.), and draft concise prep notes for each meal.  
+   - Double-check all planned meals to confirm exclusion of restricted ingredients and compliance with seasoning guidelines.
+
+3. Draft -> Self-Review -> Finalize  
+   - Compose the full meal plan with clear meal and snack entries for each day, along with the grocery list and prep notes.  
+   - Review the draft to ensure all requirements are met, checking for ingredient compliance, flavor moderation, and overall simplicity.  
+   - Revise as needed for clarity, completeness, and user-friendliness.  
+   - Finalize the document, confirming that all sections are present and organized for easy use.",1,2,8,0.25,8.0,,,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,"7-Day Meal Plan for Client with Dietary Restrictions
+
+Day 1:
+Breakfast: Scrambled eggs with spinach and tomatoes
+Lunch: Grilled chicken salad with avocado and lime dressing
+Dinner: Thai green curry with chicken and vegetables
+Snack: Sliced apples with almond butter
+Grocery List: Eggs, spinach, tomatoes, chicken, avocado, limes, coconut milk, green curry paste, vegetables, apples, almond butter
+
+Day 2:
+Breakfast: Greek yogurt with berries and honey
+Lunch: Turkey lettuce wraps with cucumber and mint
+Dinner: Indian chicken tikka masala with cauliflower rice
+Snack: Carrot sticks with hummus
+Grocery List: Greek yogurt, berries, honey, turkey, lettuce, cucumber, mint, chicken, tikka masala sauce, cauliflower, carrots, hummus
+
+Day 3:
+Breakfast: Oatmeal with bananas and cinnamon
+Lunch: Beef stir-fry with broccoli and bell peppers
+Dinner: Mexican beef tacos with lettuce wraps
+Snack: Rice cakes with peanut butter
+Grocery List: Oats, bananas, cinnamon, beef, broccoli, bell peppers, taco seasoning, lettuce, rice cakes, peanut butter
+
+Day 4:
+Breakfast: Smoothie with spinach, banana, and almond milk
+Lunch: Quinoa salad with grilled vegetables and lemon vinaigrette
+Dinner: Thai basil chicken stir-fry with zucchini noodles
+Snack: Mixed nuts
+Grocery List: Spinach, banana, almond milk, quinoa, vegetables, lemon, basil, chicken, zucchini, nuts
+
+Day 5:
+Breakfast: Chia seed pudding with coconut milk and mango
+Lunch: Salmon salad with mixed greens and balsamic vinaigrette
+Dinner: Indian lentil dal with brown rice
+Snack: Rice crackers with guacamole
+Grocery List: Chia seeds, coconut milk, mango, salmon, mixed greens, balsamic vinaigrette, lentils, brown rice, rice crackers, avocado
+
+Day 6:
+Breakfast: Cottage cheese with peaches and almonds
+Lunch: Turkey and vegetable stir-fry with soy sauce
+Dinner: Mexican chicken fajitas with bell peppers and onions
+Snack: Popcorn
+Grocery List: Cottage cheese, peaches, almonds, turkey, vegetables, soy sauce, chicken, fajita seasoning, bell peppers, onions, popcorn
+
+Day 7:
+Breakfast: Avocado toast with cherry tomatoes and basil
+Lunch: Tofu and vegetable curry with coconut milk
+Dinner: Thai shrimp pad thai with bean sprouts
+Snack: Sliced cucumbers with tzatziki sauce
+Grocery List: Avocado, bread, cherry tomatoes, basil, tofu, vegetables, curry paste, coconut milk, shrimp, rice noodles, bean sprouts, cucumbers, Greek yogurt
+
+Preparation Notes:
+- Prepare meals in advance for easy access throughout the week.
+- Adjust seasoning to taste to accommodate super-taster sensitivity.
+- Use alternative ingredients to replace any allergens or intolerances.
+
+This meal plan has been carefully crafted to meet your dietary restrictions and flavor preferences. Enjoy your delicious and nutritious meals throughout the week!",scaffold_GPT-O3-Mini,GPT-O3-Mini,gpt-3.5-turbo,o3-mini-2025-01-31,GPT-O3-Mini,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/GPT-O3-Mini_rep0.md,9cb6b2b5e57c23818d9983599af5c8bac78d5d6fb50a6a81f4de63f492acbb86,"Assistant Guidance: Three-Phase Workflow
+
+Phase 1: Requirements Check
+• Begin by reviewing the task requirements to ensure full understanding of the conditions, dietary restrictions, and flavor inclinations.  
+• Identify all explicit constraints (e.g., allergens, food intolerances, flavor preferences) without incorporating final content specifics.  
+• Note any structural elements required (daily schedule components, grocery list, preparation notes) and confirm all essential elements are acknowledged.  
+• Check for any implicit guidelines and conditions that might impact the overall approach.
+
+Phase 2: Plan & Structure
+• Organize the components into a clear and logical structure: layout day-by-day meal segmentation for breakfast, lunch, dinner, and snacks, along with additional segments for the grocery list and preparation notes.  
+• Establish a framework for including provisions on taste sensitivity adjustments while aligning with the flavor themes.  
+• Outline sections for the weekly plan, ensuring each section can accommodate potential modifications once further details are reviewed.  
+• Prepare a flexible strategy to manage the complex intersection of dietary restrictions and meal variety without diving into solution specifics.
+
+Phase 3: Draft -> Self-Review -> Finalize
+• Create an initial draft outline using the established structure, emphasizing process clarity and adherence to the constraints.  
+• Conduct a thorough self-review of the draft to verify that all hard constraints and task expectations are met at a process level.  
+• Adjust the outline based on review feedback, ensuring completeness before finalizing the workflow plan for implementation.",4,0,8,0.0,9.0,,,google/gemini-3.1-pro,Gemini-3.1-Pro
+0,"**7-Day Meal Plan**
+
+**Day 1:**
+- Breakfast: Scrambled eggs with spinach and tomatoes
+- Lunch: Chicken and vegetable stir-fry with rice noodles
+- Dinner: Beef tacos with lettuce wraps
+- Snack: Apple slices with almond butter
+
+**Day 2:**
+- Breakfast: Greek yogurt with berries and honey (use lactose-free yogurt)
+- Lunch: Thai basil chicken with jasmine rice
+- Dinner: Baked salmon with roasted sweet potatoes
+- Snack: Carrot sticks with hummus
+
+**Day 3:**
+- Breakfast: Oatmeal with bananas and cinnamon (use gluten-free oats)
+- Lunch: Indian chickpea curry with quinoa
+- Dinner: Beef and vegetable stir-fry with brown rice
+- Snack: Rice cakes with avocado slices
+
+**Day 4:**
+- Breakfast: Smoothie with spinach, banana, and almond milk
+- Lunch: Mexican chicken salad with black beans
+- Dinner: Turkey meatballs with zucchini noodles
+- Snack: Mixed nuts
+
+**Day 5:**
+- Breakfast: Cottage cheese with pineapple chunks
+- Lunch: Pad Thai with tofu and rice noodles
+- Dinner: Baked chicken with mashed potatoes
+- Snack: Rice crackers with guacamole
+
+**Day 6:**
+- Breakfast: Chia pudding with mango and coconut flakes
+- Lunch: Lentil curry with quinoa
+- Dinner: Pork chops with roasted vegetables
+- Snack: Celery sticks with peanut butter
+
+**Day 7:**
+- Breakfast: Avocado toast on gluten-free bread
+- Lunch: Thai coconut curry with shrimp and vegetables
+- Dinner: Beef kebabs with grilled corn
+- Snack: Popcorn
+
+**Grocery List:**
+- Produce: Spinach, tomatoes, bell peppers, onions, garlic, apples, berries, bananas, sweet potatoes, carrots, avocados, pineapple, mango, celery, corn
+- Meat: Chicken, beef, salmon, turkey, tofu, shrimp, pork
+- Pantry: Rice noodles, rice, lettuce, almond butter, honey, quinoa, brown rice, hummus, rice cakes, mixed nuts, chia seeds, coconut flakes, gluten-free bread, lentils, peanut butter, popcorn kernels
+
+**Prep Notes:**
+- Batch cook rice, quinoa, and sweet potatoes for easy meal assembly.
+- Use mild seasonings like garlic, herbs, and mild curry powder to accommodate super-taster sensitivity.
+- Make extra portions of stir-fries and curries to save time during the week.
+
+---
+
+Please let me know if you need any adjustments or have any specific preferences.",scaffold_Gemini-3.1-Pro,Gemini-3.1-Pro,gpt-3.5-turbo,google/gemini-3.1-pro,Gemini-3.1-Pro,/Users/kennywongchamcharoen/Downloads/centaur-benchmark-code/results/meal_plan/20260612_fresh_rep2/augmentation/scaffolds/Gemini-3.1-Pro_rep0.md,3d8a15bd1ba21560399894195d0ac62e1a20e2d7aa6f385632b900d22ea7ab8d,"**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+- Target Audience: 31-year-old Australian adult.
+- Dietary Restrictions (Strict): No shellfish, no gluten, no lactose, no onion.
+- Preferences: Meat, potatoes, Mexican, Thai, Indian flavors.
+- Aversions: Very salty, very sweet, strong/overwhelming flavors (super-taster sensitivity requires mild, adjustable seasoning).
+- Budget/Complexity: Cheap and simple.
+- Output Requirements: 7-day meal plan (breakfast, lunch, dinner, simple snacks daily), a grocery list, and brief prep notes.
+
+**2. Plan & Structure**
+- **Meal Plan Grid:** Outline 7 days. Assign simple, budget-friendly meals for breakfast, lunch, dinner, and snacks. Ensure every meal strictly adheres to the allergy and intolerance constraints while incorporating the requested flavor profiles (Mexican, Thai, Indian) in a mild, super-taster-friendly way.
+- **Grocery List:** Categorize ingredients (e.g., Produce, Meat, Pantry) to match the meal plan. Verify all items are accessible in Australia, cheap, and compliant with all dietary restrictions (e.g., gluten-free grains, lactose-free alternatives, onion-free aromatics).
+- **Prep Notes:** Draft a brief section on how to batch-cook or prepare ingredients efficiently to keep the plan simple. Address how to handle seasoning adjustments.
+
+**3. Draft -> Self-Review -> Finalize**
+- **Draft:** Write out the 7-day plan, the categorized grocery list, and the prep notes based on the structure. Focus on clarity and simplicity.
+- **Self-Review:** Scrutinize every single ingredient against the strict constraints: Is there any hidden gluten, lactose, shellfish, or onion? Are the meals cheap and easy? Are the flavors represented but kept mild? Are all 7 days fully populated with three meals and snacks?
+- **Finalize:** Polish the formatting for readability, ensuring clear headings and bullet points, before generating the final output.",8,0,0,,,,,google/gemini-3.1-pro,Gemini-3.1-Pro

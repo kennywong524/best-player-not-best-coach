@@ -1,0 +1,10 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+Begin by thoroughly reviewing the task instructions to ensure a comprehensive understanding of all required elements. Confirm that the response should be supportive, single-session in style, and tailored to a client experiencing emotional exhaustion, work anxiety, and uncertainty. Carefully note each content requirement: empathic validation, cautious pattern identification without diagnosing, evidence-informed psychological framing, actionable next steps, a safety reminder, and an encouraging conclusion. Check for any constraints on language, tone, or content specificity, and clarify the need for plain, accessible language throughout.
+
+2. Plan & Structure  
+Outline the overall structure of the response before drafting. Decide on a logical sequence that flows naturally, starting with empathy and validation, followed by gentle exploration of possible patterns. Plan how to seamlessly integrate evidence-based psychological concepts using clear, client-friendly language. Identify where to introduce practical next steps and ensure these are actionable and relevant. Allocate space for a concise but clear safety/limits note. Conclude with an uplifting, empowering message. Ensure transitions between sections are smooth and the tone remains supportive and nonjudgmental throughout.
+
+3. Draft -> Self-Review -> Finalize  
+Compose the initial draft, adhering to the planned structure and ensuring all requirements are met. After drafting, conduct a careful self-review: check for clarity, warmth, and adherence to supportive counseling principles. Ensure that pattern identification is tentative and non-diagnostic, and that all advice is evidence-informed yet accessible. Verify the inclusion of all required elements and that the language is encouraging and respectful. Make necessary revisions for coherence, conciseness, and tone before finalizing the response.

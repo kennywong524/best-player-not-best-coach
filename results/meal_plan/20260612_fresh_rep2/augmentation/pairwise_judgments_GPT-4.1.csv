@@ -1,0 +1,321 @@
+left_idx,right_idx,replicate_id,judgment,winner,short_rationale,option_1_scores_json,option_2_scores_json,option_1_average,option_2_average,parse_ok,judge_model,judge_label
+0,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 more thoroughly addresses the user's allergies and intolerances, avoids problematic ingredients, and provides clearer, more specific meal and prep instructions. Its grocery list and meal structure are more aligned with the requirements, making it more practical and useful. Option 2 contains errors (e.g., shrimp, Greek yogurt, naan, and cornbread) that conflict with the user's dietary needs."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 more thoroughly addresses the user's allergies and intolerances, avoids problematic ingredients, and provides clearer, more specific meal and prep instructions. Its grocery list and meal structure are more aligned with the requirements, making it more practical and useful. Option 2 contains errors (e.g., shrimp, Greek yogurt, naan, and cornbread) that conflict with the user's dietary needs.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+7,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 better accommodates the dietary restrictions (avoiding shellfish, gluten, lactose, and onions), provides clear meal structure, and includes a concise grocery list and prep notes. Option 2 includes restricted ingredients (shrimp, onion, and potentially gluten-containing items), making it less accurate and useful for the user's needs."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 better accommodates the dietary restrictions (avoiding shellfish, gluten, lactose, and onions), provides clear meal structure, and includes a concise grocery list and prep notes. Option 2 includes restricted ingredients (shrimp, onion, and potentially gluten-containing items), making it less accurate and useful for the user's needs.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+0,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 more thoroughly addresses dietary restrictions, provides clearer meal and snack breakdowns, and offers a more accurate and useful grocery list. It avoids restricted items better than Option 2, which contains shellfish and problematic dairy, and is generally more organized and practical."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 more thoroughly addresses dietary restrictions, provides clearer meal and snack breakdowns, and offers a more accurate and useful grocery list. It avoids restricted items better than Option 2, which contains shellfish and problematic dairy, and is generally more organized and practical.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+0,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 better follows the dietary restrictions (though it contains some minor issues), offers more detailed and practical meal planning, and provides clearer prep notes and a more comprehensive grocery list. Option 2 contains several inaccuracies regarding allergens and less specificity, making it less practical and accurate for the user."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 better follows the dietary restrictions (though it contains some minor issues), offers more detailed and practical meal planning, and provides clearer prep notes and a more comprehensive grocery list. Option 2 contains several inaccuracies regarding allergens and less specificity, making it less practical and accurate for the user.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+7,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 better adheres to the dietary restrictions (avoiding shellfish, gluten, lactose, and onion) and provides a more consistent, clear, and practical meal plan with relevant prep notes and a structured grocery list. Option 2 includes problematic ingredients (e.g., naan bread, pancake mix, Greek yogurt, shrimp-free shrimp) and is less specific in accommodating the stated intolerances and allergies."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 better adheres to the dietary restrictions (avoiding shellfish, gluten, lactose, and onion) and provides a more consistent, clear, and practical meal plan with relevant prep notes and a structured grocery list. Option 2 includes problematic ingredients (e.g., naan bread, pancake mix, Greek yogurt, shrimp-free shrimp) and is less specific in accommodating the stated intolerances and allergies.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+6,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 more thoroughly addresses the dietary restrictions and preferences, avoids problematic ingredients, and provides clearer meal structure and prep notes. Option 2 includes ingredients like shrimp and lactose-containing dairy, demonstrating less careful adherence to the requirements."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 more thoroughly addresses the dietary restrictions and preferences, avoids problematic ingredients, and provides clearer meal structure and prep notes. Option 2 includes ingredients like shrimp and lactose-containing dairy, demonstrating less careful adherence to the requirements.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+6,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 better addresses the user's dietary restrictions and preferences, provides more accurate meal suggestions, and offers clearer prep notes. Option 2 contains some ingredient errors (e.g., shrimp, cheese) and less attention to the user's allergies and intolerances, making it less useful and potentially unsafe."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 better addresses the user's dietary restrictions and preferences, provides more accurate meal suggestions, and offers clearer prep notes. Option 2 contains some ingredient errors (e.g., shrimp, cheese) and less attention to the user's allergies and intolerances, making it less useful and potentially unsafe.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+8,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more thorough, accurate, and organized meal plan that better addresses the specific dietary restrictions and preferences outlined in the request, including clear avoidance of allergens and more complete prep notes and grocery list. Option 2 lacks some specificity, repeats ingredients with potential allergens, and is less detailed overall."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a more thorough, accurate, and organized meal plan that better addresses the specific dietary restrictions and preferences outlined in the request, including clear avoidance of allergens and more complete prep notes and grocery list. Option 2 lacks some specificity, repeats ingredients with potential allergens, and is less detailed overall.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+7,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 better adheres to the dietary restrictions, avoids problematic ingredients, and gives more practical prep notes. It is more accurate and useful for the user's needs, while Option 2 contains several problematic foods (shrimp, dairy, gluten risks) and lacks specificity."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 better adheres to the dietary restrictions, avoids problematic ingredients, and gives more practical prep notes. It is more accurate and useful for the user's needs, while Option 2 contains several problematic foods (shrimp, dairy, gluten risks) and lacks specificity.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1
+9,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 more thoroughly addresses the dietary restrictions, flavor preferences, and sensitivity needs outlined in the request, with clearer labeling and more consistent avoidance of problematic ingredients. Its structure and prep notes are more aligned with the instructions, making it more practical and accurate for the intended user."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 more thoroughly addresses the dietary restrictions, flavor preferences, and sensitivity needs outlined in the request, with clearer labeling and more consistent avoidance of problematic ingredients. Its structure and prep notes are more aligned with the instructions, making it more practical and accurate for the intended user.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.8,5.0,True,gpt-4.1,GPT-4.1

@@ -1,0 +1,10 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+**1. Requirements Check**
+Begin by cataloging exactly what the task asks for: discrepancy identification, rule explanation, recalculation under stated assumptions, and form/schedule correction notes. Inventory every client-provided fact and every pre-filled return entry, noting where they conflict. Flag any data that is missing or ambiguous (e.g., items the task says were "not yet provided"). Distinguish between figures you can verify, figures that depend on missing inputs, and figures requiring an assumption. Confirm scope boundaries: which jurisdictions, which tax year, and which determinations (filing status, dependency, credits, deductions) are in play.
+
+**2. Plan & Structure**
+Decide on an organizing logic—likely grouping by issue area (income reporting, self-employment obligations, deduction method, filing status, dependency/credit eligibility, then state conformity/carryover). For each issue, plan a consistent sub-structure: state the discrepancy, cite the governing rule generically, show the corrected approach, and identify the affected form or schedule. Sequence federal items before state items, since state figures depend on federal results. Plan placeholders for any calculation framework where exact numbers can't be derived. Note where you'll state assumptions explicitly.
+
+**3. Draft → Self-Review → Finalize**
+Draft each issue section following your structure. Then self-review: verify every claimed discrepancy traces to the provided data, confirm rules are applied consistently, and check that missing-information caveats appear wherever exactness is impossible. Ensure recalculations flow logically into downstream forms and state figures. Confirm tone is advisory and all required deliverables are addressed before finalizing.

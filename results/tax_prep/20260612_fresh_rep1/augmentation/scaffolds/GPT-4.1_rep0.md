@@ -1,0 +1,10 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+Begin by identifying all components of the task. Confirm which documents are provided (federal and state returns, Forms W-2, 1099-NEC, 1098, and other supporting information). Note the specific instructions: review the data, identify discrepancies, explain relevant federal and California tax rules, recalculate key figures using explicit assumptions, and clarify which forms/schedules need correction. Also, be prepared to identify missing information and, if necessary, outline an estimation or calculation framework when exact figures cannot be determined.
+
+2. Plan & Structure  
+Organize your approach into logical sections. Start by outlining a method for reviewing the client’s provided data, comparing reported figures against source documents. Develop a checklist for identifying discrepancies between the client’s returns and supporting forms. Plan to systematically explain the relevant tax rules that apply to each discrepancy, distinguishing between federal and California-specific rules. Structure your recalculation process, specifying what assumptions you will state if information is missing. Prepare to list and describe any forms or schedules that require correction or completion, and create a framework for communicating missing information and next steps to the client.
+
+3. Draft -> Self-Review -> Finalize  
+Draft your response in clear, organized sections reflecting your plan. Ensure explanations of discrepancies and rules are concise and accurate, and that recalculated figures follow from the data and assumptions provided. Review your draft for completeness, clarity, and technical accuracy—double-check that all client facts, forms, and requirements are addressed. Confirm that all necessary forms/schedules and missing information are clearly identified. Finalize your response, ensuring it is actionable and easy for the client to follow.

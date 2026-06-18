@@ -1,0 +1,897 @@
+left_idx,right_idx,replicate_id,judgment,winner,short_rationale,option_1_scores_json,option_2_scores_json,option_1_average,option_2_average,parse_ok,judge_model,judge_label
+1,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 better fulfills the request by including all required components with explicit time allocations, materials, visual supports (pizza cutouts), differentiation, and hands-on activities, making it genuinely classroom-ready. Option 2 covers the components more thinly and notably uses abstract conversion notation (13/4) without the visual support the prompt explicitly required."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.7,
+  ""option_2_average"": 5.6
+}",option_1,"Option 1 better fulfills the request by including all required components with explicit time allocations, materials, visual supports (pizza cutouts), differentiation, and hands-on activities, making it genuinely classroom-ready. Option 2 covers the components more thinly and notably uses abstract conversion notation (13/4) without the visual support the prompt explicitly required.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",7.7,5.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 better fulfills the full set of required components (it explicitly includes an Introduction/hook and all named sections) and uses more age-appropriate, concrete pizza language, while both options share the same key flaw of providing abstract notation with no actual visuals. Option 1 edges ahead on completeness and audience fit despite a factual slip in its examples."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.4,
+  ""option_2_average"": 5.5
+}",option_1,"Option 1 better fulfills the full set of required components (it explicitly includes an Introduction/hook and all named sections) and uses more age-appropriate, concrete pizza language, while both options share the same key flaw of providing abstract notation with no actual visuals. Option 1 edges ahead on completeness and audience fit despite a factual slip in its examples.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 4, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.4,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,3,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 better matches the request by grounding examples in pizza visuals, including a hands-on manipulative activity (pizza cutouts), and addressing a more meaningful misconception (size comparison) with checks that probe reasoning; Option 1 is accurate but more abstract and contains an inconsistency (its mixed-number example 1 1/2 in examples differs from the worked 5/2 = 2 1/2)."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 6.2,
+  ""option_2_average"": 7.4
+}",option_2,"Option 2 better matches the request by grounding examples in pizza visuals, including a hands-on manipulative activity (pizza cutouts), and addressing a more meaningful misconception (size comparison) with checks that probe reasoning; Option 1 is accurate but more abstract and contains an inconsistency (its mixed-number example 1 1/2 in examples differs from the worked 5/2 = 2 1/2).","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 7}",6.2,7.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options miss the explicit requirement for visual support and contain a flawed pizza analogy (toppings/slices in Option 2 is especially confusing), but Option 1 provides complete bidirectional worked conversions (5/2 to 2 1/2 and 3 1/4 to 13/4), making it more accurate and instructionally useful. Option 2's worked examples list fractions without showing the conversion process, weakening its core teaching value."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.3,
+  ""option_2_average"": 5.5
+}",option_1,"Both options miss the explicit requirement for visual support and contain a flawed pizza analogy (toppings/slices in Option 2 is especially confusing), but Option 1 provides complete bidirectional worked conversions (5/2 to 2 1/2 and 3 1/4 to 13/4), making it more accurate and instructionally useful. Option 2's worked examples list fractions without showing the conversion process, weakening its core teaching value.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 4, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",6.3,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+7,0,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options share the same core weakness of using abstract notation without the required visual support and not being fully age-appropriate for 8-year-olds, but Option 2 provides more complete worked examples showing the actual conversion process (5/2 to 2 1/2 and 3 1/4 to 13/4) and a more concrete, collaborative interactive activity, making it slightly more classroom-ready and pedagogically useful."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 6.3
+}",option_2,"Both options share the same core weakness of using abstract notation without the required visual support and not being fully age-appropriate for 8-year-olds, but Option 2 provides more complete worked examples showing the actual conversion process (5/2 to 2 1/2 and 3 1/4 to 13/4) and a more concrete, collaborative interactive activity, making it slightly more classroom-ready and pedagogically useful.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 6}",5.5,6.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 better fulfills the full objective by including conversion (both directions) with complete worked examples, while Option 2 only differentiates and never demonstrates conversion despite the analogy implying it. Neither option adds strong visual support, but Option 1's content is more complete and accurate for the stated learning goal."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.7,
+  ""option_2_average"": 5.8
+}",option_1,"Option 1 better fulfills the full objective by including conversion (both directions) with complete worked examples, while Option 2 only differentiates and never demonstrates conversion despite the analogy implying it. Neither option adds strong visual support, but Option 1's content is more complete and accurate for the stated learning goal.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.7,5.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 includes all eight required components explicitly (objective, explanation, analogy, worked examples both directions, misconceptions, activity, checks, wrap-up) with correct math, while Option 2 omits a clear analogy, gives a weaker activity, and uses overly trivial conversion examples (4/2). Both fail to fully provide visual support for notation, but Option 1 is more complete and classroom-ready."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.3,
+  ""option_2_average"": 5.8
+}",option_1,"Option 1 includes all eight required components explicitly (objective, explanation, analogy, worked examples both directions, misconceptions, activity, checks, wrap-up) with correct math, while Option 2 omits a clear analogy, gives a weaker activity, and uses overly trivial conversion examples (4/2). Both fail to fully provide visual support for notation, but Option 1 is more complete and classroom-ready.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",7.3,5.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 better fulfills the request by explicitly integrating visuals (pizza cutouts), providing timing, differentiation, and materials, which improves practical usefulness and instruction-following; it also contains an accurate worked conversion (5/3 = 1 2/3). Option 1 uses unsupported abstract notation, has a flawed pizza explanation for 7/3, and omits a fully worked conversion, weakening accuracy and audience fit."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.0,
+  ""option_2_average"": 7.5
+}",option_2,"Option 2 better fulfills the request by explicitly integrating visuals (pizza cutouts), providing timing, differentiation, and materials, which improves practical usefulness and instruction-following; it also contains an accurate worked conversion (5/3 = 1 2/3). Option 1 uses unsupported abstract notation, has a flawed pizza explanation for 7/3, and omits a fully worked conversion, weakening accuracy and audience fit.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",6.0,7.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both cover required components, but Option 2 is more classroom-ready with timed segments, an explicit hook, differentiation, materials list, and consistently correct examples; Option 1 contains a logically flawed check for understanding (asking which is bigger between 3/2 and 1 1/2, which are equal, without clear instructional purpose) and weaker structure."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.3,
+  ""option_2_average"": 7.6
+}",option_2,"Both cover required components, but Option 2 is more classroom-ready with timed segments, an explicit hook, differentiation, materials list, and consistently correct examples; Option 1 contains a logically flawed check for understanding (asking which is bigger between 3/2 and 1 1/2, which are equal, without clear instructional purpose) and weaker structure.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",6.3,7.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+6,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 better satisfies the request by including timing, materials, differentiation, visual supports tied to abstract notation, and a worked conversion example, whereas Option 1 omits conversion modeling and lacks visual scaffolding. However, both contain a factual error in their pizza analogy (toppings/halves), which lowers accuracy scores."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.9,
+  ""option_2_average"": 7.2
+}",option_2,"Option 2 better satisfies the request by including timing, materials, differentiation, visual supports tied to abstract notation, and a worked conversion example, whereas Option 1 omits conversion modeling and lacks visual scaffolding. However, both contain a factual error in their pizza analogy (toppings/halves), which lowers accuracy scores.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",5.9,7.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+1,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more classroom-ready with timed segments, materials list, differentiation, hands-on activity, and visual scaffolding suited to 8-year-olds, fulfilling more of the requested components. Option 2 is accurate but thin, abstract, and lacks the concrete visual support and full structure the prompt requested."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 7.4,
+  ""option_2_average"": 5.2
+}",option_1,"Option 1 is more classroom-ready with timed segments, materials list, differentiation, hands-on activity, and visual scaffolding suited to 8-year-olds, fulfilling more of the requested components. Option 2 is accurate but thin, abstract, and lacks the concrete visual support and full structure the prompt requested.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",7.4,5.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+1,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 covers all required components with timing, differentiation, worked conversions, and explicit checks for understanding, making it more classroom-ready, while Option 2 is thinner and omits worked conversion steps and timing. Both share a content accuracy concern: this is labeled Grade 3 but standard improper fractions/mixed numbers instruction typically begins later, though Option 1 still better fulfills the request."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.8,
+  ""option_2_average"": 5.8
+}",option_1,"Option 1 covers all required components with timing, differentiation, worked conversions, and explicit checks for understanding, making it more classroom-ready, while Option 2 is thinner and omits worked conversion steps and timing. Both share a content accuracy concern: this is labeled Grade 3 but standard improper fractions/mixed numbers instruction typically begins later, though Option 1 still better fulfills the request.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",7.8,5.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 is more classroom-ready with timed segments, materials list, differentiation, and a hands-on sorting activity, and its worked examples (5/3 = 1 2/3) are correct. Option 1 contains a mathematical error (7/2 = 3 1/2 is correct, but it labels '4/2' as a mixed-number conversion target which yields a whole number 2, a poor/misleading example) and is thinner on structure and accuracy."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.8,
+  ""option_2_average"": 7.3
+}",option_2,"Option 2 is more classroom-ready with timed segments, materials list, differentiation, and a hands-on sorting activity, and its worked examples (5/3 = 1 2/3) are correct. Option 1 contains a mathematical error (7/2 = 3 1/2 is correct, but it labels '4/2' as a mixed-number conversion target which yields a whole number 2, a poor/misleading example) and is thinner on structure and accuracy.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",5.8,7.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,2,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options share the same flaws (no concrete conversion worked examples, abstract notation like 5/2 and 1 1/2 without true visual support, and a grade-mismatched objective), but Option 2 adds an introduction, a clearer sorting activity, a better-structured set of understanding checks that probe the misconception, and a more complete worked example with a conversion prompt."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.6,
+  ""option_2_average"": 6.3
+}",option_2,"Both options share the same flaws (no concrete conversion worked examples, abstract notation like 5/2 and 1 1/2 without true visual support, and a grade-mismatched objective), but Option 2 adds an introduction, a clearer sorting activity, a better-structured set of understanding checks that probe the misconception, and a more complete worked example with a conversion prompt.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",5.6,6.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options share the same flawed pizza analogy (toppings/slices) and an analogy in Option 2 that conflates toppings with fractions, but Option 1 provides worked examples that actually attempt to model the fraction meaning, specific checks for understanding including a concrete conversion task, and a misconception that addresses comparison reasoning. Neither fully meets the 'avoid abstract notation without visual support' requirement, but Option 1 is more concrete and complete in its checks and activity."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 3,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.9,
+  ""option_2_average"": 4.7
+}",option_1,"Both options share the same flawed pizza analogy (toppings/slices) and an analogy in Option 2 that conflates toppings with fractions, but Option 1 provides worked examples that actually attempt to model the fraction meaning, specific checks for understanding including a concrete conversion task, and a misconception that addresses comparison reasoning. Neither fully meets the 'avoid abstract notation without visual support' requirement, but Option 1 is more concrete and complete in its checks and activity.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 4, ""task_dimension_3"": 3, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",5.9,4.7,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options share weaknesses (limited visual support, an inaccurate example in worked examples, and a slightly too-advanced objective for 8-year-olds), but Option 1 provides clearer age-appropriate analogies, more complete examples with explanations, a genuine common-misconception insight, and a more concrete sorting activity, making it more classroom-ready."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 7.0,
+  ""option_2_average"": 5.4
+}",option_1,"Both options share weaknesses (limited visual support, an inaccurate example in worked examples, and a slightly too-advanced objective for 8-year-olds), but Option 1 provides clearer age-appropriate analogies, more complete examples with explanations, a genuine common-misconception insight, and a more concrete sorting activity, making it more classroom-ready.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",7.0,5.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 more fully satisfies the prompt by including all requested components, especially worked examples with conversion and a step-by-step interactive sort-and-convert activity, plus richer checks for understanding. Both use only minimal visual support and rely on abstract notation, but Option 1 is more complete and instructionally useful for the stated objective of converting between forms."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.5
+}",option_1,"Option 1 more fully satisfies the prompt by including all requested components, especially worked examples with conversion and a step-by-step interactive sort-and-convert activity, plus richer checks for understanding. Both use only minimal visual support and rely on abstract notation, but Option 1 is more complete and instructionally useful for the stated objective of converting between forms.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 4, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.8,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 covers every required component (objective, explanation, analogy, worked examples, misconceptions, activity, checks, wrap-up) more completely and accurately, while Option 2 omits a clear analogy section, has a weaker misconception note, and includes a flawed example (4/2 is a whole number 2, not a typical mixed-number conversion). Both fail to provide the explicit visual support the prompt required, but Option 1 is more classroom-ready."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.6,
+  ""option_2_average"": 4.8
+}",option_1,"Option 1 covers every required component (objective, explanation, analogy, worked examples, misconceptions, activity, checks, wrap-up) more completely and accurately, while Option 2 omits a clear analogy section, has a weaker misconception note, and includes a flawed example (4/2 is a whole number 2, not a typical mixed-number conversion). Both fail to provide the explicit visual support the prompt required, but Option 1 is more classroom-ready.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.6,4.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+6,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options have weak analogies and lack worked conversion steps, but Option 1 is more complete with explicit worked examples, common misconceptions, and a full structure including an introduction; Option 2 contains a mathematical accuracy flaw (its analogy and example 5/2 framing is confused, and its misconception statement comparing improper fractions to mixed numbers is misleading since 3/2 equals 1 1/2). Neither fully shows step-by-step conversion with visuals as requested."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.2,
+  ""option_2_average"": 5.4
+}",option_1,"Both options have weak analogies and lack worked conversion steps, but Option 1 is more complete with explicit worked examples, common misconceptions, and a full structure including an introduction; Option 2 contains a mathematical accuracy flaw (its analogy and example 5/2 framing is confused, and its misconception statement comparing improper fractions to mixed numbers is misleading since 3/2 equals 1 1/2). Neither fully shows step-by-step conversion with visuals as requested.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 7, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 4, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",6.2,5.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options are similar, but Option 1 better fits the 8-year-old audience with concrete pizza-based examples, more age-appropriate language, and a hands-on cutout activity, whereas Option 2 uses more abstract phrasing ('represent numbers greater than one') and includes an error in its worked example (5/3 does not equal 1 2/3)."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.5
+}",option_1,"Both options are similar, but Option 1 better fits the 8-year-old audience with concrete pizza-based examples, more age-appropriate language, and a hands-on cutout activity, whereas Option 2 uses more abstract phrasing ('represent numbers greater than one') and includes an error in its worked example (5/3 does not equal 1 2/3).","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",6.8,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,3,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options use abstract notation (5/2, 7/3) without the visual support the prompt explicitly required, but Option 2 better fulfills the implied conversion skill, ties each notation to a concrete pizza description, and includes a comparison check that surfaces a meaningful misconception. Both have weaknesses but Option 2 is slightly more complete and pedagogically richer."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.4,
+  ""option_2_average"": 6.8
+}",option_2,"Both options use abstract notation (5/2, 7/3) without the visual support the prompt explicitly required, but Option 2 better fulfills the implied conversion skill, ties each notation to a concrete pizza description, and includes a comparison check that surfaces a meaningful misconception. Both have weaknesses but Option 2 is slightly more complete and pedagogically richer.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",6.4,6.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options miss visual support beyond pizza language and contain accuracy issues, but Option 1 includes all required components (objective, explanation, analogy, worked examples that actually show conversion, misconception, activity, checks, wrap-up, and teacher notes) and demonstrates the 7/2 to 3 1/2 conversion more clearly. Option 2 has weaker, contradictory examples (its analogy and example for the same fraction are inconsistent) and offers no teacher guidance."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.7,
+  ""option_2_average"": 5.5
+}",option_1,"Both options miss visual support beyond pizza language and contain accuracy issues, but Option 1 includes all required components (objective, explanation, analogy, worked examples that actually show conversion, misconception, activity, checks, wrap-up, and teacher notes) and demonstrates the 7/2 to 3 1/2 conversion more clearly. Option 2 has weaker, contradictory examples (its analogy and example for the same fraction are inconsistent) and offers no teacher guidance.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 4, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",6.7,5.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+7,6,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options largely meet the request, but Option 2 better serves the age-appropriate goals with an engaging hook, clearer kid-friendly numerator/denominator definitions, and a hands-on card-sorting activity; both share the weakness of using notation without true visual support, though neither lesson includes actual visuals."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 6.6,
+  ""option_2_average"": 7.4
+}",option_2,"Both options largely meet the request, but Option 2 better serves the age-appropriate goals with an engaging hook, clearer kid-friendly numerator/denominator definitions, and a hands-on card-sorting activity; both share the weakness of using notation without true visual support, though neither lesson includes actual visuals.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 8, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 8, ""task_dimension_6"": 7}",6.6,7.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+6,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options contain a factual flaw in their pizza analogy (confusing toppings/extra pieces with slices), but Option 1 is more complete: it explicitly addresses conversion between forms (a stated objective), includes clearer worked examples, and provides more developed checks for understanding. Both rely on abstract notation (7/3, 5/2) without the visual support the prompt required."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 6.2,
+  ""option_2_average"": 5.7
+}",option_1,"Both options contain a factual flaw in their pizza analogy (confusing toppings/extra pieces with slices), but Option 1 is more complete: it explicitly addresses conversion between forms (a stated objective), includes clearer worked examples, and provides more developed checks for understanding. Both rely on abstract notation (7/3, 5/2) without the visual support the prompt required.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.2,5.7,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+6,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options have notable accuracy and pedagogical flaws (no actual conversion procedure shown, weak analogies, examples that conflict with Grade 3 standards), but Option 1 includes all requested sections cleanly, provides a sortable card activity, and lists genuine misconceptions, making it more classroom-ready than Option 2 whose analogy of 'bigger numbers mean more pizza' is muddled and whose worked example (4/2 to a mixed number) yields a whole number rather than a true mixed number."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 3,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.9,
+  ""option_2_average"": 5.0
+}",option_1,"Both options have notable accuracy and pedagogical flaws (no actual conversion procedure shown, weak analogies, examples that conflict with Grade 3 standards), but Option 1 includes all requested sections cleanly, provides a sortable card activity, and lists genuine misconceptions, making it more classroom-ready than Option 2 whose analogy of 'bigger numbers mean more pizza' is muddled and whose worked example (4/2 to a mixed number) yields a whole number rather than a true mixed number.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 5, ""task_dimension_3"": 3, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",5.9,5.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options omit the required visual support for abstract notation, but Option 1 better fits the 8-year-old audience with simpler language, a consistent pizza analogy, hands-on cutout activity, and a scope (identifying/differentiating) more appropriate for Grade 3; Option 2 introduces conversion between forms, which is more abstract and harder for this age without strong visual scaffolding."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 6.8,
+  ""option_2_average"": 5.7
+}",option_1,"Both options omit the required visual support for abstract notation, but Option 1 better fits the 8-year-old audience with simpler language, a consistent pizza analogy, hands-on cutout activity, and a scope (identifying/differentiating) more appropriate for Grade 3; Option 2 introduces conversion between forms, which is more abstract and harder for this age without strong visual scaffolding.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 7, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",6.8,5.7,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+7,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 includes every requested component explicitly (objective, explanation, analogy, worked examples, misconceptions, activity with number-line visual, checks, wrap-up) and offers correct, varied conversion examples. Option 2 has a friendlier tone but omits an explicit analogy section, gives a flawed example (4/2 = 2, a whole number, not a clean mixed-number conversion), and provides shallower worked examples and checks."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 7.5,
+  ""option_2_average"": 5.9
+}",option_1,"Option 1 includes every requested component explicitly (objective, explanation, analogy, worked examples, misconceptions, activity with number-line visual, checks, wrap-up) and offers correct, varied conversion examples. Option 2 has a friendlier tone but omits an explicit analogy section, gives a flawed example (4/2 = 2, a whole number, not a clean mixed-number conversion), and provides shallower worked examples and checks.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 6, ""task_dimension_2"": 7, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 6}",7.5,5.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options are thin and lack visual scaffolding for abstract notation, but Option 1 includes worked conversion steps (7/2 to 3 1/2), addresses a misconception, and gives a more interactive hands-on activity, edging out Option 2 which never actually demonstrates a conversion despite the objective requiring it."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.1,
+  ""option_2_average"": 5.1
+}",option_1,"Both options are thin and lack visual scaffolding for abstract notation, but Option 1 includes worked conversion steps (7/2 to 3 1/2), addresses a misconception, and gives a more interactive hands-on activity, edging out Option 2 which never actually demonstrates a conversion despite the objective requiring it.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",6.1,5.1,True,anthropic/claude-opus-4-8,Claude-Opus-4.8

@@ -1,0 +1,1153 @@
+left_idx,right_idx,replicate_id,judgment,winner,short_rationale,option_1_scores_json,option_2_scores_json,option_1_average,option_2_average,parse_ok,judge_model,judge_label
+1,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and comprehensive budget that includes all major expense categories like accommodation and internal transport, whereas Option 2 omits key costs and has a less structured daily plan."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 7.3,
+  ""option_2_average"": 5.2
+}",option_1,"Option 1 provides a more realistic and comprehensive budget that includes all major expense categories like accommodation and internal transport, whereas Option 2 omits key costs and has a less structured daily plan.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",7.3,5.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,0,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a more comprehensive and realistic itinerary with specific, culturally rich activities, a day trip, and a detailed daily budget that fits comfortably within the $2,500 total, making it more practical and useful for the traveler."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 3,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 5.0,
+  ""option_2_average"": 8.1
+}",option_2,"Option 2 provides a more comprehensive and realistic itinerary with specific, culturally rich activities, a day trip, and a detailed daily budget that fits comfortably within the $2,500 total, making it more practical and useful for the traveler.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 3, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 4}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 8}",5.0,8.1,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more detailed, realistic, and budget-aware itinerary with specific daily activities and cost estimates, while Option 2 significantly underestimates expenses and lacks practical detail."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 3,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.4,
+  ""option_2_average"": 4.7
+}",option_1,"Option 1 provides a more detailed, realistic, and budget-aware itinerary with specific daily activities and cost estimates, while Option 2 significantly underestimates expenses and lacks practical detail.","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 3, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 3, ""task_dimension_6"": 4}",8.4,4.7,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,4,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more detailed, budget-aware itinerary with realistic cost estimates and clearly labeled assumptions, while Option 2 lacks specificity and underestimates costs significantly."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 8.2,
+  ""option_2_average"": 5.3
+}",option_1,"Option 1 provides a more detailed, budget-aware itinerary with realistic cost estimates and clearly labeled assumptions, while Option 2 lacks specificity and underestimates costs significantly.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",8.2,5.3,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+5,0,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a more realistic and detailed budget breakdown, includes all major costs like flights and accommodation, and stays well under the $2,500 budget, making it more practical and useful for the traveler."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 3,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 9,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 9,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 4.6,
+  ""option_2_average"": 8.4
+}",option_2,"Option 2 provides a more realistic and detailed budget breakdown, includes all major costs like flights and accommodation, and stays well under the $2,500 budget, making it more practical and useful for the traveler.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 3, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 3, ""task_dimension_6"": 4}","{""general_accuracy_specificity"": 9, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 9, ""task_dimension_6"": 8}",4.6,8.4,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more detailed, realistic, and budget-aware itinerary with explicit cost estimates and clear assumptions, while Option 2 significantly underestimates expenses and lacks specificity."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 3,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 3,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.3,
+  ""option_2_average"": 4.5
+}",option_1,"Option 1 provides a more detailed, realistic, and budget-aware itinerary with explicit cost estimates and clear assumptions, while Option 2 significantly underestimates expenses and lacks specificity.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 3, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 3, ""task_dimension_4"": 4, ""task_dimension_5"": 5, ""task_dimension_6"": 4}",8.3,4.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+7,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and comprehensive budget breakdown, includes a wider variety of Tokyo experiences, and better adheres to the request for a mid-range, budget-aware plan."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 3,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 8.0,
+  ""option_2_average"": 5.1
+}",option_1,"Option 1 provides a more realistic and comprehensive budget breakdown, includes a wider variety of Tokyo experiences, and better adheres to the request for a mid-range, budget-aware plan.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 3, ""task_dimension_6"": 4}",8.0,5.1,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+0,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic, budget-aware itinerary with detailed daily activities and cost estimates, while Option 2 includes inaccurate assumptions like a Yokohama day trip and underestimates costs."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.5,
+  ""option_2_average"": 5.1
+}",option_1,"Option 1 provides a more realistic, budget-aware itinerary with detailed daily activities and cost estimates, while Option 2 includes inaccurate assumptions like a Yokohama day trip and underestimates costs.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 4}",7.5,5.1,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a more comprehensive and realistic itinerary with a day trip, includes flight costs, and has a higher practical usefulness score. Option 1 is incomplete and lacks key details."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 2,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 3,
+    ""task_dimension_5"": 2,
+    ""task_dimension_6"": 3,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 3,
+    ""general_practical_usefulness"": 3,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 3.6,
+  ""option_2_average"": 7.9
+}",option_2,"Option 2 provides a more comprehensive and realistic itinerary with a day trip, includes flight costs, and has a higher practical usefulness score. Option 1 is incomplete and lacks key details.","{""general_accuracy_specificity"": 3, ""general_instruction_following"": 5, ""general_organization_readability"": 5, ""general_practical_usefulness"": 3, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 2, ""task_dimension_3"": 4, ""task_dimension_4"": 3, ""task_dimension_5"": 2, ""task_dimension_6"": 3}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",3.6,7.9,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+3,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a more realistic and detailed budget breakdown, includes flight costs, and offers a practical, day-by-day itinerary with specific cost estimates, making it more useful for a traveler."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 3,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 5.1,
+  ""option_2_average"": 7.9
+}",option_2,"Option 2 provides a more realistic and detailed budget breakdown, includes flight costs, and offers a practical, day-by-day itinerary with specific cost estimates, making it more useful for a traveler.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 3, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 4}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",5.1,7.9,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and budget-aware itinerary by excluding the flight cost from the $2,500 budget, as instructed, and offers a clearer structure with more specific daily cost estimates."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 5,
+    ""general_tone_audience_fit"": 5
+  },
+  ""option_1_average"": 7.8,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a more realistic and budget-aware itinerary by excluding the flight cost from the $2,500 budget, as instructed, and offers a clearer structure with more specific daily cost estimates.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 5, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 5, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",7.8,5.0,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+1,5,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more detailed, budget-aware itinerary with realistic daily cost estimates, clearly labeled assumptions, and a total cost well within the $2,500 budget, making it more practical and useful for the traveler."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.4,
+  ""option_2_average"": 5.9
+}",option_1,"Option 1 provides a more detailed, budget-aware itinerary with realistic daily cost estimates, clearly labeled assumptions, and a total cost well within the $2,500 budget, making it more practical and useful for the traveler.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 9, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",8.4,5.9,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+6,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a more realistic and complete budget breakdown, including the flight cost which Option 1 omitted, making it far more accurate and practically useful for the traveler."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 3,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 5.0,
+  ""option_2_average"": 7.7
+}",option_2,"Option 2 provides a more realistic and complete budget breakdown, including the flight cost which Option 1 omitted, making it far more accurate and practically useful for the traveler.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 3, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 3, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",5.0,7.7,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+1,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more detailed, budget-aware itinerary with realistic daily cost breakdowns and a total well under the $2,500 limit, while Option 2's budget summary is less transparent and its day trip to Mount Fuji is overly ambitious for a 5-day Tokyo-focused trip."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.8,
+  ""option_2_average"": 5.9
+}",option_1,"Option 1 provides a more detailed, budget-aware itinerary with realistic daily cost breakdowns and a total well under the $2,500 limit, while Option 2's budget summary is less transparent and its day trip to Mount Fuji is overly ambitious for a 5-day Tokyo-focused trip.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",7.8,5.9,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+1,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and detailed daily budget breakdown, includes a day trip which is a common request, and its total cost estimate is more accurate and transparent. Option 2's budget is less specific and includes a high contingency fund, making it less practical."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.8,
+  ""option_2_average"": 5.6
+}",option_1,"Option 1 provides a more realistic and detailed daily budget breakdown, includes a day trip which is a common request, and its total cost estimate is more accurate and transparent. Option 2's budget is less specific and includes a high contingency fund, making it less practical.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",7.8,5.6,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+3,2,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and detailed budget breakdown, includes a day trip to Hakone for a richer experience, and better addresses the original request's instructions for assumptions and estimates."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.9,
+  ""option_2_average"": 5.5
+}",option_1,"Option 1 provides a more realistic and detailed budget breakdown, includes a day trip to Hakone for a richer experience, and better addresses the original request's instructions for assumptions and estimates.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",7.9,5.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,2,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and comprehensive itinerary that better accounts for the total budget, includes a day trip, and offers more specific and varied activity estimates."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.7,
+  ""option_2_average"": 5.6
+}",option_1,"Option 1 provides a more realistic and comprehensive itinerary that better accounts for the total budget, includes a day trip, and offers more specific and varied activity estimates.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 4}",7.7,5.6,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,5,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 is more budget-aware, provides a realistic cost breakdown with a contingency buffer, and directly addresses the traveler's stated must-see priorities. Option 2's cost estimates are unrealistically low and it includes a costly day trip without accounting for it in the budget."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.1,
+  ""option_2_average"": 5.5
+}",option_1,"Option 1 is more budget-aware, provides a realistic cost breakdown with a contingency buffer, and directly addresses the traveler's stated must-see priorities. Option 2's cost estimates are unrealistically low and it includes a costly day trip without accounting for it in the budget.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 3, ""task_dimension_3"": 7, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 4}",8.1,5.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and budget-aware itinerary with clear cost estimates and a contingency buffer, while Option 2 significantly underestimates expenses and includes an impractical day trip."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 3,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.5,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a more realistic and budget-aware itinerary with clear cost estimates and a contingency buffer, while Option 2 significantly underestimates expenses and includes an impractical day trip.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 3, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",7.5,5.0,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and budget-aware itinerary with clear cost estimates and a contingency buffer, while Option 2 exceeds the budget and includes an impractical day trip."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 9,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 3,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 8.0,
+  ""option_2_average"": 5.0
+}",option_1,"Option 1 provides a more realistic and budget-aware itinerary with clear cost estimates and a contingency buffer, while Option 2 exceeds the budget and includes an impractical day trip.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 8, ""task_dimension_6"": 9}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 3, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 4}",8.0,5.0,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+2,8,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a comprehensive, realistic budget breakdown including flights and accommodation, which Option 1 omits. It delivers a more practical and complete itinerary that aligns with the traveler's budget constraints and request for a 5-day plan."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 3,
+    ""task_dimension_5"": 2,
+    ""task_dimension_6"": 3,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 3,
+    ""general_practical_usefulness"": 2,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 9,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 3.8,
+  ""option_2_average"": 8.0
+}",option_2,"Option 2 provides a comprehensive, realistic budget breakdown including flights and accommodation, which Option 1 omits. It delivers a more practical and complete itinerary that aligns with the traveler's budget constraints and request for a 5-day plan.","{""general_accuracy_specificity"": 3, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 2, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 2, ""task_dimension_2"": 3, ""task_dimension_3"": 4, ""task_dimension_4"": 3, ""task_dimension_5"": 2, ""task_dimension_6"": 3}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 9, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",3.8,8.0,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic budget breakdown aligned with the $2,500 total, includes a day trip to Hakone which is a common Tokyo itinerary highlight, and offers clearer daily cost estimates. Option 2 severely underestimates costs and lacks flight expenses."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 3,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.3,
+  ""option_2_average"": 4.5
+}",option_1,"Option 1 provides a more realistic budget breakdown aligned with the $2,500 total, includes a day trip to Hakone which is a common Tokyo itinerary highlight, and offers clearer daily cost estimates. Option 2 severely underestimates costs and lacks flight expenses.","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 3, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 3, ""task_dimension_6"": 4}",7.3,4.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+3,5,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and detailed budget breakdown, clearly labels estimates, and includes a day trip that fits within the 5-day constraint. Option 2's budget is unrealistically low and includes a Mount Fuji day trip which is overly ambitious for a 5-day Tokyo itinerary."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 3,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 3,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.7,
+  ""option_2_average"": 4.6
+}",option_1,"Option 1 provides a more realistic and detailed budget breakdown, clearly labels estimates, and includes a day trip that fits within the 5-day constraint. Option 2's budget is unrealistically low and includes a Mount Fuji day trip which is overly ambitious for a 5-day Tokyo itinerary.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 3, ""task_dimension_4"": 4, ""task_dimension_5"": 5, ""task_dimension_6"": 3}",7.7,4.6,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+6,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and detailed itinerary with specific, budget-aware cost estimates per day and a clear remaining budget, while Option 2's total cost estimate is unrealistically low and lacks practical flight cost inclusion."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.7,
+  ""option_2_average"": 5.8
+}",option_1,"Option 1 provides a more realistic and detailed itinerary with specific, budget-aware cost estimates per day and a clear remaining budget, while Option 2's total cost estimate is unrealistically low and lacks practical flight cost inclusion.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 4}",7.7,5.8,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+3,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and budget-aware itinerary with clear cost estimates in local currency, while Option 2 underestimates costs significantly and lacks practical details."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.8,
+  ""option_2_average"": 5.2
+}",option_1,"Option 1 provides a more realistic and budget-aware itinerary with clear cost estimates in local currency, while Option 2 underestimates costs significantly and lacks practical details.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",7.8,5.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+8,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a realistic, budget-aware itinerary with a detailed cost breakdown that aligns with the $2,500 total, while Option 2's budget estimate is grossly inaccurate and impractical."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 2,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 3,
+    ""general_practical_usefulness"": 2,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.5,
+  ""option_2_average"": 4.2
+}",option_1,"Option 1 provides a realistic, budget-aware itinerary with a detailed cost breakdown that aligns with the $2,500 total, while Option 2's budget estimate is grossly inaccurate and impractical.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 3, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 2, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 3, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 2}",7.5,4.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,5,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and comprehensive budget breakdown, includes a day trip, and demonstrates better instruction following by explicitly labeling estimates."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.7,
+  ""option_2_average"": 5.6
+}",option_1,"Option 1 provides a more realistic and comprehensive budget breakdown, includes a day trip, and demonstrates better instruction following by explicitly labeling estimates.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 4}",7.7,5.6,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,6,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a more detailed and realistic budget breakdown, explicitly accounts for the flight cost, and offers a more balanced and practical itinerary with a clear remaining budget."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 5.3,
+  ""option_2_average"": 7.7
+}",option_2,"Option 2 provides a more detailed and realistic budget breakdown, explicitly accounts for the flight cost, and offers a more balanced and practical itinerary with a clear remaining budget.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 5, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}",5.3,7.7,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+4,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and budget-aware itinerary with clear cost estimates per day, while Option 2's budget summary contains significant inaccuracies and overestimates costs."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.8,
+  ""option_2_average"": 5.5
+}",option_1,"Option 1 provides a more realistic and budget-aware itinerary with clear cost estimates per day, while Option 2's budget summary contains significant inaccuracies and overestimates costs.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 4}",7.8,5.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+8,4,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and detailed budget breakdown that aligns with the $2,500 total, while Option 2's activity cost total of $800 is implausibly low and lacks a full budget allocation."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.8,
+  ""option_2_average"": 5.4
+}",option_1,"Option 1 provides a more realistic and detailed budget breakdown that aligns with the $2,500 total, while Option 2's activity cost total of $800 is implausibly low and lacks a full budget allocation.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 4}",7.8,5.4,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+6,5,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and detailed itinerary with clear daily cost estimates that are budget-aware, while Option 2 lacks specificity in cost breakdowns and includes a less practical day trip to Mount Fuji."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.8,
+  ""option_2_average"": 6.0
+}",option_1,"Option 1 provides a more realistic and detailed itinerary with clear daily cost estimates that are budget-aware, while Option 2 lacks specificity in cost breakdowns and includes a less practical day trip to Mount Fuji.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",7.8,6.0,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+5,7,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 2 provides a realistic and detailed budget breakdown that aligns with the $2500 total, while Option 1's estimated cost of $700 is a severe miscalculation that undermines its entire plan."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 3,
+    ""task_dimension_6"": 2,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 3,
+    ""general_practical_usefulness"": 3,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 4.5,
+  ""option_2_average"": 7.7
+}",option_2,"Option 2 provides a realistic and detailed budget breakdown that aligns with the $2500 total, while Option 1's estimated cost of $700 is a severe miscalculation that undermines its entire plan.","{""general_accuracy_specificity"": 3, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 3, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 3, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 4, ""task_dimension_5"": 3, ""task_dimension_6"": 2}","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 8, ""task_dimension_6"": 8}",4.5,7.7,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+8,5,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and complete budget breakdown, includes a contingency fund, and offers a more practical itinerary focused within Tokyo, whereas Option 2's day trip to Mount Fuji is ambitious for a 5-day trip and its total cost estimate is incomplete."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.6,
+  ""option_2_average"": 5.5
+}",option_1,"Option 1 provides a more realistic and complete budget breakdown, includes a contingency fund, and offers a more practical itinerary focused within Tokyo, whereas Option 2's day trip to Mount Fuji is ambitious for a 5-day trip and its total cost estimate is incomplete.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 4}",7.6,5.5,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+7,6,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and comprehensive budget breakdown, includes a day trip to Mt. Fuji which is a major attraction, and its total cost is much closer to the specified budget."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 9,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 3,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 8.0,
+  ""option_2_average"": 4.9
+}",option_1,"Option 1 provides a more realistic and comprehensive budget breakdown, includes a day trip to Mt. Fuji which is a major attraction, and its total cost is much closer to the specified budget.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 9, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 3, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 4, ""task_dimension_6"": 3}",8.0,4.9,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+6,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and budget-aware itinerary with a detailed daily cost breakdown, while Option 2 includes a day trip outside Tokyo and has a more comprehensive budget allocation."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 9,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 7.8,
+  ""option_2_average"": 6.0
+}",option_1,"Option 1 provides a more realistic and budget-aware itinerary with a detailed daily cost breakdown, while Option 2 includes a day trip outside Tokyo and has a more comprehensive budget allocation.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 7, ""task_dimension_3"": 9, ""task_dimension_4"": 8, ""task_dimension_5"": 7, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 6, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",7.8,6.0,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1
+8,7,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 provides a more realistic and budget-aware itinerary, with a clear contingency fund and a total cost closer to the $2,500 limit. Option 2's budget summary is significantly under budget and includes a costly day trip to Mt. Fuji, which may not be practical for a short 5-day Tokyo-focused visit."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 9,
+    ""task_dimension_5"": 8,
+    ""task_dimension_6"": 8,
+    ""general_instruction_following"": 9,
+    ""general_accuracy_specificity"": 8,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 6,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 7.9,
+  ""option_2_average"": 6.2
+}",option_1,"Option 1 provides a more realistic and budget-aware itinerary, with a clear contingency fund and a total cost closer to the $2,500 limit. Option 2's budget summary is significantly under budget and includes a costly day trip to Mt. Fuji, which may not be practical for a short 5-day Tokyo-focused visit.","{""general_accuracy_specificity"": 8, ""general_instruction_following"": 9, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 9, ""task_dimension_5"": 8, ""task_dimension_6"": 8}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 6, ""task_dimension_2"": 7, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",7.9,6.2,True,deepseek-ai/DeepSeek-V3.1,DeepSeek-V3.1

@@ -1,0 +1,42 @@
+{
+  "package_version": "0.1.0",
+  "task_slug": "operations_research",
+  "task_title": "Operations research analyst memo",
+  "modes": [
+    "automation"
+  ],
+  "worker_model": "gpt-3.5-turbo",
+  "replicates": 1,
+  "assistants": {
+    "gpt-4.1": "GPT-4.1",
+    "gpt-5-mini-2025-08-07": "GPT-5-Mini",
+    "deepseek-ai/DeepSeek-V3.1": "DeepSeek-V3.1",
+    "o4-mini-2025-04-16": "GPT-O4-Mini",
+    "o3-mini-2025-01-31": "GPT-O3-Mini",
+    "openai/gpt-oss-120b": "GPT-OSS-120B",
+    "anthropic/claude-sonnet-4-6": "Claude-Sonnet-4.6",
+    "anthropic/claude-opus-4-8": "Claude-Opus-4.8",
+    "google/gemini-3.1-pro": "Gemini-3.1-Pro"
+  },
+  "automation_models": {
+    "gpt-3.5-turbo": "GPT-3.5-Turbo",
+    "gpt-4.1": "GPT-4.1",
+    "gpt-5-mini-2025-08-07": "GPT-5-Mini",
+    "deepseek-ai/DeepSeek-V3.1": "DeepSeek-V3.1",
+    "o4-mini-2025-04-16": "GPT-O4-Mini",
+    "o3-mini-2025-01-31": "GPT-O3-Mini",
+    "openai/gpt-oss-120b": "GPT-OSS-120B",
+    "anthropic/claude-sonnet-4-6": "Claude-Sonnet-4.6",
+    "anthropic/claude-opus-4-8": "Claude-Opus-4.8",
+    "google/gemini-3.1-pro": "Gemini-3.1-Pro"
+  },
+  "evaluator_models": {
+    "gpt-4.1": "GPT-4.1",
+    "anthropic/claude-opus-4-8": "Claude-Opus-4.8",
+    "google/gemini-3.1-pro": "Gemini-3.1-Pro",
+    "deepseek-ai/DeepSeek-V3.1": "DeepSeek-V3.1"
+  },
+  "default_evaluator": "gpt-4.1",
+  "pairwise_n_evals": 3,
+  "pairwise_n_outer_runs": 1
+}

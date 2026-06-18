@@ -1,0 +1,10 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+1.  **Requirements Check**
+    Begin by parsing the task prompt to identify all mandatory components of the final deliverable. Verify the required format (internal report), strict word count (300-400 words), and the specific audience (executives). Extract each explicit instruction, such as defining data sources, outlining an analytical framework, proposing solutions with trade-offs, and specifying KPIs. Confirm that the response must avoid overly technical jargon, favoring clarity and executive-level strategic insight.
+
+2.  **Plan & Structure**
+    Design a logical structure for the report. This will likely involve creating clear headings that correspond directly to the numbered points in the prompt. Under each heading, plan the core arguments and necessary sub-points. For the analytical framework, decide on a high-level description of a recognized OR methodology (e.g., network optimization, simulation) without delving into complex mathematical detail. For recommendations, brainstorm solution categories (e.g., routing, inventory placement) and ensure each proposed idea is paired with its inherent trade-offs and risks to provide a balanced view.
+
+3.  **Draft -> Self-Review -> Finalize**
+    Compose the report according to the planned structure, using concise language and bullet points for readability. Adhere strictly to the word limit by prioritizing executive summaries of complex ideas. In the self-review phase, critically assess the draft against the original prompt's checklist to ensure no requirement is missed. Verify that the tone is professional and actionable, that recommendations are practical and not purely theoretical, and that all technical terms are adequately explained for a non-technical audience. Refine for clarity and impact before finalizing.

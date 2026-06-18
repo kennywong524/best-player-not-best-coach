@@ -1,0 +1,10 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+Begin by carefully reviewing the task instructions and constraints. Ensure you understand the required tone (supportive, non-judgmental), the counseling style (single-session, empathic), and the specific content elements needed. Confirm that you will avoid diagnosing, instead focusing on cautiously naming patterns. Note the theoretical frameworks to be incorporated (CBT, motivational interviewing, positive psychology) and the expectation for plain language. Double-check that all required response components are accounted for, including validation, pattern identification, evidence-informed framing, actionable suggestions, a safety/limits note, and an encouraging conclusion.
+
+2. Plan & Structure  
+Outline the response flow to maintain clarity and coherence. Decide on an opening that centers empathy and validation. Map out a gentle transition into discussing possible patterns, ensuring language remains tentative and non-pathologizing. Plan a section that introduces relevant psychological frameworks in accessible terms, connecting them to the client’s experience. Organize actionable next steps into clear, manageable suggestions. Reserve space for a concise safety note regarding professional support. Conclude with an uplifting, agency-focused closing. Sequence these sections logically to support client understanding and engagement.
+
+3. Draft -> Self-Review -> Finalize  
+Draft the response following the planned structure, maintaining a warm, supportive tone throughout. Use concise, jargon-free language and avoid making assumptions or offering diagnoses. After drafting, review the response to ensure all requirements are met and that the tone remains empathic and hopeful. Check for clarity, accessibility, and adherence to the specified frameworks. Revise as needed for flow and sensitivity. Finalize the response, ensuring it is actionable, supportive, and within the scope defined by the task instructions.

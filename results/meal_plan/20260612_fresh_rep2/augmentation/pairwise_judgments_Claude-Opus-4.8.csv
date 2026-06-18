@@ -1,0 +1,897 @@
+left_idx,right_idx,replicate_id,judgment,winner,short_rationale,option_1_scores_json,option_2_scores_json,option_1_average,option_2_average,parse_ok,judge_model,judge_label
+1,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options violate the core allergy/intolerance constraints (shellfish, lactose, onion, and likely-gluten teriyaki), but Option 1 has fewer total violations and avoids onion entirely, whereas Option 2 explicitly lists onions, gluten-containing teriyaki sauce, and more shrimp/dairy items. Option 1 is safer and more compliant overall, though neither is fully correct."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.7,
+  ""option_2_average"": 5.2
+}",option_1,"Both options violate the core allergy/intolerance constraints (shellfish, lactose, onion, and likely-gluten teriyaki), but Option 1 has fewer total violations and avoids onion entirely, whereas Option 2 explicitly lists onions, gluten-containing teriyaki sauce, and more shrimp/dairy items. Option 1 is safer and more compliant overall, though neither is fully correct.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 3, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 7}",5.7,5.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options violate core allergy constraints, but Option 2 is worse: it includes shrimp (shellfish), explicitly lists onions and garlic in its grocery list, and uses gluten-containing teriyaki/granola without flagging them. Option 1 also has violations (crusty bread, naan, cheese, granola, gluten ambiguity in noodles/tortillas/wraps) but fewer outright shellfish and onion failures, making it the less harmful choice."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 2,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 4.8
+}",option_1,"Both options violate core allergy constraints, but Option 2 is worse: it includes shrimp (shellfish), explicitly lists onions and garlic in its grocery list, and uses gluten-containing teriyaki/granola without flagging them. Option 1 also has violations (crusty bread, naan, cheese, granola, gluten ambiguity in noodles/tortillas/wraps) but fewer outright shellfish and onion failures, making it the less harmful choice.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 2, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",5.5,4.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options critically violate hard constraints: Option 1 includes shrimp (shellfish) and onions/garlic, and Option 2 includes shrimp, feta and regular Greek yogurt (lactose), peanut/Thai peanut salad, and garlic. Option 1 better matches the requested Mexican/Thai/Indian/meat-and-potatoes preferences with mostly gluten-free, lactose-aware items, so it edges out Option 2 despite shared violations."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.2,
+  ""option_2_average"": 5.2
+}",option_1,"Both options critically violate hard constraints: Option 1 includes shrimp (shellfish) and onions/garlic, and Option 2 includes shrimp, feta and regular Greek yogurt (lactose), peanut/Thai peanut salad, and garlic. Option 1 better matches the requested Mexican/Thai/Indian/meat-and-potatoes preferences with mostly gluten-free, lactose-aware items, so it edges out Option 2 despite shared violations.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 8, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",6.2,5.2,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,4,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options violate core allergy constraints (shellfish, onion, gluten, lactose), but Option 2 has more frequent and severe violations including pad thai with shrimp, fajitas with onions, avocado toast on bread, cottage cheese, and tzatziki. Option 1 has fewer violations and includes a more complete grocery list and prep notes, though it still includes shrimp, onion, granola, and Greek yogurt."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 4.8
+}",option_1,"Both options violate core allergy constraints (shellfish, onion, gluten, lactose), but Option 2 has more frequent and severe violations including pad thai with shrimp, fajitas with onions, avocado toast on bread, cottage cheese, and tzatziki. Option 1 has fewer violations and includes a more complete grocery list and prep notes, though it still includes shrimp, onion, granola, and Greek yogurt.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 5, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 3, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 4, ""task_dimension_5"": 5, ""task_dimension_6"": 4}",6.5,4.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+5,0,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Option 1 respects the hard constraints far better, while Option 2 violates multiple absolute restrictions by including shrimp (shellfish), turkey/avocado wraps that risk gluten, onions and garlic in the grocery list, and Greek yogurt with honey alongside very sweet teriyaki, making it unsafe for the allergy and intolerance profile."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 3,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 4,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.9,
+  ""option_2_average"": 4.4
+}",option_1,"Option 1 respects the hard constraints far better, while Option 2 violates multiple absolute restrictions by including shrimp (shellfish), turkey/avocado wraps that risk gluten, onions and garlic in the grocery list, and Greek yogurt with honey alongside very sweet teriyaki, making it unsafe for the allergy and intolerance profile.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 8, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 3, ""general_organization_readability"": 6, ""general_practical_usefulness"": 4, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 3, ""task_dimension_6"": 6}",6.9,4.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,8,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options have serious allergy violations, but Option 1 is more dangerous: it includes shellfish (shrimp) twice despite the shellfish allergy, regular Greek yogurt and granola (lactose/gluten risks), and onion throughout. Option 2 also fails on onion/garlic and includes shrimp once and cottage cheese, but it more consistently flags gluten-free and lactose-free swaps, making it marginally safer and more attentive to the stated allergies."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.0,
+  ""option_2_average"": 5.6
+}",option_2,"Both options have serious allergy violations, but Option 1 is more dangerous: it includes shellfish (shrimp) twice despite the shellfish allergy, regular Greek yogurt and granola (lactose/gluten risks), and onion throughout. Option 2 also fails on onion/garlic and includes shrimp once and cottage cheese, but it more consistently flags gluten-free and lactose-free swaps, making it marginally safer and more attentive to the stated allergies.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 3, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 3, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",5.0,5.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+0,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options critically violate the allergy/intolerance constraints, but Option 1 is slightly less harmful and better organized; both include shellfish (shrimp), onion/garlic, and dairy, which were explicitly forbidden. Option 1 has more complete grocery list and prep notes, though neither is truly compliant."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 4.6
+}",option_1,"Both options critically violate the allergy/intolerance constraints, but Option 1 is slightly less harmful and better organized; both include shellfish (shrimp), onion/garlic, and dairy, which were explicitly forbidden. Option 1 has more complete grocery list and prep notes, though neither is truly compliant.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 4, ""task_dimension_3"": 7, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 3, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 5, ""task_dimension_6"": 4}",5.5,4.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options violate critical allergy constraints, but Option 2 includes shrimp (shellfish) on Day 7 lunch, a direct allergen safety failure, plus gluten-containing pancakes ambiguity; Option 1 has fewer severe violations though both include lactose dairy, gluten breads/naan, and onion-risk items. Option 1 is better organized with per-day grocery lists and edges out on safety."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.7,
+  ""option_2_average"": 5.4
+}",option_1,"Both options violate critical allergy constraints, but Option 2 includes shrimp (shellfish) on Day 7 lunch, a direct allergen safety failure, plus gluten-containing pancakes ambiguity; Option 1 has fewer severe violations though both include lactose dairy, gluten breads/naan, and onion-risk items. Option 1 is better organized with per-day grocery lists and edges out on safety.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 4, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",5.7,5.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,1,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options violate the shellfish allergy (shrimp) and contain lactose dairy (feta/Greek yogurt) and gluten (granola/oatmeal), but Option 2 has fewer allergen breaches, explicitly uses gluten-free flour and corn tortillas, better reflects the requested Mexican/Thai/Indian cuisine preferences, and avoids onion more cleanly."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.4,
+  ""option_2_average"": 6.1
+}",option_2,"Both options violate the shellfish allergy (shrimp) and contain lactose dairy (feta/Greek yogurt) and gluten (granola/oatmeal), but Option 2 has fewer allergen breaches, explicitly uses gluten-free flour and corn tortillas, better reflects the requested Mexican/Thai/Indian cuisine preferences, and avoids onion more cleanly.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 5, ""task_dimension_3"": 4, ""task_dimension_4"": 6, ""task_dimension_5"": 7, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 7, ""task_dimension_3"": 5, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 6}",5.4,6.1,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options contain serious allergen violations (shellfish, lactose dairy, gluten, onion), but Option 2 has more individual violations and uses granola (likely gluten) and explicit shrimp/Greek salad combos; Option 1 also violates rules (shrimp pad thai, Greek yogurt, cottage cheese, onion, honey sweetness) but has slightly stronger flavor-preference alignment and prep clarity. Neither is safe as-is, so scores are low across the board."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 4.9,
+  ""option_2_average"": 4.5
+}",option_1,"Both options contain serious allergen violations (shellfish, lactose dairy, gluten, onion), but Option 2 has more individual violations and uses granola (likely gluten) and explicit shrimp/Greek salad combos; Option 1 also violates rules (shrimp pad thai, Greek yogurt, cottage cheese, onion, honey sweetness) but has slightly stronger flavor-preference alignment and prep clarity. Neither is safe as-is, so scores are low across the board.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 3, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 3, ""task_dimension_3"": 6, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 4}",4.9,4.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+1,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options violate the shellfish allergy (Option 1 includes shrimp twice, Option 2 includes peanuts but no shellfish), but Option 1 has a critical safety failure with shrimp on Days 5 and 7 plus a hidden onion/lactose risk in Greek yogurt; Option 2 better avoids shellfish, uses lactose-free yogurt, emphasizes potatoes and the requested cuisines, and only minor lapses (honey/cinnamon sweetness) remain."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.6,
+  ""option_2_average"": 7.3
+}",option_2,"Both options violate the shellfish allergy (Option 1 includes shrimp twice, Option 2 includes peanuts but no shellfish), but Option 1 has a critical safety failure with shrimp on Days 5 and 7 plus a hidden onion/lactose risk in Greek yogurt; Option 2 better avoids shellfish, uses lactose-free yogurt, emphasizes potatoes and the requested cuisines, and only minor lapses (honey/cinnamon sweetness) remain.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 7, ""general_organization_readability"": 8, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 8, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",5.6,7.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+1,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options violate critical allergy constraints (Option 1 includes shrimp on Day 7 lunch and Greek yogurt/honey; Option 2 includes shrimp twice, onions/garlic in the grocery list, cottage cheese, and honey). However, Option 1 has fewer hard violations and avoids the explicit onion in the grocery list, making it marginally safer overall."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 5.3
+}",option_1,"Both options violate critical allergy constraints (Option 1 includes shrimp on Day 7 lunch and Greek yogurt/honey; Option 2 includes shrimp twice, onions/garlic in the grocery list, cottage cheese, and honey). However, Option 1 has fewer hard violations and avoids the explicit onion in the grocery list, making it marginally safer overall.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",5.5,5.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,1,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options have allergen violations (shrimp/shellfish, cheese, honey-sweetness), but Option 1 better honors the requested cuisine rotation (Mexican/Thai/Indian/meat-and-potatoes) and ties flavor preferences to clear daily themes, while Option 2 has more frequent and severe violations (multiple shellfish dishes, granola/pancakes gluten risk, honey, banana smoothie sweetness) and weaker preference alignment."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.6,
+  ""option_2_average"": 5.3
+}",option_1,"Both options have allergen violations (shrimp/shellfish, cheese, honey-sweetness), but Option 1 better honors the requested cuisine rotation (Mexican/Thai/Indian/meat-and-potatoes) and ties flavor preferences to clear daily themes, while Option 2 has more frequent and severe violations (multiple shellfish dishes, granola/pancakes gluten risk, honey, banana smoothie sweetness) and weaker preference alignment.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.6,5.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,2,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options seriously violate the allergy constraints (shellfish, gluten, lactose dairy, sweetness), but Option 1 is slightly less severe and more organized with a consolidated grocery list, while Option 2 adds more gluten items (bread, naan, tortillas, noodles), regular cheese, and very sweet maple syrup. Neither is fully safe, but Option 1 better fits flavor preferences and structure."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 3,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.2,
+  ""option_2_average"": 4.5
+}",option_1,"Both options seriously violate the allergy constraints (shellfish, gluten, lactose dairy, sweetness), but Option 1 is slightly less severe and more organized with a consolidated grocery list, while Option 2 adds more gluten items (bread, naan, tortillas, noodles), regular cheese, and very sweet maple syrup. Neither is fully safe, but Option 1 better fits flavor preferences and structure.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 3, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 3, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 4, ""task_dimension_6"": 5}",5.2,4.5,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,2,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options commit serious allergen violations, but Option 1 has fewer hard failures: it includes shrimp (shellfish) and onion on Day 6-7 plus several lactose-containing dairy items, while Option 2 violates gluten more pervasively (crusty bread, naan, pancake mix, granola, wraps, soy sauce, tortillas) and also includes lactose dairy. Option 1 better honors the avoid-very-sweet rule and provides cleaner per-day grocery lists, edging out Option 2 on safety and specificity."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.4,
+  ""option_2_average"": 4.8
+}",option_1,"Both options commit serious allergen violations, but Option 1 has fewer hard failures: it includes shrimp (shellfish) and onion on Day 6-7 plus several lactose-containing dairy items, while Option 2 violates gluten more pervasively (crusty bread, naan, pancake mix, granola, wraps, soy sauce, tortillas) and also includes lactose dairy. Option 1 better honors the avoid-very-sweet rule and provides cleaner per-day grocery lists, edging out Option 2 on safety and specificity.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 6, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 6, ""task_dimension_3"": 4, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 6}",5.4,4.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 1 contains multiple critical safety violations of the stated allergies/intolerances (shellfish via fish tacos ambiguity aside, it includes lactose dairy like Greek yogurt and cheese, gluten via crusty bread, naan, pancake mix, and noodles, plus likely onion in salsa/guacamole), making it unsafe and noncompliant. Option 2 explicitly uses gluten-free bread, lactose-free yogurt, and dairy alternatives, better honors the cuisine preferences, and provides a consolidated grocery list, though it still has minor risks (salmon is fine but mango/sweet/peanut salt concerns and onion in salsa/curry pastes)."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 4,
+    ""task_dimension_5"": 4,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 4.6,
+  ""option_2_average"": 6.7
+}",option_2,"Option 1 contains multiple critical safety violations of the stated allergies/intolerances (shellfish via fish tacos ambiguity aside, it includes lactose dairy like Greek yogurt and cheese, gluten via crusty bread, naan, pancake mix, and noodles, plus likely onion in salsa/guacamole), making it unsafe and noncompliant. Option 2 explicitly uses gluten-free bread, lactose-free yogurt, and dairy alternatives, better honors the cuisine preferences, and provides a consolidated grocery list, though it still has minor risks (salmon is fine but mango/sweet/peanut salt concerns and onion in salsa/curry pastes).","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 4, ""task_dimension_5"": 4, ""task_dimension_6"": 5}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 7}",4.6,6.7,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options have serious allergen violations, but Option 2 directly includes forbidden shellfish (shrimp) and onion/garlic in its grocery list, which are explicit hard constraints. Option 1 has fewer severe violations (notably regular Greek yogurt for lactose and unspecified bread/tortillas/granola/naan/cheese for gluten and lactose), making it safer overall despite both needing fixes."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.9,
+  ""option_2_average"": 5.3
+}",option_1,"Both options have serious allergen violations, but Option 2 directly includes forbidden shellfish (shrimp) and onion/garlic in its grocery list, which are explicit hard constraints. Option 1 has fewer severe violations (notably regular Greek yogurt for lactose and unspecified bread/tortillas/granola/naan/cheese for gluten and lactose), making it safer overall despite both needing fixes.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 3, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",5.9,5.3,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+2,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options have serious allergen violations, but Option 2 is worse: it explicitly includes shrimp (shellfish) twice, gluten-containing items (Pad Thai, fajita/burrito implications), and lactose dairy, plus less mild seasoning fit. Option 1 still violates constraints (gluten in crusty bread/naan/granola/pancake mix/tortillas, lactose in Greek yogurt/cheese) but has fewer hard violations and avoids shellfish entirely."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 4,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.6,
+  ""option_2_average"": 4.9
+}",option_1,"Both options have serious allergen violations, but Option 2 is worse: it explicitly includes shrimp (shellfish) twice, gluten-containing items (Pad Thai, fajita/burrito implications), and lactose dairy, plus less mild seasoning fit. Option 1 still violates constraints (gluten in crusty bread/naan/granola/pancake mix/tortillas, lactose in Greek yogurt/cheese) but has fewer hard violations and avoids shellfish entirely.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 5, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 4, ""task_dimension_2"": 6, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 7, ""task_dimension_3"": 4, ""task_dimension_4"": 5, ""task_dimension_5"": 6, ""task_dimension_6"": 5}",5.6,4.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options contain critical allergen violations, but Option 1 has fewer and offers a cleaner per-day grocery list. Option 1 violates rules with shrimp pad thai (shellfish), onion in fajitas, and lactose dairy (Greek yogurt, cottage cheese, tzatziki); Option 2 violates with shrimp twice, regular feta/granola/pancakes (gluten/lactose), and generally riskier items, making it less safe overall."",
+  ""option_1_scores"": {
+    ""allergen_safety_compliance"": 4,
+    ""intolerance_compliance"": 4,
+    ""flavor_preference_alignment"": 8,
+    ""supertaster_seasoning_handling"": 6,
+    ""cost_simplicity"": 7,
+    ""completeness_structure"": 7,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""allergen_safety_compliance"": 3,
+    ""intolerance_compliance"": 4,
+    ""flavor_preference_alignment"": 7,
+    ""supertaster_seasoning_handling"": 6,
+    ""cost_simplicity"": 6,
+    ""completeness_structure"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.18,
+  ""option_2_average"": 5.27
+}",option_1,"Both options contain critical allergen violations, but Option 1 has fewer and offers a cleaner per-day grocery list. Option 1 violates rules with shrimp pad thai (shellfish), onion in fajitas, and lactose dairy (Greek yogurt, cottage cheese, tzatziki); Option 2 violates with shrimp twice, regular feta/granola/pancakes (gluten/lactose), and generally riskier items, making it less safe overall.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 5, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6}",6.18,5.27,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+3,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 1 contains multiple hard violations of the allergy/intolerance constraints (shrimp/shellfish on Days 3 and Day 7's guacamole context, feta cheese which is lactose-containing, granola and pesto that typically contain gluten/dairy) and ignores the meat/potatoes/Mexican/Thai/Indian preferences, while Option 2 honors all major restrictions and strongly reflects the requested cuisines and preferences with safer ingredient choices."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 8,
+    ""task_dimension_2"": 9,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 8,
+    ""general_accuracy_specificity"": 7,
+    ""general_practical_usefulness"": 8,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 8
+  },
+  ""option_1_average"": 4.8,
+  ""option_2_average"": 7.6
+}",option_2,"Option 1 contains multiple hard violations of the allergy/intolerance constraints (shrimp/shellfish on Days 3 and Day 7's guacamole context, feta cheese which is lactose-containing, granola and pesto that typically contain gluten/dairy) and ignores the meat/potatoes/Mexican/Thai/Indian preferences, while Option 2 honors all major restrictions and strongly reflects the requested cuisines and preferences with safer ingredient choices.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 3, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 7, ""general_instruction_following"": 8, ""general_organization_readability"": 7, ""general_practical_usefulness"": 8, ""general_tone_audience_fit"": 8, ""task_dimension_1"": 8, ""task_dimension_2"": 9, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",4.8,7.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options violate hard constraints (shrimp/shellfish, onion, gluten via granola/feta), but Option 1 has fewer total violations and includes a more honest grocery-to-meal mapping, while Option 2 adds gluten-containing granola, lactose-containing feta, and still includes shrimp and onion. Neither is fully safe, but Option 1 is the lesser of two flawed plans on the allergy-safety dimension that dominates this rubric."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 5,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.4,
+  ""option_2_average"": 5.4
+}",option_1,"Both options violate hard constraints (shrimp/shellfish, onion, gluten via granola/feta), but Option 1 has fewer total violations and includes a more honest grocery-to-meal mapping, while Option 2 adds gluten-containing granola, lactose-containing feta, and still includes shrimp and onion. Neither is fully safe, but Option 1 is the lesser of two flawed plans on the allergy-safety dimension that dominates this rubric.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 5, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 3, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}",6.4,5.4,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,3,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options contain critical allergy violations (shellfish/shrimp, honey as 'very sweet', cheese), but Option 1 better matches the requested cuisine themes (Mexican, Thai, Indian, meat-and-potatoes) and flags gluten-free/lactose-free swaps, while Option 2 strays into generic salmon/turkey/quinoa fare and also includes shrimp, feta, and granola, with weaker theme alignment."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 4,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 8,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.4,
+  ""option_2_average"": 5.1
+}",option_1,"Both options contain critical allergy violations (shellfish/shrimp, honey as 'very sweet', cheese), but Option 1 better matches the requested cuisine themes (Mexican, Thai, Indian, meat-and-potatoes) and flags gluten-free/lactose-free swaps, while Option 2 strays into generic salmon/turkey/quinoa fare and also includes shrimp, feta, and granola, with weaker theme alignment.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 6, ""general_organization_readability"": 8, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 4, ""task_dimension_2"": 6, ""task_dimension_3"": 8, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}",6.4,5.1,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Option 1 contains multiple critical allergen/intolerance violations (shrimp pad thai with shellfish, onions in fajitas, gluten in bread, lactose in Greek yogurt and cottage cheese, soy sauce contains gluten), directly contradicting the hard constraints. Option 2 largely respects the restrictions (specifies gluten-free bread, lactose-free yogurt, avoids onion and shellfish) and better incorporates the requested potato and Mexican/Thai/Indian flavors, despite lacking per-day grocery lists."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 7.0
+}",option_2,"Option 1 contains multiple critical allergen/intolerance violations (shrimp pad thai with shellfish, onions in fajitas, gluten in bread, lactose in Greek yogurt and cottage cheese, soy sauce contains gluten), directly contradicting the hard constraints. Option 2 largely respects the restrictions (specifies gluten-free bread, lactose-free yogurt, avoids onion and shellfish) and better incorporates the requested potato and Mexican/Thai/Indian flavors, despite lacking per-day grocery lists.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",5.5,7.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,4,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options commit critical allergen violations (shellfish/shrimp, onion, and lactose-containing dairy), but Option 1 attempts more lactose-free substitutions and includes a consolidated grocery list with batch-prep guidance, making it marginally safer and more usable. Both fail the absolute constraints, so neither is fully acceptable."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 4.8
+}",option_1,"Both options commit critical allergen violations (shellfish/shrimp, onion, and lactose-containing dairy), but Option 1 attempts more lactose-free substitutions and includes a consolidated grocery list with batch-prep guidance, making it marginally safer and more usable. Both fail the absolute constraints, so neither is fully acceptable.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 3, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 4, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",5.5,4.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+4,9,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options badly violate hard allergy constraints (shellfish, gluten, lactose, onion appear in both), but Option 1 has slightly fewer critical violations and includes a per-day grocery list aiding usability; Option 2 explicitly serves shrimp, fajita onions are absent but it still includes shrimp/pad thai with likely soy-gluten and naan, plus dairy. Neither is safe to use as-is, so scores are low across safety-related dimensions."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 5,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 5,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 4,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 5.0,
+  ""option_2_average"": 4.9
+}",option_1,"Both options badly violate hard allergy constraints (shellfish, gluten, lactose, onion appear in both), but Option 1 has slightly fewer critical violations and includes a per-day grocery list aiding usability; Option 2 explicitly serves shrimp, fajita onions are absent but it still includes shrimp/pad thai with likely soy-gluten and naan, plus dairy. Neither is safe to use as-is, so scores are low across safety-related dimensions.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 5, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 4}","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 6, ""task_dimension_3"": 6, ""task_dimension_4"": 5, ""task_dimension_5"": 5, ""task_dimension_6"": 4}",5.0,4.9,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+8,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options violate hard constraints, but Option 1 has more severe violations: it includes shellfish (shrimp on Day 7), onion in the grocery list, regular cottage cheese (lactose), and honey (very sweet). Option 2's main violation is onion being implicit but not listed, and it avoids shellfish entirely while better honoring the meat/potato/Mexican/Thai/Indian preferences with mild, adjustable seasoning notes."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 3,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 6,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 4,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 6,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 7,
+    ""task_dimension_2"": 8,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 7,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 7,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.5,
+  ""option_2_average"": 7.0
+}",option_2,"Both options violate hard constraints, but Option 1 has more severe violations: it includes shellfish (shrimp on Day 7), onion in the grocery list, regular cottage cheese (lactose), and honey (very sweet). Option 2's main violation is onion being implicit but not listed, and it avoids shellfish entirely while better honoring the meat/potato/Mexican/Thai/Indian preferences with mild, adjustable seasoning notes.","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 4, ""general_organization_readability"": 7, ""general_practical_usefulness"": 6, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 3, ""task_dimension_2"": 7, ""task_dimension_3"": 6, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 7, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 7, ""task_dimension_2"": 8, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 7, ""task_dimension_6"": 7}",5.5,7.0,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,5,0,"{
+  ""final_choice"": ""option_2"",
+  ""short_rationale"": ""Both options contain allergen violations, but Option 1 has critical breaches (shrimp twice despite a shellfish allergy, regular cheese/Greek yogurt with honey despite lactose intolerance) plus likely onion in fajitas/curries; Option 2 has fewer and less severe violations (salmon is fine, only minor lactose/onion risks) and better organized grocery categories."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 4,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 6,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 7,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 7,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 7,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_1_average"": 5.2,
+  ""option_2_average"": 6.6
+}",option_2,"Both options contain allergen violations, but Option 1 has critical breaches (shrimp twice despite a shellfish allergy, regular cheese/Greek yogurt with honey despite lactose intolerance) plus likely onion in fajitas/curries; Option 2 has fewer and less severe violations (salmon is fine, only minor lactose/onion risks) and better organized grocery categories.","{""general_accuracy_specificity"": 4, ""general_instruction_following"": 3, ""general_organization_readability"": 6, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 6, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 7, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 7, ""task_dimension_3"": 7, ""task_dimension_4"": 7, ""task_dimension_5"": 6, ""task_dimension_6"": 7}",5.2,6.6,True,anthropic/claude-opus-4-8,Claude-Opus-4.8
+9,8,0,"{
+  ""final_choice"": ""option_1"",
+  ""short_rationale"": ""Both options violate the hard allergy/intolerance constraints (shellfish, lactose dairy, onion, salty/sweet items), but Option 1 has fewer and less severe violations and better honors flavor-theme preferences. Option 2 explicitly lists onions and garlic in its grocery list and recommends them as seasonings, directly contradicting the onion intolerance, plus includes cottage cheese, salmon, shrimp, and honey."",
+  ""option_1_scores"": {
+    ""task_dimension_1"": 5,
+    ""task_dimension_2"": 6,
+    ""task_dimension_3"": 7,
+    ""task_dimension_4"": 8,
+    ""task_dimension_5"": 6,
+    ""task_dimension_6"": 6,
+    ""general_instruction_following"": 6,
+    ""general_accuracy_specificity"": 6,
+    ""general_practical_usefulness"": 7,
+    ""general_organization_readability"": 8,
+    ""general_tone_audience_fit"": 7
+  },
+  ""option_2_scores"": {
+    ""task_dimension_1"": 2,
+    ""task_dimension_2"": 4,
+    ""task_dimension_3"": 5,
+    ""task_dimension_4"": 6,
+    ""task_dimension_5"": 5,
+    ""task_dimension_6"": 5,
+    ""general_instruction_following"": 3,
+    ""general_accuracy_specificity"": 5,
+    ""general_practical_usefulness"": 5,
+    ""general_organization_readability"": 7,
+    ""general_tone_audience_fit"": 6
+  },
+  ""option_1_average"": 6.5,
+  ""option_2_average"": 4.8
+}",option_1,"Both options violate the hard allergy/intolerance constraints (shellfish, lactose dairy, onion, salty/sweet items), but Option 1 has fewer and less severe violations and better honors flavor-theme preferences. Option 2 explicitly lists onions and garlic in its grocery list and recommends them as seasonings, directly contradicting the onion intolerance, plus includes cottage cheese, salmon, shrimp, and honey.","{""general_accuracy_specificity"": 6, ""general_instruction_following"": 6, ""general_organization_readability"": 8, ""general_practical_usefulness"": 7, ""general_tone_audience_fit"": 7, ""task_dimension_1"": 5, ""task_dimension_2"": 6, ""task_dimension_3"": 7, ""task_dimension_4"": 8, ""task_dimension_5"": 6, ""task_dimension_6"": 6}","{""general_accuracy_specificity"": 5, ""general_instruction_following"": 3, ""general_organization_readability"": 7, ""general_practical_usefulness"": 5, ""general_tone_audience_fit"": 6, ""task_dimension_1"": 2, ""task_dimension_2"": 4, ""task_dimension_3"": 5, ""task_dimension_4"": 6, ""task_dimension_5"": 5, ""task_dimension_6"": 5}",6.5,4.8,True,anthropic/claude-opus-4-8,Claude-Opus-4.8

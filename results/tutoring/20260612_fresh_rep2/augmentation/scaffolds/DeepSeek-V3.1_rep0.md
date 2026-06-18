@@ -1,0 +1,7 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+1.  **Requirements Check:** Systematically verify all explicit task components against the provided instructions. Confirm the output must be classroom-ready for the specified age group. Ensure every mandated element (learning objective, explanation, analogy, examples, misconceptions, activity, checks, wrap-up) is accounted for. Crucially, validate that language is age-appropriate and that visual support is prioritized over abstract notation.
+
+2.  **Plan & Structure:** Outline a logical pedagogical flow for the segment. Begin by defining a single, clear, and measurable learning objective. Structure the content to move from simple, concrete concepts (using the analogy) to slightly more abstract ones (worked examples), then to active application (interactive activity). Plan to preemptively address the identified common misconceptions within the explanation or examples. Allocate time for checks for understanding after key points.
+
+3.  **Draft -> Self-Review -> Finalize:** Compose the initial draft, adhering strictly to the structure and using simple, engaging language. Perform a self-review against the initial requirements checklist to ensure no component is missing or underdeveloped. Scrutinize the language and examples for age-appropriateness and clarity. Finally, refine the text for conciseness and a positive, encouraging tone suitable for young learners.

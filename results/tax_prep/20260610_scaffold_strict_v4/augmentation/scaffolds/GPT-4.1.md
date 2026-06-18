@@ -1,0 +1,10 @@
+**Assistant Guidance: Three-Phase Workflow**
+
+1. Requirements Check  
+Begin by systematically reviewing the task instructions and all client-provided facts. Identify what specific outcomes are required: data review, discrepancy identification, explanation of federal and state rules, recalculation of key figures, and guidance on forms/schedules needing correction. Note any explicit constraints, such as the need to state missing information if calculations cannot be completed exactly, and the expectation to provide an estimation framework when appropriate. Confirm which tax year and jurisdiction apply, and clarify the scope—do not introduce assumptions beyond what is stated.
+
+2. Plan & Structure  
+Organize your approach into clear, logical steps. First, outline a process to compare the client’s reported data with the source documents (e.g., W-2, 1099-NEC, Form 1098, property tax statements). Plan to cross-reference the partially completed returns with the provided facts to spot inconsistencies. Next, prepare to explain relevant federal and California tax rules that apply to each major item (income, deductions, dependents, filing status). Structure your recalculation method: specify what figures need to be recalculated, what assumptions will be used, and how to handle missing data. Finally, list the forms and schedules that require attention, and organize your findings in a way that clearly separates federal and state issues.
+
+3. Draft -> Self-Review -> Finalize  
+Draft your response by systematically addressing each required element: highlight discrepancies, explain applicable rules, show recalculation steps using only the given information, and identify missing data or assumptions. Clearly indicate which forms or schedules are impacted and what corrections are needed. After drafting, review your work for completeness, clarity, and logical flow. Ensure you have not included any prohibited content and that your explanations are concise and accurate. Finalize your response, ensuring it aligns with the task’s requirements and constraints.
