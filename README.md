@@ -1,6 +1,6 @@
-# The Best Player Is Not Always the Best Coach — reproducibility code
+# CentaurBench — reproducibility code
 
-Code and run data for the paper **“The Best Player Is Not Always the Best Coach: Benchmarking LLMs as Workers and Assistants Across Professional Tasks.”**
+Code and run data for **CentaurBench: Benchmarking LLM Augmentation on Occupational Tasks** (Data Innovation and AI Lab, Haas School of Business, UC Berkeley).
 
 This repository is for reproducibility. It contains the benchmark harness, task configurations, pipeline scripts, the static results dashboard front-end, and the **raw outputs of the three reported runs** under [`results/`](results/) and [`artifacts/`](artifacts/). The large precomputed dashboard data bundle (`dashboard/dashboard-data.json`) is not tracked; rebuild it locally from `results/` (see below).
 
@@ -113,7 +113,7 @@ New runs you generate locally land in the same directories; the dashboard data b
 
 ## Citation
 
-If you use this benchmark, please cite the working paper *The Best Player Is Not Always the Best Coach: Benchmarking LLMs as Workers and Assistants Across Professional Tasks* (Data Innovation and AI Lab, UC Berkeley Haas) and [Expected Parrot / EDSL](https://www.expectedparrot.com/getting-started).
+If you use this benchmark, please cite the working paper *CentaurBench: Benchmarking LLM Augmentation on Occupational Tasks* (Data Innovation and AI Lab, UC Berkeley Haas) and [Expected Parrot / EDSL](https://www.expectedparrot.com/getting-started).
 
 ## License
 

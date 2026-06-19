@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Results Explorer — LLM Workers &amp; Assistants Benchmark</title>
+    <title>CentaurBench — Results Explorer</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="topbar">
       <div>
-        <div class="eyebrow">LLM Workers &amp; Assistants Benchmark</div>
+        <div class="eyebrow">CentaurBench</div>
         <h1>Results Explorer</h1>
-        <p class="paper-title">The Best Player Is Not Always the Best Coach: Benchmarking LLMs as Workers and Assistants Across Professional Tasks</p>
+        <p class="paper-title">CentaurBench: Benchmarking LLM Augmentation on Occupational Tasks</p>
         <p class="authors"><a href="https://kennywong524.github.io/" target="_blank" rel="noopener">Pattaraphon Kenny Wongchamcharoen</a>, <a href="https://sites.google.com/view/kris-gulati/home" target="_blank" rel="noopener">Kris Gulati</a>, Min Min Fong, <a href="https://www.abhishekn.com/" target="_blank" rel="noopener">Abhishek Nagaraj</a> · <a href="https://thedatainnovationlab.com/" target="_blank" rel="noopener">Data Innovation and AI Lab</a>, Haas School of Business, UC Berkeley</p>
       </div>
       <nav class="tabs" aria-label="Dashboard sections">
@@ -56,22 +56,32 @@
         <div class="project-hero">
           <div>
             <div class="eyebrow">Project overview</div>
-            <h2>Which model can improve the work of another?</h2>
+            <h2>CentaurBench</h2>
             <p>Most benchmarks score a model on the work it produces alone. But in real workplaces, models often help a worker rather than replace them. This benchmark measures both: across seven professional tasks, each model either solves the task directly (<b>automation</b>) or writes a scaffold for a fixed lower-capability worker that produces the final output (<b>augmentation</b>). Holding the worker constant isolates the value of the assistant's guidance, and rubric-guided judges then compare the final outputs through blind pairwise matchups.</p>
+            <div class="resource-links">
+              <a class="resource-link" href="https://github.com/kennywong524/best-player-not-best-coach" target="_blank" rel="noopener">
+                <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                Reproducibility code (GitHub)
+              </a>
+              <a class="resource-link" href="https://thedatainnovationlab.com/" target="_blank" rel="noopener">Data Innovation &amp; AI Lab</a>
+            </div>
           </div>
           <div class="project-stats" id="projectStats"></div>
         </div>
         <div class="abstract-card">
-          <h2>Abstract</h2>
-          <p>Organizations adopting generative AI increasingly face a model-selection problem that existing benchmarks do not fully answer. Most LLM benchmarks evaluate models as autonomous task solvers, scoring the quality of a model's final output. Yet in workplaces, models are often used not in isolation but to assist a human worker by structuring the problem, surfacing constraints, or improving the worker's reasoning. In these settings, the economically relevant question is not only which model can complete a task, but which model can improve the work of another agent.</p>
-          <p>We introduce a framework for evaluating models across two regimes: <i>automation</i>, in which a model completes a task end-to-end, and <i>augmentation</i>, where a focal model provides a scaffold that is passed to a fixed lower-capability worker model, which then produces the final output. Holding the worker constant isolates the value of the assistant's guidance. We apply this framework to seven economically grounded professional tasks spanning structured planning, analytical work, and human-facing services. Outputs are evaluated using task-specific and general rubrics through blind pairwise comparisons by multiple LLM judges, with rankings replicated across three independent runs.</p>
-          <p>Our results show that automation and augmentation produce meaningfully different model rankings. Automation rankings are more concentrated and more directionally aligned with conventional model capability orderings, while augmentation rankings are more fragmented and task-dependent. No single model dominates across all augmentation tasks, and strong direct task solvers are not always the strongest assistants. These findings have direct implications for model selection, human–AI collaboration, and multi-agent delegation: organizations and researchers should benchmark not only whether models can do work, but also whether they can improve the work of others.</p>
-          <div class="resource-links">
-            <a class="resource-link" href="https://github.com/kennywong524/best-player-not-best-coach" target="_blank" rel="noopener">
-              <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-              Reproducibility code (GitHub)
+          <div class="abstract-body">
+            <h2>Abstract</h2>
+            <p>Organizations adopting generative AI increasingly face a model-selection problem that existing benchmarks do not fully answer. Most LLM benchmarks evaluate models as autonomous task solvers, scoring the quality of a model's final output. Yet in workplaces, models are often used not in isolation but to assist a human worker by structuring the problem, surfacing constraints, or improving the worker's reasoning. In these settings, the economically relevant question is not only which model can complete a task, but which model can improve the work of another agent.</p>
+            <p>We introduce a framework for evaluating models across two regimes: <i>automation</i>, in which a model completes a task end-to-end, and <i>augmentation</i>, where a focal model provides a scaffold that is passed to a fixed lower-capability worker model, which then produces the final output. Holding the worker constant isolates the value of the assistant's guidance. We apply this framework to seven economically grounded professional tasks spanning structured planning, analytical work, and human-facing services. Outputs are evaluated using task-specific and general rubrics through blind pairwise comparisons by multiple LLM judges, with rankings replicated across three independent runs.</p>
+            <p>Our results show that automation and augmentation produce meaningfully different model rankings. Automation rankings are more concentrated and more directionally aligned with conventional model capability orderings, while augmentation rankings are more fragmented and task-dependent. No single model dominates across all augmentation tasks, and strong direct task solvers are not always the strongest assistants. These findings have direct implications for model selection, human–AI collaboration, and multi-agent delegation: organizations and researchers should benchmark not only whether models can do work, but also whether they can improve the work of others.</p>
+          </div>
+          <div class="abstract-logos">
+            <a href="https://thedatainnovationlab.com/" target="_blank" rel="noopener">
+              <img class="logo-dial" src="assets/dial-logo.png" alt="Data Innovation and AI Lab (DIAL)" loading="lazy">
             </a>
-            <a class="resource-link" href="https://thedatainnovationlab.com/" target="_blank" rel="noopener">Data Innovation &amp; AI Lab</a>
+            <a href="https://haas.berkeley.edu/" target="_blank" rel="noopener">
+              <img class="logo-haas" src="assets/berkeley-haas-logo.png" alt="UC Berkeley Haas School of Business" loading="lazy">
+            </a>
           </div>
         </div>
         <div class="finding-grid">
@@ -178,12 +188,12 @@
         <div class="guide-card">
           <h2>How To Use This Dashboard</h2>
           <div class="guide-grid">
-            <div class="guide-step"><span class="step-num">1</span><div><b>Choose a rank universe.</b> Use <i>Exclude baselines</i> for paper-ready 1-9 rank-of-ranks figures, or <i>All candidates</i> to audit the full run.</div></div>
-            <div class="guide-step"><span class="step-num">2</span><div><b>Read aggregate patterns.</b> In <i>Main Results</i>, use the heat maps and role-swap scatter to compare automation and augmentation profiles.</div></div>
-            <div class="guide-step"><span class="step-num">3</span><div><b>Check reproducibility.</b> In <i>Replicate Summary</i>, see how rankings hold up across the three independent runs. The heat maps show mean rank with standard error beneath each cell (smaller error = more stable), and the stability tables report each model's best/worst run and per-run averages. Use this tab to judge whether a ranking difference is robust or just run-to-run noise before trusting it.</div></div>
-            <div class="guide-step"><span class="step-num">4</span><div><b>Drill into a task.</b> In <i>Rankings</i>, click a model row to update rubric scores for that selected response.</div></div>
-            <div class="guide-step"><span class="step-num">5</span><div><b>Audit judgments.</b> In <i>Qualitative</i>, inspect outputs, scaffolds, scaffold prompts, and pairwise judge rationales with expandable scorecards.</div></div>
-            <div class="guide-step"><span class="step-num">6</span><div><b>Check validity.</b> In <i>Validation</i>, inspect held-out cross-family judge checks that reuse automation outputs to test whether the rubric pipeline recovers expected model-family gradients.</div></div>
+            <div class="guide-step"><span class="step-num">1</span><div><b>Pick a rank universe.</b> <i>All candidates</i> (default) includes the GPT-3.5-Turbo baseline and matches the paper figures; <i>Exclude baselines</i> shows the assistant-only 1-9 view.</div></div>
+            <div class="guide-step"><span class="step-num">2</span><div><b>See the big picture.</b> <i>Main Results</i> — heat maps and the role-swap scatter compare automation vs. augmentation.</div></div>
+            <div class="guide-step"><span class="step-num">3</span><div><b>Check reproducibility.</b> <i>Replicate Summary</i> — mean rank ± standard error across the three runs (smaller = more stable).</div></div>
+            <div class="guide-step"><span class="step-num">4</span><div><b>Drill into a task.</b> <i>Rankings</i> — click a model row to load its rubric scores.</div></div>
+            <div class="guide-step"><span class="step-num">5</span><div><b>Audit judgments.</b> <i>Qualitative</i> — outputs, scaffolds, prompts, and pairwise judge rationales.</div></div>
+            <div class="guide-step"><span class="step-num">6</span><div><b>Check validity.</b> <i>Validation</i> — held-out cross-family judge checks on model-family gradients.</div></div>
           </div>
         </div>
       </section>
@@ -206,9 +216,9 @@
         </div>
         <div class="section-heading">
           <h2>Figure 2: Role-Swap View</h2>
-          <p>Average rank in automation versus augmentation. Points far from the diagonal indicate role-specific model profiles.</p>
+          <p>Average rank in automation versus augmentation for the selected run. Points far from the diagonal indicate role-specific model profiles.</p>
         </div>
-        <div class="viz-card compact-figure">
+        <div class="viz-card role-swap-card">
           <div id="roleScatter"></div>
         </div>
       </section>
@@ -334,7 +344,7 @@
               </div>
             </div>
             <div class="role-strip" id="roleStrip"></div>
-            <pre id="qualText"></pre>
+            <div id="qualText"></div>
           </article>
           <aside class="rationale-list">
             <h3>Pairwise Judge Rationales</h3>
